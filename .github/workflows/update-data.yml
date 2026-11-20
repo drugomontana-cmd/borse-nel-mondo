@@ -10,11 +10,13 @@ on:
     branches: [main]
     paths:
       - "data/companies.json"
+      - "data/verifiche.json"
       - "scripts/**"
       - ".github/workflows/**"
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   update:
@@ -35,9 +37,25 @@ jobs:
         run: python scripts/update_data.py
 
       - name: Salva i dati aggiornati
+        id: save
         run: |
           git config user.name "aggiornamento-automatico"
           git config user.email "actions@users.noreply.github.com"
-          git add data/market.json
+          git add data/market.json data/da-verificare.md
+          git diff --cached --quiet -- data/da-verificare.md || echo "report_changed=1" >> "$GITHUB_OUTPUT"
           git diff --cached --quiet || git commit -m "Dati di mercato aggiornati"
           git push
+
+      - name: Avvisa se ci sono dati da verificare
+        if: steps.save.outputs.report_changed == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if grep -q "^| .*\`" data/da-verificare.md; then
+            N=$(gh issue list --state open --search "Dati da verificare in:title" --json number -q '.[0].number')
+            if [ -z "$N" ]; then
+              gh issue create --title "Dati da verificare" --body-file data/da-verificare.md
+            else
+              gh issue comment "$N" --body-file data/da-verificare.md
+            fi
+          fi

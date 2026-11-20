@@ -228,6 +228,99 @@ def enrich(raw, fx_rates, fallback_currency):
     }
 
 
+# ---------------------------------------------------------------- controlli di qualità
+
+VERIFY_FILE = ROOT / "data" / "verifiche.json"
+REPORT_FILE = ROOT / "data" / "da-verificare.md"
+
+HIGH_DIVIDEND = 0.09      # rendimento oltre il 9%
+MAX_PE = 100
+BIG_DROP_1Y = -0.60       # calo oltre il 60% in un anno
+BIG_RISE_1Y = 1.50        # rialzo oltre il 150% in un anno
+DAILY_JUMP = 0.30         # prezzo cambiato oltre il 30% dall'ultimo aggiornamento
+MAX_AGE_DAYS = 7          # ultima seduta più vecchia di una settimana
+
+
+def pct_it(v):
+    return f"{v * 100:+.0f}%".replace("+-", "-")
+
+
+def quality_checks(cur, prev, today):
+    """Restituisce l'elenco dei problemi trovati: (codice, campo, titolo, dettaglio)."""
+    out = []
+    if cur.get("market_cap_eur") is None:
+        out.append(("cap_mancante", "market_cap_eur", "Capitalizzazione non disponibile",
+                    "La fonte non fornisce la capitalizzazione: la dimensione è quella indicata a mano."))
+    dy = cur.get("dividend_yield")
+    if dy is not None and dy > HIGH_DIVIDEND:
+        out.append(("dividendo_alto", "dividend_yield", "Rendimento del dividendo insolitamente alto",
+                    f"{dy * 100:.1f}%: può includere un dividendo straordinario o un errore della fonte."))
+    pe = cur.get("pe")
+    if pe is not None and (pe <= 0 or pe > MAX_PE):
+        out.append(("pe_anomalo", "pe", "P/E fuori dal normale",
+                    f"P/E di {pe:.1f}: utili negativi, molto bassi o dato errato."))
+    ch = cur.get("change_1y")
+    if ch is not None and (ch <= BIG_DROP_1Y or ch >= BIG_RISE_1Y):
+        out.append(("variazione_estrema", "change_1y", "Variazione a un anno estrema",
+                    f"{pct_it(ch)}: può essere un evento reale, un frazionamento o aumento di capitale, oppure un errore della fonte."))
+    old_price = (prev or {}).get("price")
+    if (old_price and cur.get("price") and prev.get("last_trade_date") != cur.get("last_trade_date")
+            and abs(cur["price"] / old_price - 1) > DAILY_JUMP):
+        out.append(("salto_prezzo", "price", "Salto di prezzo rispetto all'ultimo aggiornamento",
+                    f"{pct_it(cur['price'] / old_price - 1)} dal {prev.get('last_trade_date')}."))
+    ltd = cur.get("last_trade_date")
+    if ltd:
+        try:
+            age = (today - date.fromisoformat(ltd[:10])).days
+            if age > MAX_AGE_DAYS:
+                out.append(("dato_vecchio", "price", "Dato non recente",
+                            f"Ultima seduta disponibile: {ltd[:10]} ({age} giorni fa)."))
+        except ValueError:
+            pass
+    return out
+
+
+def apply_checks(results, previous, companies, today):
+    """Aggiunge avvisi e verifiche manuali ai dati e scrive il rapporto per il controllo."""
+    verified = {}
+    if VERIFY_FILE.exists():
+        verified = json.loads(VERIFY_FILE.read_text(encoding="utf-8"))
+    names = {c["id"]: c["name"] for c in companies}
+    report = []
+    for cid, cur in results.items():
+        v = verified.get(cid, {})
+        accepted = set(v.get("accetta", []))
+        hidden = set(v.get("nascondi", []))
+        warnings, notes = [], []
+        if cur.get("stale"):
+            warnings.append({"code": "non_aggiornato", "field": None, "title": "Aggiornamento non riuscito",
+                             "detail": "Mostriamo l'ultimo dato valido disponibile."})
+        for code, field, title, detail in quality_checks(cur, previous.get(cid), today):
+            if code in accepted or field in hidden:
+                continue
+            warnings.append({"code": code, "field": field, "title": title, "detail": detail})
+        for field in hidden:  # campi giudicati errati dal controllo manuale
+            cur[field] = None
+        if v.get("nota"):
+            notes.append(v["nota"])
+        cur["warnings"] = warnings
+        cur["verified_notes"] = notes
+        cur["hidden_fields"] = sorted(hidden)
+        for w in warnings:
+            report.append((names.get(cid, cid), cid, w["code"], w["title"]))
+
+    lines = ["# Dati da verificare", ""]
+    if report:
+        lines += ["Il controllo automatico ha trovato questi dati sospetti. Per ognuno: verificare su una fonte",
+                  "indipendente e poi confermarlo, correggerlo o nasconderlo in `data/verifiche.json`.", "",
+                  "| Società | Codice | Problema |", "|---|---|---|"]
+        lines += [f"| {n} (`{cid}`) | `{code}` | {title} |" for n, cid, code, title in sorted(report)]
+    else:
+        lines.append("Nessun dato sospetto.")
+    REPORT_FILE.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return len(report)
+
+
 # ---------------------------------------------------------------- principale
 
 def run(fetch_yahoo=fetch_yahoo, fetch_vnstock=fetch_vnstock,
@@ -285,6 +378,9 @@ def run(fetch_yahoo=fetch_yahoo, fetch_vnstock=fetch_vnstock,
         else:
             failed.append(c["id"])
         time.sleep(pause)
+
+    n_warnings = apply_checks(results, previous, companies, date.today())
+    print(f"Dati da verificare: {n_warnings}")
 
     output = {
         "updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),

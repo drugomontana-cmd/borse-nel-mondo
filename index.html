@@ -67,6 +67,11 @@
   .up{color:var(--up)} .down{color:var(--down)}
   .note{font-size:12.5px;color:var(--muted);margin-top:6px}
   .stale{background:var(--warn-soft);color:var(--warn);font-size:12.5px;padding:6px 10px;border-radius:8px;margin-top:8px}
+  .pill.warn{background:var(--warn-soft);color:var(--warn)}
+  .warnbox{background:var(--warn-soft);color:#5c3209;border-radius:10px;padding:10px 12px;margin-top:10px;font-size:13.5px}
+  .warnbox b{display:block;margin-bottom:4px}
+  .warnbox ul{margin:0;padding-left:18px;font-size:13.5px}
+  .verified{background:var(--accent-soft);color:var(--accent);border-radius:10px;padding:8px 12px;margin-top:8px;font-size:13px}
   .access{background:var(--warn-soft);border-radius:10px;padding:12px;font-size:14px}
   .calc{background:var(--accent-soft);border-radius:10px;padding:12px;margin-top:10px;font-size:13.5px}
   .calc-title{font-weight:600;margin-bottom:6px}
@@ -234,14 +239,14 @@ function renderList(){
       <div class="name">${esc(x.name)}</div>
       <div class="ticker">${esc(x.ticker)} · ${esc(x.index)}</div>
       ${cap || ch ? `<div class="cap">${cap ? "Cap. " + cap : ""}${cap && ch ? " · " : ""}${ch ? `<span class="${m.change_1y >= 0 ? "up" : "down"}">${ch} in 1 anno</span>` : ""}</div>` : ""}
-      <div class="pills"><span class="pill">${esc(x.sector)}</span><span class="pill size">${esc(sizeOf(x))}</span></div>
+      <div class="pills"><span class="pill">${esc(x.sector)}</span><span class="pill size">${esc(sizeOf(x))}</span>${m && m.warnings && m.warnings.length ? `<span class="pill warn">⚠ da verificare</span>` : ""}</div>
     </button>`;
   }).join("") : `<p class="empty">Nessuna società con questi filtri.</p>`;
   document.querySelectorAll(".co").forEach(b => b.onclick = () => openCo(b.dataset.id));
 }
 
-function box(label, main, sub, cls){
-  return `<div><span>${label}</span>${main ? `<b class="${cls || ""}">${main}</b>` : `<b class="na">—</b>`}${sub ? `<small>${sub}</small>` : ""}</div>`;
+function box(label, main, sub, cls, flag){
+  return `<div><span>${label}${flag ? ' <span title="Dato da verificare">⚠</span>' : ""}</span>${main ? `<b class="${cls || ""}">${main}</b>` : `<b class="na">—</b>`}${sub ? `<small>${sub}</small>` : ""}</div>`;
 }
 
 function marketBlock(x){
@@ -251,16 +256,21 @@ function marketBlock(x){
   if (!m) return `<div class="mkt">${["Prezzo","Capitalizzazione","P/E","Rendimento dividendo","Scambi medi al giorno","Variazione 1 anno"].map(l => box(l)).join("")}</div>
     <p class="note">Dati non ancora disponibili. ${link}</p>`;
   const priceDigits = m.price >= 1000 ? 0 : 2;
+  const warns = m.warnings || [], hidden = m.hidden_fields || [];
+  const flag = f => warns.some(w => w.field === f);
+  const sub = (f, text) => hidden.includes(f) ? "nascosto: dato non affidabile" : text;
   return `<div class="mkt">
-      ${box("Prezzo", m.price != null ? `${nf(m.price, priceDigits)} ${esc(m.currency)}` : null, m.price_eur != null ? `≈ ${nf(m.price_eur, 2)} €` : null)}
-      ${box("Capitalizzazione", bigEur(m.market_cap_eur), m.size)}
-      ${box("P/E", m.pe != null ? nf(m.pe, 1) : null, "prezzo / utili ultimi 12 mesi")}
-      ${box("Rendimento dividendo", m.dividend_yield != null ? nf(m.dividend_yield * 100, 1) + "%" : null, "ultimi 12 mesi, lordo")}
+      ${box("Prezzo", m.price != null ? `${nf(m.price, priceDigits)} ${esc(m.currency)}` : null, sub("price", m.price_eur != null ? `≈ ${nf(m.price_eur, 2)} €` : null), "", flag("price"))}
+      ${box("Capitalizzazione", bigEur(m.market_cap_eur), sub("market_cap_eur", m.size), "", flag("market_cap_eur"))}
+      ${box("P/E", m.pe != null ? nf(m.pe, 1) : null, sub("pe", "prezzo / utili ultimi 12 mesi"), "", flag("pe"))}
+      ${box("Rendimento dividendo", m.dividend_yield != null ? nf(m.dividend_yield * 100, 1) + "%" : null, sub("dividend_yield", "ultimi 12 mesi, lordo"), "", flag("dividend_yield"))}
       ${box("Scambi medi al giorno", bigEur(m.avg_value_traded_eur), m.liquidity ? "Liquidità " + m.liquidity.toLowerCase() : null)}
-      ${box("Variazione 1 anno", pct(m.change_1y), "in valuta locale", m.change_1y >= 0 ? "up" : "down")}
+      ${box("Variazione 1 anno", pct(m.change_1y), sub("change_1y", "in valuta locale"), m.change_1y >= 0 ? "up" : "down", flag("change_1y"))}
     </div>
+    ${warns.length ? `<div class="warnbox"><b>⚠ Dati da verificare</b><ul>${warns.map(w => `<li><b style="display:inline">${esc(w.title)}.</b> ${esc(w.detail)}</li>`).join("")}</ul></div>` : ""}
+    ${(m.verified_notes || []).map(n => `<div class="verified">✓ Verificato: ${esc(n)}</div>`).join("")}
     <p class="note">Ultima seduta: ${esc(dateIt(m.last_trade_date) || "n.d.")} · Fonte: ${esc(m.source)} · Valori in euro al cambio ufficiale BCE. ${link}</p>
-    ${m.stale ? `<div class="stale">Attenzione: l'ultimo aggiornamento non è riuscito, questi dati potrebbero non essere recenti.</div>` : ""}`;
+`;
 }
 
 function openCo(id){

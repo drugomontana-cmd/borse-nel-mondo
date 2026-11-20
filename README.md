@@ -65,3 +65,27 @@ Aggiungi un blocco in `data/countries.json` con il suffisso Yahoo e il codice va
 - **Liquidità:** media degli ultimi 60 giorni di scambi, in euro. Alta sopra i 10 milioni al giorno, Media da 1 a 10 milioni, Bassa sotto 1 milione.
 - **Rendimento del dividendo:** dividendi degli ultimi 12 mesi divisi per il prezzo, al lordo delle tasse.
 - **Se una fonte non risponde:** il sito mostra l'ultimo dato valido con un avviso.
+
+## Controllo automatico dei dati
+
+A ogni aggiornamento lo script segnala i dati sospetti:
+
+- rendimento del dividendo oltre il 9%;
+- P/E negativo o oltre 100;
+- variazione a un anno sotto il -60% o sopra il +150%;
+- prezzo cambiato di oltre il 30% dall'ultimo aggiornamento;
+- ultima seduta più vecchia di 7 giorni;
+- capitalizzazione mancante.
+
+L'elenco finisce in `data/da-verificare.md`. Quando cambia, GitHub apre (o aggiorna) una segnalazione "Dati da verificare" nella scheda **Issues** e ti avvisa via email. Sul sito i dati sospetti compaiono con il simbolo ⚠.
+
+Dopo il controllo manuale, l'esito va scritto in `data/verifiche.json`:
+
+```json
+"thailandia-advanc": { "accetta": ["dividendo_alto"], "nota": "Include un dividendo straordinario." },
+"vietnam-pnj": { "nascondi": ["price", "market_cap_eur"] }
+```
+
+- `accetta`: l'avviso era un falso allarme e sparisce;
+- `nascondi`: il dato è sbagliato e non viene mostrato;
+- `nota`: spiegazione mostrata sul sito come "✓ Verificato".

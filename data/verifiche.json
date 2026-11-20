@@ -1,0 +1,3 @@
+{
+  "_istruzioni": "Per ogni società verificata: 'accetta' = codici di avviso confermati come corretti, 'nascondi' = campi da non mostrare perché errati, 'nota' = spiegazione mostrata sul sito. Esempio: \"thailandia-advanc\": {\"accetta\": [\"dividendo_alto\"], \"nota\": \"Include un dividendo straordinario.\"}"
+}
