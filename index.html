@@ -2,278 +2,180 @@
 <html lang="it">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=1200">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Borse del Mondo — demo</title>
 <meta name="description" content="Società quotate nei mercati meno conosciuti, spiegate per gli investitori italiani: guide paese, tasse, cambio e liquidità.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600&display=swap" rel="stylesheet">
 <style>
   :root{
-    --paper:#f3efe6; --paper-2:#ebe5d8; --card:#fffdf8; --ink:#16191d; --ink-2:#3a4048; --muted:#6b6f73;
-    --rule:#d8d0c0; --rule-strong:#16191d;
-    --accent:#0f5c4d; --accent-2:#0b4a3e; --accent-soft:#e1ece6;
-    --warn:#8a4b0f; --warn-soft:#f8ead7;
-    --up:#17733f; --up-soft:#e2f0e6; --down:#b3261e; --down-soft:#f7e3e0;
-    --serif:Fraunces,Georgia,serif; --sans:Inter,system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+    --bg:#f6f4ef; --card:#ffffff; --ink:#1b1f24; --muted:#5d6670; --line:#e3dfd6;
+    --accent:#0f5c4d; --accent-soft:#e3efe9; --warn:#8a4b0f; --warn-soft:#fbefe1;
+    --up:#17733f; --down:#b3261e;
   }
   *{box-sizing:border-box}
-  html{scroll-behavior:smooth}
-  body{margin:0;font-family:var(--sans);background:var(--paper);color:var(--ink);line-height:1.55;min-width:1200px;-webkit-font-smoothing:antialiased}
-  a{color:var(--accent)}
-  .wrap{width:1140px;margin:0 auto}
-  button{font:inherit;color:inherit}
-
-  /* ---------- testata */
-  .topbar{border-bottom:1px solid var(--rule);font-size:12.5px;color:var(--muted)}
-  .topbar .wrap{display:flex;justify-content:space-between;align-items:center;height:36px}
-  .topbar nav{display:flex;gap:22px}
-  .topbar nav a{color:var(--ink-2);text-decoration:none;font-weight:500}
-  .topbar nav a:hover{color:var(--accent)}
-  .masthead{text-align:center;padding:34px 0 22px;border-bottom:4px double var(--rule-strong)}
-  .masthead .kicker{font-size:11.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);font-weight:600}
-  .masthead h1{font-family:var(--serif);font-weight:700;font-size:64px;line-height:1;margin:10px 0 12px;letter-spacing:-.015em;font-variation-settings:"opsz" 144}
-  .masthead .tag{font-family:var(--serif);font-style:italic;font-size:19px;color:var(--ink-2);margin:0}
-  .demo-badge{display:inline-block;background:var(--warn-soft);color:var(--warn);font:600 11px var(--sans);letter-spacing:.08em;padding:3px 9px;border-radius:3px;vertical-align:middle;margin-left:10px}
-
-  /* ---------- paesi */
-  .countries{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--rule);margin-bottom:34px}
-  .country-btn{all:unset;cursor:pointer;padding:18px 20px 16px;border-right:1px solid var(--rule);position:relative;display:block}
-  .country-btn:last-child{border-right:none}
-  .country-btn:hover{background:var(--paper-2)}
-  .country-btn:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
-  .country-btn .cn{display:flex;align-items:center;gap:10px;font-family:var(--serif);font-size:23px;font-weight:600}
-  .country-btn .flag{font-size:22px}
-  .country-btn .cmeta{font-size:12.5px;color:var(--muted);margin-top:4px}
-  .country-btn.active{background:var(--card)}
-  .country-btn.active::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:3px;background:var(--accent)}
-  .country-btn.active .cn{color:var(--accent)}
-
-  /* ---------- scheda paese */
-  .section-kicker{font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:700}
-  .hero{display:grid;grid-template-columns:1.25fr 1fr;gap:48px;align-items:start}
-  .hero h2{font-family:var(--serif);font-size:44px;font-weight:600;line-height:1.08;margin:6px 0 14px;letter-spacing:-.01em}
-  .hero .lead{font-size:16.5px;color:var(--ink-2);margin:0;max-width:600px}
-  .keyfacts{display:grid;grid-template-columns:1fr 1fr;border-top:2px solid var(--ink)}
-  .keyfacts div{padding:12px 0 12px;border-bottom:1px solid var(--rule)}
-  .keyfacts div:nth-child(odd){padding-right:16px}
-  .keyfacts div:nth-child(even){padding-left:16px;border-left:1px solid var(--rule)}
-  .keyfacts span{display:block;font-size:11.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:600}
-  .keyfacts b{display:block;font-size:16px;font-weight:600;margin-top:2px}
-  .keyfacts small{font-size:12px;color:var(--muted)}
-
-  .tabs{display:flex;gap:28px;border-bottom:1px solid var(--rule);margin-top:36px}
-  .tab{all:unset;cursor:pointer;padding:10px 0 11px;font-weight:600;font-size:14.5px;color:var(--muted);position:relative}
-  .tab:hover{color:var(--ink)}
-  .tab:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-  .tab[aria-selected="true"]{color:var(--ink)}
-  .tab[aria-selected="true"]::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:2px;background:var(--ink)}
-  .tabpanel{padding:24px 0 8px;font-size:15px}
-  .tabpanel p{margin:0 0 12px;color:var(--ink-2);max-width:760px}
-  .cols{display:grid;grid-template-columns:1.5fr 1fr;gap:40px;align-items:start}
-  .cols h5{font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:0 0 8px}
-  .verif{font-size:12.5px;color:var(--muted);margin-top:4px}
-
-  /* ---------- società */
-  .companies-head{display:flex;align-items:baseline;justify-content:space-between;margin:52px 0 0;padding-top:20px;border-top:4px double var(--rule-strong)}
-  .companies-head h2{font-family:var(--serif);font-size:34px;font-weight:600;margin:0}
-  .count{font-size:13.5px;color:var(--muted)}
-  .toolbar{display:flex;flex-direction:column;gap:12px;margin:18px 0 22px;padding:16px 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
-  .trow{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
-  .tlabel{font-size:11.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);font-weight:600;width:92px;flex:none}
-  .chip{border:1px solid var(--rule);background:var(--card);padding:5px 12px;border-radius:99px;cursor:pointer;font-size:13.5px;font-weight:500;color:var(--ink-2)}
-  .chip:hover{border-color:var(--ink-2)}
-  .chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#fff}
-  .chip:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-  .tsep{width:1px;height:22px;background:var(--rule);margin:0 8px}
-  .sortsel{font:inherit;font-size:13.5px;padding:5px 10px;border-radius:6px;border:1px solid var(--rule);background:var(--card);color:var(--ink)}
-
-  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-  .co{all:unset;box-sizing:border-box;cursor:pointer;background:var(--card);border:1px solid var(--rule);border-radius:6px;padding:18px 18px 16px;display:flex;flex-direction:column;transition:border-color .12s,box-shadow .12s,transform .12s}
-  .co:hover{border-color:var(--ink-2);box-shadow:0 6px 20px rgba(22,25,29,.07);transform:translateY(-1px)}
-  .co:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-  .co .top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
-  .co .name{font-family:var(--serif);font-weight:600;font-size:20px;line-height:1.2}
-  .ticker{font-family:var(--mono);font-size:11.5px;color:var(--muted);letter-spacing:.02em}
-  .co .ticker{margin-top:4px}
-  .chg{font-weight:600;font-size:13px;padding:3px 8px;border-radius:4px;white-space:nowrap;font-variant-numeric:tabular-nums}
-  .chg.up{background:var(--up-soft);color:var(--up)} .chg.down{background:var(--down-soft);color:var(--down)}
-  .co .figs{display:flex;align-items:flex-end;justify-content:space-between;margin-top:16px}
-  .co .capv{font-size:22px;font-weight:600;letter-spacing:-.01em;font-variant-numeric:tabular-nums;line-height:1.1}
-  .co .capl{font-size:11.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;font-weight:600}
-  .spark{display:block;margin-top:12px}
-  .co .foot{display:flex;justify-content:space-between;align-items:center;margin-top:14px;padding-top:12px;border-top:1px solid var(--rule);font-size:12.5px;color:var(--muted)}
-  .warnflag{color:var(--warn);font-weight:600}
-  .rbar{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;color:var(--ink-2);font-weight:500;white-space:nowrap}
-  .rbar .seg{display:inline-flex;gap:2px}
-  .rbar .seg i{width:10px;height:6px;border-radius:1px;background:#e2dccf;display:block}
-  .rbar .seg i.on{background:var(--ink)}
-  .empty{color:var(--muted);font-size:15px;padding:30px 0}
-
-  /* ---------- tabelle broker / calcolo */
-  .btable{width:100%;border-collapse:collapse;font-size:14px}
-  .btable th{font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600;text-align:left;padding:8px 10px;border-bottom:2px solid var(--ink)}
-  .btable td{padding:9px 10px;border-bottom:1px solid var(--rule);vertical-align:top}
-  .btable td:first-child,.btable th:first-child{padding-left:0}
-  .btable tr:hover td{background:rgba(255,255,255,.5)}
-  .btable a{font-weight:600;text-decoration:none;color:var(--ink)}
-  .btable a:hover{color:var(--accent);text-decoration:underline}
-  .st{white-space:nowrap;font-weight:600}
-  .st.si{color:var(--up)}.st.no{color:#8a8f94;font-weight:500}.st.verificare{color:var(--warn)}
-  .etfs{display:flex;flex-direction:column;gap:12px}
-  .etf{background:var(--card);border:1px solid var(--rule);border-radius:6px;padding:12px 14px;font-size:14px}
-  .etf b{display:block}
-  .etf code{font-family:var(--mono);font-size:12px;color:var(--muted)}
-  .note{font-size:12.5px;color:var(--muted);margin-top:8px;line-height:1.5}
-  .calc{background:var(--card);border:1px solid var(--rule);border-top:3px solid var(--accent);border-radius:4px;padding:16px 18px;font-size:14px}
-  .calc-title{font-family:var(--serif);font-weight:600;font-size:17px;margin-bottom:10px}
-  .calc table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
-  .calc th{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600;text-align:right;padding:4px 6px;border-bottom:1px solid var(--rule)}
-  .calc td{text-align:right;padding:8px 6px;white-space:nowrap;border-bottom:1px solid var(--rule)}
-  .calc td:first-child{white-space:normal}
-  .calc td:first-child,.calc th:first-child{text-align:left;padding-left:0}
-  .calc td b{font-size:17px;color:var(--accent)}
-
-  /* ---------- scheda società */
-  .overlay{position:fixed;inset:0;background:rgba(22,25,29,.5);display:none;justify-content:center;padding:36px 16px;overflow:auto;z-index:10}
-  .overlay.open{display:flex;align-items:flex-start}
-  .modal{background:var(--paper);border-radius:8px;width:920px;position:relative;box-shadow:0 20px 60px rgba(0,0,0,.25)}
-  .mhead{padding:32px 40px 0;background:var(--card);border-radius:8px 8px 0 0;border-bottom:1px solid var(--rule)}
-  .close{position:absolute;top:18px;right:18px;border:1px solid var(--rule);background:var(--card);border-radius:99px;width:36px;height:36px;font-size:18px;cursor:pointer}
-  .close:hover{border-color:var(--ink)}
-  .modal h3{font-family:var(--serif);font-size:40px;font-weight:600;margin:6px 0 6px;line-height:1.1;padding-right:50px;letter-spacing:-.01em}
-  .mtags{display:flex;gap:16px;font-size:13px;color:var(--muted);margin-top:6px}
-  .mtags span+span::before{content:"·";margin-right:16px}
-  .stats{display:grid;grid-template-columns:repeat(4,1fr);margin-top:24px;border-top:2px solid var(--ink)}
-  .stats div{padding:12px 16px 16px 0}
-  .stats div+div{padding-left:16px;border-left:1px solid var(--rule)}
-  .stats span{display:block;font-size:11.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:600}
-  .stats b{display:block;font-size:24px;font-weight:600;margin-top:4px;font-variant-numeric:tabular-nums;letter-spacing:-.01em}
-  .stats small{font-size:12.5px;color:var(--muted)}
-  .mnav{display:flex;gap:22px;padding:14px 0 0;font-size:13px;font-weight:600;position:sticky;top:0}
-  .mnav a{color:var(--muted);text-decoration:none;padding-bottom:12px;border-bottom:2px solid transparent}
-  .mnav a:hover{color:var(--ink);border-color:var(--ink)}
-  .mbody{padding:8px 40px 36px}
-  .msec{padding-top:28px;scroll-margin-top:20px}
-  .msec+.msec{border-top:1px solid var(--rule);margin-top:28px}
-  .modal h4{font-family:var(--serif);font-size:24px;font-weight:600;margin:0 0 12px}
-  .modal h5{font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:20px 0 8px}
-  .modal p{font-size:15px;margin:0;color:var(--ink-2)}
-  .modal .desc{font-size:16.5px;line-height:1.65;color:var(--ink)}
-  .modal ul{margin:0;padding-left:18px;font-size:15px;color:var(--ink-2)}
-  .modal li{margin-bottom:4px}
-  .two{display:grid;grid-template-columns:1fr 1fr;gap:32px}
-  .mkt{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:4px;overflow:hidden}
-  .mkt div{background:var(--card);padding:12px 14px}
-  .mkt span{display:block;font-size:11.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;font-weight:600}
-  .mkt b{font-size:18px;font-variant-numeric:tabular-nums}
+  body{margin:0;font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5}
+  header{padding:28px 24px 8px;max-width:1150px;margin:0 auto}
+  h1{font-family:Fraunces,Georgia,serif;font-size:30px;margin:0 0 4px}
+  .tag{color:var(--muted);margin:0}
+  .demo-badge{display:inline-block;background:var(--warn-soft);color:var(--warn);font-size:12px;font-weight:600;padding:3px 9px;border-radius:99px;margin-left:8px;vertical-align:middle;font-family:Inter,sans-serif}
+  .topnav{display:flex;gap:16px;font-size:13.5px;margin-top:8px}
+  .topnav a{color:var(--accent);font-weight:500;text-decoration:none}
+  .updated{font-size:12.5px;color:var(--muted);margin-top:6px}
+  main{max-width:1150px;margin:0 auto;padding:12px 24px 48px}
+  .countries{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0}
+  .country-btn{border:1px solid var(--line);background:var(--card);padding:10px 16px;border-radius:12px;cursor:pointer;font:inherit;font-weight:500;display:flex;align-items:center;gap:8px}
+  .country-btn:hover{border-color:var(--accent)}
+  .country-btn.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .flag{font-size:20px}
+  .layout{display:grid;grid-template-columns:340px 1fr;gap:20px}
+  @media(max-width:860px){.layout{grid-template-columns:1fr}}
+  .panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;align-self:start}
+  .panel h2{font-size:15px;margin:0 0 12px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
+  .facts{display:grid;grid-template-columns:auto 1fr;gap:6px 12px;font-size:14px;margin:0}
+  .facts dt{color:var(--muted)}
+  .facts dd{margin:0;font-weight:500}
+  details{border-top:1px solid var(--line);padding:10px 0}
+  details:last-of-type{border-bottom:1px solid var(--line)}
+  summary{cursor:pointer;font-weight:600;font-size:14px}
+  details p{font-size:14px;margin:8px 0 0;color:#333}
+  .filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px;align-items:center}
+  select{font:inherit;padding:8px 10px;border-radius:10px;border:1px solid var(--line);background:var(--card)}
+  .count{font-size:13px;color:var(--muted)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+  .co{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;cursor:pointer;text-align:left;font:inherit;color:inherit;display:flex;flex-direction:column;gap:2px}
+  .co:hover{border-color:var(--accent);box-shadow:0 2px 10px rgba(0,0,0,.05)}
+  .co .name{font-weight:600;font-size:15px}
+  .ticker{font-family:ui-monospace,Menlo,monospace;font-size:12px;color:var(--muted)}
+  .co .cap{font-size:13px;color:var(--muted);margin-top:6px}
+  .pills{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+  .pill{font-size:11.5px;padding:2px 8px;border-radius:99px;background:var(--accent-soft);color:var(--accent);font-weight:500}
+  .pill.size{background:#eceaf6;color:#3d3780}
+  .empty{color:var(--muted);font-size:14px;padding:20px 0}
+  .overlay{position:fixed;inset:0;background:rgba(20,24,28,.45);display:none;align-items:flex-start;justify-content:center;padding:40px 16px;overflow:auto;z-index:10}
+  .overlay.open{display:flex}
+  .modal{background:var(--card);border-radius:16px;max-width:760px;width:100%;padding:26px;position:relative}
+  .close{position:absolute;top:14px;right:14px;border:none;background:#f0eee8;border-radius:99px;width:34px;height:34px;font-size:18px;cursor:pointer}
+  .modal h3{font-family:Fraunces,Georgia,serif;font-size:24px;margin:0;padding-right:40px}
+  .modal h4{font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin:22px 0 8px}
+  .modal ul{margin:0;padding-left:18px;font-size:14.5px}
+  .modal p{font-size:14.5px;margin:0}
+  .mkt{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
+  .mkt div{background:#f7f6f2;border-radius:10px;padding:10px}
+  .mkt span{display:block;font-size:12px;color:var(--muted)}
+  .mkt b{font-size:16px}
   .mkt b.na{color:#aaa}
   .mkt small{display:block;font-size:12px;color:var(--muted)}
   .up{color:var(--up)} .down{color:var(--down)}
-  .stale{background:var(--warn-soft);color:var(--warn);font-size:12.5px;padding:6px 10px;border-radius:4px;margin-top:8px}
-  .warnbox{background:var(--warn-soft);color:#5c3209;border-left:3px solid var(--warn);padding:10px 14px;margin-top:12px;font-size:13.5px}
+  .note{font-size:12.5px;color:var(--muted);margin-top:6px}
+  .stale{background:var(--warn-soft);color:var(--warn);font-size:12.5px;padding:6px 10px;border-radius:8px;margin-top:8px}
+  .pill.warn{background:var(--warn-soft);color:var(--warn)}
+  .warnbox{background:var(--warn-soft);color:#5c3209;border-radius:10px;padding:10px 12px;margin-top:10px;font-size:13.5px}
   .warnbox b{display:block;margin-bottom:4px}
-  .warnbox ul{margin:0;padding-left:18px;font-size:13.5px;color:#5c3209}
-  .verified{background:var(--accent-soft);color:var(--accent-2);border-left:3px solid var(--accent);padding:8px 14px;margin-top:10px;font-size:13.5px}
-  .chart-wrap{position:relative;margin-top:4px;background:var(--card);border:1px solid var(--rule);border-radius:4px;padding:16px 12px 10px}
+  .warnbox ul{margin:0;padding-left:18px;font-size:13.5px}
+  .verified{background:var(--accent-soft);color:var(--accent);border-radius:10px;padding:8px 12px;margin-top:8px;font-size:13px}
+  .chart-wrap{position:relative;margin-top:4px}
   .chart-wrap svg{display:block;width:100%;height:auto;overflow:visible}
   .chart-wrap svg:focus{outline:2px solid var(--accent);outline-offset:4px;border-radius:4px}
-  .chart-tip{position:absolute;pointer-events:none;background:var(--ink);color:#fff;border-radius:4px;padding:6px 9px;font-size:12px;line-height:1.35;white-space:nowrap;transform:translate(-50%,-100%);opacity:0;transition:opacity .08s}
+  .chart-tip{position:absolute;pointer-events:none;background:var(--ink);color:#fff;border-radius:8px;padding:6px 9px;font-size:12px;line-height:1.35;white-space:nowrap;transform:translate(-50%,-100%);opacity:0;transition:opacity .08s}
   .chart-tip b{font-size:13.5px;display:block}
   .chart-tip span{color:#c9cfd6}
-  .chart-sub{font-size:13px;color:var(--muted);margin:-6px 0 10px}
-  .chart-table{font-size:12.5px;margin-top:8px}
-  .chart-table summary{font-weight:500;font-size:12.5px;color:var(--accent);cursor:pointer}
+  .chart-sub{font-size:12.5px;color:var(--muted);margin:0 0 6px}
+  .chart-table{font-size:12.5px;margin-top:6px}
+  .chart-table summary{font-weight:500;font-size:12.5px;color:var(--accent)}
   .chart-table table{border-collapse:collapse;margin-top:6px;width:100%;max-width:360px}
-  .chart-table td,.chart-table th{padding:2px 8px;text-align:right;border-bottom:1px solid var(--rule)}
+  .chart-table td,.chart-table th{padding:2px 8px;text-align:right;border-bottom:1px solid var(--line)}
   .chart-table td:first-child,.chart-table th:first-child{text-align:left}
-  .riskbox{display:grid;grid-template-columns:220px 1fr;gap:28px;align-items:start}
-  .riskbig{border-top:2px solid var(--ink);padding-top:12px}
-  .riskbig .lvl{font-family:var(--serif);font-size:44px;font-weight:600;line-height:1}
-  .riskbig .lvl small{font-size:20px;color:var(--muted)}
-  .riskbig .lab{font-weight:600;font-size:16px;margin:6px 0 10px}
-  .bigseg{display:flex;gap:3px}
-  .bigseg i{flex:1;height:8px;border-radius:1px;background:#e2dccf;display:block}
-  .bigseg i.on{background:var(--ink)}
-  .riskbox table{width:100%;border-collapse:collapse;font-size:14px}
-  .riskbox td{padding:8px 4px;border-bottom:1px solid var(--rule)}
-  .riskbox tr:first-child td{border-top:2px solid var(--ink)}
+  .spark{display:block;margin-top:8px}
+  .riskbox{border:1px solid var(--line);border-radius:12px;padding:14px}
+  .riskhead{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+  .dots{display:flex;gap:5px}
+  .dots i{width:14px;height:14px;border-radius:50%;background:#e6e3dc;display:block}
+  .dots i.on{background:var(--ink)}
+  .risklabel{font-weight:600;font-size:16px}
+  .riskbox table{width:100%;border-collapse:collapse;margin-top:10px;font-size:13.5px}
+  .riskbox td{padding:5px 4px;border-top:1px solid var(--line)}
   .riskbox td.s{text-align:right;white-space:nowrap}
-  .ceo{display:flex;gap:14px;align-items:flex-start;background:var(--card);border:1px solid var(--rule);border-radius:4px;padding:16px}
-  .ceo .avatar{font-size:15px!important;width:46px;height:46px;border-radius:50%;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-weight:600;font-size:17px;flex:none}
-  .ceo b{font-size:16.5px;font-family:var(--serif)}
-  .facts{display:grid;grid-template-columns:auto 1fr;gap:8px 18px;font-size:14.5px;margin:0}
-  .facts dt{color:var(--muted)}
-  .facts dd{margin:0;font-weight:500}
-  .event{border-left:3px solid var(--rule);padding:4px 0 4px 14px;margin-bottom:14px}
-  .event.alta{border-color:var(--down)}.event.media{border-color:#c77c11}.event.bassa{border-color:#9aa3ad}
-  .sev{font-size:11.5px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
-  .access{background:var(--card);border:1px solid var(--rule);border-radius:4px;padding:16px 18px}
-  .access p{font-size:14.5px}
-  .access p+p{margin-top:10px}
-
-  footer{border-top:4px double var(--rule-strong);margin-top:64px;padding:22px 0 44px;font-size:12.5px;color:var(--muted)}
-  footer .wrap{display:grid;grid-template-columns:1fr auto;gap:40px}
-  footer .brand{font-family:var(--serif);font-size:20px;font-weight:600;color:var(--ink)}
+  .mini-dots{display:inline-flex;gap:3px;vertical-align:middle}
+  .mini-dots i{width:7px;height:7px;border-radius:50%;background:#e6e3dc;display:block}
+  .mini-dots i.on{background:var(--ink)}
+  .ceo{display:flex;gap:12px;align-items:flex-start}
+  .ceo .avatar{width:40px;height:40px;border-radius:50%;background:var(--accent-soft);color:var(--accent);display:flex;align-items:center;justify-content:center;font-weight:700;flex:none}
+  .ceo b{font-size:15.5px}
+  .event{border-left:3px solid var(--line);padding:4px 0 4px 12px;margin-bottom:10px;font-size:14px}
+  .event.alta{border-color:#b3261e}.event.media{border-color:#c77c11}.event.bassa{border-color:#9aa3ad}
+  .sev{font-size:11.5px;font-weight:600;text-transform:uppercase;letter-spacing:.03em;color:var(--muted)}
+  .pill.risk{background:#f0eee8;color:var(--ink)}
+  .btable{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px}
+  .btable th{font-size:11.5px;color:var(--muted);font-weight:600;text-align:left;padding:4px 4px;border-bottom:1px solid var(--line)}
+  .btable td{padding:5px 4px;border-bottom:1px solid var(--line);vertical-align:top}
+  .st{white-space:nowrap;font-weight:500}
+  .st.si{color:#17733f}.st.no{color:#8a949e}.st.verificare{color:#8a4b0f}
+  .etf{font-size:13.5px;margin-top:8px}
+  .etf code{font-size:12px;color:var(--muted)}
+  .access{background:var(--warn-soft);border-radius:10px;padding:12px;font-size:14px}
+  .calc{background:var(--accent-soft);border-radius:10px;padding:12px;margin-top:10px;font-size:13.5px}
+  .calc-title{font-weight:600;margin-bottom:6px}
+  .calc table{width:100%;border-collapse:collapse}
+  .calc th{font-size:11.5px;color:var(--muted);font-weight:500;text-align:right;padding:2px 4px}
+  .calc td{text-align:right;padding:3px 4px;white-space:nowrap}
+  .calc td:first-child{white-space:normal}
+  .calc td:first-child,.calc th:first-child{text-align:left}
+  a{color:var(--accent)}
+  footer{max-width:1150px;margin:0 auto;padding:0 24px 40px;font-size:12.5px;color:var(--muted)}
 </style>
 </head>
 <body>
-<div class="topbar"><div class="wrap">
-  <span id="updated"></span>
-  <nav><a href="#societa">Le società</a><a href="metodo.html">Metodo e fonti</a><a href="chi-siamo.html">Chi siamo</a></nav>
-</div></div>
-
-<header class="masthead wrap">
-  <div class="kicker">Guida ai mercati emergenti per chi investe dall'Italia</div>
-  <h1>Borse del Mondo<span class="demo-badge">DEMO</span></h1>
-  <p class="tag">Le società quotate nei mercati meno conosciuti, spiegate in italiano.</p>
+<header>
+  <h1>Borse del Mondo <span class="demo-badge">DEMO</span></h1>
+  <p class="tag">Le società quotate nei mercati meno conosciuti, spiegate per chi investe dall'Italia.</p>
+  <div class="updated" id="updated"></div>
+  <nav class="topnav"><a href="metodo.html">Metodo e fonti</a><a href="chi-siamo.html">Chi siamo</a></nav>
 </header>
 
-<main class="wrap">
-  <nav class="countries" id="countries" aria-label="Paesi"></nav>
-  <section id="guide"></section>
-
-  <div class="companies-head" id="societa">
-    <h2 id="coTitle">Le società</h2>
-    <span class="count" id="count"></span>
+<main>
+  <div class="countries" id="countries"></div>
+  <div class="layout">
+    <aside class="panel" id="guide"></aside>
+    <section>
+      <div class="filters">
+        <select id="sector" aria-label="Settore"></select>
+        <select id="size" aria-label="Dimensione"></select>
+        <select id="riskf" aria-label="Rischio">
+          <option value="">Tutti i livelli di rischio</option>
+          <option value="1-2">Rischio contenuto o moderato (1–2)</option>
+          <option value="3">Rischio medio (3)</option>
+          <option value="4-5">Rischio elevato (4–5)</option>
+        </select>
+        <select id="sort" aria-label="Ordina">
+          <option value="cap">Ordina per capitalizzazione</option>
+          <option value="name">Ordina per nome</option>
+          <option value="change">Ordina per variazione a 1 anno</option>
+          <option value="risk">Ordina per rischio (dal più basso)</option>
+        </select>
+        <span class="count" id="count"></span>
+      </div>
+      <div class="grid" id="list"></div>
+    </section>
   </div>
-  <div class="toolbar">
-    <div class="trow"><span class="tlabel">Settore</span><div class="trow" id="sectorChips"></div></div>
-    <div class="trow">
-      <span class="tlabel">Dimensione</span><div class="trow" id="sizeChips"></div>
-      <span class="tsep"></span>
-      <span class="tlabel" style="width:auto">Rischio</span><div class="trow" id="riskChips"></div>
-      <span style="flex:1"></span>
-      <select id="sort" class="sortsel" aria-label="Ordina">
-        <option value="cap">Ordina per capitalizzazione</option>
-        <option value="name">Ordina per nome</option>
-        <option value="change">Ordina per variazione a 1 anno</option>
-        <option value="risk">Ordina per rischio (dal più basso)</option>
-      </select>
-    </div>
-  </div>
-  <div class="grid" id="list"></div>
 </main>
 
 <div class="overlay" id="overlay" role="dialog" aria-modal="true">
   <div class="modal" id="modal"></div>
 </div>
 
-<footer><div class="wrap">
-  <div>
-    <div class="brand">Borse del Mondo</div>
-    <p style="margin:6px 0 0;max-width:720px">Contenuti a solo scopo informativo: non sono una raccomandazione d'investimento né una consulenza finanziaria.
-    Le informazioni fiscali sono indicative e vanno verificate con un professionista.
-    Fonti dei dati di mercato: Yahoo Finance e vnstock (uso personale e dimostrativo); cambi: Banca Centrale Europea.</p>
-  </div>
-  <div style="text-align:right"><a href="metodo.html">Come calcoliamo i dati</a><br><a href="chi-siamo.html">Chi siamo</a></div>
-</div></footer>
+<footer>
+  Contenuti a solo scopo informativo: non sono una raccomandazione d'investimento né una consulenza finanziaria.
+  Le informazioni fiscali sono indicative e vanno verificate con un professionista.
+  Fonti dei dati di mercato: Yahoo Finance e vnstock (uso personale e dimostrativo); cambi: Banca Centrale Europea.
+  <a href="metodo.html">Come calcoliamo i dati</a> · <a href="chi-siamo.html">Chi siamo</a>
+</footer>
 
 <script>
 const SIZES = ["Large cap", "Mid cap", "Small cap"];
 const FALLBACK_SIZE = {"Blue chip": "Large cap", "Large cap": "Large cap", "Mid cap": "Mid cap", "Small cap": "Small cap"};
 let DATA = { countries: {}, italyTax: "", companies: [], market: { companies: {}, fx: { per_eur: {} } } };
-let current = null, tab = "broker";
-const F = { sector: "", size: "", risk: "" };
+let current = null;
 
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[ch]));
@@ -309,23 +211,15 @@ async function load(){
            legalRefs: countries.legal_refs || [], contentChecked: countries.content_checked, companies, market };
   current = Object.keys(DATA.countries)[0];
   $("updated").textContent = market.updated_at
-    ? `Dati di mercato aggiornati al ${dateIt(market.updated_at)} · Edizione dimostrativa`
+    ? `Dati di mercato aggiornati al ${dateIt(market.updated_at)}`
     : "Dati di mercato non ancora collegati: avvia lo script di aggiornamento.";
   render();
 }
 
-function fxVal(g){
-  const r = DATA.market.fx && DATA.market.fx.per_eur && DATA.market.fx.per_eur[g.currency_code];
-  return r ? `1 € = ${nf(r, r > 1000 ? 0 : 2)} ${g.currency_code}` : null;
-}
 function renderCountries(){
-  $("countries").innerHTML = Object.entries(DATA.countries).map(([k, v]) => {
-    const n = DATA.companies.filter(c => c.country === k).length;
-    return `<button class="country-btn ${k === current ? "active" : ""}" data-k="${k}" aria-current="${k === current}">
-      <span class="cn"><span class="flag">${v.flag}</span>${esc(v.name)}</span>
-      <div class="cmeta">${esc(v.exchange.split(/ [–(]/)[0])} · ${n} società${fxVal(v) ? " · " + esc(fxVal(v)) : ""}</div></button>`;
-  }).join("");
-  document.querySelectorAll(".country-btn").forEach(b => b.onclick = () => { current = b.dataset.k; F.sector = F.size = F.risk = ""; render(); });
+  $("countries").innerHTML = Object.entries(DATA.countries).map(([k, v]) =>
+    `<button class="country-btn ${k === current ? "active" : ""}" data-k="${k}"><span class="flag">${v.flag}</span>${esc(v.name)}</button>`).join("");
+  document.querySelectorAll(".country-btn").forEach(b => b.onclick = () => { current = b.dataset.k; render(); });
 }
 
 function fxLine(g){
@@ -349,64 +243,39 @@ function divCalc(g){
     <div class="note">Esempio indicativo con broker italiano in regime amministrato.</div></div>`;
 }
 
-const TABS = [["broker", "Come comprarle"], ["tasse", "Tasse e dividendi"], ["regole", "Regole e liquidità"], ["cambio", "Rischio di cambio"]];
-function tabContent(g){
-  const checked = DATA.contentChecked ? `<p class="verif">Informazioni verificate il ${esc(dateIt(DATA.contentChecked))}.</p>` : "";
-  if (tab === "broker") return brokerBlock(current, { wide: true, noSummary: true }) || `<p>${esc(g.access)}</p>`;
-  if (tab === "tasse") return `<div class="cols"><div>
-      <h5>Nel paese</h5><p>${esc(g.tax)}</p>
-      <h5 style="margin-top:20px">In Italia</h5><p>${esc(DATA.italyTax)}</p>
-      ${DATA.legalRefs.length ? `<p class="note">Riferimenti: ${DATA.legalRefs.map(esc).join("; ")}.</p>` : ""}${checked}</div>
-    <div>${divCalc(g)}</div></div>`;
-  if (tab === "regole") return `<div class="cols"><div>
-      <h5>Limiti per investitori stranieri</h5><p>${esc(g.foreign)}</p>
-      <h5 style="margin-top:20px">Liquidità del mercato</h5><p>${esc(g.liquidity)}</p>${checked}</div>
-    <div><h5>Accesso dall'Italia</h5><p>${esc(g.access)}</p></div></div>`;
-  return `<div class="cols"><div><h5>La valuta</h5><p>${esc(g.fx)}</p>${checked}</div>
-    <div><h5>Rischio paese: ${esc(g.country_risk)} su 5</h5><p>${esc(g.country_risk_note || "")}</p></div></div>`;
-}
 function renderGuide(){
   const g = DATA.countries[current];
-  const w = g.dividend_withholding != null ? nf(g.dividend_withholding * 100, g.dividend_withholding * 100 % 1 ? 1 : 0) + "%" : "n.d.";
-  const hours = g.hours.match(/\(([^)]*)\)/);
   $("guide").innerHTML = `
-    <div class="hero">
-      <div>
-        <div class="section-kicker">Guida al paese</div>
-        <h2>Investire in ${esc(g.name)} dall'Italia</h2>
-        <p class="lead">${esc(g.access)}</p>
-      </div>
-      <div class="keyfacts">
-        <div><span>Borsa</span><b>${esc(g.exchange)}</b></div>
-        <div><span>Cambio (BCE)</span><b>${esc(fxVal(g) || "n.d.")}</b></div>
-        <div><span>Indici principali</span><b>${esc(g.index)}</b></div>
-        <div><span>Orari, ora italiana</span><b>${esc(hours ? hours[1].replace(/\s*ora italiana,?\s*|,?\s*in inverno/g, "").trim() : g.hours)}</b><small>${hours && /inverno/.test(hours[1]) ? "in inverno" : ""}</small></div>
-        <div><span>Ritenuta sui dividendi</span><b>${w}</b>${g.dividend_withholding_treaty != null ? `<small>${nf(g.dividend_withholding_treaty * 100, 0)}% con trattato</small>` : ""}</div>
-        <div><span>Rischio paese</span><b>${esc(g.country_risk)} su 5</b></div>
-      </div>
-    </div>
-    <div class="tabs" role="tablist">${TABS.map(([k, l]) => `<button class="tab" role="tab" data-t="${k}" aria-selected="${k === tab}">${l}</button>`).join("")}</div>
-    <div class="tabpanel" role="tabpanel">${tabContent(g)}</div>`;
-  document.querySelectorAll(".tab").forEach(b => b.onclick = () => { tab = b.dataset.t; renderGuide(); });
+    <h2>${g.flag} Investire in ${esc(g.name)}</h2>
+    <dl class="facts">
+      <dt>Borsa</dt><dd>${esc(g.exchange)}</dd>
+      <dt>Valuta</dt><dd>${esc(g.currency)}</dd>
+      ${fxLine(g)}
+      <dt>Indici</dt><dd>${esc(g.index)}</dd>
+      <dt>Orari</dt><dd>${esc(g.hours)}</dd>
+    </dl>
+    <div style="height:12px"></div>
+    <details open><summary>Con quali broker comprarle</summary>${brokerBlock(current) || `<p>${esc(g.access)}</p>`}</details>
+    <details><summary>Limiti per investitori stranieri</summary><p>${esc(g.foreign)}</p></details>
+    <details open><summary>Quanto ti resta di un dividendo</summary>${divCalc(g)}</details>
+    <details><summary>Tasse nel paese</summary><p>${esc(g.tax)}</p></details>
+    <details><summary>Tasse in Italia</summary><p>${esc(DATA.italyTax)}</p>
+      ${DATA.legalRefs.length ? `<p class="note">Riferimenti: ${DATA.legalRefs.map(esc).join("; ")}.</p>` : ""}</details>
+    <details><summary>Liquidità del mercato</summary><p>${esc(g.liquidity)}</p></details>
+    <details><summary>Rischio di cambio</summary><p>${esc(g.fx)}</p></details>
+    ${DATA.contentChecked ? `<p class="note" style="margin-top:10px">Informazioni verificate il ${esc(dateIt(DATA.contentChecked))}.</p>` : ""}`;
 }
 
-function chips(id, options, key){
-  $(id).innerHTML = options.map(([v, l]) => `<button class="chip" data-v="${esc(v)}" aria-pressed="${F[key] === v}">${esc(l)}</button>`).join("");
-  $(id).querySelectorAll(".chip").forEach(b => b.onclick = () => { F[key] = b.dataset.v; renderFilters(); renderList(); });
-}
 function renderFilters(){
   const list = DATA.companies.filter(x => x.country === current);
   const sectors = [...new Set(list.map(x => x.sector))].sort((a, b) => a.localeCompare(b, "it"));
-  chips("sectorChips", [["", "Tutti"], ...sectors.map(s => [s, s])], "sector");
-  chips("sizeChips", [["", "Tutte"], ...SIZES.map(s => [s, s])], "size");
-  chips("riskChips", [["", "Tutti"], ["1-2", "Contenuto o moderato"], ["3", "Medio"], ["4-5", "Elevato"]], "risk");
-}
-function rbar(r){
-  return `<span class="rbar" title="Livello di rischio ${r.level} su 5">Rischio <span class="seg" aria-hidden="true">${dots(r.level)}</span> ${esc(r.label)}</span>`;
+  $("sector").innerHTML = `<option value="">Tutti i settori</option>` + sectors.map(s => `<option>${esc(s)}</option>`).join("");
+  $("size").innerHTML = `<option value="">Tutte le dimensioni</option>` + SIZES.map(s => `<option>${s}</option>`).join("");
 }
 
 function renderList(){
-  const sec = F.sector, sz = F.size, sort = $("sort").value, rf = F.risk;
+  const sec = $("sector").value, sz = $("size").value, sort = $("sort").value;
+  const rf = $("riskf").value;
   const lvl = c => (mkt(c) && mkt(c).risk) ? mkt(c).risk.level : null;
   const riskOk = c => !rf || (lvl(c) != null && (rf === "1-2" ? lvl(c) <= 2 : rf === "3" ? lvl(c) === 3 : lvl(c) >= 4));
   let list = DATA.companies.filter(x => x.country === current && (!sec || x.sector === sec) && (!sz || sizeOf(x) === sz) && riskOk(x));
@@ -416,20 +285,18 @@ function renderList(){
   else if (sort === "risk") list.sort((a, b) => (lvl(a) ?? 9) - (lvl(b) ?? 9) || ((mkt(a)?.risk?.score ?? 9) - (mkt(b)?.risk?.score ?? 9)));
   else list.sort((a, b) => val(b, "market_cap_eur") - val(a, "market_cap_eur"));
 
-  $("coTitle").textContent = `Le società: ${DATA.countries[current].name}`;
-  $("count").textContent = `${list.length} ${list.length === 1 ? "società" : "società"} mostrate`;
+  $("count").textContent = `${list.length} società`;
   $("list").innerHTML = list.length ? list.map(x => {
     const m = mkt(x);
     const cap = m && bigEur(m.market_cap_eur);
-    const ch = m && !(m.hidden_fields || []).includes("change_1y") && pct(m.change_1y);
+    const ch = m && pct(m.change_1y);
     return `
     <button class="co" data-id="${esc(x.id)}">
-      <div class="top"><div><div class="name">${esc(x.name)}</div><div class="ticker">${esc(x.ticker)} · ${esc(x.index)}</div></div>
-        ${ch ? `<span class="chg ${m.change_1y >= 0 ? "up" : "down"}" title="Variazione in 1 anno">${ch}</span>` : ""}</div>
-      <div class="figs"><div><div class="capl">Capitalizzazione</div><div class="capv">${cap || "—"}</div></div>
-        <div class="capl" style="text-align:right">${esc(sizeOf(x))}</div></div>
+      <div class="name">${esc(x.name)}</div>
+      <div class="ticker">${esc(x.ticker)} · ${esc(x.index)}</div>
+      ${cap || ch ? `<div class="cap">${cap ? "Cap. " + cap : ""}${cap && ch ? " · " : ""}${ch ? `<span class="${m.change_1y >= 0 ? "up" : "down"}">${ch} in 1 anno</span>` : ""}</div>` : ""}
       ${m && m.history && !(m.hidden_fields || []).includes("price") ? sparkline(m.history) : ""}
-      <div class="foot"><span>${esc(x.sector)}${m && m.warnings && m.warnings.length ? ` · <span class="warnflag">⚠ da verificare</span>` : ""}</span>${m && m.risk ? rbar(m.risk) : ""}</div>
+      <div class="pills"><span class="pill">${esc(x.sector)}</span><span class="pill size">${esc(sizeOf(x))}</span>${m && m.risk ? `<span class="pill risk" title="Livello di rischio ${m.risk.level} su 5: ${esc(m.risk.label)}">Rischio <span class="mini-dots">${dots(m.risk.level, true)}</span></span>` : ""}${m && m.warnings && m.warnings.length ? `<span class="pill warn">⚠ da verificare</span>` : ""}</div>
     </button>`;
   }).join("") : `<p class="empty">Nessuna società con questi filtri.</p>`;
   document.querySelectorAll(".co").forEach(b => b.onclick = () => openCo(b.dataset.id));
@@ -450,13 +317,9 @@ const monthIt = d => new Date(d).toLocaleDateString("it-IT", { month: "short" })
 
 function sparkline(hist){
   if (!hist || hist.length < 2) return "";
-  const w = 300, h = 46, ys = hist.map(p => p[1]), lo = Math.min(...ys), hi = Math.max(...ys), r = hi - lo || 1;
-  const up = ys[ys.length - 1] >= ys[0], col = up ? "#17733f" : "#b3261e";
-  const P = hist.map((p, i) => [(i / (hist.length - 1) * w), (h - 3 - (p[1] - lo) / r * (h - 6))]);
-  const pts = P.map(p => p[0].toFixed(1) + "," + p[1].toFixed(1)).join(" ");
-  return `<svg class="spark" viewBox="0 0 ${w} ${h}" width="100%" height="${h}" preserveAspectRatio="none" aria-hidden="true">
-    <polygon points="0,${h} ${pts} ${w},${h}" fill="${col}" fill-opacity="0.08"/>
-    <polyline points="${pts}" fill="none" stroke="${col}" stroke-width="1.75" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg>`;
+  const w = 200, h = 28, ys = hist.map(p => p[1]), lo = Math.min(...ys), hi = Math.max(...ys), r = hi - lo || 1;
+  const pts = hist.map((p, i) => `${(i / (hist.length - 1) * w).toFixed(1)},${(h - 2 - (p[1] - lo) / r * (h - 4)).toFixed(1)}`).join(" ");
+  return `<svg class="spark" viewBox="0 0 ${w} ${h}" width="100%" height="${h}" preserveAspectRatio="none" aria-hidden="true"><polyline points="${pts}" fill="none" stroke="#8a949e" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg>`;
 }
 
 function priceChart(container, hist, currency){
@@ -471,14 +334,14 @@ function priceChart(container, hist, currency){
     "aria-label": `Andamento del prezzo nell'ultimo anno, da ${fmtPrice(ys[0])} a ${fmtPrice(ys[ys.length - 1])} ${currency}. Usa le frecce per scorrere le settimane.` });
   // griglia e assi
   ticks.forEach(t => {
-    el("line", { x1: m.l, x2: W - m.r, y1: Y(t), y2: Y(t), stroke: "#e6dfd1", "stroke-width": 1 }, svg);
-    const lab = el("text", { x: W - m.r + 8, y: Y(t) + 4, "font-size": 11, fill: "#6b6f73" }, svg); lab.textContent = fmtPrice(t);
+    el("line", { x1: m.l, x2: W - m.r, y1: Y(t), y2: Y(t), stroke: "#ebe8e1", "stroke-width": 1 }, svg);
+    const lab = el("text", { x: W - m.r + 8, y: Y(t) + 4, "font-size": 11, fill: "#5d6670" }, svg); lab.textContent = fmtPrice(t);
   });
   let lastMonth = null;
   hist.forEach((p, i) => {
     const mo = p[0].slice(0, 7);
     if (mo !== lastMonth && i > 0 && i < hist.length - 2 && new Date(p[0]).getDate() <= 7) {
-      const lab = el("text", { x: X(i), y: H - 6, "font-size": 11, fill: "#6b6f73", "text-anchor": "middle" }, svg); lab.textContent = monthIt(p[0]);
+      const lab = el("text", { x: X(i), y: H - 6, "font-size": 11, fill: "#5d6670", "text-anchor": "middle" }, svg); lab.textContent = monthIt(p[0]);
     }
     lastMonth = mo;
   });
@@ -532,19 +395,19 @@ function dots(n, mini){ let h = ""; for (let i = 1; i <= 5; i++) h += `<i class=
 const initials = name => name.split(/\s+/).filter(w => /^[A-ZÀ-ÝĐ]/.test(w)).slice(0, 2).map(w => w[0]).join("") || "•";
 function ceoBlock(x){
   if (!x.ceo) return "";
-  return `<div class="ceo"><div class="avatar" aria-hidden="true">${/^Nessun/i.test(x.ceo.name) ? "CdA" : esc(initials(x.ceo.name))}</div><div>
+  return `<div class="ceo"><div class="avatar" aria-hidden="true">${esc(initials(x.ceo.name))}</div><div>
     <b>${esc(x.ceo.name)}</b><p style="margin-top:2px">${esc(x.ceo.note || "")}</p>
     ${x.ceo.source ? `<p class="note">Verificato il ${esc(dateIt(x.ceo.checked))} · <a href="${esc(x.ceo.source)}" target="_blank" rel="noopener">Fonte ↗</a></p>` : ""}</div></div>`;
 }
 function riskBlock(x){
   const r = mkt(x) && mkt(x).risk;
   if (!r) return `<p class="note">Il livello di rischio sarà calcolato al prossimo aggiornamento dei dati.</p>`;
-  const rows = r.components.map(c => `<tr><td>${esc(c.name)}</td><td>${esc(c.value)}</td><td class="s"><span class="rbar"><span class="seg">${dots(c.score)}</span></span></td></tr>`).join("");
+  const rows = r.components.map(c => `<tr><td>${esc(c.name)}</td><td>${esc(c.value)}</td><td class="s"><span class="mini-dots">${dots(c.score, true)}</span></td></tr>`).join("");
   const ev = r.events_adjustment ? `<tr><td>Eventi rilevanti</td><td>vedi sotto</td><td class="s">+${nf(r.events_adjustment, 2)}</td></tr>` : "";
   return `<div class="riskbox">
-    <div class="riskbig"><div class="lvl">${r.level}<small> / 5</small></div><div class="lab">${esc(r.label)}</div><div class="bigseg" aria-hidden="true">${dots(r.level)}</div></div>
-    <div><table>${rows}${ev}</table>
-    <p class="note">Indicatore calcolato in automatico da volatilità, calo massimo, liquidità e dimensione dell'ultimo anno, rischio del paese ed eventi documentati. Serve a confrontare le società tra loro: investire in una singola azione di questi mercati resta comunque rischioso. Non è un consiglio d'investimento.</p></div>
+    <div class="riskhead"><div class="dots" aria-hidden="true">${dots(r.level)}</div><span class="risklabel">${r.level} su 5 · ${esc(r.label)}</span></div>
+    <table>${rows}${ev}</table>
+    <p class="note">Indicatore calcolato in automatico da volatilità, calo massimo, liquidità e dimensione dell'ultimo anno, rischio del paese ed eventi documentati. Confronta le società tra loro: investire in una singola azione di questi mercati resta comunque un investimento rischioso. Non è un consiglio d'investimento.</p>
   </div>`;
 }
 function eventsBlock(x){
@@ -562,12 +425,11 @@ function brokerBlock(countryKey, opts){
   const cols = adrOnly ? [a.adr] : (showAdr ? [a.direct, a.adr] : [a.direct]);
   const head = `<tr><th>Broker</th>${cols.map(c => `<th>${esc(c.label)}</th>`).join("")}<th>Tasse</th></tr>`;
   const rows = Object.entries(B.brokers).map(([k, b]) => `<tr><td><a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.name)}</a></td>${cols.map(c => `<td>${stCell(c.brokers[k])}</td>`).join("")}<td title="${esc(b.regime_note)}">${esc(b.regime)}</td></tr>`).join("");
-  const etfs = (a.etfs || []).map(e => `<div class="etf"><b>${esc(e.name)}</b>${e.isin ? `<code>${esc(e.isin)}</code>` : `<code>ISIN da verificare</code>`}<div class="note" style="margin-top:4px">${esc(e.note)} <a href="${esc(e.source)}" target="_blank" rel="noopener">Fonte ↗</a></div></div>`).join("");
-  const tbl = `<table class="btable">${head}${rows}</table>
-    <p class="note">"Tasse": <b>amministrato</b> = il broker calcola e versa le imposte per te; <b>dichiarativo</b> = le dichiari tu. ${esc(B.note)} Verificato il ${esc(dateIt(B.checked))}.</p>`;
-  const sum = opts && opts.noSummary ? "" : `<p>${esc(a.summary)}</p>`;
-  if (opts && opts.wide) return `${sum}<div class="cols" style="margin-top:8px"><div>${tbl}</div><div><h5>In alternativa, con un ETF</h5><div class="etfs">${etfs}</div></div></div>`;
-  return `${sum}${tbl}${etfs ? `<h5>In alternativa, con un ETF</h5><div class="etfs">${etfs}</div>` : ""}`;
+  const etfs = (a.etfs || []).map(e => `<div class="etf">• <b>${esc(e.name)}</b>${e.isin ? ` <code>${esc(e.isin)}</code>` : ""}<br><span class="note">${esc(e.note)} <a href="${esc(e.source)}" target="_blank" rel="noopener">Fonte ↗</a></span></div>`).join("");
+  return `${opts && opts.noSummary ? "" : `<p>${esc(a.summary)}</p>`}
+    <table class="btable">${head}${rows}</table>
+    <p class="note">"Tasse": <b>amministrato</b> = il broker calcola e versa le imposte per te; <b>dichiarativo</b> = le dichiari tu. ${esc(B.note)} Verificato il ${esc(dateIt(B.checked))}.</p>
+    ${etfs ? `<p style="margin-top:10px"><b>In alternativa, con un ETF:</b></p>${etfs}` : ""}`;
 }
 
 function box(label, main, sub, cls, flag){
@@ -599,66 +461,61 @@ function marketBlock(x){
 }
 
 function openCo(id){
-  const x = DATA.companies.find(c => c.id === id), g = DATA.countries[x.country], m = mkt(x), hid = (m && m.hidden_fields) || [];
-  const st = (l, v, sub, cls) => `<div><span>${l}</span><b class="${cls || ""}">${v || "—"}</b>${sub ? `<small>${sub}</small>` : ""}</div>`;
-  const ch = m && !hid.includes("change_1y") ? pct(m.change_1y) : null;
-  const sections = [["s-cosa", "Cosa fa"], ["s-rischio", "Rischio"], ["s-mercato", "Dati e grafico"], ["s-forza", "Punti di forza e rischi"], ["s-eventi", "Eventi"], ["s-comprare", "Come comprarla"]];
-  const adr = /^S[iì]/i.test(x.adr || "");
+  const x = DATA.companies.find(c => c.id === id), g = DATA.countries[x.country];
   $("modal").innerHTML = `
     <button class="close" aria-label="Chiudi" id="closeBtn">×</button>
-    <div class="mhead">
-      <div class="section-kicker">${g.flag} ${esc(g.name)} · ${esc(x.sector)}</div>
-      <h3>${esc(x.name)}</h3>
-      <div class="mtags"><span class="ticker" style="font-size:13px">${esc(x.ticker)} · ${esc(g.exchange.split(" ")[0])}</span><span>${esc(x.index)}</span><span>${esc(sizeOf(x))}</span><span>${esc(x.hq)}</span></div>
-      <div class="stats">
-        ${st("Prezzo", m && m.price != null && !hid.includes("price") ? `${fmtPrice(m.price)} ${esc(m.currency)}` : null, m && m.price_eur != null && !hid.includes("price") ? `≈ ${nf(m.price_eur, 2)} €` : "")}
-        ${st("Capitalizzazione", m && !hid.includes("market_cap_eur") ? bigEur(m.market_cap_eur) : null, m ? esc(m.size || "") : "")}
-        ${st("Variazione 1 anno", ch, "in valuta locale", ch ? (m.change_1y >= 0 ? "up" : "down") : "")}
-        ${st("Livello di rischio", m && m.risk ? `${m.risk.level} su 5` : null, m && m.risk ? esc(m.risk.label) : "")}
-      </div>
-      <nav class="mnav">${sections.map(([a, l]) => `<a href="#${a}">${l}</a>`).join("")}</nav>
+    <h3>${esc(x.name)}</h3>
+    <div class="ticker" style="margin-top:4px">${esc(x.ticker)} · ${esc(g.exchange.split(" ")[0])} · ${g.flag} ${esc(g.name)}</div>
+    <div class="pills"><span class="pill">${esc(x.sector)}</span><span class="pill size">${esc(sizeOf(x))}</span><span class="pill">${esc(x.index)}</span></div>
+
+    <h4>Cosa fa</h4><p>${esc(x.description)}</p>
+
+    <h4>Chi la guida</h4>
+    ${ceoBlock(x)}
+
+    <h4>Livello di rischio</h4>
+    ${riskBlock(x)}
+
+    <h4>Dati di mercato</h4>
+    ${marketBlock(x)}
+
+    <h4>Andamento del prezzo nell'ultimo anno</h4>
+    <p class="chart-sub">Chiusure settimanali in valuta locale (${esc(g.currency_code)})</p>
+    <div class="chart-wrap" id="chart"></div>
+
+    <h4>Scheda</h4>
+    <dl class="facts">
+      <dt>Sede</dt><dd>${esc(x.hq)}</dd>
+      <dt>Valuta di quotazione</dt><dd>${esc(g.currency)}</dd>
+      <dt>Quotata anche negli USA (ADR)</dt><dd>${esc(x.adr)}</dd>
+    </dl>
+
+    <h4>Eventi rilevanti</h4>
+    ${eventsBlock(x)}
+
+    <h4>Punti di forza</h4><ul>${x.strengths.map(k => `<li>${esc(k)}</li>`).join("")}</ul>
+    <h4>Rischi da conoscere</h4><ul>${x.risks.map(k => `<li>${esc(k)}</li>`).join("")}</ul>
+
+    <h4>Come comprarla dall'Italia</h4>
+    ${/^S[iì]/i.test(x.adr || "") ? `<p>Questa società ha un <b>ADR</b> quotato a New York (${esc(x.adr)}): è il modo più semplice per comprarla da un broker italiano.</p>${brokerBlock(x.country, {adrOnly: true, noSummary: true})}` : brokerBlock(x.country, {directOnly: true})}
+
+    <h4>Prima di investire dall'Italia</h4>
+    <div class="access">
+      <p><b>Accesso:</b> ${esc(g.access)}</p>
+      <p style="margin-top:8px"><b>Limiti stranieri:</b> ${esc(g.foreign)}</p>
+      <p style="margin-top:8px"><b>Tasse nel paese:</b> ${esc(g.tax)}</p>
+      <p style="margin-top:8px"><b>Tasse in Italia:</b> ${esc(DATA.italyTax)}</p>
     </div>
-    <div class="mbody">
-      <section class="msec" id="s-cosa">
-        <h4>Cosa fa</h4><p class="desc">${esc(x.description)}</p>
-        <h5>Chi la guida</h5>${ceoBlock(x)}
-      </section>
-      <section class="msec" id="s-rischio"><h4>Livello di rischio</h4>${riskBlock(x)}</section>
-      <section class="msec" id="s-mercato">
-        <h4>Andamento del prezzo nell'ultimo anno</h4>
-        <p class="chart-sub">Chiusure settimanali in valuta locale (${esc(g.currency_code)})</p>
-        <div class="chart-wrap" id="chart"></div>
-        <h5>Dati di mercato</h5>${marketBlock(x)}
-      </section>
-      <section class="msec" id="s-forza"><div class="two">
-        <div><h4>Punti di forza</h4><ul>${x.strengths.map(k => `<li>${esc(k)}</li>`).join("")}</ul></div>
-        <div><h4>Rischi da conoscere</h4><ul>${x.risks.map(k => `<li>${esc(k)}</li>`).join("")}</ul></div>
-      </div></section>
-      <section class="msec" id="s-eventi"><h4>Eventi rilevanti</h4>${eventsBlock(x)}</section>
-      <section class="msec" id="s-comprare">
-        <h4>Come comprarla dall'Italia</h4>
-        ${adr ? `<p style="margin-bottom:12px">Questa società ha un <b>ADR</b> quotato a New York (${esc(x.adr)}): è il modo più semplice per comprarla da un broker italiano.</p>${brokerBlock(x.country, {adrOnly: true, noSummary: true})}` : brokerBlock(x.country, {directOnly: true})}
-        <div class="two" style="margin-top:24px">
-          <div class="access">
-            <p><b>Limiti stranieri:</b> ${esc(g.foreign)}</p>
-            <p><b>Tasse nel paese:</b> ${esc(g.tax)}</p>
-            <p><b>Tasse in Italia:</b> ${esc(DATA.italyTax)}</p>
-          </div>
-          <div>${divCalc(g)}</div>
-        </div>
-      </section>
-    </div>`;
+    ${divCalc(g)}`;
   $("overlay").classList.add("open");
-  $("overlay").scrollTop = 0;
-  document.body.style.overflow = "hidden";
   $("closeBtn").onclick = closeCo;
-  $("modal").querySelectorAll(".mnav a").forEach(a => a.onclick = e => { e.preventDefault(); document.getElementById(a.getAttribute("href").slice(1)).scrollIntoView({ behavior: "smooth" }); });
-  priceChart($("chart"), m && !hid.includes("price") ? m.history : null, (m && m.currency) || g.currency_code);
+  const mm = mkt(x);
+  priceChart($("chart"), mm && !(mm.hidden_fields || []).includes("price") ? mm.history : null, (mm && mm.currency) || g.currency_code);
 }
-function closeCo(){ $("overlay").classList.remove("open"); document.body.style.overflow = ""; }
+function closeCo(){ $("overlay").classList.remove("open"); }
 $("overlay").addEventListener("click", e => { if (e.target.id === "overlay") closeCo(); });
 document.addEventListener("keydown", e => { if (e.key === "Escape") closeCo(); });
-$("sort").onchange = renderList;
+["sector", "size", "riskf", "sort"].forEach(id => $(id).onchange = renderList);
 
 function render(){ renderCountries(); renderGuide(); renderFilters(); renderList(); }
 load();
