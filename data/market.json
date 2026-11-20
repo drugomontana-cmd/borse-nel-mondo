@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T14:24:55Z",
+  "updated_at": "2026-11-20T14:28:09Z",
   "fx": {
     "date": "2026-11-19",
     "per_eur": {
@@ -6792,22 +6792,22 @@
         ],
         [
           "2026-11-20",
-          110.84
+          110.68
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 110.83999633789062,
+      "price": 110.68000030517578,
       "currency": "PLN",
-      "change_1y": 0.47158784900403083,
-      "market_cap": 138550001664.0,
-      "pe": 12.652967,
+      "change_1y": 0.4694636318855616,
+      "market_cap": 138350002176.0,
+      "pe": 12.634703,
       "dividends_12m": 6.14,
-      "avg_volume": 2764160.8,
+      "avg_volume": 2764697.45,
       "last_trade_date": "2026-11-20",
-      "price_eur": 25.09395434410021,
-      "market_cap_eur": 31367444343.21938,
-      "dividend_yield": 0.05539516603088376,
-      "avg_value_traded_eur": 69363724.91495152,
+      "price_eur": 25.057731561054062,
+      "market_cap_eur": 31322164857.595654,
+      "dividend_yield": 0.05547524379355167,
+      "avg_value_traded_eur": 69277046.54963069,
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
@@ -7065,22 +7065,22 @@
         ],
         [
           "2026-11-20",
-          123.34
+          123.48
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 123.33999633789062,
+      "price": 123.4800033569336,
       "currency": "PLN",
-      "change_1y": 0.21877470412347688,
-      "market_cap": 143190589440.0,
-      "pe": 5.8510437,
+      "change_1y": 0.22015817273281457,
+      "market_cap": 143353135104.0,
+      "pe": 5.857685,
       "dividends_12m": 8.0,
-      "avg_volume": 1309188.5333333334,
+      "avg_volume": 1309267.0,
       "last_trade_date": "2026-11-20",
-      "price_eur": 27.923929440319363,
-      "market_cap_eur": 32418064170.251305,
-      "dividend_yield": 0.06486136077127774,
-      "avg_value_traded_eur": 36557688.2288752,
+      "price_eur": 27.955626750494364,
+      "market_cap_eur": 32454864184.740776,
+      "dividend_yield": 0.06478781812853578,
+      "avg_value_traded_eur": 36601379.5687395,
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
@@ -7338,22 +7338,22 @@
         ],
         [
           "2026-11-20",
-          36.41
+          36.43
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 36.40999984741211,
+      "price": 36.43000030517578,
       "currency": "PLN",
-      "change_1y": -0.13164799469563304,
-      "market_cap": 35696365568.0,
-      "pe": 22.75625,
+      "change_1y": -0.13117099832983037,
+      "market_cap": 35715973120.0,
+      "pe": 22.76875,
       "dividends_12m": 0.0,
-      "avg_volume": 3758042.316666667,
+      "avg_volume": 3758232.1166666667,
       "last_trade_date": "2026-11-20",
-      "price_eur": 8.243151425721555,
-      "market_cap_eur": 8081586046.63799,
+      "price_eur": 8.24767948951229,
+      "market_cap_eur": 8086025157.346616,
       "dividend_yield": 0.0,
-      "avg_value_traded_eur": 30978111.880552772,
+      "avg_value_traded_eur": 30996693.94545803,
       "size": "Mid cap",
       "liquidity": "Alta",
       "stale": false,
@@ -7611,22 +7611,22 @@
         ],
         [
           "2026-11-20",
-          260.7
+          260.6
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 260.70001220703125,
+      "price": 260.6000061035156,
       "currency": "PLN",
-      "change_1y": 0.14442497240791652,
-      "market_cap": 26046670848.0,
-      "pe": 41.055122,
+      "change_1y": 0.14398596405771524,
+      "market_cap": 26036680704.0,
+      "pe": 41.03937,
       "dividends_12m": 0.0,
-      "avg_volume": 309322.1666666667,
+      "avg_volume": 309383.2166666667,
       "last_trade_date": "2026-11-20",
-      "price_eur": 59.02196337039422,
-      "market_cap_eur": 5896914387.140594,
+      "price_eur": 58.999322187800686,
+      "market_cap_eur": 5894652638.442382,
       "dividend_yield": 0.0,
-      "avg_value_traded_eur": 18256801.59065098,
+      "avg_value_traded_eur": 18253400.079614814,
       "size": "Mid cap",
       "liquidity": "Alta",
       "stale": false,
@@ -7638,7 +7638,7 @@
           {
             "key": "volatilita",
             "name": "Volatilità",
-            "value": "37% annuo",
+            "value": "38% annuo",
             "score": 3
           },
           {
@@ -7884,22 +7884,22 @@
         ],
         [
           "2026-11-20",
-          27840.0
+          27800.0
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 27840.0,
+      "price": 27800.0,
       "currency": "PLN",
-      "change_1y": 0.7243728708578507,
-      "market_cap": 51746430976.0,
-      "pe": 26.65773,
+      "change_1y": 0.7218953236296066,
+      "market_cap": 51672080384.0,
+      "pe": 26.619429,
       "dividends_12m": 900.0,
-      "avg_volume": 3999.983333333333,
+      "avg_volume": 4000.233333333333,
       "last_trade_date": "2026-11-20",
-      "price_eur": 6302.920534299298,
-      "market_cap_eur": 11715288878.42427,
-      "dividend_yield": 0.032327586206896554,
-      "avg_value_traded_eur": 25211577.088521622,
+      "price_eur": 6293.864613991397,
+      "market_cap_eur": 11698456052.524338,
+      "dividend_yield": 0.03237410071942446,
+      "avg_value_traded_eur": 25176927.024375517,
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
@@ -8157,22 +8157,22 @@
         ],
         [
           "2026-11-20",
-          65.28
+          65.25
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 65.27999877929688,
+      "price": 65.25,
       "currency": "PLN",
-      "change_1y": 1.0723809136284723,
-      "market_cap": 65304121344.0,
-      "pe": 33.649483,
+      "change_1y": 1.0714285714285716,
+      "market_cap": 65274114048.0,
+      "pe": 33.634018,
       "dividends_12m": 0.0,
-      "avg_volume": 4786635.266666667,
+      "avg_volume": 4787284.216666667,
       "last_trade_date": "2026-11-20",
-      "price_eur": 14.779261666130152,
-      "market_cap_eur": 14784722966.719494,
+      "price_eur": 14.772470002263981,
+      "market_cap_eur": 14777929374.688704,
       "dividend_yield": 0.0,
-      "avg_value_traded_eur": 70742935.10639335,
+      "avg_value_traded_eur": 70720012.48302016,
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
@@ -8184,7 +8184,7 @@
           {
             "key": "volatilita",
             "name": "Volatilità",
-            "value": "30% annuo",
+            "value": "31% annuo",
             "score": 3
           },
           {
@@ -8430,22 +8430,22 @@
         ],
         [
           "2026-11-20",
-          246.2
+          246.55
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 246.1999969482422,
+      "price": 246.5500030517578,
       "currency": "PLN",
-      "change_1y": 0.26191691053876265,
-      "market_cap": 49239998464.0,
-      "pe": 4.83124,
+      "change_1y": 0.26371089358625643,
+      "market_cap": 49309999104.0,
+      "pe": 4.8381085,
       "dividends_12m": 1.5,
-      "avg_volume": 718324.4666666667,
+      "avg_volume": 718408.7333333333,
       "last_trade_date": "2026-11-20",
-      "price_eur": 55.739188804220554,
-      "market_cap_eur": 11147837551.27915,
-      "dividend_yield": 0.0060926077115888025,
-      "avg_value_traded_eur": 40038823.07022437,
+      "price_eur": 55.81842948873847,
+      "market_cap_eur": 11163685556.712702,
+      "dividend_yield": 0.006083958553775023,
+      "avg_value_traded_eur": 40100447.22566058,
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
@@ -8703,22 +8703,22 @@
         ],
         [
           "2026-11-20",
-          36.44
+          36.42
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 36.439998626708984,
+      "price": 36.41999816894531,
       "currency": "PLN",
-      "change_1y": -0.1902222527398003,
-      "market_cap": 938329984.0,
-      "pe": 8.188764,
+      "change_1y": -0.19066670735677083,
+      "market_cap": 937814976.0,
+      "pe": 8.18427,
       "dividends_12m": 4.26,
-      "avg_volume": 69581.08333333333,
+      "avg_volume": 69603.71666666666,
       "last_trade_date": "2026-11-20",
-      "price_eur": 8.249943089587726,
-      "market_cap_eur": 212436038.94045734,
-      "dividend_yield": 0.11690450495455286,
-      "avg_value_traded_eur": 574039.977611861,
+      "price_eur": 8.245415025796992,
+      "market_cap_eur": 212319442.15530905,
+      "dividend_yield": 0.11696870439802565,
+      "avg_value_traded_eur": 573911.5312546499,
       "size": "Small cap",
       "liquidity": "Bassa",
       "stale": false,
@@ -20999,22 +20999,22 @@
         ],
         [
           "2026-11-20",
-          67.46
+          67.34
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 67.45999908447266,
+      "price": 67.33999633789062,
       "currency": "PLN",
-      "change_1y": 0.09158575917939316,
-      "market_cap": 58253262848.0,
-      "pe": 9.819505,
+      "change_1y": 0.0896439671395306,
+      "market_cap": 58149638144.0,
+      "pe": 9.802037,
       "dividends_12m": 4.8,
-      "avg_volume": 1148901.3,
+      "avg_volume": 1149055.4333333333,
       "last_trade_date": "2026-11-20",
-      "price_eur": 15.27280939200196,
-      "market_cap_eur": 13188422650.667875,
-      "dividend_yield": 0.07115327698106687,
-      "avg_value_traded_eur": 17546950.56512326,
+      "price_eur": 15.245641009257557,
+      "market_cap_eur": 13164962224.134027,
+      "dividend_yield": 0.07128007515645131,
+      "avg_value_traded_eur": 17518086.636336878,
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
@@ -21272,22 +21272,22 @@
         ],
         [
           "2026-11-20",
-          250.0
+          249.9
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 250.0,
+      "price": 249.89999389648438,
       "currency": "PLN",
-      "change_1y": 0.29332641517372493,
-      "market_cap": 65617506304.0,
-      "pe": 10.780509,
+      "change_1y": 0.2928090530323033,
+      "market_cap": 65591259136.0,
+      "pe": 10.7761965,
       "dividends_12m": 19.77,
-      "avg_volume": 537941.85,
+      "avg_volume": 537974.0833333334,
       "last_trade_date": "2026-11-20",
-      "price_eur": 56.59950192438307,
-      "market_cap_eur": 14855672697.305864,
-      "dividend_yield": 0.07908,
-      "avg_value_traded_eur": 30447240.77428119,
+      "price_eur": 56.57686074178954,
+      "market_cap_eur": 14849730390.762962,
+      "dividend_yield": 0.0791116465900727,
+      "avg_value_traded_eur": 30436884.795441885,
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
@@ -21306,6 +21306,279 @@
             "key": "calo",
             "name": "Calo massimo in un anno",
             "value": "-11%",
+            "score": 1
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Alta",
+            "score": 1
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Large cap",
+            "score": 1
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "Polonia",
+            "score": 2
+          }
+        ],
+        "events_adjustment": 0
+      },
+      "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
+    },
+    "polonia-ebp": {
+      "history": [
+        [
+          "2025-11-21",
+          490.7
+        ],
+        [
+          "2025-11-28",
+          515.0
+        ],
+        [
+          "2025-12-05",
+          479.0
+        ],
+        [
+          "2025-12-12",
+          516.0
+        ],
+        [
+          "2025-12-19",
+          538.8
+        ],
+        [
+          "2025-12-26",
+          542.4
+        ],
+        [
+          "2026-01-02",
+          560.2
+        ],
+        [
+          "2026-01-09",
+          556.2
+        ],
+        [
+          "2026-01-16",
+          541.4
+        ],
+        [
+          "2026-01-23",
+          546.8
+        ],
+        [
+          "2026-01-30",
+          559.2
+        ],
+        [
+          "2026-02-06",
+          580.0
+        ],
+        [
+          "2026-02-13",
+          587.0
+        ],
+        [
+          "2026-02-20",
+          605.6
+        ],
+        [
+          "2026-02-27",
+          591.2
+        ],
+        [
+          "2026-03-06",
+          548.6
+        ],
+        [
+          "2026-03-13",
+          548.2
+        ],
+        [
+          "2026-03-20",
+          555.4
+        ],
+        [
+          "2026-03-27",
+          580.4
+        ],
+        [
+          "2026-04-03",
+          601.0
+        ],
+        [
+          "2026-04-10",
+          658.6
+        ],
+        [
+          "2026-04-17",
+          667.4
+        ],
+        [
+          "2026-04-24",
+          629.8
+        ],
+        [
+          "2026-05-01",
+          616.0
+        ],
+        [
+          "2026-05-08",
+          613.2
+        ],
+        [
+          "2026-05-15",
+          584.0
+        ],
+        [
+          "2026-05-22",
+          606.8
+        ],
+        [
+          "2026-05-29",
+          613.6
+        ],
+        [
+          "2026-06-05",
+          600.2
+        ],
+        [
+          "2026-06-12",
+          638.8
+        ],
+        [
+          "2026-06-19",
+          648.0
+        ],
+        [
+          "2026-06-26",
+          647.6
+        ],
+        [
+          "2026-07-03",
+          657.0
+        ],
+        [
+          "2026-07-10",
+          687.2
+        ],
+        [
+          "2026-07-17",
+          655.2
+        ],
+        [
+          "2026-07-24",
+          661.6
+        ],
+        [
+          "2026-07-31",
+          735.0
+        ],
+        [
+          "2026-08-07",
+          725.0
+        ],
+        [
+          "2026-08-14",
+          733.8
+        ],
+        [
+          "2026-08-21",
+          726.6
+        ],
+        [
+          "2026-08-28",
+          719.8
+        ],
+        [
+          "2026-09-04",
+          745.6
+        ],
+        [
+          "2026-09-11",
+          754.8
+        ],
+        [
+          "2026-09-18",
+          749.0
+        ],
+        [
+          "2026-09-25",
+          807.6
+        ],
+        [
+          "2026-10-02",
+          760.6
+        ],
+        [
+          "2026-10-09",
+          767.8
+        ],
+        [
+          "2026-10-16",
+          778.0
+        ],
+        [
+          "2026-10-23",
+          740.4
+        ],
+        [
+          "2026-10-30",
+          775.8
+        ],
+        [
+          "2026-11-06",
+          780.8
+        ],
+        [
+          "2026-11-13",
+          800.0
+        ],
+        [
+          "2026-11-20",
+          776.4
+        ]
+      ],
+      "source": "Yahoo Finance",
+      "price": 776.4000244140625,
+      "currency": "PLN",
+      "change_1y": 0.5580976187714406,
+      "market_cap": 79339782144.0,
+      "pe": 15.078656,
+      "dividends_12m": 49.98,
+      "avg_volume": 75849.18333333333,
+      "last_trade_date": "2026-11-20",
+      "price_eur": 175.77541870365917,
+      "market_cap_eur": 17962368608.557846,
+      "dividend_yield": 0.06437403197883611,
+      "avg_value_traded_eur": 13332421.958747273,
+      "size": "Large cap",
+      "liquidity": "Alta",
+      "stale": false,
+      "risk": {
+        "level": 2,
+        "label": "Moderato",
+        "score": 1.5,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "29% annuo",
+            "score": 2
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-12%",
             "score": 1
           },
           {
@@ -21545,22 +21818,22 @@
         ],
         [
           "2026-11-20",
-          6230.0
+          6260.0
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 6230.0,
+      "price": 6260.0,
       "currency": "PLN",
-      "change_1y": 0.9809220985691574,
-      "market_cap": 20565491712.0,
-      "pe": 25.001003,
+      "change_1y": 0.9904610492845787,
+      "market_cap": 20664522752.0,
+      "pe": 25.121393,
       "dividends_12m": 100.0,
-      "avg_volume": 5765.716666666666,
+      "avg_volume": 5775.083333333333,
       "last_trade_date": "2026-11-20",
-      "price_eur": 1410.4595879556261,
-      "market_cap_eur": 4655986350.916912,
-      "dividend_yield": 0.016051364365971106,
-      "avg_value_traded_eur": 8132310.353935551,
+      "price_eur": 1417.251528186552,
+      "market_cap_eur": 4678406781.073127,
+      "dividend_yield": 0.01597444089456869,
+      "avg_value_traded_eur": 8184745.679571353,
       "size": "Mid cap",
       "liquidity": "Media",
       "stale": false,
@@ -21828,12 +22101,12 @@
       "market_cap": 18795257856.0,
       "pe": 25.430052,
       "dividends_12m": 32.42,
-      "avg_volume": 33851.916666666664,
+      "avg_volume": 33857.45,
       "last_trade_date": "2026-11-20",
       "price_eur": 166.67421603057082,
       "market_cap_eur": 4255208932.759792,
       "dividend_yield": 0.04403694575175174,
-      "avg_value_traded_eur": 5642241.671548881,
+      "avg_value_traded_eur": 5643163.935544249,
       "size": "Mid cap",
       "liquidity": "Media",
       "stale": false,
@@ -22101,12 +22374,12 @@
       "market_cap": 16891060224.0,
       "pe": 20.85487,
       "dividends_12m": 13.05,
-      "avg_volume": 140812.13333333333,
+      "avg_volume": 140813.61666666667,
       "last_trade_date": "2026-11-20",
       "price_eur": 47.49830270585416,
       "market_cap_eur": 3824102382.612633,
       "dividend_yield": 0.062202096330668574,
-      "avg_value_traded_eur": 6688337.333723763,
+      "avg_value_traded_eur": 6688407.789539444,
       "size": "Mid cap",
       "liquidity": "Media",
       "stale": false,
@@ -22364,22 +22637,22 @@
         ],
         [
           "2026-11-20",
-          311.6
+          311.3
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 311.6000061035156,
+      "price": 311.29998779296875,
       "currency": "PLN",
-      "change_1y": -0.3183110874145336,
-      "market_cap": 6089720320.0,
-      "pe": 6.7025166,
+      "change_1y": -0.31896743899305213,
+      "market_cap": 6083856896.0,
+      "pe": 6.696063,
       "dividends_12m": 20.0,
-      "avg_volume": 75551.36666666667,
+      "avg_volume": 75556.48333333334,
       "last_trade_date": "2026-11-20",
-      "price_eur": 70.54562058037483,
-      "market_cap_eur": 1378700547.8831787,
-      "dividend_yield": 0.06418485111760834,
-      "avg_value_traded_eur": 5329818.047195446,
+      "price_eur": 70.47769703259424,
+      "market_cap_eur": 1377373080.3712928,
+      "dividend_yield": 0.06424670987555925,
+      "avg_value_traded_eur": 5325046.941214924,
       "size": "Small cap",
       "liquidity": "Media",
       "stale": false,
@@ -22637,22 +22910,22 @@
         ],
         [
           "2026-11-20",
-          110.94
+          110.96
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 110.94000244140625,
+      "price": 110.95999908447266,
       "currency": "PLN",
-      "change_1y": 0.584857177734375,
-      "market_cap": 13024117760.0,
-      "pe": 10.339236,
+      "change_1y": 0.585142844063895,
+      "market_cap": 13026464768.0,
+      "pe": 10.3411,
       "dividends_12m": 4.07,
-      "avg_volume": 736905.0666666667,
+      "avg_volume": 736930.1333333333,
       "last_trade_date": "2026-11-20",
-      "price_eur": 25.11659552669374,
-      "market_cap_eur": 2948634312.8820467,
-      "dividend_yield": 0.036686496398353696,
-      "avg_value_traded_eur": 18508546.50103795,
+      "price_eur": 25.121122726844614,
+      "market_cap_eur": 2949165670.817297,
+      "dividend_yield": 0.036679884945759175,
+      "avg_value_traded_eur": 18512512.32057663,
       "size": "Mid cap",
       "liquidity": "Alta",
       "stale": false,
@@ -22920,12 +23193,12 @@
       "market_cap": 14690968576.0,
       "pe": 14.6552925,
       "dividends_12m": 1.42,
-      "avg_volume": 5386.116666666667,
+      "avg_volume": 5386.283333333334,
       "last_trade_date": "2026-11-20",
       "price_eur": 237.26511206701383,
       "market_cap_eur": 3326006016.753453,
       "dividend_yield": 0.0013549618320610687,
-      "avg_value_traded_eur": 1277937.5745226776,
+      "avg_value_traded_eur": 1277977.1187080222,
       "size": "Mid cap",
       "liquidity": "Media",
       "stale": false,
@@ -23456,22 +23729,22 @@
         ],
         [
           "2026-11-20",
-          103.0
+          102.9
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 103.0,
+      "price": 102.9000015258789,
       "currency": "PLN",
-      "change_1y": -0.3481012658227848,
-      "market_cap": 248971504.0,
+      "change_1y": -0.34873416755772846,
+      "market_cap": 248729776.0,
       "pe": null,
       "dividends_12m": 0.0,
-      "avg_volume": 5799.5,
+      "avg_volume": 5798.366666666667,
       "last_trade_date": "2026-11-20",
-      "price_eur": 23.318994792845825,
-      "market_cap_eur": 56366652.479058184,
+      "price_eur": 23.296355337532017,
+      "market_cap_eur": 56311925.741453476,
       "dividend_yield": 0.0,
-      "avg_value_traded_eur": 135238.51030110935,
+      "avg_value_traded_eur": 135080.81024396772,
       "size": "Small cap",
       "liquidity": "Bassa",
       "stale": false,
@@ -26797,6 +27070,286 @@
         "events_adjustment": 0
       },
       "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
+    },
+    "brasile-grnd3": {
+      "history": [
+        [
+          "2025-11-21",
+          4.74
+        ],
+        [
+          "2025-11-28",
+          4.93
+        ],
+        [
+          "2025-12-05",
+          5.32
+        ],
+        [
+          "2025-12-12",
+          5.24
+        ],
+        [
+          "2025-12-19",
+          5.28
+        ],
+        [
+          "2025-12-26",
+          5.66
+        ],
+        [
+          "2026-01-02",
+          4.54
+        ],
+        [
+          "2026-01-09",
+          4.59
+        ],
+        [
+          "2026-01-16",
+          4.55
+        ],
+        [
+          "2026-01-23",
+          4.84
+        ],
+        [
+          "2026-01-30",
+          4.96
+        ],
+        [
+          "2026-02-06",
+          4.91
+        ],
+        [
+          "2026-02-13",
+          4.78
+        ],
+        [
+          "2026-02-20",
+          4.88
+        ],
+        [
+          "2026-02-27",
+          5.1
+        ],
+        [
+          "2026-03-06",
+          4.52
+        ],
+        [
+          "2026-03-13",
+          4.54
+        ],
+        [
+          "2026-03-20",
+          4.62
+        ],
+        [
+          "2026-03-27",
+          4.63
+        ],
+        [
+          "2026-04-03",
+          4.64
+        ],
+        [
+          "2026-04-10",
+          4.82
+        ],
+        [
+          "2026-04-17",
+          4.75
+        ],
+        [
+          "2026-04-24",
+          4.51
+        ],
+        [
+          "2026-05-01",
+          4.38
+        ],
+        [
+          "2026-05-08",
+          4.19
+        ],
+        [
+          "2026-05-15",
+          3.99
+        ],
+        [
+          "2026-05-22",
+          4.01
+        ],
+        [
+          "2026-05-29",
+          4.07
+        ],
+        [
+          "2026-06-05",
+          3.81
+        ],
+        [
+          "2026-06-12",
+          3.95
+        ],
+        [
+          "2026-06-19",
+          3.9
+        ],
+        [
+          "2026-06-26",
+          3.86
+        ],
+        [
+          "2026-07-03",
+          3.78
+        ],
+        [
+          "2026-07-10",
+          3.89
+        ],
+        [
+          "2026-07-17",
+          3.85
+        ],
+        [
+          "2026-07-24",
+          3.66
+        ],
+        [
+          "2026-07-31",
+          3.75
+        ],
+        [
+          "2026-08-07",
+          3.56
+        ],
+        [
+          "2026-08-14",
+          3.53
+        ],
+        [
+          "2026-08-21",
+          3.59
+        ],
+        [
+          "2026-08-28",
+          3.46
+        ],
+        [
+          "2026-09-04",
+          3.68
+        ],
+        [
+          "2026-09-11",
+          3.74
+        ],
+        [
+          "2026-09-18",
+          3.67
+        ],
+        [
+          "2026-09-25",
+          3.77
+        ],
+        [
+          "2026-10-02",
+          4.03
+        ],
+        [
+          "2026-10-09",
+          4.7
+        ],
+        [
+          "2026-10-16",
+          4.5
+        ],
+        [
+          "2026-10-23",
+          4.67
+        ],
+        [
+          "2026-10-30",
+          3.56
+        ],
+        [
+          "2026-11-06",
+          3.89
+        ],
+        [
+          "2026-11-13",
+          3.74
+        ],
+        [
+          "2026-11-19",
+          3.68
+        ]
+      ],
+      "source": "Yahoo Finance",
+      "price": 3.680000066757202,
+      "currency": "BRL",
+      "change_1y": -0.2103003890009013,
+      "market_cap": 3319948800.0,
+      "pe": 5.935484,
+      "dividends_12m": 1.548159,
+      "avg_volume": 3320143.3333333335,
+      "last_trade_date": "2026-11-19",
+      "price_eur": 0.5682081474186987,
+      "market_cap_eur": 512614652.97614455,
+      "dividend_yield": 0.4206953728031397,
+      "avg_value_traded_eur": 1886532.4925978763,
+      "size": "Small cap",
+      "liquidity": "Media",
+      "stale": false,
+      "risk": {
+        "level": 3,
+        "label": "Medio",
+        "score": 3.4,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "48% annuo",
+            "score": 4
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-39%",
+            "score": 3
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Media",
+            "score": 3
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Small cap",
+            "score": 4
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "Brasile",
+            "score": 3
+          }
+        ],
+        "events_adjustment": 0
+      },
+      "warnings": [
+        {
+          "code": "dividendo_alto",
+          "field": "dividend_yield",
+          "title": "Rendimento del dividendo insolitamente alto",
+          "detail": "42.1%: può includere un dividendo straordinario o un errore della fonte."
+        }
+      ],
       "verified_notes": [],
       "hidden_fields": []
     }
