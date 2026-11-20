@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T03:06:38Z",
+  "updated_at": "2026-11-20T03:22:00Z",
   "fx": {
     "date": "2026-11-19",
     "per_eur": {
@@ -241,18 +241,56 @@
       "price": 1375.5999755859375,
       "currency": "INR",
       "change_1y": -0.09434462211125783,
-      "market_cap": 18615269064704.0,
+      "market_cap": 18615269026323.367,
       "pe": 22.669743,
       "dividends_12m": 6.0,
       "avg_volume": 15741386.183333334,
       "last_trade_date": "2026-11-19",
       "price_eur": 13.413944179287544,
-      "market_cap_eur": 181523832907.88885,
+      "market_cap_eur": 181523832533.62622,
       "dividend_yield": 0.004361733139348375,
       "avg_value_traded_eur": 211154075.56784153,
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
+      "risk": {
+        "level": 2,
+        "label": "Moderato",
+        "score": 2.2,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "24% annuo",
+            "score": 2
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-27%",
+            "score": 3
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Alta",
+            "score": 1
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Large cap",
+            "score": 1
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "India",
+            "score": 3
+          }
+        ],
+        "events_adjustment": 0
+      },
       "warnings": [],
       "verified_notes": [],
       "hidden_fields": []
@@ -488,6 +526,44 @@
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
+      "risk": {
+        "level": 3,
+        "label": "Medio",
+        "score": 2.7,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "24% annuo",
+            "score": 2
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-31%",
+            "score": 3
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Alta",
+            "score": 1
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Large cap",
+            "score": 1
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "India",
+            "score": 3
+          }
+        ],
+        "events_adjustment": 0.5
+      },
       "warnings": [],
       "verified_notes": [],
       "hidden_fields": []
@@ -723,6 +799,44 @@
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
+      "risk": {
+        "level": 3,
+        "label": "Medio",
+        "score": 2.75,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "32% annuo",
+            "score": 3
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-41%",
+            "score": 4
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Alta",
+            "score": 1
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Large cap",
+            "score": 1
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "India",
+            "score": 3
+          }
+        ],
+        "events_adjustment": 0
+      },
       "warnings": [],
       "verified_notes": [],
       "hidden_fields": []
@@ -946,18 +1060,56 @@
       "price": 2342.699951171875,
       "currency": "INR",
       "change_1y": -0.25574229198697984,
-      "market_cap": 8476093317120.0,
+      "market_cap": 8476093451754.17,
       "pe": 16.42156,
       "dividends_12m": 112.0,
       "avg_volume": 4024243.466666667,
       "last_trade_date": "2026-11-19",
       "price_eur": 22.844465637951,
-      "market_cap_eur": 82653274667.18674,
+      "market_cap_eur": 82653275980.05042,
       "dividend_yield": 0.04780808568505536,
       "avg_value_traded_eur": 91931691.59301548,
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
+      "risk": {
+        "level": 2,
+        "label": "Moderato",
+        "score": 2.2,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "27% annuo",
+            "score": 2
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-37%",
+            "score": 3
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Alta",
+            "score": 1
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Large cap",
+            "score": 1
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "India",
+            "score": 3
+          }
+        ],
+        "events_adjustment": 0
+      },
       "warnings": [],
       "verified_notes": [],
       "hidden_fields": []
@@ -1193,6 +1345,44 @@
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
+      "risk": {
+        "level": 2,
+        "label": "Moderato",
+        "score": 1.9,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "19% annuo",
+            "score": 1
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-26%",
+            "score": 3
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Alta",
+            "score": 1
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Large cap",
+            "score": 1
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "India",
+            "score": 3
+          }
+        ],
+        "events_adjustment": 0
+      },
       "warnings": [],
       "verified_notes": [],
       "hidden_fields": []
@@ -1428,6 +1618,44 @@
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
+      "risk": {
+        "level": 2,
+        "label": "Moderato",
+        "score": 1.95,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "21% annuo",
+            "score": 2
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-19%",
+            "score": 2
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Alta",
+            "score": 1
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Large cap",
+            "score": 1
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "India",
+            "score": 3
+          }
+        ],
+        "events_adjustment": 0
+      },
       "warnings": [],
       "verified_notes": [],
       "hidden_fields": []
@@ -1663,6 +1891,44 @@
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
+      "risk": {
+        "level": 2,
+        "label": "Moderato",
+        "score": 1.95,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "22% annuo",
+            "score": 2
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-16%",
+            "score": 2
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Alta",
+            "score": 1
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Large cap",
+            "score": 1
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "India",
+            "score": 3
+          }
+        ],
+        "events_adjustment": 0
+      },
       "warnings": [],
       "verified_notes": [],
       "hidden_fields": []
@@ -1898,6 +2164,44 @@
       "size": "Mid cap",
       "liquidity": "Media",
       "stale": false,
+      "risk": {
+        "level": 3,
+        "label": "Medio",
+        "score": 2.85,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "25% annuo",
+            "score": 2
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-38%",
+            "score": 3
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Media",
+            "score": 3
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Mid cap",
+            "score": 2
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "India",
+            "score": 3
+          }
+        ],
+        "events_adjustment": 0.25
+      },
       "warnings": [],
       "verified_notes": [],
       "hidden_fields": []
@@ -2133,6 +2437,44 @@
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
+      "risk": {
+        "level": 1,
+        "label": "Contenuto",
+        "score": 1.4,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "19% annuo",
+            "score": 1
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-13%",
+            "score": 1
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Alta",
+            "score": 1
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Large cap",
+            "score": 1
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "Thailandia",
+            "score": 3
+          }
+        ],
+        "events_adjustment": 0
+      },
       "warnings": [],
       "verified_notes": [],
       "hidden_fields": []
@@ -2356,18 +2698,56 @@
       "price": 49.79999923706055,
       "currency": "THB",
       "change_1y": 0.1318181644786487,
-      "market_cap": 443992047616.0,
+      "market_cap": 443772829696.0,
       "pe": 14.954955,
       "dividends_12m": 1.65,
       "avg_volume": 36879275.0,
       "last_trade_date": "2026-11-19",
       "price_eur": 1.3362670182746739,
-      "market_cap_eur": 11913492744.87496,
+      "market_cap_eur": 11907610542.449286,
       "dividend_yield": 0.03313253062807459,
       "avg_value_traded_eur": 49280558.84038173,
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
+      "risk": {
+        "level": 2,
+        "label": "Moderato",
+        "score": 2.2,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "24% annuo",
+            "score": 2
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-18%",
+            "score": 2
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Alta",
+            "score": 1
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Large cap",
+            "score": 1
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "Thailandia",
+            "score": 3
+          }
+        ],
+        "events_adjustment": 0.25
+      },
       "warnings": [],
       "verified_notes": [],
       "hidden_fields": []
@@ -2603,6 +2983,44 @@
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
+      "risk": {
+        "level": 2,
+        "label": "Moderato",
+        "score": 2.25,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "32% annuo",
+            "score": 3
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-15%",
+            "score": 2
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Alta",
+            "score": 1
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Large cap",
+            "score": 1
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "Thailandia",
+            "score": 3
+          }
+        ],
+        "events_adjustment": 0
+      },
       "warnings": [],
       "verified_notes": [],
       "hidden_fields": []
@@ -2838,6 +3256,44 @@
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
+      "risk": {
+        "level": 1,
+        "label": "Contenuto",
+        "score": 1.4,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "19% annuo",
+            "score": 1
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-14%",
+            "score": 1
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Alta",
+            "score": 1
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Large cap",
+            "score": 1
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "Thailandia",
+            "score": 3
+          }
+        ],
+        "events_adjustment": 0
+      },
       "warnings": [],
       "verified_notes": [
         "Il rendimento degli ultimi 12 mesi include un dividendo straordinario di 19 THB pagato ad aprile 2026. Senza lo straordinario, il rendimento ricorrente è circa il 5%. Fonte: AIS Investor Relations (verificato il 20/11/2026)."
@@ -3075,6 +3531,44 @@
       "size": "Mid cap",
       "liquidity": "Alta",
       "stale": false,
+      "risk": {
+        "level": 2,
+        "label": "Moderato",
+        "score": 2.05,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "22% annuo",
+            "score": 2
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-18%",
+            "score": 2
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Alta",
+            "score": 1
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Mid cap",
+            "score": 2
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "Thailandia",
+            "score": 3
+          }
+        ],
+        "events_adjustment": 0
+      },
       "warnings": [],
       "verified_notes": [],
       "hidden_fields": []
@@ -3310,6 +3804,44 @@
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
+      "risk": {
+        "level": 1,
+        "label": "Contenuto",
+        "score": 1.4,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "19% annuo",
+            "score": 1
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-11%",
+            "score": 1
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Alta",
+            "score": 1
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Large cap",
+            "score": 1
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "Thailandia",
+            "score": 3
+          }
+        ],
+        "events_adjustment": 0
+      },
       "warnings": [],
       "verified_notes": [],
       "hidden_fields": []
@@ -3534,7 +4066,7 @@
       "currency": "THB",
       "change_1y": -0.16435185185185186,
       "market_cap": 2251523883008.0,
-      "pe": 73.97541,
+      "pe": 74.58678,
       "dividends_12m": 0.6,
       "avg_volume": 23406973.766666666,
       "last_trade_date": "2026-11-19",
@@ -3545,6 +4077,44 @@
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
+      "risk": {
+        "level": 3,
+        "label": "Medio",
+        "score": 3.05,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "51% annuo",
+            "score": 4
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-51%",
+            "score": 4
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Alta",
+            "score": 1
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Large cap",
+            "score": 1
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "Thailandia",
+            "score": 3
+          }
+        ],
+        "events_adjustment": 0
+      },
       "warnings": [],
       "verified_notes": [],
       "hidden_fields": []
@@ -3780,6 +4350,44 @@
       "size": "Mid cap",
       "liquidity": "Alta",
       "stale": false,
+      "risk": {
+        "level": 2,
+        "label": "Moderato",
+        "score": 2.35,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "39% annuo",
+            "score": 3
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-24%",
+            "score": 2
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Alta",
+            "score": 1
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Mid cap",
+            "score": 2
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "Thailandia",
+            "score": 3
+          }
+        ],
+        "events_adjustment": 0
+      },
       "warnings": [],
       "verified_notes": [],
       "hidden_fields": []
@@ -3996,25 +4604,63 @@
         ],
         [
           "2026-11-20",
-          51300.0
+          51500.0
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 51300.0,
+      "price": 51500.0,
       "currency": "VND",
-      "change_1y": -0.15485996705107086,
-      "market_cap": 107214714961920.0,
-      "pe": 10.693493,
+      "change_1y": -0.15156507413509057,
+      "market_cap": 107632702521344.0,
+      "pe": 10.735183,
       "dividends_12m": 4350.0,
-      "avg_volume": 2118233.0166666666,
+      "avg_volume": 2122384.5833333335,
       "last_trade_date": "2026-11-20",
-      "price_eur": 1.8189554302733753,
-      "market_cap_eur": 3801535828.171471,
-      "dividend_yield": 0.0847953216374269,
-      "avg_value_traded_eur": 3852971.448250186,
+      "price_eur": 1.826046874445981,
+      "market_cap_eur": 3816356505.3839664,
+      "dividend_yield": 0.08446601941747572,
+      "avg_value_traded_eur": 3875573.734768169,
       "size": "Mid cap",
       "liquidity": "Media",
       "stale": false,
+      "risk": {
+        "level": 3,
+        "label": "Medio",
+        "score": 2.8,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "27% annuo",
+            "score": 2
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-27%",
+            "score": 3
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Media",
+            "score": 3
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Mid cap",
+            "score": 2
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "Vietnam",
+            "score": 4
+          }
+        ],
+        "events_adjustment": 0
+      },
       "warnings": [],
       "verified_notes": [],
       "hidden_fields": []
@@ -4231,25 +4877,63 @@
         ],
         [
           "2026-11-20",
-          45600.0
+          45500.0
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 45600.0,
+      "price": 45500.0,
       "currency": "VND",
-      "change_1y": -0.4933333333333333,
-      "market_cap": 85989179523072.0,
-      "pe": 9.052109,
+      "change_1y": -0.49444444444444446,
+      "market_cap": 85800603615232.0,
+      "pe": 9.032258,
       "dividends_12m": 1818.1818,
-      "avg_volume": 7179679.45,
+      "avg_volume": 7193123.933333334,
       "last_trade_date": "2026-11-20",
-      "price_eur": 1.6168492713541112,
-      "market_cap_eur": 3048937330.1801934,
-      "dividend_yield": 0.039872407894736846,
-      "avg_value_traded_eur": 11608459.487288587,
+      "price_eur": 1.6133035492678083,
+      "market_cap_eur": 3042250952.5664644,
+      "dividend_yield": 0.03996003956043956,
+      "avg_value_traded_eur": 11604692.371969886,
       "size": "Mid cap",
       "liquidity": "Alta",
       "stale": false,
+      "risk": {
+        "level": 3,
+        "label": "Medio",
+        "score": 3.05,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "30% annuo",
+            "score": 3
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-52%",
+            "score": 4
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Alta",
+            "score": 1
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Mid cap",
+            "score": 2
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "Vietnam",
+            "score": 4
+          }
+        ],
+        "events_adjustment": 0
+      },
       "warnings": [],
       "verified_notes": [],
       "hidden_fields": []
@@ -4466,25 +5150,63 @@
         ],
         [
           "2026-11-20",
-          50300.0
+          50400.0
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 50300.0,
+      "price": 50400.0,
       "currency": "VND",
-      "change_1y": -0.15319865319865322,
-      "market_cap": 420290467201024.0,
-      "pe": 10.346899,
+      "change_1y": -0.1515151515151515,
+      "market_cap": 421126039666688.0,
+      "pe": 10.36747,
       "dividends_12m": 450.0,
-      "avg_volume": 3970645.4166666665,
+      "avg_volume": 3972793.0166666666,
       "last_trade_date": "2026-11-20",
-      "price_eur": 1.7834982094103464,
-      "market_cap_eur": 14902331922.17225,
-      "dividend_yield": 0.008946322067594433,
-      "avg_value_traded_eur": 7081638.990828398,
+      "price_eur": 1.7870439314966493,
+      "market_cap_eur": 14931958999.634365,
+      "dividend_yield": 0.008928571428571428,
+      "avg_value_traded_eur": 7099555.651526433,
       "size": "Large cap",
       "liquidity": "Media",
       "stale": false,
+      "risk": {
+        "level": 3,
+        "label": "Medio",
+        "score": 2.7,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "29% annuo",
+            "score": 2
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-31%",
+            "score": 3
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Media",
+            "score": 3
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Large cap",
+            "score": 1
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "Vietnam",
+            "score": 4
+          }
+        ],
+        "events_adjustment": 0
+      },
       "warnings": [],
       "verified_notes": [],
       "hidden_fields": []
@@ -4711,15 +5433,53 @@
       "market_cap": 171392179896320.0,
       "pe": 6.4133143,
       "dividends_12m": 454.54544,
-      "avg_volume": 17018493.65,
+      "avg_volume": 17040059.8,
       "last_trade_date": "2026-11-20",
       "price_eur": 0.7197815835194837,
       "market_cap_eur": 6077090376.779776,
       "dividend_yield": 0.022391400985221674,
-      "avg_value_traded_eur": 12249598.308513278,
+      "avg_value_traded_eur": 12265121.226110697,
       "size": "Mid cap",
       "liquidity": "Alta",
       "stale": false,
+      "risk": {
+        "level": 2,
+        "label": "Moderato",
+        "score": 1.95,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "20% annuo",
+            "score": 1
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-23%",
+            "score": 2
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Alta",
+            "score": 1
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Mid cap",
+            "score": 2
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "Vietnam",
+            "score": 4
+          }
+        ],
+        "events_adjustment": 0
+      },
       "warnings": [],
       "verified_notes": [],
       "hidden_fields": []
@@ -4946,15 +5706,53 @@
       "market_cap": 105069420740608.0,
       "pe": 9.2281885,
       "dividends_12m": 2000.0,
-      "avg_volume": 2433207.6666666665,
+      "avg_volume": 2439957.6166666667,
       "last_trade_date": "2026-11-20",
       "price_eur": 2.5245541254476476,
       "market_cap_eur": 3725469657.1502323,
       "dividend_yield": 0.028089887640449437,
-      "avg_value_traded_eur": 6142764.452954177,
+      "avg_value_traded_eur": 6159805.067073243,
       "size": "Mid cap",
       "liquidity": "Media",
       "stale": false,
+      "risk": {
+        "level": 3,
+        "label": "Medio",
+        "score": 2.8,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "28% annuo",
+            "score": 2
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-27%",
+            "score": 3
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Media",
+            "score": 3
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Mid cap",
+            "score": 2
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "Vietnam",
+            "score": 4
+          }
+        ],
+        "events_adjustment": 0
+      },
       "warnings": [],
       "verified_notes": [],
       "hidden_fields": []
@@ -5171,25 +5969,63 @@
         ],
         [
           "2026-11-20",
-          69300.0
+          69400.0
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 69300.0,
+      "price": 69400.0,
       "currency": "VND",
-      "change_1y": -0.11719745222929934,
-      "market_cap": 101203966951424.0,
-      "pe": 11.255646,
+      "change_1y": -0.11592356687898087,
+      "market_cap": 101350004228096.0,
+      "pe": 11.271888,
       "dividends_12m": 0.0,
-      "avg_volume": 4285679.5,
+      "avg_volume": 4288165.616666666,
       "last_trade_date": "2026-11-20",
-      "price_eur": 2.4571854058078926,
-      "market_cap_eur": 3588411408.411304,
+      "price_eur": 2.4607311278941957,
+      "market_cap_eur": 3593589484.384498,
       "dividend_yield": 0.0,
-      "avg_value_traded_eur": 10530709.121370068,
+      "avg_value_traded_eur": 10552022.614497274,
       "size": "Mid cap",
       "liquidity": "Alta",
       "stale": false,
+      "risk": {
+        "level": 2,
+        "label": "Moderato",
+        "score": 2.25,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "25% annuo",
+            "score": 2
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-24%",
+            "score": 2
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Alta",
+            "score": 1
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Mid cap",
+            "score": 2
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "Vietnam",
+            "score": 4
+          }
+        ],
+        "events_adjustment": 0
+      },
       "warnings": [],
       "verified_notes": [],
       "hidden_fields": []
@@ -5406,25 +6242,63 @@
         ],
         [
           "2026-11-20",
-          238000.0
+          237000.0
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 238000.0,
+      "price": 237000.0,
       "currency": "VND",
-      "change_1y": 1.0877192982456139,
-      "market_cap": 1784700108537856.0,
-      "pe": 41.891747,
+      "change_1y": 1.0789473684210527,
+      "market_cap": 1777201498292224.0,
+      "pe": 41.71573,
       "dividends_12m": 0.0,
-      "avg_volume": 2828805.066666667,
+      "avg_volume": 2829451.3833333333,
       "last_trade_date": "2026-11-20",
-      "price_eur": 8.438818565400844,
-      "market_cap_eur": 63280505922.69815,
+      "price_eur": 8.403361344537815,
+      "market_cap_eur": 63014626043.05301,
       "dividend_yield": 0.0,
-      "avg_value_traded_eur": 23871772.71448664,
+      "avg_value_traded_eur": 23776902.38095238,
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
+      "risk": {
+        "level": 4,
+        "label": "Elevato",
+        "score": 3.5,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "54% annuo",
+            "score": 4
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-26%",
+            "score": 3
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Alta",
+            "score": 1
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Large cap",
+            "score": 1
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "Vietnam",
+            "score": 4
+          }
+        ],
+        "events_adjustment": 0.5
+      },
       "warnings": [],
       "verified_notes": [],
       "hidden_fields": []
@@ -5641,25 +6515,63 @@
         ],
         [
           "2026-11-20",
-          13550.0
+          13700.0
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 13550.0,
+      "price": 13700.0,
       "currency": "VND",
-      "change_1y": -0.7685079675155708,
-      "market_cap": 6933855600640.0,
-      "pe": 4.589067,
+      "change_1y": -0.765945325089544,
+      "market_cap": 7010613985280.0,
+      "pe": 4.6398683,
       "dividends_12m": 666.6667,
-      "avg_volume": 9051549.5,
+      "avg_volume": 9056179.5,
       "last_trade_date": "2026-11-20",
-      "price_eur": 0.48044534269403966,
-      "market_cap_eur": 245855249.4642414,
-      "dividend_yield": 0.04920049446494465,
-      "avg_value_traded_eur": 4348774.801439563,
+      "price_eur": 0.485763925823494,
+      "market_cap_eur": 248576888.4615112,
+      "dividend_yield": 0.04866180291970803,
+      "avg_value_traded_eur": 4399165.306882246,
       "size": "Small cap",
       "liquidity": "Media",
       "stale": false,
+      "risk": {
+        "level": 5,
+        "label": "Molto elevato",
+        "score": 5.0,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "69% annuo",
+            "score": 5
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-84%",
+            "score": 5
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Media",
+            "score": 3
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Small cap",
+            "score": 4
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "Vietnam",
+            "score": 4
+          }
+        ],
+        "events_adjustment": 1.0
+      },
       "warnings": [],
       "verified_notes": [
         "Dato corretto: il titolo ha perso circa il 78% da inizio luglio 2026, dopo un caso legato al servizio di certificazione dei diamanti. Il 19/11/2026 ha chiuso a 13.800 dong, ai minimi da circa 10 anni. Verificato il 20/11/2026 su CafeF e Vietstock."
@@ -5897,6 +6809,44 @@
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
+      "risk": {
+        "level": 2,
+        "label": "Moderato",
+        "score": 1.5,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "27% annuo",
+            "score": 2
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-12%",
+            "score": 1
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Alta",
+            "score": 1
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Large cap",
+            "score": 1
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "Polonia",
+            "score": 2
+          }
+        ],
+        "events_adjustment": 0
+      },
       "warnings": [],
       "verified_notes": [],
       "hidden_fields": []
@@ -6132,6 +7082,44 @@
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
+      "risk": {
+        "level": 2,
+        "label": "Moderato",
+        "score": 2.05,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "35% annuo",
+            "score": 3
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-20%",
+            "score": 2
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Alta",
+            "score": 1
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Large cap",
+            "score": 1
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "Polonia",
+            "score": 2
+          }
+        ],
+        "events_adjustment": 0
+      },
       "warnings": [],
       "verified_notes": [],
       "hidden_fields": []
@@ -6367,6 +7355,44 @@
       "size": "Mid cap",
       "liquidity": "Alta",
       "stale": false,
+      "risk": {
+        "level": 3,
+        "label": "Medio",
+        "score": 2.9,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "32% annuo",
+            "score": 3
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-35%",
+            "score": 3
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Alta",
+            "score": 1
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Mid cap",
+            "score": 2
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "Polonia",
+            "score": 2
+          }
+        ],
+        "events_adjustment": 0.5
+      },
       "warnings": [],
       "verified_notes": [],
       "hidden_fields": []
@@ -6602,6 +7628,44 @@
       "size": "Mid cap",
       "liquidity": "Alta",
       "stale": false,
+      "risk": {
+        "level": 2,
+        "label": "Moderato",
+        "score": 2.4,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "37% annuo",
+            "score": 3
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-25%",
+            "score": 2
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Alta",
+            "score": 1
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Mid cap",
+            "score": 2
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "Polonia",
+            "score": 2
+          }
+        ],
+        "events_adjustment": 0.25
+      },
       "warnings": [],
       "verified_notes": [],
       "hidden_fields": []
@@ -6837,6 +7901,44 @@
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
+      "risk": {
+        "level": 2,
+        "label": "Moderato",
+        "score": 2.05,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "36% annuo",
+            "score": 3
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-24%",
+            "score": 2
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Alta",
+            "score": 1
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Large cap",
+            "score": 1
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "Polonia",
+            "score": 2
+          }
+        ],
+        "events_adjustment": 0
+      },
       "warnings": [],
       "verified_notes": [],
       "hidden_fields": []
@@ -7072,6 +8174,44 @@
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
+      "risk": {
+        "level": 2,
+        "label": "Moderato",
+        "score": 2.05,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "30% annuo",
+            "score": 3
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-19%",
+            "score": 2
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Alta",
+            "score": 1
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Large cap",
+            "score": 1
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "Polonia",
+            "score": 2
+          }
+        ],
+        "events_adjustment": 0
+      },
       "warnings": [],
       "verified_notes": [],
       "hidden_fields": []
@@ -7307,6 +8447,44 @@
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
+      "risk": {
+        "level": 3,
+        "label": "Medio",
+        "score": 2.85,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "46% annuo",
+            "score": 4
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-32%",
+            "score": 3
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Alta",
+            "score": 1
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Large cap",
+            "score": 1
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "Polonia",
+            "score": 2
+          }
+        ],
+        "events_adjustment": 0.25
+      },
       "warnings": [],
       "verified_notes": [],
       "hidden_fields": []
@@ -7542,6 +8720,44 @@
       "size": "Small cap",
       "liquidity": "Bassa",
       "stale": false,
+      "risk": {
+        "level": 3,
+        "label": "Medio",
+        "score": 3.2,
+        "components": [
+          {
+            "key": "volatilita",
+            "name": "Volatilità",
+            "value": "35% annuo",
+            "score": 3
+          },
+          {
+            "key": "calo",
+            "name": "Calo massimo in un anno",
+            "value": "-32%",
+            "score": 3
+          },
+          {
+            "key": "liquidita",
+            "name": "Liquidità",
+            "value": "Bassa",
+            "score": 5
+          },
+          {
+            "key": "dimensione",
+            "name": "Dimensione",
+            "value": "Small cap",
+            "score": 4
+          },
+          {
+            "key": "paese",
+            "name": "Paese e accesso",
+            "value": "Polonia",
+            "score": 2
+          }
+        ],
+        "events_adjustment": 0
+      },
       "warnings": [],
       "verified_notes": [
         "Dato corretto: per l'esercizio 2025/26 Text ha pagato 4,26 zł per azione in tre rate (febbraio, luglio e ottobre 2026), senza dividendi straordinari. Il rendimento è alto anche perché il prezzo è sceso; l'anno precedente il dividendo era di 6,06 zł, quindi è in calo. Verificato il 20/11/2026 su comunicati della società."
