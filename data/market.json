@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T18:31:24Z",
+  "updated_at": "2026-11-20T19:19:10Z",
   "fx": {
     "date": "2026-11-20",
     "per_eur": {
@@ -241,23 +241,23 @@
           1339.7
         ],
         [
-          "2026-11-20",
-          1377.5
+          "2026-11-19",
+          1375.6
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 1377.5,
+      "price": 1375.5999755859375,
       "currency": "INR",
-      "change_1y": -0.1107739837908337,
+      "change_1y": -0.11200051819404022,
       "market_cap": 18640981054712.5,
       "pe": 22.701056,
       "dividends_12m": 6.0,
       "avg_volume": 15839537.05,
-      "last_trade_date": "2026-11-20",
-      "price_eur": 13.524791359842906,
+      "last_trade_date": "2026-11-19",
+      "price_eur": 13.506136235502579,
       "market_cap_eur": 183023868971.15857,
-      "dividend_yield": 0.004355716878402904,
-      "avg_value_traded_eur": 214226433.8377516,
+      "dividend_yield": 0.004361733139348375,
+      "avg_value_traded_eur": 213930945.3045906,
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
@@ -514,23 +514,23 @@
           804.0
         ],
         [
-          "2026-11-20",
-          846.0
+          "2026-11-19",
+          821.8
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 846.0,
+      "price": 821.7999877929688,
       "currency": "INR",
-      "change_1y": -0.16142140013568884,
+      "change_1y": -0.18540912159345657,
       "market_cap": 13056914489344.0,
       "pe": 18.491804,
       "dividends_12m": 13.0,
       "avg_volume": 34186186.083333336,
-      "last_trade_date": "2026-11-20",
-      "price_eur": 8.306332842415317,
+      "last_trade_date": "2026-11-19",
+      "price_eur": 8.068728402483739,
       "market_cap_eur": 128197491304.31027,
-      "dividend_yield": 0.015366430260047281,
-      "avg_value_traded_eur": 283961840.2209132,
+      "dividend_yield": 0.015818934282188155,
+      "avg_value_traded_eur": 275839050.623186,
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
@@ -542,7 +542,7 @@
           {
             "key": "volatilita",
             "name": "Volatilità",
-            "value": "25% annuo",
+            "value": "24% annuo",
             "score": 2
           },
           {
@@ -787,23 +787,23 @@
           1141.5
         ],
         [
-          "2026-11-20",
-          1098.0
+          "2026-11-19",
+          1091.9
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 1098.0,
+      "price": 1091.9000244140625,
       "currency": "INR",
-      "change_1y": -0.2853888708102831,
+      "change_1y": -0.28935891674971526,
       "market_cap": 4447313330176.0,
       "pe": 14.620506,
       "dividends_12m": 51.0,
       "avg_volume": 11801913.2,
-      "last_trade_date": "2026-11-20",
-      "price_eur": 10.780559646539029,
+      "last_trade_date": "2026-11-19",
+      "price_eur": 10.720667888208764,
       "market_cap_eur": 43665324793.087875,
-      "dividend_yield": 0.04644808743169399,
-      "avg_value_traded_eur": 127231229.19587629,
+      "dividend_yield": 0.04670757290931257,
+      "avg_value_traded_eur": 126524391.86266713,
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
@@ -1060,23 +1060,23 @@
           2407.5
         ],
         [
-          "2026-11-20",
-          2376.2
+          "2026-11-19",
+          2342.7
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 2376.199951171875,
+      "price": 2342.699951171875,
       "currency": "INR",
-      "change_1y": -0.24440348693795666,
-      "market_cap": 8597299383607.17,
+      "change_1y": -0.2550559924962936,
+      "market_cap": 8597299560271.6,
       "pe": 16.656385,
       "dividends_12m": 112.0,
       "avg_volume": 4047861.65,
-      "last_trade_date": "2026-11-20",
-      "price_eur": 23.330387345821062,
-      "market_cap_eur": 84411383246.02032,
-      "dividend_yield": 0.04713408059147747,
-      "avg_value_traded_eur": 94438180.21679436,
+      "last_trade_date": "2026-11-19",
+      "price_eur": 23.001472274637948,
+      "market_cap_eur": 84411384980.57536,
+      "dividend_yield": 0.04780808568505536,
+      "avg_value_traded_eur": 93106777.51404522,
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
@@ -1333,23 +1333,23 @@
           1992.9
         ],
         [
-          "2026-11-20",
-          2052.5
+          "2026-11-19",
+          2074.2
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 2052.5,
+      "price": 2074.199951171875,
       "currency": "INR",
-      "change_1y": -0.15479324553626994,
+      "change_1y": -0.14585734039522147,
       "market_cap": 4822536290304.0,
       "pe": 45.570602,
       "dividends_12m": 41.0,
       "avg_volume": 1461919.9833333334,
-      "last_trade_date": "2026-11-20",
-      "price_eur": 20.152184585174275,
+      "last_trade_date": "2026-11-19",
+      "price_eur": 20.36524252500614,
       "market_cap_eur": 47349399021.14875,
-      "dividend_yield": 0.01997563946406821,
-      "avg_value_traded_eur": 29460881.352888238,
+      "dividend_yield": 0.01976665748971595,
+      "avg_value_traded_eur": 29772355.012736265,
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
@@ -1361,7 +1361,7 @@
           {
             "key": "volatilita",
             "name": "Volatilità",
-            "value": "19% annuo",
+            "value": "20% annuo",
             "score": 1
           },
           {
@@ -1606,23 +1606,23 @@
           2106.0
         ],
         [
-          "2026-11-20",
-          2161.7
+          "2026-11-19",
+          2144.0
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 2161.699951171875,
+      "price": 2144.0,
       "currency": "INR",
-      "change_1y": 0.0015752686219860923,
+      "change_1y": -0.006625607424643909,
       "market_cap": 13487814213632.0,
       "pe": 42.561527,
       "dividends_12m": 24.0,
       "avg_volume": 7743100.533333333,
-      "last_trade_date": "2026-11-20",
-      "price_eur": 21.22434905421576,
+      "last_trade_date": "2026-11-19",
+      "price_eur": 21.050564555719195,
       "market_cap_eur": 132428220065.11537,
-      "dividend_yield": 0.011102373383035609,
-      "avg_value_traded_eur": 164342268.48135087,
+      "dividend_yield": 0.011194029850746268,
+      "avg_value_traded_eur": 162996637.63835707,
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
@@ -1879,23 +1879,23 @@
           1380.0
         ],
         [
-          "2026-11-20",
-          1390.2
+          "2026-11-19",
+          1400.9
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 1390.199951171875,
+      "price": 1400.9000244140625,
       "currency": "INR",
-      "change_1y": 0.11340699852207514,
+      "change_1y": 0.12197665529879109,
       "market_cap": 1158959857664.0,
       "pe": 41.387318,
       "dividends_12m": 8.0,
       "avg_volume": 1863831.6166666667,
-      "last_trade_date": "2026-11-20",
-      "price_eur": 13.64948405667035,
+      "last_trade_date": "2026-11-19",
+      "price_eur": 13.754541231360458,
       "market_cap_eur": 11379085494.982819,
-      "dividend_yield": 0.005754567890220659,
-      "avg_value_traded_eur": 25440339.93600979,
+      "dividend_yield": 0.0057106145053756165,
+      "avg_value_traded_eur": 25636148.819754887,
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
@@ -2152,23 +2152,23 @@
           457.7
         ],
         [
-          "2026-11-20",
-          448.05
+          "2026-11-19",
+          449.9
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 448.04998779296875,
+      "price": 449.8999938964844,
       "currency": "INR",
-      "change_1y": -0.36266004581370026,
+      "change_1y": -0.3600284581842328,
       "market_cap": 358439976960.0,
       "pe": 27.270237,
       "dividends_12m": 9.0,
       "avg_volume": 881295.2666666667,
-      "last_trade_date": "2026-11-20",
-      "price_eur": 4.399116227716925,
+      "last_trade_date": "2026-11-19",
+      "price_eur": 4.417280254261015,
       "market_cap_eur": 3519292851.840943,
-      "dividend_yield": 0.020087044403979865,
-      "avg_value_traded_eur": 3876920.3090034476,
+      "dividend_yield": 0.020004445703706263,
+      "avg_value_traded_eur": 3892928.179620363,
       "size": "Mid cap",
       "liquidity": "Media",
       "stale": false,
@@ -11169,23 +11169,23 @@
           1583.6
         ],
         [
-          "2026-11-20",
-          1640.0
+          "2026-11-19",
+          1608.9
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 1640.0,
+      "price": 1608.9000244140625,
       "currency": "INR",
-      "change_1y": 0.18582791033984103,
+      "change_1y": 0.16334058164429677,
       "market_cap": 11782720585728.0,
       "pe": 20.139997,
       "dividends_12m": 12.0,
       "avg_volume": 12662969.566666666,
-      "last_trade_date": "2026-11-20",
-      "price_eur": 16.102110947471772,
+      "last_trade_date": "2026-11-19",
+      "price_eur": 15.796760180795902,
       "market_cap_eur": 115686996423.44626,
-      "dividend_yield": 0.007317073170731708,
-      "avg_value_traded_eur": 203900540.88692522,
+      "dividend_yield": 0.007458511913672338,
+      "avg_value_traded_eur": 200033893.42135033,
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
@@ -11197,7 +11197,7 @@
           {
             "key": "volatilita",
             "name": "Volatilità",
-            "value": "22% annuo",
+            "value": "21% annuo",
             "score": 2
           },
           {
@@ -11442,23 +11442,23 @@
           4143.7998
         ],
         [
-          "2026-11-20",
-          4209.1001
+          "2026-11-19",
+          4211.0
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 4209.10009765625,
+      "price": 4211.0,
       "currency": "INR",
-      "change_1y": 0.04252741850338548,
+      "change_1y": 0.042997994217881086,
       "market_cap": 5791246974976.0,
       "pe": 32.422585,
       "dividends_12m": 38.0,
       "avg_volume": 1875003.9666666666,
-      "last_trade_date": "2026-11-20",
-      "price_eur": 41.32646143992391,
+      "last_trade_date": "2026-11-19",
+      "price_eur": 41.345115365733925,
       "market_cap_eur": 56860549582.48405,
-      "dividend_yield": 0.00902805804527184,
-      "avg_value_traded_eur": 77487279.12815437,
+      "dividend_yield": 0.009023984801709808,
+      "avg_value_traded_eur": 77522255.31304206,
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
@@ -11715,23 +11715,23 @@
           1880.0
         ],
         [
-          "2026-11-20",
-          1884.9
+          "2026-11-19",
+          1900.0
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 1884.9000244140625,
+      "price": 1900.0,
       "currency": "INR",
-      "change_1y": 0.060481601509732474,
+      "change_1y": 0.06897714296271262,
       "market_cap": 4522506190848.0,
       "pe": 41.245075,
       "dividends_12m": 16.0,
       "avg_volume": 1816683.1166666667,
-      "last_trade_date": "2026-11-20",
-      "price_eur": 18.506627632931394,
+      "last_trade_date": "2026-11-19",
+      "price_eur": 18.65488463426608,
       "market_cap_eur": 44403595393.69662,
-      "dividend_yield": 0.008488513869574455,
-      "avg_value_traded_eur": 33620677.96718326,
+      "dividend_yield": 0.008421052631578947,
+      "avg_value_traded_eur": 33890013.95843561,
       "size": "Large cap",
       "liquidity": "Alta",
       "stale": false,
@@ -11988,23 +11988,23 @@
           12798.0
         ],
         [
-          "2026-11-20",
-          13120.0
+          "2026-11-19",
+          13054.0
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 13120.0,
+      "price": 13054.0,
       "currency": "INR",
-      "change_1y": -0.14321165023182914,
+      "change_1y": -0.14752171357669952,
       "market_cap": 802558050304.0,
       "pe": 45.794067,
       "dividends_12m": 10.0,
       "avg_volume": 324880.11666666664,
-      "last_trade_date": "2026-11-20",
-      "price_eur": 128.81688757977417,
+      "last_trade_date": "2026-11-19",
+      "price_eur": 128.16887579774178,
       "market_cap_eur": 7879804126.696122,
-      "dividend_yield": 0.0007621951219512195,
-      "avg_value_traded_eur": 41850045.46555392,
+      "dividend_yield": 0.0007660487206986365,
+      "avg_value_traded_eur": 41639519.32220586,
       "size": "Mid cap",
       "liquidity": "Alta",
       "stale": false,
@@ -12261,23 +12261,23 @@
           31325.0
         ],
         [
-          "2026-11-20",
-          31020.0
+          "2026-11-19",
+          31065.0
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 31020.0,
+      "price": 31065.0,
       "currency": "INR",
-      "change_1y": -0.1956437183975107,
+      "change_1y": -0.19447685725398678,
       "market_cap": 345993183232.0,
       "pe": 45.31047,
       "dividends_12m": 625.0,
       "avg_volume": 29239.266666666666,
-      "last_trade_date": "2026-11-20",
-      "price_eur": 304.5655375552283,
+      "last_trade_date": "2026-11-19",
+      "price_eur": 305.0073637702504,
       "market_cap_eur": 3397085746.0186553,
-      "dividend_yield": 0.02014829142488717,
-      "avg_value_traded_eur": 8905272.970054,
+      "dividend_yield": 0.020119105102205055,
+      "avg_value_traded_eur": 8918191.644575356,
       "size": "Mid cap",
       "liquidity": "Media",
       "stale": false,
@@ -12295,7 +12295,7 @@
           {
             "key": "calo",
             "name": "Calo massimo in un anno",
-            "value": "-28%",
+            "value": "-27%",
             "score": 3
           },
           {
@@ -12534,23 +12534,23 @@
           437.75
         ],
         [
-          "2026-11-20",
-          424.7
+          "2026-11-19",
+          421.3
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 424.70001220703125,
+      "price": 421.29998779296875,
       "currency": "INR",
-      "change_1y": -0.2815698305553037,
-      "market_cap": 279314392386.1539,
+      "change_1y": -0.2873213729280416,
+      "market_cap": 279314384357.89996,
       "pe": 75.168144,
       "dividends_12m": 1.2,
       "avg_volume": 1604667.0666666667,
-      "last_trade_date": "2026-11-20",
-      "price_eur": 4.169857753628191,
-      "market_cap_eur": 2742409350.8704357,
-      "dividend_yield": 0.0028255238180097536,
-      "avg_value_traded_eur": 6691233.409931805,
+      "last_trade_date": "2026-11-19",
+      "price_eur": 4.136475088787126,
+      "market_cap_eur": 2742409272.046146,
+      "dividend_yield": 0.0028483266906470755,
+      "avg_value_traded_eur": 6637665.347063777,
       "size": "Mid cap",
       "liquidity": "Media",
       "stale": false,
@@ -12807,23 +12807,23 @@
           1993.0
         ],
         [
-          "2026-11-20",
-          2006.0
+          "2026-11-19",
+          1963.2
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 2006.0,
+      "price": 1963.199951171875,
       "currency": "INR",
-      "change_1y": 0.28285480759697834,
+      "change_1y": 0.25548379642821173,
       "market_cap": 335424716800.0,
       "pe": 57.52796,
       "dividends_12m": 17.5,
       "avg_volume": 290762.7166666667,
-      "last_trade_date": "2026-11-20",
-      "price_eur": 19.69563082965145,
+      "last_trade_date": "2026-11-19",
+      "price_eur": 19.275404527951647,
       "market_cap_eur": 3293320734.413353,
-      "dividend_yield": 0.00872382851445663,
-      "avg_value_traded_eur": 5726755.126493209,
+      "dividend_yield": 0.008914018151617152,
+      "avg_value_traded_eur": 5604568.985396188,
       "size": "Mid cap",
       "liquidity": "Media",
       "stale": false,
@@ -13080,23 +13080,23 @@
           552.0
         ],
         [
-          "2026-11-20",
-          519.0
+          "2026-11-19",
+          522.5
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 519.0,
+      "price": 522.5,
       "currency": "INR",
-      "change_1y": -0.5662710926048098,
+      "change_1y": -0.5633461385086957,
       "market_cap": 141285933056.0,
       "pe": 26.615385,
       "dividends_12m": 7.5,
       "avg_volume": 1926825.9,
-      "last_trade_date": "2026-11-20",
-      "price_eur": 5.095729013254787,
+      "last_trade_date": "2026-11-19",
+      "price_eur": 5.130093274423172,
       "market_cap_eur": 1387196200.844379,
-      "dividend_yield": 0.014450867052023121,
-      "avg_value_traded_eur": 9818582.642120766,
+      "dividend_yield": 0.014354066985645933,
+      "avg_value_traded_eur": 9884796.590574374,
       "size": "Small cap",
       "liquidity": "Media",
       "stale": false,
@@ -13353,23 +13353,23 @@
           1608.2
         ],
         [
-          "2026-11-20",
-          1599.4
+          "2026-11-19",
+          1590.8
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 1599.4000244140625,
+      "price": 1590.800048828125,
       "currency": "INR",
-      "change_1y": -0.06957532029432079,
+      "change_1y": -0.0745782147596713,
       "market_cap": 229788352512.0,
       "pe": 45.631954,
       "dividends_12m": 0.0,
       "avg_volume": 313359.1666666667,
-      "last_trade_date": "2026-11-20",
-      "price_eur": 15.703485757624572,
+      "last_trade_date": "2026-11-19",
+      "price_eur": 15.619048098459746,
       "market_cap_eur": 2256144845.4786453,
       "dividend_yield": 0.0,
-      "avg_value_traded_eur": 4920831.210771104,
+      "avg_value_traded_eur": 4894371.896259931,
       "size": "Mid cap",
       "liquidity": "Media",
       "stale": false,
@@ -13626,23 +13626,23 @@
           1447.0
         ],
         [
-          "2026-11-20",
-          1430.0
+          "2026-11-19",
+          1423.4
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 1430.0,
+      "price": 1423.4000244140625,
       "currency": "INR",
-      "change_1y": -0.12810193202452658,
+      "change_1y": -0.1321260620679281,
       "market_cap": 298870013952.0,
       "pe": 59.188744,
       "dividends_12m": 12.75,
       "avg_volume": 1343035.9,
-      "last_trade_date": "2026-11-20",
-      "price_eur": 14.040255277368681,
+      "last_trade_date": "2026-11-19",
+      "price_eur": 13.975454338871502,
       "market_cap_eur": 2934413489.9558177,
-      "dividend_yield": 0.008916083916083915,
-      "avg_value_traded_eur": 18856566.882670593,
+      "dividend_yield": 0.008957425728054552,
+      "avg_value_traded_eur": 18769536.89591519,
       "size": "Mid cap",
       "liquidity": "Alta",
       "stale": false,
@@ -13899,23 +13899,23 @@
           3430.0
         ],
         [
-          "2026-11-20",
-          2910.0
+          "2026-11-19",
+          2890.0
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 2910.0,
+      "price": 2890.0,
       "currency": "INR",
-      "change_1y": -0.5123586091328027,
+      "change_1y": -0.5157100963552577,
       "market_cap": 195617439744.0,
       "pe": 75.09677,
       "dividends_12m": 0.0,
       "avg_volume": 1126034.5666666667,
-      "last_trade_date": "2026-11-20",
-      "price_eur": 28.571428571428573,
+      "last_trade_date": "2026-11-19",
+      "price_eur": 28.37506136475209,
       "market_cap_eur": 1920642510.9867454,
       "dividend_yield": 0.0,
-      "avg_value_traded_eur": 32172416.190476194,
+      "avg_value_traded_eur": 31951299.92799869,
       "size": "Small cap",
       "liquidity": "Alta",
       "stale": false,
@@ -14172,23 +14172,23 @@
           295.2
         ],
         [
-          "2026-11-20",
-          278.75
+          "2026-11-19",
+          275.95
         ]
       ],
       "source": "Yahoo Finance",
-      "price": 278.75,
+      "price": 275.95001220703125,
       "currency": "INR",
-      "change_1y": -0.32709716354858176,
+      "change_1y": -0.33385633746039534,
       "market_cap": 69391630336.0,
       "pe": 37.315933,
       "dividends_12m": 3.5,
       "avg_volume": 183663.88333333333,
-      "last_trade_date": "2026-11-20",
-      "price_eur": 2.73686794305351,
+      "last_trade_date": "2026-11-19",
+      "price_eur": 2.709376653971834,
       "market_cap_eur": 681312030.7903781,
-      "dividend_yield": 0.012556053811659192,
-      "avg_value_traded_eur": 502663.79459171987,
+      "dividend_yield": 0.012683456586963758,
+      "avg_value_traded_eur": 497614.6376811399,
       "size": "Small cap",
       "liquidity": "Bassa",
       "stale": false,
@@ -39315,7 +39315,7 @@
       "currency": "AUD",
       "change_1y": -0.04794705624611961,
       "market_cap": 122748166144.0,
-      "pe": 18.0603,
+      "pe": 18.525772,
       "dividends_12m": 1.54,
       "avg_volume": 5388913.25,
       "last_trade_date": "2026-11-20",
@@ -39861,7 +39861,7 @@
       "currency": "AUD",
       "change_1y": 0.08860054531659234,
       "market_cap": 116165555721.9212,
-      "pe": 16.14226,
+      "pe": 16.278482,
       "dividends_12m": 1.66,
       "avg_volume": 5032924.633333334,
       "last_trade_date": "2026-11-20",

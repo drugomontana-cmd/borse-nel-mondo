@@ -1,0 +1,5479 @@
+{
+  "updated_at": "2026-11-20T19:19:10Z",
+  "source": "Yahoo Finance (conto economico annuale)",
+  "per_eur": {
+    "USD": 1.099,
+    "JPY": 174.35,
+    "CZK": 24.469,
+    "DKK": 7.4746,
+    "GBP": 0.83735,
+    "HUF": 373.55,
+    "PLN": 4.4583,
+    "RON": 5.3493,
+    "SEK": 11.2125,
+    "CHF": 0.9223,
+    "ISK": 137.2,
+    "NOK": 10.718,
+    "TRY": 55.5788,
+    "AUD": 1.6487,
+    "BRL": 6.5259,
+    "CAD": 1.5723,
+    "CNY": 7.3388,
+    "HKD": 8.615,
+    "IDR": 20071.37,
+    "ILS": 3.6737,
+    "INR": 101.85,
+    "KRW": 1472.04,
+    "MXN": 20.9547,
+    "MYR": 4.5196,
+    "NZD": 1.9968,
+    "PHP": 70.091,
+    "SGD": 1.416,
+    "THB": 37.262,
+    "ZAR": 19.1987,
+    "EUR": 1.0,
+    "VND": 28198.0
+  },
+  "companies": {
+    "india-reliance": {
+      "currency": "INR",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-03-31",
+          "revenue": 8778350000000.0,
+          "operating_income": 1020150000000.0,
+          "net_income": 667020000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-03-31",
+          "revenue": 9010640000000.0,
+          "operating_income": 1116660000000.0,
+          "net_income": 696210000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-03-31",
+          "revenue": 9646930000000.0,
+          "operating_income": 1124620000000.0,
+          "net_income": 696480000000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-03-31",
+          "revenue": 10572190000000.0,
+          "operating_income": 1213770000000.0,
+          "net_income": 807750000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "india-hdfcbank": {
+      "currency": "INR",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-03-31",
+          "revenue": 1205375000000.0,
+          "operating_income": null,
+          "net_income": 495446900000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-03-31",
+          "revenue": 1986934300000.0,
+          "operating_income": null,
+          "net_income": 622656600000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-03-31",
+          "revenue": 2371508200000.0,
+          "operating_income": null,
+          "net_income": 673508300000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-03-31",
+          "revenue": 2495617500000.0,
+          "operating_income": null,
+          "net_income": 704793400000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "india-infy": {
+      "currency": "USD",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-03-31",
+          "revenue": 18212000000.0,
+          "operating_income": 3825000000.0,
+          "net_income": 2981000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-03-31",
+          "revenue": 18562000000.0,
+          "operating_income": 3849000000.0,
+          "net_income": 3167000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-03-31",
+          "revenue": 19277000000.0,
+          "operating_income": 4077000000.0,
+          "net_income": 3158000000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-03-31",
+          "revenue": 20158000000.0,
+          "operating_income": 4089000000.0,
+          "net_income": 3313000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "india-tcs": {
+      "currency": "INR",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-03-31",
+          "revenue": 2254580000000.0,
+          "operating_income": 543770000000.0,
+          "net_income": 421470000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-03-31",
+          "revenue": 2408930000000.0,
+          "operating_income": 594250000000.0,
+          "net_income": 459080000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-03-31",
+          "revenue": 2553240000000.0,
+          "operating_income": 622930000000.0,
+          "net_income": 485530000000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-03-31",
+          "revenue": 2670210000000.0,
+          "operating_income": 670220000000.0,
+          "net_income": 492100000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "india-hindunilvr": {
+      "currency": "INR",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-03-31",
+          "revenue": 595490000000.0,
+          "operating_income": 130100000000.0,
+          "net_income": 101200000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-03-31",
+          "revenue": 609660000000.0,
+          "operating_income": 134470000000.0,
+          "net_income": 102770000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-03-31",
+          "revenue": 605730000000.0,
+          "operating_income": 134530000000.0,
+          "net_income": 106490000000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-03-31",
+          "revenue": 637630000000.0,
+          "operating_income": 137210000000.0,
+          "net_income": 150400000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "india-bhartiartl": {
+      "currency": "INR",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-03-31",
+          "revenue": 1391448000000.0,
+          "operating_income": 351986000000.0,
+          "net_income": 83459000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-03-31",
+          "revenue": 1499824000000.0,
+          "operating_income": 372316000000.0,
+          "net_income": 74670000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-03-31",
+          "revenue": 1729852000000.0,
+          "operating_income": 483366000000.0,
+          "net_income": 335561000000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-03-31",
+          "revenue": 2109728000000.0,
+          "operating_income": 678271000000.0,
+          "net_income": 266952000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "india-drreddy": {
+      "currency": "INR",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-03-31",
+          "revenue": 245879000000.0,
+          "operating_income": 59054000000.0,
+          "net_income": 45067000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-03-31",
+          "revenue": 279164000000.0,
+          "operating_income": 65308000000.0,
+          "net_income": 55684000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-03-31",
+          "revenue": 325535000000.0,
+          "operating_income": 72014000000.0,
+          "net_income": 56544000000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-03-31",
+          "revenue": 335933000000.0,
+          "operating_income": 50123000000.0,
+          "net_income": 42850000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "india-irctc": {
+      "currency": "INR",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-03-31",
+          "revenue": 35407641000.0,
+          "operating_income": 12501811000.0,
+          "net_income": 10058811000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-03-31",
+          "revenue": 42597961000.0,
+          "operating_income": 14168032000.0,
+          "net_income": 11110773000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-03-31",
+          "revenue": 46742742000.0,
+          "operating_income": 15047345000.0,
+          "net_income": 13149275000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-03-31",
+          "revenue": 52143633000.0,
+          "operating_income": 16273519000.0,
+          "net_income": 13934547000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "thailandia-ptt": {
+      "currency": "THB",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 3367203000000.0,
+          "operating_income": 288745487016.0,
+          "net_income": 91391101037.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 3144884000000.0,
+          "operating_income": 231237328205.0,
+          "net_income": 112023880947.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 3090453000000.0,
+          "operating_income": 177939157864.0,
+          "net_income": 90072026202.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 2662145000000.0,
+          "operating_income": 134839151783.0,
+          "net_income": 89355520582.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "thailandia-cpall": {
+      "currency": "THB",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 829098775483.0,
+          "operating_income": 35808064006.0,
+          "net_income": 12493000000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 895280953729.0,
+          "operating_income": 41451458528.0,
+          "net_income": 18022000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 958997820330.0,
+          "operating_income": 50064172831.0,
+          "net_income": 24885000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 990662609397.0,
+          "operating_income": 52763682055.0,
+          "net_income": 27746000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "thailandia-aot": {
+      "currency": "THB",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-09-30",
+          "revenue": 16560023141.0,
+          "operating_income": -11115382408.0,
+          "net_income": -11087867188.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-09-30",
+          "revenue": 48140915135.0,
+          "operating_income": 14600304068.0,
+          "net_income": 8790867556.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-09-30",
+          "revenue": 67121304860.0,
+          "operating_income": 27499684427.0,
+          "net_income": 19182394248.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-09-30",
+          "revenue": 66679386770.0,
+          "operating_income": 25373936421.0,
+          "net_income": 18125205627.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "thailandia-advanc": {
+      "currency": "THB",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 185484774901.0,
+          "operating_income": 36960005256.0,
+          "net_income": 26011284407.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 188872910820.0,
+          "operating_income": 40507720276.0,
+          "net_income": 29086105499.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 213569330968.0,
+          "operating_income": 50384420857.0,
+          "net_income": 35075356788.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 226263821386.0,
+          "operating_income": 63736049241.0,
+          "net_income": 47885901716.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "thailandia-bdms": {
+      "currency": "THB",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 91933634602.0,
+          "operating_income": 16983699902.0,
+          "net_income": 12606202636.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 100852576166.0,
+          "operating_income": 18892318906.0,
+          "net_income": 14357742503.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 107867220683.0,
+          "operating_income": 20452160271.0,
+          "net_income": 15987009991.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 111507275082.0,
+          "operating_income": 20161846320.0,
+          "net_income": 15848215386.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "thailandia-kbank": {
+      "currency": "THB",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 179984783000.0,
+          "operating_income": null,
+          "net_income": 35769490000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 204823952000.0,
+          "operating_income": null,
+          "net_income": 42405035000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 209465171000.0,
+          "operating_income": null,
+          "net_income": 49603538000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 207427164000.0,
+          "operating_income": null,
+          "net_income": 49564772000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "thailandia-delta": {
+      "currency": "THB",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 118557966685.0,
+          "operating_income": 14916008326.0,
+          "net_income": 15344546582.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 146371348263.0,
+          "operating_income": 18200505372.0,
+          "net_income": 18422539989.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 164732742495.0,
+          "operating_income": 18672270564.0,
+          "net_income": 18938579925.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 198153416583.0,
+          "operating_income": 26960397752.0,
+          "net_income": 24814323593.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "thailandia-bh": {
+      "currency": "THB",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 20720563655.0,
+          "operating_income": 6010328653.0,
+          "net_income": 4938221850.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 25376158560.0,
+          "operating_income": 8471942024.0,
+          "net_income": 7006450979.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 25717577317.0,
+          "operating_income": 9188069920.0,
+          "net_income": 7774725876.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 25215051097.0,
+          "operating_income": 9096036873.0,
+          "net_income": 7511763437.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "vietnam-vnm": {
+      "currency": "VND",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 59956247197418.0,
+          "operating_income": 10010694183714.0,
+          "net_income": 7591396451595.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 60368915511505.0,
+          "operating_income": 10029995433395.0,
+          "net_income": 7933774855888.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 61782609528445.0,
+          "operating_income": 10666395884671.0,
+          "net_income": 8405832965436.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 63645886756227.0,
+          "operating_income": 10678669095850.0,
+          "net_income": 8417384067829.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "vietnam-fpt": {
+      "currency": "VND",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 44009527680911.0,
+          "operating_income": 6794557295869.0,
+          "net_income": 4848604153756.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 52617900827385.0,
+          "operating_income": 8451627899363.0,
+          "net_income": 5907878008029.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 62848794351367.0,
+          "operating_income": 10508347783359.0,
+          "net_income": 7231780632599.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 70112825100710.0,
+          "operating_income": 10988543474155.0,
+          "net_income": 8865959921832.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "vietnam-vcb": {
+      "currency": "VND",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 66283098000000.0,
+          "operating_income": null,
+          "net_income": 26554538000000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 66875842000000.0,
+          "operating_income": null,
+          "net_income": 30525130000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 69439073000000.0,
+          "operating_income": null,
+          "net_income": 31138474000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 69054397000000.0,
+          "operating_income": null,
+          "net_income": 32201852000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "vietnam-hpg": {
+      "currency": "VND",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 141409274460632.0,
+          "operating_income": 13078175872803.0,
+          "net_income": 8441310554031.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 118953027893654.0,
+          "operating_income": 9669188228747.0,
+          "net_income": 6427064334356.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 138855112131387.0,
+          "operating_income": 14614724419648.0,
+          "net_income": 11551443836074.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 156116094618482.0,
+          "operating_income": 20427620113785.0,
+          "net_income": 15144110526099.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "vietnam-mwg": {
+      "currency": "VND",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 133404777590524.0,
+          "operating_income": 6644176848789.0,
+          "net_income": 4099763027305.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 118279788455442.0,
+          "operating_income": 436250745888.0,
+          "net_income": 167669392704.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 134341152848802.0,
+          "operating_income": 4083604884037.0,
+          "net_income": 3721868441661.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 155928145619367.0,
+          "operating_income": 7074899349791.0,
+          "net_income": 7033730770169.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "vietnam-msn": {
+      "currency": "VND",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 76189225000000.0,
+          "operating_income": 4757022000000.0,
+          "net_income": 3566996000000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 78251619000000.0,
+          "operating_income": 4295007000000.0,
+          "net_income": 418695000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 83177720000000.0,
+          "operating_income": 6272034000000.0,
+          "net_income": 1999059000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 81621329000000.0,
+          "operating_income": 7765515000000.0,
+          "net_income": 4108306000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "vietnam-vic": {
+      "currency": "VND",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 101793582000000.0,
+          "operating_income": -10232018000000.0,
+          "net_income": 8781861000000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 161427568000000.0,
+          "operating_income": 18210680000000.0,
+          "net_income": 2095975000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 189068040000000.0,
+          "operating_income": -5901408000000.0,
+          "net_income": 11328997000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 331837561000000.0,
+          "operating_income": 3628893000000.0,
+          "net_income": 10685191000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "vietnam-pnj": {
+      "currency": "VND",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 33876454559153.0,
+          "operating_income": 2424900893712.0,
+          "net_income": 1671268843397.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 33136929196429.0,
+          "operating_income": 2528886542674.0,
+          "net_income": 1783122234736.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 37822837171385.0,
+          "operating_income": 2670178593096.0,
+          "net_income": 1915012282946.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 34976042929392.0,
+          "operating_income": 3536750481642.0,
+          "net_income": 2591816462890.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "polonia-pko": {
+      "currency": "PLN",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 17325000000.0,
+          "operating_income": null,
+          "net_income": 3312000000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 24232000000.0,
+          "operating_income": null,
+          "net_income": 5502000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 28882000000.0,
+          "operating_income": null,
+          "net_income": 9304000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 31050000000.0,
+          "operating_income": null,
+          "net_income": 10682000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "polonia-pkn": {
+      "currency": "PLN",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 282415000000.0,
+          "operating_income": 43112000000.0,
+          "net_income": 39677000000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 371916000000.0,
+          "operating_income": 39618000000.0,
+          "net_income": 20922000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 294886000000.0,
+          "operating_income": 22298000000.0,
+          "net_income": 2826000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 267827000000.0,
+          "operating_income": 25076000000.0,
+          "net_income": 2531000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "polonia-dnp": {
+      "currency": "PLN",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 19801622000.0,
+          "operating_income": 1552359000.0,
+          "net_income": 1132087000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 25666255000.0,
+          "operating_income": 1882386000.0,
+          "net_income": 1405327000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 29273792000.0,
+          "operating_income": 1918702000.0,
+          "net_income": 1504980000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 33634155000.0,
+          "operating_income": 2057987000.0,
+          "net_income": 1558360000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "polonia-cdr": {
+      "currency": "PLN",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 952576000.0,
+          "operating_income": 403229000.0,
+          "net_income": 347093000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 1230199000.0,
+          "operating_income": 452287000.0,
+          "net_income": 481105000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 798372000.0,
+          "operating_income": 366118000.0,
+          "net_income": 444253000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 866989000.0,
+          "operating_income": 464913000.0,
+          "net_income": 594708000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "polonia-lpp": {
+      "currency": "PLN",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-01-31",
+          "revenue": 15926500000.0,
+          "operating_income": 1305000000.0,
+          "net_income": 486700000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-01-31",
+          "revenue": 17406000000.0,
+          "operating_income": 2421000000.0,
+          "net_income": 1607000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-01-31",
+          "revenue": 20194000000.0,
+          "operating_income": 2477000000.0,
+          "net_income": 1747000000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-01-31",
+          "revenue": 23109000000.0,
+          "operating_income": 3801000000.0,
+          "net_income": 1500000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "polonia-ale": {
+      "currency": "PLN",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 9004916000.0,
+          "operating_income": 1198724000.0,
+          "net_income": -1916796000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 10185317000.0,
+          "operating_income": 1487714000.0,
+          "net_income": 284058000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 10367200000.0,
+          "operating_income": 1954900000.0,
+          "net_income": 1034600000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 11458200000.0,
+          "operating_income": 2161500000.0,
+          "net_income": 1517100000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "polonia-kgh": {
+      "currency": "PLN",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 33847000000.0,
+          "operating_income": 4457000000.0,
+          "net_income": 4772000000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 33467000000.0,
+          "operating_income": -1448000000.0,
+          "net_income": -3698000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 35320000000.0,
+          "operating_income": 3712000000.0,
+          "net_income": 2868000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 36366000000.0,
+          "operating_income": 4075000000.0,
+          "net_income": 3687000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "polonia-txt": {
+      "currency": "PLN",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-03-31",
+          "revenue": 295717000.0,
+          "operating_income": 167227000.0,
+          "net_income": 155261000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-03-31",
+          "revenue": 335349000.0,
+          "operating_income": 179021000.0,
+          "net_income": 166553000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-03-31",
+          "revenue": 354178000.0,
+          "operating_income": 177367000.0,
+          "net_income": 164418000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-03-31",
+          "revenue": 329073000.0,
+          "operating_income": 127731000.0,
+          "net_income": 116608000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "brasile-petr4": {
+      "currency": "BRL",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 124474000000.0,
+          "operating_income": 53265000000.0,
+          "net_income": 36623000000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 102409000000.0,
+          "operating_income": 39473000000.0,
+          "net_income": 24884000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 91416000000.0,
+          "operating_income": 25691000000.0,
+          "net_income": 7528000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 89195000000.0,
+          "operating_income": 27758000000.0,
+          "net_income": 19634000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "brasile-vale3": {
+      "currency": "BRL",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 43839000000.0,
+          "operating_income": 17795000000.0,
+          "net_income": 18788000000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 41784000000.0,
+          "operating_income": 15859000000.0,
+          "net_income": 7983000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 38056000000.0,
+          "operating_income": 11101000000.0,
+          "net_income": 6166000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 38403000000.0,
+          "operating_income": 11343000000.0,
+          "net_income": 2352000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "brasile-itub4": {
+      "currency": "BRL",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 136376000000.0,
+          "operating_income": null,
+          "net_income": 29207000000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 148380000000.0,
+          "operating_income": null,
+          "net_income": 33105000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 158568000000.0,
+          "operating_income": null,
+          "net_income": 41085000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 165243000000.0,
+          "operating_income": null,
+          "net_income": 44857000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "brasile-wege3": {
+      "currency": "BRL",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 29904722000.0,
+          "operating_income": 4978008000.0,
+          "net_income": 4208084000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 32503601000.0,
+          "operating_income": 6394022000.0,
+          "net_income": 5731670000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 37986941000.0,
+          "operating_income": 7548773000.0,
+          "net_income": 6042593000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 40804110000.0,
+          "operating_income": 7859202000.0,
+          "net_income": 6376219000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "brasile-abev3": {
+      "currency": "BRL",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 79708800000.0,
+          "operating_income": 17402700000.0,
+          "net_income": 14457900000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 79736900000.0,
+          "operating_income": 18772700000.0,
+          "net_income": 14501900000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 89452700000.0,
+          "operating_income": 21506800000.0,
+          "net_income": 14437200000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 88242500000.0,
+          "operating_income": 22322600000.0,
+          "net_income": 15503400000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "brasile-embj3": {
+      "currency": "BRL",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 4540400000.0,
+          "operating_income": 220400000.0,
+          "net_income": -185400000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 5268500000.0,
+          "operating_income": 262100000.0,
+          "net_income": 164000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 6394700000.0,
+          "operating_income": 667200000.0,
+          "net_income": 352500000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 7577500000.0,
+          "operating_income": 608500000.0,
+          "net_income": 351900000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "brasile-rent3": {
+      "currency": "BRL",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 17783568000.0,
+          "operating_income": 4490538000.0,
+          "net_income": 1844306000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 28902284000.0,
+          "operating_income": 5994084000.0,
+          "net_income": 1805566000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 37271558000.0,
+          "operating_income": 6003593000.0,
+          "net_income": 1813627000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 41781588000.0,
+          "operating_income": 8072400000.0,
+          "net_income": 1875473000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "brasile-mglu3": {
+      "currency": "BRL",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 37299002000.0,
+          "operating_income": 814871000.0,
+          "net_income": -498975000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 36768149000.0,
+          "operating_income": -350248000.0,
+          "net_income": -979104000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 38038068000.0,
+          "operating_income": 1270329000.0,
+          "net_income": 448717000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 38703387000.0,
+          "operating_income": 1661030000.0,
+          "net_income": 204603000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "india-icicibank": {
+      "currency": "INR",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-03-31",
+          "revenue": 1355811552000.0,
+          "operating_income": null,
+          "net_income": 340366408000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-03-31",
+          "revenue": 1612101952000.0,
+          "operating_income": null,
+          "net_income": 442563735000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-03-31",
+          "revenue": 2047152637000.0,
+          "operating_income": null,
+          "net_income": 510291955000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-03-31",
+          "revenue": 2234071181000.0,
+          "operating_income": null,
+          "net_income": 542077028000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "india-lt": {
+      "currency": "INR",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-03-31",
+          "revenue": 1816614200000.0,
+          "operating_income": 195014800000.0,
+          "net_income": 104707200000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-03-31",
+          "revenue": 2191156900000.0,
+          "operating_income": 217310800000.0,
+          "net_income": 130591100000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-03-31",
+          "revenue": 2542086500000.0,
+          "operating_income": 264779500000.0,
+          "net_income": 150371100000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-03-31",
+          "revenue": 2842251900000.0,
+          "operating_income": 270705700000.0,
+          "net_income": 160839900000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "india-sunpharma": {
+      "currency": "INR",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-03-31",
+          "revenue": 432788700000.0,
+          "operating_income": 92773600000.0,
+          "net_income": 84735800000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-03-31",
+          "revenue": 477584500000.0,
+          "operating_income": 104680300000.0,
+          "net_income": 95763800000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-03-31",
+          "revenue": 520412500000.0,
+          "operating_income": 125812000000.0,
+          "net_income": 109290400000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-03-31",
+          "revenue": 582201100000.0,
+          "operating_income": 135948200000.0,
+          "net_income": 114794200000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "india-dixon": {
+      "currency": "INR",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-03-31",
+          "revenue": 121733500000.0,
+          "operating_income": 4072700000.0,
+          "net_income": 2555200000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-03-31",
+          "revenue": 176139100000.0,
+          "operating_income": 5421400000.0,
+          "net_income": 3677500000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-03-31",
+          "revenue": 385932900000.0,
+          "operating_income": 12675400000.0,
+          "net_income": 10955400000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-03-31",
+          "revenue": 485373900000.0,
+          "operating_income": 14743900000.0,
+          "net_income": 14386400000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "india-pageind": {
+      "currency": "INR",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-03-31",
+          "revenue": 46783390000.0,
+          "operating_income": 7880120000.0,
+          "net_income": 5712490000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-03-31",
+          "revenue": 45470940000.0,
+          "operating_income": 7727310000.0,
+          "net_income": 5691930000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-03-31",
+          "revenue": 49130560000.0,
+          "operating_income": 9706950000.0,
+          "net_income": 7291420000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-03-31",
+          "revenue": 52272560000.0,
+          "operating_income": 10639290000.0,
+          "net_income": 7638230000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "india-jublfood": {
+      "currency": "INR",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-03-31",
+          "revenue": 51382680000.0,
+          "operating_income": 6895970000.0,
+          "net_income": 3532010000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-03-31",
+          "revenue": 55881490000.0,
+          "operating_income": 5702920000.0,
+          "net_income": 3993440000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-03-31",
+          "revenue": 76688840000.0,
+          "operating_income": 8189450000.0,
+          "net_income": 2107640000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-03-31",
+          "revenue": 89243980000.0,
+          "operating_income": 9472900000.0,
+          "net_income": 4284810000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "india-lalpathlab": {
+      "currency": "INR",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-03-31",
+          "revenue": 20166430000.0,
+          "operating_income": 3438750000.0,
+          "net_income": 2388480000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-03-31",
+          "revenue": 22265020000.0,
+          "operating_income": 4668730000.0,
+          "net_income": 3577350000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-03-31",
+          "revenue": 24612220000.0,
+          "operating_income": 8988460000.0,
+          "net_income": 4871380000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-03-31",
+          "revenue": 27627650000.0,
+          "operating_income": 10249520000.0,
+          "net_income": 5047790000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "india-kpittech": {
+      "currency": "INR",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-03-31",
+          "revenue": 33650380000.0,
+          "operating_income": 4940420000.0,
+          "net_income": 3809980000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-03-31",
+          "revenue": 48715410000.0,
+          "operating_income": 8041020000.0,
+          "net_income": 5945330000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-03-31",
+          "revenue": 58423450000.0,
+          "operating_income": 10137940000.0,
+          "net_income": 8396000000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-03-31",
+          "revenue": 64549310000.0,
+          "operating_income": 10451120000.0,
+          "net_income": 6373390000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "india-affle": {
+      "currency": "INR",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-03-31",
+          "revenue": 14334440000.0,
+          "operating_income": 2394710000.0,
+          "net_income": 2445890000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-03-31",
+          "revenue": 18420780000.0,
+          "operating_income": 2889470000.0,
+          "net_income": 2972690000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-03-31",
+          "revenue": 22654990000.0,
+          "operating_income": 3891840000.0,
+          "net_income": 3818690000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-03-31",
+          "revenue": 27086100000.0,
+          "operating_income": 5038160000.0,
+          "net_income": 4548510000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "india-cdsl": {
+      "currency": "INR",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-03-31",
+          "revenue": 5550868000.0,
+          "operating_income": 3089577000.0,
+          "net_income": 2759390000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-03-31",
+          "revenue": 8122566000.0,
+          "operating_income": 4621728000.0,
+          "net_income": 4191058000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-03-31",
+          "revenue": 10822826000.0,
+          "operating_income": 5759145000.0,
+          "net_income": 5266412000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-03-31",
+          "revenue": 11449187000.0,
+          "operating_income": 5218073000.0,
+          "net_income": 4561318000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "india-kaynes": {
+      "currency": "INR",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-03-31",
+          "revenue": 11261140000.0,
+          "operating_income": 1511210000.0,
+          "net_income": 951960000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-03-31",
+          "revenue": 18046190000.0,
+          "operating_income": 2316370000.0,
+          "net_income": 1832890000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-03-31",
+          "revenue": 27217520000.0,
+          "operating_income": 3715460000.0,
+          "net_income": 2931860000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-03-31",
+          "revenue": 36263540000.0,
+          "operating_income": 4759190000.0,
+          "net_income": 3638900000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "india-relaxo": {
+      "currency": "INR",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-03-31",
+          "revenue": 27641400000.0,
+          "operating_income": 2157700000.0,
+          "net_income": 1544700000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-03-31",
+          "revenue": 28936000000.0,
+          "operating_income": 2591000000.0,
+          "net_income": 2004700000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-03-31",
+          "revenue": 27761500000.0,
+          "operating_income": 2276700000.0,
+          "net_income": 1703300000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-03-31",
+          "revenue": 26902100000.0,
+          "operating_income": 2257100000.0,
+          "net_income": 1792700000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "thailandia-gulf": {
+      "currency": "THB",
+      "years": [
+        {
+          "year": 2021,
+          "period_end": "2021-12-31",
+          "revenue": 47467325358.0,
+          "operating_income": 10789488375.0,
+          "net_income": 7670297904.0
+        },
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 94150885221.0,
+          "operating_income": 17091832082.0,
+          "net_income": 11417560651.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 114054441000.0,
+          "operating_income": 18804524000.0,
+          "net_income": 14857734000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 120888188000.0,
+          "operating_income": 20718854000.0,
+          "net_income": 18170334000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "thailandia-scb": {
+      "currency": "THB",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 160091534000.0,
+          "operating_income": null,
+          "net_income": 37546011000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 182362433000.0,
+          "operating_income": null,
+          "net_income": 43521334000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 183875228000.0,
+          "operating_income": null,
+          "net_income": 43943013000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 182556853000.0,
+          "operating_income": null,
+          "net_income": 47487980000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "thailandia-scc": {
+      "currency": "THB",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 569608696000.0,
+          "operating_income": 6511267000.0,
+          "net_income": 21382351000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 499645707000.0,
+          "operating_income": 5148067000.0,
+          "net_income": 25914983000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 511172247000.0,
+          "operating_income": -2827123000.0,
+          "net_income": 6341638000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 496925436000.0,
+          "operating_income": -7700953000.0,
+          "net_income": 14075020000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "thailandia-mint": {
+      "currency": "THB",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 122029661735.0,
+          "operating_income": 11410152225.0,
+          "net_income": 2828000000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 149339500637.0,
+          "operating_income": 18193929682.0,
+          "net_income": 3582000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 161352365951.0,
+          "operating_income": 19372827748.0,
+          "net_income": 6002000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 160618684533.0,
+          "operating_income": 17654926493.0,
+          "net_income": 7304000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "thailandia-hmpro": {
+      "currency": "THB",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 66811468952.0,
+          "operating_income": 8087614796.0,
+          "net_income": 6217089265.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 70165542148.0,
+          "operating_income": 8514753782.0,
+          "net_income": 6441555861.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 69806386163.0,
+          "operating_income": 8690687443.0,
+          "net_income": 6503547261.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 67887595271.0,
+          "operating_income": 8099718457.0,
+          "net_income": 6011390871.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "thailandia-tu": {
+      "currency": "THB",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 155586350000.0,
+          "operating_income": 8954818000.0,
+          "net_income": 6838003000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 136152713000.0,
+          "operating_income": 7739631000.0,
+          "net_income": -14233205000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 138433059000.0,
+          "operating_income": 7891695000.0,
+          "net_income": 4684072000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 132718579000.0,
+          "operating_income": 6719736000.0,
+          "net_income": 4609416000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "thailandia-bch": {
+      "currency": "THB",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 18894681059.0,
+          "operating_income": 4192867351.0,
+          "net_income": 3038908080.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 11803961543.0,
+          "operating_income": 1959484324.0,
+          "net_income": 1406357528.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 11793936843.0,
+          "operating_income": 1710902283.0,
+          "net_income": 1282371379.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 11984477406.0,
+          "operating_income": 1812280944.0,
+          "net_income": 1316360014.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "thailandia-com7": {
+      "currency": "THB",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 62732613997.0,
+          "operating_income": 3839798554.0,
+          "net_income": 3037711715.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 69559452000.0,
+          "operating_income": 3721403000.0,
+          "net_income": 2857168000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 79042955000.0,
+          "operating_income": 4166657000.0,
+          "net_income": 3323154000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 87254554000.0,
+          "operating_income": 5098643000.0,
+          "net_income": 4063531000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "thailandia-hana": {
+      "currency": "THB",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 27167162849.0,
+          "operating_income": 2422248217.0,
+          "net_income": 2102071405.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 26152116286.0,
+          "operating_income": 1787499023.0,
+          "net_income": 1760567321.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 24801339649.0,
+          "operating_income": 1144679677.0,
+          "net_income": -633672107.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 20563406965.0,
+          "operating_income": 700607248.0,
+          "net_income": 670398931.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "thailandia-cbg": {
+      "currency": "THB",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 19215093458.0,
+          "operating_income": 2599444862.0,
+          "net_income": 2286197543.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 18853095256.0,
+          "operating_income": 2248948533.0,
+          "net_income": 1924235245.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 20964479996.0,
+          "operating_income": 3403256224.0,
+          "net_income": 2842676257.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 22041839143.0,
+          "operating_income": 3478289609.0,
+          "net_income": 2319564016.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "thailandia-mtc": {
+      "currency": "THB",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 16861761967.0,
+          "operating_income": null,
+          "net_income": 5093092196.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 19762625182.0,
+          "operating_income": null,
+          "net_income": 4906468019.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 21619400273.0,
+          "operating_income": null,
+          "net_income": 5867308463.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 23521306267.0,
+          "operating_income": null,
+          "net_income": 6723275308.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "thailandia-bem": {
+      "currency": "THB",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 14029439224.0,
+          "operating_income": 5194594611.0,
+          "net_income": 2436184543.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 16374409631.0,
+          "operating_income": 6586591607.0,
+          "net_income": 3478651514.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 17003640044.0,
+          "operating_income": 7008106927.0,
+          "net_income": 3768005117.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 16915820126.0,
+          "operating_income": 6866236158.0,
+          "net_income": 3780809937.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "vietnam-bid": {
+      "currency": "VND",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 64805756000000.0,
+          "operating_income": null,
+          "net_income": 15384328000000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 70137117000000.0,
+          "operating_income": null,
+          "net_income": 18890538000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 74884211000000.0,
+          "operating_income": null,
+          "net_income": 22170600000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 77363390000000.0,
+          "operating_income": null,
+          "net_income": 26457802000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "vietnam-tcb": {
+      "currency": "VND",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 39461005000000.0,
+          "operating_income": null,
+          "net_income": 20111877000000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 39874695000000.0,
+          "operating_income": null,
+          "net_income": 17955802000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 47666178000000.0,
+          "operating_income": null,
+          "net_income": 21486928000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 52315591000000.0,
+          "operating_income": null,
+          "net_income": 25254851000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "vietnam-vhm": {
+      "currency": "VND",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 62392603000000.0,
+          "operating_income": 26237286000000.0,
+          "net_income": 28830869000000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 103556722000000.0,
+          "operating_income": 27950872000000.0,
+          "net_income": 33371406000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 102323186000000.0,
+          "operating_income": 24868330000000.0,
+          "net_income": 31801258000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 153270923000000.0,
+          "operating_income": 38981784000000.0,
+          "net_income": 41895255000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "vietnam-vjc": {
+      "currency": "VND",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 40141863488029.0,
+          "operating_income": -3464083669446.0,
+          "net_income": -2262499009854.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 58340618715308.0,
+          "operating_income": -525144163531.0,
+          "net_income": 230590889181.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 72045286343724.0,
+          "operating_income": 3260323439297.0,
+          "net_income": 1403162979000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 82092949674406.0,
+          "operating_income": 3867634708555.0,
+          "net_income": 2122533969007.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "vietnam-sab": {
+      "currency": "VND",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 34979083993835.0,
+          "operating_income": 5497972993477.0,
+          "net_income": 5097148627794.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 30461367282215.0,
+          "operating_income": 3811443044719.0,
+          "net_income": 4117605068688.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 31872417486656.0,
+          "operating_income": 4437226222833.0,
+          "net_income": 4330113031371.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 25888192228121.0,
+          "operating_income": 4294632063801.0,
+          "net_income": 4423539822535.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "vietnam-gmd": {
+      "currency": "VND",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 3898243608570.0,
+          "operating_income": 1010044225428.0,
+          "net_income": 914402319554.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 3845826296568.0,
+          "operating_income": 1033082871955.0,
+          "net_income": 2184310197012.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 4832024798961.0,
+          "operating_income": 1152041036364.0,
+          "net_income": 1364260226636.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 5956025297015.0,
+          "operating_income": 1627229758196.0,
+          "net_income": 1615179439272.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "vietnam-ree": {
+      "currency": "VND",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 9371927777326.0,
+          "operating_income": 3717191545642.0,
+          "net_income": 2692516590418.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 8569918341777.0,
+          "operating_income": 3024743821886.0,
+          "net_income": 2188316658468.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 8383666601214.0,
+          "operating_income": 2498686291911.0,
+          "net_income": 1993385852649.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 10011611124740.0,
+          "operating_income": 3073153862959.0,
+          "net_income": 2529125816261.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "vietnam-vhc": {
+      "currency": "VND",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 13230800186919.0,
+          "operating_income": 2211393252244.0,
+          "net_income": 1844470724178.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 10033016452094.0,
+          "operating_income": 1048879276837.0,
+          "net_income": 919191032965.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 12512793481045.0,
+          "operating_income": 1288136252223.0,
+          "net_income": 1226204938195.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 12020897758218.0,
+          "operating_income": 1547472097172.0,
+          "net_income": 1418266289706.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "vietnam-frt": {
+      "currency": "VND",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 30165800756670.0,
+          "operating_income": 556540896920.0,
+          "net_income": 390360854577.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 31849649616720.0,
+          "operating_income": -84504147125.0,
+          "net_income": -345643489328.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 40104492531184.0,
+          "operating_income": 690016104152.0,
+          "net_income": 312459939020.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 51082868444768.0,
+          "operating_income": 1313753592287.0,
+          "net_income": 792420646891.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "vietnam-dgw": {
+      "currency": "VND",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 22028134929534.0,
+          "operating_income": 804870226273.0,
+          "net_income": 683783287082.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 18817475347721.0,
+          "operating_income": 417219600328.0,
+          "net_income": 354392478066.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 22078832142166.0,
+          "operating_income": 526517228407.0,
+          "net_income": 443877018277.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 26631545770247.0,
+          "operating_income": 718150392936.0,
+          "net_income": 547331236542.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "vietnam-imp": {
+      "currency": "VND",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 1643706514646.0,
+          "operating_income": 296500091607.0,
+          "net_income": 183843543124.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 1994036910377.0,
+          "operating_income": 381046953304.0,
+          "net_income": 277778283939.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 2205119938413.0,
+          "operating_income": 415158231247.0,
+          "net_income": 275862393082.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 2441085482086.0,
+          "operating_income": 462435447591.0,
+          "net_income": 304389283536.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "vietnam-nlg": {
+      "currency": "VND",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 4338841417665.0,
+          "operating_income": 837533908862.0,
+          "net_income": 546273710440.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 3181421790727.0,
+          "operating_income": 592071461445.0,
+          "net_income": 449793201573.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 7196050482193.0,
+          "operating_income": 1685162458460.0,
+          "net_income": 489764708641.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 5645086579147.0,
+          "operating_income": 1067821012909.0,
+          "net_income": 661303041282.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "polonia-pzu": {
+      "currency": "PLN",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 41716000000.0,
+          "operating_income": 12904000000.0,
+          "net_income": 3781000000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 54482000000.0,
+          "operating_income": 25035000000.0,
+          "net_income": 5780000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 62499000000.0,
+          "operating_income": 23948000000.0,
+          "net_income": 5342000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 64701000000.0,
+          "operating_income": 25257000000.0,
+          "net_income": 6699000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "polonia-peo": {
+      "currency": "PLN",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 11255000000.0,
+          "operating_income": null,
+          "net_income": 1717000000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 15318000000.0,
+          "operating_income": null,
+          "net_income": 6659000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 16164000000.0,
+          "operating_income": null,
+          "net_income": 6376000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 17413000000.0,
+          "operating_income": null,
+          "net_income": 7015000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "polonia-ebp": {
+      "currency": "PLN",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 12300092000.0,
+          "operating_income": null,
+          "net_income": 2799098000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 15951867000.0,
+          "operating_income": null,
+          "net_income": 4831107000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 15306173000.0,
+          "operating_income": null,
+          "net_income": 5212731000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 15969386000.0,
+          "operating_income": null,
+          "net_income": 6478814000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "polonia-bft": {
+      "currency": "PLN",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 1909120000.0,
+          "operating_income": 225942000.0,
+          "net_income": 138124000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 2774145000.0,
+          "operating_income": 550788000.0,
+          "net_income": 439645000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 3397270000.0,
+          "operating_income": 632180000.0,
+          "net_income": 449630000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 4522683000.0,
+          "operating_income": 725305000.0,
+          "net_income": 570850000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "polonia-bdx": {
+      "currency": "PLN",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 8619054000.0,
+          "operating_income": 573074000.0,
+          "net_income": 534443000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 9801515000.0,
+          "operating_income": 731781000.0,
+          "net_income": 738196000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 9117843000.0,
+          "operating_income": 751576000.0,
+          "net_income": 615922000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 9438558000.0,
+          "operating_income": 856459000.0,
+          "net_income": 748014000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "polonia-acp": {
+      "currency": "PLN",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 17370100000.0,
+          "operating_income": 1596500000.0,
+          "net_income": 502300000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 16896500000.0,
+          "operating_income": 1624900000.0,
+          "net_income": 482700000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 15020100000.0,
+          "operating_income": 1420400000.0,
+          "net_income": 519900000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 16779800000.0,
+          "operating_income": 1703700000.0,
+          "net_income": 1138700000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "polonia-kru": {
+      "currency": "PLN",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 1488229000.0,
+          "operating_income": 850654000.0,
+          "net_income": 804982000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 1794786000.0,
+          "operating_income": 971200000.0,
+          "net_income": 983934000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 2203581000.0,
+          "operating_income": 942132000.0,
+          "net_income": 1073954000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 2540222000.0,
+          "operating_income": 1142659000.0,
+          "net_income": 1085008000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "polonia-xtb": {
+      "currency": "PLN",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 1482640000.0,
+          "operating_income": 890127000.0,
+          "net_income": 766096000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 1635985000.0,
+          "operating_income": 896459000.0,
+          "net_income": 791173000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 1867489000.0,
+          "operating_income": 930403000.0,
+          "net_income": 857025000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 2116275000.0,
+          "operating_income": 762694000.0,
+          "net_income": 644194000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "polonia-car": {
+      "currency": "PLN",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 15285101000.0,
+          "operating_income": 1129898000.0,
+          "net_income": 745698000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 18030310000.0,
+          "operating_income": 1049550000.0,
+          "net_income": 700297000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 19473078000.0,
+          "operating_income": 1072525000.0,
+          "net_income": 721480000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 21216209000.0,
+          "operating_income": 1185285000.0,
+          "net_income": 806420000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "polonia-apr": {
+      "currency": "PLN",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 2834701000.0,
+          "operating_income": 283847000.0,
+          "net_income": 207268000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 3653384000.0,
+          "operating_income": 297530000.0,
+          "net_income": 223586000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 4112497000.0,
+          "operating_income": 293842000.0,
+          "net_income": 207976000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 4424895000.0,
+          "operating_income": 284678000.0,
+          "net_income": 198932000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "polonia-11b": {
+      "currency": "PLN",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 74205927.0,
+          "operating_income": 19970634.0,
+          "net_income": 22889816.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 52272732.0,
+          "operating_income": 7611140.0,
+          "net_income": 525609.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 140545307.0,
+          "operating_income": 63919453.0,
+          "net_income": 6899150.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 141034322.0,
+          "operating_income": 22401912.0,
+          "net_income": 6942666.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "polonia-gpp": {
+      "currency": "PLN",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 608549000.0,
+          "operating_income": 245749000.0,
+          "net_income": 166580000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 724398000.0,
+          "operating_income": 280709000.0,
+          "net_income": 185029000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 770015000.0,
+          "operating_income": 297030000.0,
+          "net_income": 204281000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 811232000.0,
+          "operating_income": 309293000.0,
+          "net_income": 238654000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "brasile-bbas3": {
+      "currency": "BRL",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 123248268000.0,
+          "operating_income": null,
+          "net_income": 30897625000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 125465944000.0,
+          "operating_income": null,
+          "net_income": 29860965000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 144836573000.0,
+          "operating_income": null,
+          "net_income": 26358860000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 147119627000.0,
+          "operating_income": null,
+          "net_income": 13698124000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "brasile-bpac11": {
+      "currency": "BRL",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 29400308000.0,
+          "operating_income": null,
+          "net_income": 7841837000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 32229615000.0,
+          "operating_income": null,
+          "net_income": 9924566000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 37783193000.0,
+          "operating_income": null,
+          "net_income": 11789387000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 51966892000.0,
+          "operating_income": null,
+          "net_income": 15947050000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "brasile-b3sa3": {
+      "currency": "BRL",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 9087218000.0,
+          "operating_income": 5493732000.0,
+          "net_income": 4226057000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 8916867000.0,
+          "operating_income": 5160013000.0,
+          "net_income": 4131929000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 9429069000.0,
+          "operating_income": 6044745000.0,
+          "net_income": 4576581000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 10067381000.0,
+          "operating_income": 6539094000.0,
+          "net_income": 4585619000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "brasile-suzb3": {
+      "currency": "BRL",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 49830946000.0,
+          "operating_income": 20894566000.0,
+          "net_income": 23381617000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 39755575000.0,
+          "operating_income": 10744684000.0,
+          "net_income": 14084848000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 47403282000.0,
+          "operating_income": 14585392000.0,
+          "net_income": -7074198000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 50115679000.0,
+          "operating_income": 10082147000.0,
+          "net_income": 13408189000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "brasile-tots3": {
+      "currency": "BRL",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 3792932000.0,
+          "operating_income": 641517000.0,
+          "net_income": 498136000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 4440443000.0,
+          "operating_income": 733894000.0,
+          "net_income": 734820000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 4914747000.0,
+          "operating_income": 908223000.0,
+          "net_income": 717513000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 5771867000.0,
+          "operating_income": 1170927000.0,
+          "net_income": 891741000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "brasile-radl3": {
+      "currency": "BRL",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 29067380000.0,
+          "operating_income": 1866042000.0,
+          "net_income": 996112000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 33973790000.0,
+          "operating_income": 1953344000.0,
+          "net_income": 1054973000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 38871522000.0,
+          "operating_income": 2370461000.0,
+          "net_income": 1199864000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 44250449000.0,
+          "operating_income": 2648975000.0,
+          "net_income": 1296861000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "brasile-lren3": {
+      "currency": "BRL",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 13271137000.0,
+          "operating_income": 2946643000.0,
+          "net_income": 1291704000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 13647849000.0,
+          "operating_income": 2959109000.0,
+          "net_income": 976259000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 14436366000.0,
+          "operating_income": 2958845000.0,
+          "net_income": 1196668000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 15829460000.0,
+          "operating_income": 3458178000.0,
+          "net_income": 1457566000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "brasile-viva3": {
+      "currency": "BRL",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 1843735000.0,
+          "operating_income": 376261398.0,
+          "net_income": 360854417.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 2186975000.0,
+          "operating_income": 450363000.0,
+          "net_income": 381120000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 2305102000.0,
+          "operating_income": 683127000.0,
+          "net_income": 653394000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 2692526000.0,
+          "operating_income": 726705000.0,
+          "net_income": 619502000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "brasile-slce3": {
+      "currency": "BRL",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 9518344000.0,
+          "operating_income": 2470338000.0,
+          "net_income": 1267459000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 9122124000.0,
+          "operating_income": 1888794000.0,
+          "net_income": 895600000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 7803627000.0,
+          "operating_income": 1481661000.0,
+          "net_income": 509410000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 9759214000.0,
+          "operating_income": 1887140000.0,
+          "net_income": 555573000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "brasile-flry3": {
+      "currency": "BRL",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 4463040000.0,
+          "operating_income": 766205000.0,
+          "net_income": 307908000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 6470850000.0,
+          "operating_income": 993322000.0,
+          "net_income": 423758000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 7684659000.0,
+          "operating_income": 1232412000.0,
+          "net_income": 616172000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 8291182000.0,
+          "operating_income": 1240911000.0,
+          "net_income": 612831000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "brasile-intb3": {
+      "currency": "BRL",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 4232623000.0,
+          "operating_income": 355909000.0,
+          "net_income": 480262000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 4103676000.0,
+          "operating_income": 399293000.0,
+          "net_income": 544231000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 4756146000.0,
+          "operating_income": 406510000.0,
+          "net_income": 528934000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 4460379000.0,
+          "operating_income": 294022000.0,
+          "net_income": 482772000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "brasile-grnd3": {
+      "currency": "BRL",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 2336709000.0,
+          "operating_income": 256868000.0,
+          "net_income": 568027000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 2234430000.0,
+          "operating_income": 338185000.0,
+          "net_income": 557671000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 2426910000.0,
+          "operating_income": 516384000.0,
+          "net_income": 735236000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 2395211000.0,
+          "operating_income": 263692000.0,
+          "net_income": 644808000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "singapore-d05": {
+      "currency": "SGD",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 16494000000.0,
+          "operating_income": null,
+          "net_income": 8108000000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 20134000000.0,
+          "operating_income": null,
+          "net_income": 9978000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 22217000000.0,
+          "operating_income": null,
+          "net_income": 11205000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 22895000000.0,
+          "operating_income": null,
+          "net_income": 10898000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "singapore-o39": {
+      "currency": "SGD",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 11187000000.0,
+          "operating_income": null,
+          "net_income": 5470000000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 13436000000.0,
+          "operating_income": null,
+          "net_income": 6955000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 14437000000.0,
+          "operating_income": null,
+          "net_income": 7523000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 14533000000.0,
+          "operating_income": null,
+          "net_income": 7337000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "singapore-u11": {
+      "currency": "SGD",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 11577000000.0,
+          "operating_income": null,
+          "net_income": 4497000000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 13935000000.0,
+          "operating_income": null,
+          "net_income": 5597000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 14303000000.0,
+          "operating_income": null,
+          "net_income": 5952000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 13807000000.0,
+          "operating_income": null,
+          "net_income": 4589000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "singapore-z74": {
+      "currency": "SGD",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-03-31",
+          "revenue": 14624400000.0,
+          "operating_income": 916700000.0,
+          "net_income": 2225100000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-03-31",
+          "revenue": 14127500000.0,
+          "operating_income": 933600000.0,
+          "net_income": 795000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-03-31",
+          "revenue": 14146100000.0,
+          "operating_income": 1146600000.0,
+          "net_income": 4017400000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-03-31",
+          "revenue": 14260600000.0,
+          "operating_income": 1249000000.0,
+          "net_income": 5606100000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "singapore-s63": {
+      "currency": "SGD",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 9035103000.0,
+          "operating_income": 607864000.0,
+          "net_income": 535012000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 10101021000.0,
+          "operating_income": 840110000.0,
+          "net_income": 586467000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 11275659000.0,
+          "operating_income": 977506000.0,
+          "net_income": 702256000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 12346426000.0,
+          "operating_income": 417493000.0,
+          "net_income": 462770000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "singapore-s68": {
+      "currency": "SGD",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-06-30",
+          "revenue": 1194408000.0,
+          "operating_income": 590251000.0,
+          "net_income": 570895000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-06-30",
+          "revenue": 1231675000.0,
+          "operating_income": 607210000.0,
+          "net_income": 597907000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-06-30",
+          "revenue": 1370625000.0,
+          "operating_income": 742966000.0,
+          "net_income": 647983000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-06-30",
+          "revenue": 1559469000.0,
+          "operating_income": 887517000.0,
+          "net_income": 698411000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "singapore-c6l": {
+      "currency": "SGD",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-03-31",
+          "revenue": 17774800000.0,
+          "operating_income": 2623600000.0,
+          "net_income": 2156800000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-03-31",
+          "revenue": 19012700000.0,
+          "operating_income": 2726500000.0,
+          "net_income": 2674800000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-03-31",
+          "revenue": 19539800000.0,
+          "operating_income": 1724400000.0,
+          "net_income": 2778000000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-03-31",
+          "revenue": 20522000000.0,
+          "operating_income": 2462700000.0,
+          "net_income": 1184000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "singapore-bn4": {
+      "currency": "SGD",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 6619718000.0,
+          "operating_income": 565207000.0,
+          "net_income": 926617000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 6966128000.0,
+          "operating_income": 1187009000.0,
+          "net_income": 4066652000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 5784058000.0,
+          "operating_income": 1145648000.0,
+          "net_income": 940152000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 5982987000.0,
+          "operating_income": 1122521000.0,
+          "net_income": 788508000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "singapore-f34": {
+      "currency": "USD",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 73398976000.0,
+          "operating_income": 3311133000.0,
+          "net_income": 2402478000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 67155262000.0,
+          "operating_income": 2170004000.0,
+          "net_income": 1524829000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 67379083000.0,
+          "operating_income": 2208629000.0,
+          "net_income": 1169814000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 70415698000.0,
+          "operating_income": 1597332000.0,
+          "net_income": 1410872000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "singapore-c38u": {
+      "currency": "SGD",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 1441747000.0,
+          "operating_income": 948068000.0,
+          "net_income": 723369000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 1559934000.0,
+          "operating_income": 1052017000.0,
+          "net_income": 862570000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 1586329000.0,
+          "operating_income": 1049505000.0,
+          "net_income": 933683000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 1619174000.0,
+          "operating_income": 1077018000.0,
+          "net_income": 937287000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "singapore-u96": {
+      "currency": "SGD",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 7825000000.0,
+          "operating_income": 734000000.0,
+          "net_income": 848000000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 7042000000.0,
+          "operating_income": 1147000000.0,
+          "net_income": 942000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 6417000000.0,
+          "operating_income": 1036000000.0,
+          "net_income": 1016000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 5799000000.0,
+          "operating_income": 863000000.0,
+          "net_income": 984000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "singapore-g13": {
+      "currency": "SGD",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 1725331000.0,
+          "operating_income": 405377000.0,
+          "net_income": 340100000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 2417628000.0,
+          "operating_income": 635451000.0,
+          "net_income": 611582000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 2529960000.0,
+          "operating_income": 592522000.0,
+          "net_income": 578869000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 2452053000.0,
+          "operating_income": 454805000.0,
+          "net_income": 390346000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "singapore-v03": {
+      "currency": "SGD",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 3862673000.0,
+          "operating_income": 434164000.0,
+          "net_income": 369617000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 3025028000.0,
+          "operating_income": 299432000.0,
+          "net_income": 270017000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 2734236000.0,
+          "operating_income": 260545000.0,
+          "net_income": 245029000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 2532204000.0,
+          "operating_income": 243297000.0,
+          "net_income": 226958000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "singapore-c52": {
+      "currency": "SGD",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 3780800000.0,
+          "operating_income": 233700000.0,
+          "net_income": 173100000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 3880300000.0,
+          "operating_income": 265700000.0,
+          "net_income": 180500000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 4476500000.0,
+          "operating_income": 317800000.0,
+          "net_income": 210500000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 5058600000.0,
+          "operating_income": 349200000.0,
+          "net_income": 230300000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "singapore-s58": {
+      "currency": "SGD",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-03-31",
+          "revenue": 1758300000.0,
+          "operating_income": -48000000.0,
+          "net_income": -26500000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-03-31",
+          "revenue": 5149600000.0,
+          "operating_income": 244200000.0,
+          "net_income": 56400000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-03-31",
+          "revenue": 5821100000.0,
+          "operating_income": 475700000.0,
+          "net_income": 243800000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-03-31",
+          "revenue": 6345500000.0,
+          "operating_income": 543300000.0,
+          "net_income": 285200000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "singapore-c09": {
+      "currency": "SGD",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 3293413000.0,
+          "operating_income": 177385000.0,
+          "net_income": 1272418000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 4941121000.0,
+          "operating_income": 660291000.0,
+          "net_income": 305059000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 3271197000.0,
+          "operating_income": 413652000.0,
+          "net_income": 190849000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 3587092000.0,
+          "operating_income": 293469000.0,
+          "net_income": 620276000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "singapore-bs6": {
+      "currency": "CNY",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 20705076000.0,
+          "operating_income": 2788935000.0,
+          "net_income": 2807480000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 24112330000.0,
+          "operating_income": 5039465000.0,
+          "net_income": 4101548000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 26541716000.0,
+          "operating_income": 7074626000.0,
+          "net_income": 6633616000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 28504820000.0,
+          "operating_income": 9061633000.0,
+          "net_income": 8637076000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "singapore-ov8": {
+      "currency": "SGD",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 1339464000.0,
+          "operating_income": 143396000.0,
+          "net_income": 133303000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 1367719000.0,
+          "operating_income": 155414000.0,
+          "net_income": 133650000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 1428716000.0,
+          "operating_income": 159681000.0,
+          "net_income": 137522000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 1569963000.0,
+          "operating_income": 175758000.0,
+          "net_income": 149455000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "singapore-aiy": {
+      "currency": "SGD",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 205307856.0,
+          "operating_income": 12879491.0,
+          "net_income": 6423668.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 242512568.0,
+          "operating_income": 29539867.0,
+          "net_income": 28268767.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 339479289.0,
+          "operating_income": 70534657.0,
+          "net_income": 66631374.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 445315644.0,
+          "operating_income": 99739662.0,
+          "net_income": 100012571.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "singapore-bsl": {
+      "currency": "SGD",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 822916000.0,
+          "operating_income": 213762000.0,
+          "net_income": 143214000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 706920000.0,
+          "operating_income": 116172000.0,
+          "net_income": 90150000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 751564000.0,
+          "operating_income": 86357000.0,
+          "net_income": 62243000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 765299000.0,
+          "operating_income": 89169000.0,
+          "net_income": 70570000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "sudafrica-npn": {
+      "currency": "USD",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-03-31",
+          "revenue": 5960000000.0,
+          "operating_income": -432000000.0,
+          "net_income": 4331000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-03-31",
+          "revenue": 6431000000.0,
+          "operating_income": -182000000.0,
+          "net_income": 2855000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-03-31",
+          "revenue": 7181000000.0,
+          "operating_income": 119000000.0,
+          "net_income": 5242000000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-03-31",
+          "revenue": 10848000000.0,
+          "operating_income": 286000000.0,
+          "net_income": 4972000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "sudafrica-fsr": {
+      "currency": "ZAR",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-06-30",
+          "revenue": 131999000000.0,
+          "operating_income": null,
+          "net_income": 36331000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-06-30",
+          "revenue": 141344000000.0,
+          "operating_income": null,
+          "net_income": 38191000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-06-30",
+          "revenue": 134230000000.0,
+          "operating_income": null,
+          "net_income": 41876000000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-06-30",
+          "revenue": 148170000000.0,
+          "operating_income": null,
+          "net_income": 35749000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "sudafrica-sbk": {
+      "currency": "ZAR",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 156384000000.0,
+          "operating_income": null,
+          "net_income": 34243000000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 189561000000.0,
+          "operating_income": null,
+          "net_income": 44211000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 189471000000.0,
+          "operating_income": null,
+          "net_income": 43727000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 202080000000.0,
+          "operating_income": null,
+          "net_income": 49100000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "sudafrica-cpi": {
+      "currency": "ZAR",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-02-28",
+          "revenue": 29751620000.0,
+          "operating_income": null,
+          "net_income": 9146990000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-02-29",
+          "revenue": 36042839000.0,
+          "operating_income": null,
+          "net_income": 10561478000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-02-28",
+          "revenue": 43766696000.0,
+          "operating_income": null,
+          "net_income": 13737588000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-02-28",
+          "revenue": 52093645000.0,
+          "operating_income": null,
+          "net_income": 16829275000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "sudafrica-gfi": {
+      "currency": "USD",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 4286700000.0,
+          "operating_income": 1436400000.0,
+          "net_income": 711000000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 4500700000.0,
+          "operating_income": 1467100000.0,
+          "net_income": 703300000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 5201600000.0,
+          "operating_income": 2093200000.0,
+          "net_income": 1245000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 8751300000.0,
+          "operating_income": 4405500000.0,
+          "net_income": 3567400000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "sudafrica-mtn": {
+      "currency": "ZAR",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 207003000000.0,
+          "operating_income": 57653000000.0,
+          "net_income": 19037000000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 221056000000.0,
+          "operating_income": 48695000000.0,
+          "net_income": 4092000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 188001000000.0,
+          "operating_income": 38186000000.0,
+          "net_income": -9369000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 226707000000.0,
+          "operating_income": 63845000000.0,
+          "net_income": 20262000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "sudafrica-shp": {
+      "currency": "ZAR",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-06-30",
+          "revenue": 214956000000.0,
+          "operating_income": 10434000000.0,
+          "net_income": 5886000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-06-30",
+          "revenue": 232088000000.0,
+          "operating_income": 11677000000.0,
+          "net_income": 6248000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-06-30",
+          "revenue": 252701000000.0,
+          "operating_income": 13771000000.0,
+          "net_income": 7585000000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-06-30",
+          "revenue": 270775000000.0,
+          "operating_income": 15086000000.0,
+          "net_income": 7945000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "sudafrica-slm": {
+      "currency": "ZAR",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 108766000000.0,
+          "operating_income": 16550000000.0,
+          "net_income": 12257000000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 198745000000.0,
+          "operating_income": 22200000000.0,
+          "net_income": 14478000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 229761000000.0,
+          "operating_income": 31122000000.0,
+          "net_income": 22240000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 279287000000.0,
+          "operating_income": 28410000000.0,
+          "net_income": 15941000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "sudafrica-val": {
+      "currency": "ZAR",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-12-31",
+          "revenue": 164090000000.0,
+          "operating_income": 69076000000.0,
+          "net_income": 49153000000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-12-31",
+          "revenue": 124583000000.0,
+          "operating_income": 18975000000.0,
+          "net_income": 13040000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-12-31",
+          "revenue": 108987000000.0,
+          "operating_income": 16456000000.0,
+          "net_income": 7059000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-12-31",
+          "revenue": 116330000000.0,
+          "operating_income": 26282000000.0,
+          "net_income": 15420000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "sudafrica-bid": {
+      "currency": "ZAR",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-06-30",
+          "revenue": 196341239000.0,
+          "operating_income": 10587887000.0,
+          "net_income": 6886260000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-06-30",
+          "revenue": 225905337000.0,
+          "operating_income": 12054589000.0,
+          "net_income": 8010072000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-06-30",
+          "revenue": 235591182000.0,
+          "operating_income": 12773621000.0,
+          "net_income": 8174172000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-06-30",
+          "revenue": 242201052000.0,
+          "operating_income": 13684301000.0,
+          "net_income": 8948608000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "sudafrica-cls": {
+      "currency": "ZAR",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-08-31",
+          "revenue": 39587142000.0,
+          "operating_income": null,
+          "net_income": 2638680000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-08-31",
+          "revenue": 41621681000.0,
+          "operating_income": 3631128000.0,
+          "net_income": 2537528000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-08-31",
+          "revenue": 45437640000.0,
+          "operating_income": 4173941000.0,
+          "net_income": 2837057000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-08-31",
+          "revenue": 50414003000.0,
+          "operating_income": 4903680000.0,
+          "net_income": 3318643000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "sudafrica-mrp": {
+      "currency": "ZAR",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-03-31",
+          "revenue": 31840000000.0,
+          "operating_income": 4092000000.0,
+          "net_income": 3115000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-03-31",
+          "revenue": 36884000000.0,
+          "operating_income": 4408000000.0,
+          "net_income": 3280000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-03-31",
+          "revenue": 40715000000.0,
+          "operating_income": 5780000000.0,
+          "net_income": 3647000000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-03-31",
+          "revenue": 42399000000.0,
+          "operating_income": 6028000000.0,
+          "net_income": 3732000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "sudafrica-dsy": {
+      "currency": "ZAR",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-06-30",
+          "revenue": 63294000000.0,
+          "operating_income": 11721000000.0,
+          "net_income": 6510000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-06-30",
+          "revenue": 88357000000.0,
+          "operating_income": 13357000000.0,
+          "net_income": 7468000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-06-30",
+          "revenue": 105993000000.0,
+          "operating_income": 16969000000.0,
+          "net_income": 9471000000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-06-30",
+          "revenue": 111664000000.0,
+          "operating_income": 21528000000.0,
+          "net_income": 13132000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "sudafrica-sol": {
+      "currency": "ZAR",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-06-30",
+          "revenue": 289696000000.0,
+          "operating_income": 46780000000.0,
+          "net_income": 8799000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-06-30",
+          "revenue": 275111000000.0,
+          "operating_income": 44826000000.0,
+          "net_income": -44271000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-06-30",
+          "revenue": 249096000000.0,
+          "operating_income": 37947000000.0,
+          "net_income": 6767000000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-06-30",
+          "revenue": 272118000000.0,
+          "operating_income": 45101000000.0,
+          "net_income": 12149000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "sudafrica-bvt": {
+      "currency": "ZAR",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-06-30",
+          "revenue": 114911518000.0,
+          "operating_income": 10728301000.0,
+          "net_income": 5972689000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-06-30",
+          "revenue": 120708123000.0,
+          "operating_income": 11194825000.0,
+          "net_income": 6368975000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-06-30",
+          "revenue": 126605406000.0,
+          "operating_income": 11225095000.0,
+          "net_income": 6068542000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-06-30",
+          "revenue": 130321400000.0,
+          "operating_income": 12197298000.0,
+          "net_income": 6145829000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "sudafrica-apn": {
+      "currency": "ZAR",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-06-30",
+          "revenue": 40709000000.0,
+          "operating_income": 8247000000.0,
+          "net_income": 5228000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-06-30",
+          "revenue": 44706000000.0,
+          "operating_income": 10446000000.0,
+          "net_income": 4404000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-06-30",
+          "revenue": 35336000000.0,
+          "operating_income": 4992000000.0,
+          "net_income": -1083000000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-06-30",
+          "revenue": 34870000000.0,
+          "operating_income": 4626000000.0,
+          "net_income": 2647000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "sudafrica-tbs": {
+      "currency": "ZAR",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-09-30",
+          "revenue": 34028900000.0,
+          "operating_income": 3211900000.0,
+          "net_income": 2864500000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-09-30",
+          "revenue": 37388500000.0,
+          "operating_income": 2950300000.0,
+          "net_income": 2697200000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-09-30",
+          "revenue": 33494000000.0,
+          "operating_income": 2744000000.0,
+          "net_income": 2983000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-09-30",
+          "revenue": 34392000000.0,
+          "operating_income": 3675000000.0,
+          "net_income": 3817000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "sudafrica-pik": {
+      "currency": "ZAR",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-02-28",
+          "revenue": 106561800000.0,
+          "operating_income": 2182200000.0,
+          "net_income": 1169900000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-02-29",
+          "revenue": 112295000000.0,
+          "operating_income": -2238000000.0,
+          "net_income": -3301000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-02-28",
+          "revenue": 119049000000.0,
+          "operating_income": -1085000000.0,
+          "net_income": -736000000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-02-28",
+          "revenue": 120290000000.0,
+          "operating_income": -1177000000.0,
+          "net_income": -728000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "sudafrica-whl": {
+      "currency": "ZAR",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-06-30",
+          "revenue": 72266000000.0,
+          "operating_income": 6560000000.0,
+          "net_income": 5074000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-06-30",
+          "revenue": 76533000000.0,
+          "operating_income": 5726000000.0,
+          "net_income": 2593000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-06-30",
+          "revenue": 79537000000.0,
+          "operating_income": 4904000000.0,
+          "net_income": 2443000000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-06-30",
+          "revenue": 82841000000.0,
+          "operating_income": 5066000000.0,
+          "net_income": 2319000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "sudafrica-pph": {
+      "currency": "ZAR",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-09-30",
+          "revenue": 81154000000.0,
+          "operating_income": 8530000000.0,
+          "net_income": 6114000000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-09-30",
+          "revenue": 78960000000.0,
+          "operating_income": 7901000000.0,
+          "net_income": -1298000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-09-30",
+          "revenue": 85136000000.0,
+          "operating_income": 10858000000.0,
+          "net_income": 2072000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-09-30",
+          "revenue": 95340000000.0,
+          "operating_income": 13330000000.0,
+          "net_income": 5638000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "australia-bhp": {
+      "currency": "USD",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-06-30",
+          "revenue": 53817000000.0,
+          "operating_income": 21957000000.0,
+          "net_income": 12921000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-06-30",
+          "revenue": 55658000000.0,
+          "operating_income": 22905000000.0,
+          "net_income": 7897000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-06-30",
+          "revenue": 51262000000.0,
+          "operating_income": 19078000000.0,
+          "net_income": 9019000000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-06-30",
+          "revenue": 58760000000.0,
+          "operating_income": 25501000000.0,
+          "net_income": 9833000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "australia-cba": {
+      "currency": "AUD",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-06-30",
+          "revenue": 26779000000.0,
+          "operating_income": null,
+          "net_income": 9998000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-06-30",
+          "revenue": 27469000000.0,
+          "operating_income": null,
+          "net_income": 9394000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-06-30",
+          "revenue": 28657000000.0,
+          "operating_income": null,
+          "net_income": 10116000000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-06-30",
+          "revenue": 29901000000.0,
+          "operating_income": null,
+          "net_income": 10866000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "australia-csl": {
+      "currency": "USD",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-06-30",
+          "revenue": 13174000000.0,
+          "operating_income": 2102000000.0,
+          "net_income": 2194000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-06-30",
+          "revenue": 14690000000.0,
+          "operating_income": 2764000000.0,
+          "net_income": 2642000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-06-30",
+          "revenue": 15430000000.0,
+          "operating_income": 2959000000.0,
+          "net_income": 3002000000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-06-30",
+          "revenue": 15698000000.0,
+          "operating_income": 3101000000.0,
+          "net_income": -2579000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "australia-wbc": {
+      "currency": "AUD",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-09-30",
+          "revenue": 20427000000.0,
+          "operating_income": null,
+          "net_income": 5691000000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-09-30",
+          "revenue": 21376000000.0,
+          "operating_income": null,
+          "net_income": 7190000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-09-30",
+          "revenue": 21587000000.0,
+          "operating_income": null,
+          "net_income": 6983000000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-09-30",
+          "revenue": 22602000000.0,
+          "operating_income": null,
+          "net_income": 6806000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "australia-nab": {
+      "currency": "AUD",
+      "years": [
+        {
+          "year": 2022,
+          "period_end": "2022-09-30",
+          "revenue": 18329000000.0,
+          "operating_income": null,
+          "net_income": 6891000000.0
+        },
+        {
+          "year": 2023,
+          "period_end": "2023-09-30",
+          "revenue": 20630000000.0,
+          "operating_income": null,
+          "net_income": 7414000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-09-30",
+          "revenue": 20632000000.0,
+          "operating_income": null,
+          "net_income": 6960000000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-09-30",
+          "revenue": 22218000000.0,
+          "operating_income": null,
+          "net_income": 6143000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "australia-anz": {
+      "currency": "AUD",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-09-30",
+          "revenue": 20189000000.0,
+          "operating_income": null,
+          "net_income": 7106000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-09-30",
+          "revenue": 20355000000.0,
+          "operating_income": null,
+          "net_income": 6535000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-09-30",
+          "revenue": 22307000000.0,
+          "operating_income": null,
+          "net_income": 5891000000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-09-30",
+          "revenue": 21908000000.0,
+          "operating_income": null,
+          "net_income": 7270000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "australia-wes": {
+      "currency": "AUD",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-06-30",
+          "revenue": 43417000000.0,
+          "operating_income": 3570000000.0,
+          "net_income": 2465000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-06-30",
+          "revenue": 44047000000.0,
+          "operating_income": 3707000000.0,
+          "net_income": 2557000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-06-30",
+          "revenue": 45576000000.0,
+          "operating_income": 3822000000.0,
+          "net_income": 2926000000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-06-30",
+          "revenue": 47140000000.0,
+          "operating_income": 4103000000.0,
+          "net_income": 2874000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "australia-mqg": {
+      "currency": "AUD",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-03-31",
+          "revenue": 6558000000.0,
+          "operating_income": -6360000000.0,
+          "net_income": 5182000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-03-31",
+          "revenue": 6249000000.0,
+          "operating_income": -6148000000.0,
+          "net_income": 3522000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-03-31",
+          "revenue": 6790000000.0,
+          "operating_income": -6087000000.0,
+          "net_income": 3715000000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-03-31",
+          "revenue": 7216000000.0,
+          "operating_income": -6354000000.0,
+          "net_income": 4847000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "australia-wow": {
+      "currency": "AUD",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-06-30",
+          "revenue": 64294000000.0,
+          "operating_income": 413000000.0,
+          "net_income": 1618000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-06-30",
+          "revenue": 67922000000.0,
+          "operating_income": -1146000000.0,
+          "net_income": 108000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-06-30",
+          "revenue": 69077000000.0,
+          "operating_income": -1041000000.0,
+          "net_income": 963000000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-06-30",
+          "revenue": 71539000000.0,
+          "operating_income": -128000000.0,
+          "net_income": 1138000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "australia-fmg": {
+      "currency": "USD",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-06-30",
+          "revenue": 16780000000.0,
+          "operating_income": 7916000000.0,
+          "net_income": 4798000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-06-30",
+          "revenue": 18109000000.0,
+          "operating_income": 8374000000.0,
+          "net_income": 5683000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-06-30",
+          "revenue": 15420000000.0,
+          "operating_income": 5010000000.0,
+          "net_income": 3373000000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-06-30",
+          "revenue": 16835000000.0,
+          "operating_income": 5134000000.0,
+          "net_income": 2870000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "australia-jbh": {
+      "currency": "AUD",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-06-30",
+          "revenue": 9626400000.0,
+          "operating_income": 543500000.0,
+          "net_income": 524600000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-06-30",
+          "revenue": 9592400000.0,
+          "operating_income": 410200000.0,
+          "net_income": 438800000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-06-30",
+          "revenue": 10554800000.0,
+          "operating_income": 437600000.0,
+          "net_income": 462400000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-06-30",
+          "revenue": 11064000000.0,
+          "operating_income": 455800000.0,
+          "net_income": 489900000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "australia-brg": {
+      "currency": "AUD",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-06-30",
+          "revenue": 1478554000.0,
+          "operating_income": 170545000.0,
+          "net_income": 110208000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-06-30",
+          "revenue": 1529993000.0,
+          "operating_income": 183398000.0,
+          "net_income": 118507000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-06-30",
+          "revenue": 1696551000.0,
+          "operating_income": 207464000.0,
+          "net_income": 135854000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-06-30",
+          "revenue": 1810896000.0,
+          "operating_income": 207900000.0,
+          "net_income": 138127000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "australia-lyc": {
+      "currency": "AUD",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-06-30",
+          "revenue": 787123000.0,
+          "operating_income": 331165000.0,
+          "net_income": 310666000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-06-30",
+          "revenue": 464446000.0,
+          "operating_income": 71407000.0,
+          "net_income": 84514000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-06-30",
+          "revenue": 542665000.0,
+          "operating_income": 7345000.0,
+          "net_income": 7990000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-06-30",
+          "revenue": 977945000.0,
+          "operating_income": 250771000.0,
+          "net_income": 222352000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "australia-qan": {
+      "currency": "AUD",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-06-30",
+          "revenue": 19521000000.0,
+          "operating_income": 2440000000.0,
+          "net_income": 1746000000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-06-30",
+          "revenue": 21616000000.0,
+          "operating_income": 1873000000.0,
+          "net_income": 1255000000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-06-30",
+          "revenue": 23409000000.0,
+          "operating_income": 2041000000.0,
+          "net_income": 1605000000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-06-30",
+          "revenue": 25189000000.0,
+          "operating_income": 1800000000.0,
+          "net_income": 1289000000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "australia-twe": {
+      "currency": "AUD",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-06-30",
+          "revenue": 2423000000.0,
+          "operating_income": 182700000.0,
+          "net_income": 254500000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-06-30",
+          "revenue": 2739800000.0,
+          "operating_income": 42600000.0,
+          "net_income": 98900000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-06-30",
+          "revenue": 2938100000.0,
+          "operating_income": 518100000.0,
+          "net_income": 436900000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-06-30",
+          "revenue": 2561000000.0,
+          "operating_income": 57500000.0,
+          "net_income": -1077800000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "australia-dmp": {
+      "currency": "AUD",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-06-30",
+          "revenue": 2344702000.0,
+          "operating_income": 277764000.0,
+          "net_income": 40570000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-06-30",
+          "revenue": 2370008000.0,
+          "operating_income": 255677000.0,
+          "net_income": 95959000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-06-30",
+          "revenue": 2296878000.0,
+          "operating_income": 250656000.0,
+          "net_income": -3704000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-06-30",
+          "revenue": 2039942000.0,
+          "operating_income": 226963000.0,
+          "net_income": -134159000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "australia-sek": {
+      "currency": "AUD",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-06-30",
+          "revenue": 1225300000.0,
+          "operating_income": 395800000.0,
+          "net_income": 1023600000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-06-30",
+          "revenue": 1084100000.0,
+          "operating_income": 294700000.0,
+          "net_income": -100900000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-06-30",
+          "revenue": 1097000000.0,
+          "operating_income": 261000000.0,
+          "net_income": 245200000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-06-30",
+          "revenue": 1284200000.0,
+          "operating_income": 305900000.0,
+          "net_income": -371300000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "australia-rhc": {
+      "currency": "AUD",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-06-30",
+          "revenue": 14863000000.0,
+          "operating_income": 554200000.0,
+          "net_income": 298100000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-06-30",
+          "revenue": 16560200000.0,
+          "operating_income": 833200000.0,
+          "net_income": 888700000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-06-30",
+          "revenue": 17674100000.0,
+          "operating_income": 870500000.0,
+          "net_income": 24000000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-06-30",
+          "revenue": 18460000000.0,
+          "operating_income": 897100000.0,
+          "net_income": 329200000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "australia-pls": {
+      "currency": "AUD",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-06-30",
+          "revenue": 4315533000.0,
+          "operating_income": 3463520000.0,
+          "net_income": 2391135000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-06-30",
+          "revenue": 1792977000.0,
+          "operating_income": 936578000.0,
+          "net_income": 256883000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-06-30",
+          "revenue": 890207000.0,
+          "operating_income": -22422000.0,
+          "net_income": -195766000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-06-30",
+          "revenue": 1539710000.0,
+          "operating_income": 445904000.0,
+          "net_income": 525761000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    },
+    "australia-flt": {
+      "currency": "AUD",
+      "years": [
+        {
+          "year": 2023,
+          "period_end": "2023-06-30",
+          "revenue": 2280782000.0,
+          "operating_income": 115621000.0,
+          "net_income": 47461000.0
+        },
+        {
+          "year": 2024,
+          "period_end": "2024-06-30",
+          "revenue": 2710748000.0,
+          "operating_income": 243510000.0,
+          "net_income": 139638000.0
+        },
+        {
+          "year": 2025,
+          "period_end": "2025-06-30",
+          "revenue": 2783944000.0,
+          "operating_income": 223051000.0,
+          "net_income": 109489000.0
+        },
+        {
+          "year": 2026,
+          "period_end": "2026-06-30",
+          "revenue": 2854861000.0,
+          "operating_income": 201045000.0,
+          "net_income": 149174000.0
+        }
+      ],
+      "checked": "2026-11-20"
+    }
+  }
+}
