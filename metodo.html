@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Metodo e fonti — Borse del Mondo</title>
+<meta name="description" content="Da dove vengono i dati di Borse del Mondo, come li calcoliamo e come li verifichiamo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#f6f4ef;--card:#fff;--ink:#1b1f24;--muted:#5d6670;--line:#e3dfd6;--accent:#0f5c4d;--accent-soft:#e3efe9}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+  .wrap{max-width:780px;margin:0 auto;padding:28px 24px 56px}
+  nav{display:flex;gap:18px;font-size:14px;margin-bottom:22px;flex-wrap:wrap}
+  nav a{color:var(--accent);text-decoration:none;font-weight:500}
+  nav a[aria-current]{color:var(--ink)}
+  h1{font-family:Fraunces,Georgia,serif;font-size:32px;margin:0 0 8px}
+  h2{font-size:19px;margin:34px 0 8px}
+  p,li{font-size:15.5px}
+  .lead{color:var(--muted);font-size:17px}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px;background:var(--card);border-radius:10px;overflow:hidden}
+  th,td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+  th{font-size:13px;color:var(--muted);font-weight:600}
+  .box{background:var(--accent-soft);border-radius:12px;padding:14px 16px;margin:16px 0}
+  a{color:var(--accent)}
+  footer{font-size:12.5px;color:var(--muted);margin-top:40px;border-top:1px solid var(--line);padding-top:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav><a href="index.html">Borse del Mondo</a><a href="metodo.html" aria-current="page">Metodo e fonti</a><a href="chi-siamo.html">Chi siamo</a></nav>
+
+<h1>Metodo e fonti</h1>
+<p class="lead">Da dove vengono i dati che leggi sul sito, come li calcoliamo e come li controlliamo. Se trovi un errore, segnalacelo: lo correggiamo e lo indichiamo.</p>
+
+<h2>1. Dati di mercato</h2>
+<p>Prezzi, capitalizzazione, rapporto prezzo/utili (P/E), dividendi e volumi vengono scaricati in automatico ogni sera, dal lunedì al venerdì, dopo la chiusura di tutte le borse coperte.</p>
+<table>
+  <tr><th>Dato</th><th>Fonte</th></tr>
+  <tr><td>Prezzi, capitalizzazione, P/E, dividendi, volumi, storico settimanale</td><td>Yahoo Finance (in questa fase dimostrativa)</td></tr>
+  <tr><td>Riserva per il Vietnam se Yahoo non risponde</td><td>vnstock (dati delle borse vietnamite)</td></tr>
+  <tr><td>Cambi euro – rupia, baht, zloty</td><td>Cambi di riferimento ufficiali della Banca Centrale Europea</td></tr>
+  <tr><td>Cambio euro – dong vietnamita</td><td>Yahoo Finance (la BCE non lo pubblica)</td></tr>
+</table>
+<p>I dati sono di fine giornata, non in tempo reale. I valori in euro sono convertiti al cambio ufficiale del giorno.</p>
+
+<h2>2. Come calcoliamo i numeri</h2>
+<table>
+  <tr><th>Indicatore</th><th>Come si calcola</th></tr>
+  <tr><td>Dimensione</td><td>Capitalizzazione in euro: Large cap da 10 miliardi, Mid cap da 2 a 10 miliardi, Small cap sotto i 2 miliardi.</td></tr>
+  <tr><td>Liquidità</td><td>Media degli scambi giornalieri degli ultimi 60 giorni, in euro: alta sopra 10 milioni, media da 1 a 10 milioni, bassa sotto 1 milione.</td></tr>
+  <tr><td>Rendimento del dividendo</td><td>Dividendi pagati negli ultimi 12 mesi divisi per il prezzo attuale, al lordo delle tasse. Può includere dividendi straordinari: quando li abbiamo verificati, lo indichiamo nella scheda.</td></tr>
+  <tr><td>Variazione a un anno</td><td>Differenza di prezzo in valuta locale, senza considerare i dividendi né il cambio.</td></tr>
+  <tr><td>Netto del dividendo per te</td><td>Esempio su 100 € lordi: ritenuta del paese estero, poi imposta italiana del 26% sull'importo rimasto, come avviene di norma con un broker italiano in regime amministrato.</td></tr>
+</table>
+
+<h2>3. Livello di rischio (da 1 a 5)</h2>
+<p>È un indicatore sintetico che serve a <b>confrontare le società tra loro</b>. Viene ricalcolato ogni sera.</p>
+<table>
+  <tr><th>Componente</th><th>Peso</th><th>Come si misura</th></tr>
+  <tr><td>Volatilità</td><td>30%</td><td>Quanto oscilla il prezzo: deviazione dei rendimenti settimanali dell'ultimo anno, su base annua.</td></tr>
+  <tr><td>Calo massimo</td><td>25%</td><td>La discesa peggiore da un picco nell'ultimo anno.</td></tr>
+  <tr><td>Paese e accesso</td><td>20%</td><td>Valutazione fissa per paese: facilità di accesso dall'Italia, limiti per gli stranieri, stabilità della valuta.</td></tr>
+  <tr><td>Liquidità</td><td>15%</td><td>Quanto è facile comprare e vendere senza muovere il prezzo.</td></tr>
+  <tr><td>Dimensione</td><td>10%</td><td>Le società più piccole tendono a essere più fragili.</td></tr>
+</table>
+<p>Gli <b>eventi rilevanti documentati</b> (scandali, indagini, cambi improvvisi ai vertici) alzano il punteggio di 0,25, 0,5 o 1 punto in base alla gravità. Ogni evento ha la sua fonte.</p>
+<div class="box">Un livello 1 ("contenuto") non significa che l'investimento sia sicuro: comprare una singola azione in questi mercati resta un investimento rischioso. L'indicatore non è un consiglio d'investimento.</div>
+
+<h2>4. Contenuti scritti dalla redazione</h2>
+<ul>
+  <li><b>Descrizioni delle società:</b> scritte da noi a partire da bilanci, siti delle società e stampa economica.</li>
+  <li><b>CEO:</b> verificati uno per uno su fonti pubbliche; in ogni scheda trovi la data di verifica e il link alla fonte.</li>
+  <li><b>Eventi rilevanti:</b> solo fatti riportati da fonti identificabili, sempre linkate.</li>
+  <li><b>Guide paese e tasse:</b> basate su norme italiane (TUIR, D.L. 167/1990), convenzioni contro le doppie imposizioni pubblicate dal Ministero dell'Economia e fonti ufficiali dei paesi. Sono indicative: per la tua situazione consulta un commercialista.</li>
+</ul>
+
+<h2>5. Controlli di qualità</h2>
+<p>A ogni aggiornamento un controllo automatico segnala i dati sospetti, per esempio un rendimento del dividendo oltre il 9%, un P/E negativo o oltre 100, un calo oltre il 60% in un anno o un prezzo cambiato di oltre il 30% in un giorno. Questi dati compaiono sul sito con il simbolo ⚠ finché qualcuno della redazione non li verifica su una fonte indipendente. Dopo la verifica, il dato viene confermato con una nota ("✓ Verificato") oppure nascosto se è sbagliato.</p>
+
+<h2>6. Cosa non facciamo</h2>
+<ul>
+  <li>Non diamo consigli d'investimento né indicazioni su cosa comprare o vendere.</li>
+  <li>Non pubblichiamo prezzi obiettivo o raccomandazioni.</li>
+  <li>Non riceviamo compensi dalle società di cui parliamo.</li>
+</ul>
+
+<footer>Contenuti a solo scopo informativo: non sono una raccomandazione d'investimento né una consulenza finanziaria. Ultimo aggiornamento di questa pagina: 20 novembre 2026.</footer>
+</div>
+</body>
+</html>
