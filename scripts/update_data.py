@@ -101,6 +101,24 @@ def fetch_yahoo_fx(code):
     return clean(hist["Close"].dropna().iloc[-1])
 
 
+# ---------------------------------------------------------------- storico per i grafici
+
+def weekly_history(closes):
+    """Chiusure settimanali (venerdì) dell'ultimo anno, più l'ultima chiusura: [[data, prezzo], ...]."""
+    try:
+        weekly = closes.resample("W-FRI").last().dropna()
+    except Exception:
+        weekly = closes
+    points = [[d.strftime("%Y-%m-%d"), round(float(v), 4)] for d, v in weekly.items()]
+    last_date = closes.index[-1].strftime("%Y-%m-%d")
+    last = [last_date, round(float(closes.iloc[-1]), 4)]
+    if points and points[-1][0] >= last_date:
+        points[-1] = last
+    elif not points or points[-1] != last:
+        points.append(last)
+    return points
+
+
 # ---------------------------------------------------------------- Yahoo Finance
 
 def fetch_yahoo(symbol):
@@ -147,6 +165,7 @@ def fetch_yahoo(symbol):
         market_cap = shares * price
 
     return {
+        "history": weekly_history(closes),
         "source": "Yahoo Finance",
         "price": price,
         "currency": currency,
@@ -187,7 +206,14 @@ def fetch_vnstock(ticker):
     price = clean(closes.iloc[-1] * factor)
     first = clean(closes.iloc[0] * factor)
     last_time = df["time"].iloc[-1] if "time" in df.columns else end
+    hist_series = None
+    try:
+        import pandas as pd
+        hist_series = pd.Series((df["close"] * factor).values, index=pd.to_datetime(df["time"])).dropna()
+    except Exception:
+        pass
     return {
+        "history": weekly_history(hist_series) if hist_series is not None and not hist_series.empty else [],
         "source": "vnstock",
         "price": price,
         "currency": "VND",
