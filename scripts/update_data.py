@@ -30,6 +30,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 COMPANIES_FILE = ROOT / "data" / "companies.json"
 MARKET_FILE = ROOT / "data" / "market.json"
+FINANCIALS_FILE = ROOT / "data" / "financials.json"
 
 ECB_URL = "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
 PAUSE_SECONDS = 1.0  # pausa tra una richiesta e l'altra, per non sovraccaricare le fonti
@@ -164,7 +165,14 @@ def fetch_yahoo(symbol):
     if market_cap is None and shares and price:
         market_cap = shares * price
 
+    financials = None
+    try:
+        financials = extract_financials(t, info)
+    except Exception as exc:
+        print(f"    bilanci non disponibili per {symbol}: {exc}")
+
     return {
+        "financials": financials,
         "history": weekly_history(closes),
         "source": "Yahoo Finance",
         "price": price,
@@ -176,6 +184,39 @@ def fetch_yahoo(symbol):
         "avg_volume": avg_volume,
         "last_trade_date": closes.index[-1].strftime("%Y-%m-%d"),
     }
+
+
+def extract_financials(t, info):
+    """Ricavi, utile operativo e utile netto degli ultimi esercizi annuali (conto economico Yahoo)."""
+    df = t.income_stmt
+    if df is None or df.empty:
+        return None
+
+    def row(*names):
+        for n in names:
+            if n in df.index:
+                return df.loc[n]
+        return None
+
+    rev = row("Total Revenue", "Operating Revenue")
+    op = row("Operating Income", "EBIT")
+    ni = row("Net Income Common Stockholders", "Net Income",
+             "Net Income From Continuing Operation Net Minority Interest")
+    years = []
+    for col in sorted(df.columns):
+        y = {
+            "year": int(col.year),
+            "period_end": col.strftime("%Y-%m-%d"),
+            "revenue": clean(rev[col]) if rev is not None else None,
+            "operating_income": clean(op[col]) if op is not None else None,
+            "net_income": clean(ni[col]) if ni is not None else None,
+        }
+        if y["revenue"] is None and y["net_income"] is None:
+            continue
+        years.append(y)
+    if not years:
+        return None
+    return {"currency": info.get("financialCurrency") or info.get("currency"), "years": years[-5:]}
 
 
 # ---------------------------------------------------------------- vnstock (Vietnam)
@@ -454,6 +495,14 @@ def run(fetch_yahoo=fetch_yahoo, fetch_vnstock=fetch_vnstock,
                 fx_rates[code] = previous_fx["per_eur"][code]
                 fx_sources[code] = (previous_fx.get("sources", {}).get(code) or "") + " (ultimo disponibile)"
 
+    previous_fin = {}
+    if FINANCIALS_FILE.exists():
+        try:
+            previous_fin = json.loads(FINANCIALS_FILE.read_text(encoding="utf-8")).get("companies", {})
+        except Exception:
+            previous_fin = {}
+    financials = {}
+
     results, ok, failed = {}, 0, []
     for c in companies:
         print(f"- {c['name']} ({c['yahoo']})")
@@ -467,6 +516,12 @@ def run(fetch_yahoo=fetch_yahoo, fetch_vnstock=fetch_vnstock,
                 raw = fetch_vnstock(c["ticker"])
             except Exception as exc:
                 print(f"    vnstock errore: {exc}")
+
+        fin = raw.pop("financials", None) if raw else None
+        if fin:
+            financials[c["id"]] = {**fin, "checked": date.today().isoformat()}
+        elif c["id"] in previous_fin:
+            financials[c["id"]] = previous_fin[c["id"]]
 
         if raw and raw.get("price") is not None:
             results[c["id"]] = {**enrich(raw, fx_rates, country_currency[c["country"]]), "stale": False}
@@ -503,6 +558,13 @@ def run(fetch_yahoo=fetch_yahoo, fetch_vnstock=fetch_vnstock,
         "companies": results,
     }
     MARKET_FILE.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
+    FINANCIALS_FILE.write_text(json.dumps({
+        "updated_at": output["updated_at"],
+        "source": "Yahoo Finance (conto economico annuale)",
+        "per_eur": {k: v for k, v in fx_rates.items()},
+        "companies": financials,
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"Bilanci disponibili: {len(financials)} società")
     print(f"\nAggiornate {ok} società su {len(companies)}.")
     if failed:
         print("Senza dati nuovi:", ", ".join(failed))
