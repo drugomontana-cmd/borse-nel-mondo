@@ -217,6 +217,103 @@
           "source": "https://www.justetf.com/en/etf-profile.html?isin=LU0292109344"
         }
       ]
+    },
+    "singapore": {
+      "summary": "La borsa di Singapore è offerta da diversi broker internazionali: Interactive Brokers, Saxo e DEGIRO la includono. Per gli altri broker usati in Italia va verificato. Le azioni si comprano di solito a lotti di 100.",
+      "direct": {
+        "label": "Borsa di Singapore (SGX)",
+        "brokers": {
+          "fineco": "verificare",
+          "directa": "no",
+          "saxo": "si",
+          "traderepublic": "verificare",
+          "scalable": "verificare",
+          "ibkr": "si",
+          "degiro": "si",
+          "xtb": "verificare"
+        }
+      },
+      "etfs": [
+        {
+          "name": "Xtrackers MSCI Singapore UCITS ETF 1C",
+          "isin": "LU0659578842",
+          "note": "Costo annuo 0,50%; poche decine di titoli, con forte peso delle tre grandi banche.",
+          "source": "https://justetf.com/de/stock-profiles/SG1J26887955"
+        },
+        {
+          "name": "UBS MSCI Singapore UCITS ETF SGD dis",
+          "isin": "LU1169825954",
+          "note": "Costo annuo 0,45%; distribuisce i dividendi; segue un indice con tetti al peso dei singoli titoli.",
+          "source": "https://www.justetf.com/en/etf-profile.html?isin=LU1169825954"
+        }
+      ]
+    },
+    "sudafrica": {
+      "summary": "Tra i broker usati in Italia l'accesso diretto alla borsa di Johannesburg è confermato su Saxo; Interactive Brokers non la offre. In alternativa ci sono gli ADR a New York di alcune società (Gold Fields, Sasol) e l'ETF sul Sudafrica.",
+      "direct": {
+        "label": "Borsa di Johannesburg (JSE)",
+        "brokers": {
+          "fineco": "verificare",
+          "directa": "no",
+          "saxo": "si",
+          "traderepublic": "verificare",
+          "scalable": "verificare",
+          "ibkr": "no",
+          "degiro": "verificare",
+          "xtb": "verificare"
+        }
+      },
+      "adr": {
+        "label": "ADR a New York",
+        "brokers": {
+          "fineco": "si",
+          "directa": "si",
+          "saxo": "si",
+          "traderepublic": "verificare",
+          "scalable": "verificare",
+          "ibkr": "si",
+          "degiro": "si",
+          "xtb": "verificare"
+        }
+      },
+      "etfs": [
+        {
+          "name": "iShares MSCI South Africa UCITS ETF",
+          "isin": "IE00B52XQP83",
+          "note": "L'unico ETF UCITS dedicato al Sudafrica; costo annuo 0,65%; circa 27 titoli, con forte peso di Naspers e delle miniere d'oro.",
+          "source": "https://www.justetf.com/uk/how-to/invest-in-south-africa.html"
+        }
+      ]
+    },
+    "australia": {
+      "summary": "La borsa australiana è offerta da diversi broker internazionali: Interactive Brokers, Saxo e DEGIRO la includono. Per gli altri broker usati in Italia va verificato. Alcune grandi società, come BHP, sono quotate anche a New York o Londra.",
+      "direct": {
+        "label": "Borsa australiana (ASX)",
+        "brokers": {
+          "fineco": "verificare",
+          "directa": "verificare",
+          "saxo": "si",
+          "traderepublic": "verificare",
+          "scalable": "verificare",
+          "ibkr": "si",
+          "degiro": "si",
+          "xtb": "verificare"
+        }
+      },
+      "etfs": [
+        {
+          "name": "iShares MSCI Australia UCITS ETF",
+          "isin": "IE00B5377D42",
+          "note": "Costo annuo 0,50%; circa 46 grandi e medie società, con molto peso di banche e miniere.",
+          "source": "https://www.justetf.com/en/etf-profile.html?isin=IE00B5377D42"
+        },
+        {
+          "name": "UBS MSCI Australia UCITS ETF AUD acc",
+          "isin": "IE00BD4TY451",
+          "note": "Costo annuo 0,40%; stesso indice, in dollari australiani.",
+          "source": "https://www.justetf.com/ch/how-to/invest-in-australia.html"
+        }
+      ]
     }
   },
   "sources": {
@@ -226,6 +323,9 @@
     "vietnam-riforma": "https://www.china-briefing.com/china-outbound-news/vietnam-eases-foreign-access-to-equities-what-the-new-rules-mean-for-global-investors",
     "thailandia-canali": "https://www.set.or.th/en/trade-in-set",
     "xtb-polonia": "https://www.financemagnates.com/forex/brokers/warsaw-stock-exchange-taps-xtb-to-bring-foreign-retail-investors-to-polish-stocks/",
-    "ibkr-brasile": "https://www.brasil247.com/brazilstockguide/?p=2547"
+    "ibkr-brasile": "https://www.brasil247.com/brazilstockguide/?p=2547",
+    "saxo-sgx-jse-asx": "https://home.saxo/en-gb/rates-and-conditions/stocks/trading-conditions",
+    "ibkr-no-jse": "https://investingintheweb.com/top-platforms/best-stock-trading-apps-in-south-africa/",
+    "degiro-asia-pacifico": "https://qualebroker.com/recensioni/broker/degiro"
   }
 }

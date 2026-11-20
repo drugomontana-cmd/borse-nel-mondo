@@ -91,6 +91,70 @@
       "dividend_withholding": 0.1,
       "country_risk": 3,
       "country_risk_note": "Mercato grande e liquido, ma con valuta molto volatile, tassi altissimi e forte peso della politica sulle società controllate dallo Stato."
+    },
+    "singapore": {
+      "name": "Singapore",
+      "flag": "🇸🇬",
+      "exchange": "SGX – Borsa di Singapore",
+      "currency": "Dollaro di Singapore (SGD)",
+      "index": "Straits Times Index (STI)",
+      "hours": "9:00–12:00 e 13:00–17:00 locali (2:00–10:00 ora italiana in inverno, 3:00–11:00 in estate)",
+      "access": "Mercato aperto e ben regolato, offerto da diversi broker internazionali (per esempio Interactive Brokers, Saxo e DEGIRO). Le azioni si comprano di solito a lotti di 100. L'alternativa è un ETF su Singapore.",
+      "foreign": "Nessun limite generale per gli investitori esteri. Servono autorizzazioni solo per quote rilevanti in banche, giornali e poche altre società strategiche.",
+      "tax": "Singapore non trattiene nulla sui dividendi: le società pagano già le imposte sugli utili e il dividendo arriva intero. In Italia si applica poi il 26%. Anche le distribuzioni dei fondi immobiliari quotati (REIT) ai privati sono di norma esenti a Singapore.",
+      "liquidity": "Buona per le società dello STI, bassa per molte società più piccole.",
+      "fx": "Il dollaro di Singapore è gestito dalla banca centrale ed è tra le valute asiatiche più stabili.",
+      "currency_code": "SGD",
+      "yahoo_suffix": ".SI",
+      "dividend_withholding": 0.0,
+      "country_risk": 1,
+      "country_risk_note": "Paese stabile, con regole chiare e valuta solida. Il rischio principale è che molte società sono piccole e poco scambiate."
+    },
+    "sudafrica": {
+      "name": "Sudafrica",
+      "flag": "🇿🇦",
+      "exchange": "JSE – Borsa di Johannesburg",
+      "currency": "Rand sudafricano (ZAR)",
+      "index": "FTSE/JSE Top 40",
+      "hours": "9:00–17:00 locali (8:00–16:00 ora italiana in inverno, stessa ora dell'Italia in estate)",
+      "access": "La borsa più grande dell'Africa. Tra i broker usati in Italia l'accesso diretto è confermato su Saxo; Interactive Brokers non la offre. Alcune società (Gold Fields, Sasol) sono quotate anche a New York.",
+      "foreign": "Nessun limite generale per gli investitori esteri nelle società quotate.",
+      "tax": "Il Sudafrica trattiene il 20% sui dividendi. La convenzione Italia–Sudafrica lo riduce al 15% se il broker presenta una dichiarazione di residenza fiscale italiana. Sugli acquisti di azioni si paga anche un'imposta di trasferimento dello 0,25%.",
+      "liquidity": "Molto buona per le società del Top 40, più bassa per le altre.",
+      "fx": "Il rand è una delle valute più volatili del mondo: può muoversi del 15–20% in un anno rispetto all'euro.",
+      "currency_code": "ZAR",
+      "yahoo_suffix": ".JO",
+      "dividend_withholding": 0.2,
+      "dividend_withholding_treaty": 0.15,
+      "country_risk": 3,
+      "country_risk_note": "Borsa grande e ben regolata, ma economia debole, problemi di energia e infrastrutture e valuta molto volatile."
+    },
+    "australia": {
+      "name": "Australia",
+      "flag": "🇦🇺",
+      "exchange": "ASX – Borsa australiana",
+      "currency": "Dollaro australiano (AUD)",
+      "index": "S&P/ASX 200",
+      "hours": "10:00–16:00 a Sydney (0:00–6:00 ora italiana in inverno, 2:00–8:00 in estate)",
+      "access": "Mercato sviluppato, offerto da diversi broker internazionali (per esempio Interactive Brokers, Saxo e DEGIRO). Gli ordini si eseguono di notte per l'Italia: conviene usare ordini con prezzo limite.",
+      "foreign": "Nessun limite per un piccolo investitore. Alcune società strategiche hanno tetti alla proprietà estera (per esempio Qantas, massimo 49%).",
+      "tax": "I dividendi «franked», pagati con utili su cui la società ha già versato l'imposta australiana, non hanno ritenuta. Sulla parte «unfranked» l'Australia trattiene il 30%, ridotto al 15% dalla convenzione con l'Italia. Le grandi società australiane pagano spesso dividendi interamente franked.",
+      "liquidity": "Molto alta per le grandi società, buona anche per molte medie.",
+      "fx": "Il dollaro australiano è legato ai prezzi delle materie prime e all'economia cinese: si muove più dell'euro, ma meno delle valute emergenti.",
+      "currency_code": "AUD",
+      "yahoo_suffix": ".AX",
+      "dividend_rows": [
+        {
+          "withholding": 0.0,
+          "label": "Dividendo franked"
+        },
+        {
+          "withholding": 0.15,
+          "label": "Dividendo unfranked, con trattato"
+        }
+      ],
+      "country_risk": 1,
+      "country_risk_note": "Paese stabile e mercato sviluppato. Il rischio principale è il peso delle materie prime e della domanda cinese."
     }
   },
   "italy_tax_rate": 0.26,

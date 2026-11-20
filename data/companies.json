@@ -3013,5 +3013,1805 @@
       "checked": "2026-11-20"
     },
     "events": []
+  },
+  {
+    "id": "singapore-d05",
+    "country": "singapore",
+    "name": "DBS Group",
+    "ticker": "D05",
+    "yahoo": "D05.SI",
+    "sector": "Finanza",
+    "size_fallback": "Large cap",
+    "hq": "Singapore",
+    "index": "STI",
+    "adr": "No",
+    "description": "DBS è la più grande banca del Sud-est asiatico per attivi. Nata nel 1968 come banca di sviluppo pubblica, oggi offre conti, prestiti, gestione patrimoniale e servizi alle imprese a Singapore, Hong Kong, Cina, India, Indonesia e Taiwan. Il fondo statale Temasek è il primo azionista.",
+    "strengths": [
+      "Banca più grande e solida della regione",
+      "Forte nella banca digitale",
+      "Dividendi crescenti e regolari"
+    ],
+    "risks": [
+      "Margini che scendono quando calano i tassi",
+      "Esposizione a Hong Kong e Cina",
+      "Concorrenza delle banche digitali"
+    ],
+    "ceo": {
+      "name": "Tan Su Shan",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "singapore-o39",
+    "country": "singapore",
+    "name": "OCBC",
+    "ticker": "O39",
+    "yahoo": "O39.SI",
+    "sector": "Finanza",
+    "size_fallback": "Large cap",
+    "hq": "Singapore",
+    "index": "STI",
+    "adr": "No",
+    "description": "OCBC (Oversea-Chinese Banking Corporation) è la seconda banca di Singapore e la più antica ancora attiva, fondata nel 1932. Oltre alla banca controlla la compagnia assicurativa Great Eastern e la banca privata Bank of Singapore. È molto presente anche in Malesia, Indonesia e Hong Kong.",
+    "strengths": [
+      "Diversificata tra banca, assicurazioni e gestione patrimoniale",
+      "Capitale molto solido",
+      "Dividendi elevati"
+    ],
+    "risks": [
+      "Margini legati ai tassi d'interesse",
+      "Esposizione a Cina e Hong Kong",
+      "Crescita più lenta dei concorrenti digitali"
+    ],
+    "ceo": {
+      "name": "Tan Teck Long",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "singapore-u11",
+    "country": "singapore",
+    "name": "United Overseas Bank (UOB)",
+    "ticker": "U11",
+    "yahoo": "U11.SI",
+    "sector": "Finanza",
+    "size_fallback": "Large cap",
+    "hq": "Singapore",
+    "index": "STI",
+    "adr": "No",
+    "description": "UOB è la terza banca di Singapore, fondata nel 1935 e ancora guidata dalla famiglia Wee. Negli ultimi anni ha comprato le attività al dettaglio di Citigroup in Thailandia, Malesia, Indonesia e Vietnam, diventando una delle banche più diffuse nel Sud-est asiatico.",
+    "strengths": [
+      "Rete ampia nel Sud-est asiatico",
+      "Gestione familiare stabile e prudente",
+      "Dividendi regolari"
+    ],
+    "risks": [
+      "Integrazione delle attività comprate da Citigroup",
+      "Crediti immobiliari a Hong Kong e Cina",
+      "Margini in calo con tassi più bassi"
+    ],
+    "ceo": {
+      "name": "Wee Ee Cheong",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "singapore-z74",
+    "country": "singapore",
+    "name": "Singtel",
+    "ticker": "Z74",
+    "yahoo": "Z74.SI",
+    "sector": "Telecomunicazioni",
+    "size_fallback": "Large cap",
+    "hq": "Singapore",
+    "index": "STI",
+    "adr": "No",
+    "description": "Singtel è la principale compagnia telefonica di Singapore e possiede Optus, il secondo operatore australiano. Ha anche quote importanti in operatori di altri paesi asiatici, come Bharti Airtel in India, AIS in Thailandia e Telkomsel in Indonesia, e una rete di centri dati.",
+    "strengths": [
+      "Quote in operatori asiatici in crescita",
+      "Flussi di cassa stabili",
+      "Controllata dal fondo statale Temasek"
+    ],
+    "risks": [
+      "Problemi e multe in Australia per Optus",
+      "Mercato di Singapore maturo",
+      "Debito e cessioni di asset da gestire"
+    ],
+    "ceo": {
+      "name": "Yuen Kuan Moon",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "singapore-s63",
+    "country": "singapore",
+    "name": "ST Engineering",
+    "ticker": "S63",
+    "yahoo": "S63.SI",
+    "sector": "Industria",
+    "size_fallback": "Large cap",
+    "hq": "Singapore",
+    "index": "STI",
+    "adr": "No",
+    "description": "ST Engineering (Singapore Technologies Engineering) è un gruppo di ingegneria che lavora per la difesa, la manutenzione di aerei, i sistemi per le città (trasporti, sicurezza informatica) e la navalmeccanica. È uno dei maggiori centri al mondo per la manutenzione e la conversione di aerei da passeggeri in cargo.",
+    "strengths": [
+      "Contratti pubblici e di difesa di lunga durata",
+      "Leader nella manutenzione aeronautica",
+      "Portafoglio ordini molto ampio"
+    ],
+    "risks": [
+      "Dipende in parte dalla spesa militare",
+      "Margini bassi in alcune attività",
+      "Controllata dallo Stato tramite Temasek"
+    ],
+    "ceo": {
+      "name": "Vincent Chong",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "singapore-s68",
+    "country": "singapore",
+    "name": "Singapore Exchange (SGX)",
+    "ticker": "S68",
+    "yahoo": "S68.SI",
+    "sector": "Finanza",
+    "size_fallback": "Large cap",
+    "hq": "Singapore",
+    "index": "STI",
+    "adr": "No",
+    "description": "SGX gestisce la borsa di Singapore: azioni, obbligazioni, derivati e valute. Guadagna soprattutto dalle commissioni sui contratti derivati, in particolare i future sugli indici asiatici e sulle materie prime, molto usati dagli investitori internazionali.",
+    "strengths": [
+      "Monopolio del mercato di Singapore",
+      "Forte nei derivati asiatici",
+      "Margini molto alti"
+    ],
+    "risks": [
+      "Poche nuove quotazioni di società locali",
+      "Ricavi legati ai volumi di scambio",
+      "Concorrenza di Hong Kong"
+    ],
+    "ceo": {
+      "name": "Loh Boon Chye",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "singapore-c6l",
+    "country": "singapore",
+    "name": "Singapore Airlines",
+    "ticker": "C6L",
+    "yahoo": "C6L.SI",
+    "sector": "Turismo e trasporti",
+    "size_fallback": "Large cap",
+    "hq": "Singapore",
+    "index": "STI",
+    "adr": "No",
+    "description": "Singapore Airlines è la compagnia aerea di bandiera di Singapore, considerata una delle migliori al mondo per qualità del servizio. Controlla la low cost Scoot e ha una quota di circa un quarto di Air India dopo la fusione con Vistara.",
+    "strengths": [
+      "Marchio di altissima qualità",
+      "Hub di Singapore molto efficiente",
+      "Bilancio solido"
+    ],
+    "risks": [
+      "Prezzo del carburante",
+      "Settore molto ciclico",
+      "Perdite e rischi legati alla quota in Air India"
+    ],
+    "ceo": {
+      "name": "Goh Choon Phong",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "singapore-bn4",
+    "country": "singapore",
+    "name": "Keppel",
+    "ticker": "BN4",
+    "yahoo": "BN4.SI",
+    "sector": "Industria",
+    "size_fallback": "Large cap",
+    "hq": "Singapore",
+    "index": "STI",
+    "adr": "No",
+    "description": "Keppel è un gruppo che negli ultimi anni ha ceduto i cantieri navali e si è trasformato in un gestore di investimenti in infrastrutture: energia, centri dati, immobili e reti urbane. Gestisce fondi per conto di investitori terzi e possiede direttamente parte degli impianti.",
+    "strengths": [
+      "Ricavi ricorrenti dalla gestione di fondi",
+      "Infrastrutture con contratti di lunga durata",
+      "Esperienza in energia e centri dati"
+    ],
+    "risks": [
+      "Trasformazione ancora in corso",
+      "Attività immobiliari in Cina",
+      "Struttura complessa da capire"
+    ],
+    "ceo": {
+      "name": "Loh Chin Hua",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "singapore-f34",
+    "country": "singapore",
+    "name": "Wilmar International",
+    "ticker": "F34",
+    "yahoo": "F34.SI",
+    "sector": "Beni di consumo",
+    "size_fallback": "Large cap",
+    "hq": "Singapore",
+    "index": "STI",
+    "adr": "No",
+    "description": "Wilmar è uno dei maggiori gruppi agroalimentari dell'Asia: coltiva palma da olio, raffina oli alimentari, produce zucchero, farine e prodotti di marca. Ha una grande presenza in Cina, dove controlla la società quotata Yihai Kerry Arawana.",
+    "strengths": [
+      "Leader mondiale dell'olio di palma",
+      "Catena completa dal campo allo scaffale",
+      "Marchi forti in Cina"
+    ],
+    "risks": [
+      "Prezzi delle materie prime agricole",
+      "Critiche ambientali sulla palma da olio",
+      "Margini bassi"
+    ],
+    "ceo": {
+      "name": "Kuok Khoon Hong",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "singapore-c38u",
+    "country": "singapore",
+    "name": "CapitaLand Integrated Commercial Trust",
+    "ticker": "C38U",
+    "yahoo": "C38U.SI",
+    "sector": "Immobiliare",
+    "size_fallback": "Large cap",
+    "hq": "Singapore",
+    "index": "STI",
+    "adr": "No",
+    "description": "CICT è il più grande fondo immobiliare quotato (REIT) di Singapore. Possiede centri commerciali e grattacieli per uffici nel centro della città, come Raffles City e Plaza Singapura, e distribuisce agli investitori quasi tutto l'affitto incassato.",
+    "strengths": [
+      "Immobili di prima qualità in centro",
+      "Distribuzioni regolari",
+      "Gestito dal gruppo CapitaLand"
+    ],
+    "risks": [
+      "Sensibile all'aumento dei tassi",
+      "Domanda di uffici incerta",
+      "Crescita limitata"
+    ],
+    "ceo": {
+      "name": "Tony Tan",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "singapore-u96",
+    "country": "singapore",
+    "name": "Sembcorp Industries",
+    "ticker": "U96",
+    "yahoo": "U96.SI",
+    "sector": "Energia",
+    "size_fallback": "Mid cap",
+    "hq": "Singapore",
+    "index": "SGX (Mainboard)",
+    "adr": "No",
+    "description": "Sembcorp produce e distribuisce energia elettrica, gas e acqua a Singapore e in altri paesi asiatici, e sta spostando rapidamente il proprio portafoglio verso solare ed eolico in India, Cina e Sud-est asiatico.",
+    "strengths": [
+      "Crescita nelle energie rinnovabili",
+      "Contratti di fornitura di lunga durata",
+      "Posizione forte a Singapore"
+    ],
+    "risks": [
+      "Investimenti molto elevati",
+      "Tariffe regolate in alcuni paesi",
+      "Debito in aumento"
+    ],
+    "ceo": {
+      "name": "Wong Kim Yin",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "singapore-g13",
+    "country": "singapore",
+    "name": "Genting Singapore",
+    "ticker": "G13",
+    "yahoo": "G13.SI",
+    "sector": "Turismo e trasporti",
+    "size_fallback": "Mid cap",
+    "hq": "Singapore",
+    "index": "SGX (Mainboard)",
+    "adr": "No",
+    "description": "Genting Singapore gestisce Resorts World Sentosa, uno dei due casinò autorizzati della città, con alberghi, il parco Universal Studios Singapore e un acquario. Fa parte del gruppo malese Genting della famiglia Lim.",
+    "strengths": [
+      "Licenza di casinò rara",
+      "Attrazioni turistiche famose",
+      "Molta liquidità in cassa"
+    ],
+    "risks": [
+      "Dipende dai turisti, in particolare cinesi",
+      "Regole e tasse sul gioco",
+      "Concorrenza di Marina Bay Sands"
+    ],
+    "ceo": {
+      "name": "Tan Hee Teck",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "singapore-v03",
+    "country": "singapore",
+    "name": "Venture Corporation",
+    "ticker": "V03",
+    "yahoo": "V03.SI",
+    "sector": "Tecnologia",
+    "size_fallback": "Mid cap",
+    "hq": "Singapore",
+    "index": "SGX (Mainboard)",
+    "adr": "No",
+    "description": "Venture progetta e produce per conto terzi apparecchi elettronici complessi: strumenti scientifici e medicali, apparecchiature per semiconduttori, dispositivi di rete. Lavora per grandi gruppi tecnologici occidentali con fabbriche a Singapore, in Malesia e in Cina.",
+    "strengths": [
+      "Clienti di alta tecnologia",
+      "Nessun debito netto",
+      "Dividendi stabili"
+    ],
+    "risks": [
+      "Pochi clienti molto importanti",
+      "Ciclo dell'elettronica",
+      "Dazi e tensioni commerciali"
+    ],
+    "ceo": {
+      "name": "Wong Ngit Liong",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "singapore-c52",
+    "country": "singapore",
+    "name": "ComfortDelGro",
+    "ticker": "C52",
+    "yahoo": "C52.SI",
+    "sector": "Turismo e trasporti",
+    "size_fallback": "Mid cap",
+    "hq": "Singapore",
+    "index": "SGX (Mainboard)",
+    "adr": "No",
+    "description": "ComfortDelGro è uno dei maggiori operatori di trasporto pubblico al mondo: gestisce taxi, autobus e linee ferroviarie a Singapore e autobus nel Regno Unito, in Irlanda e in Australia.",
+    "strengths": [
+      "Contratti pubblici stabili",
+      "Presenza internazionale",
+      "Bilancio solido"
+    ],
+    "risks": [
+      "Concorrenza di Grab e altre app nei taxi",
+      "Costi del personale e del carburante",
+      "Margini bassi"
+    ],
+    "ceo": {
+      "name": "Cheng Siak Kian",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "singapore-s58",
+    "country": "singapore",
+    "name": "SATS",
+    "ticker": "S58",
+    "yahoo": "S58.SI",
+    "sector": "Turismo e trasporti",
+    "size_fallback": "Mid cap",
+    "hq": "Singapore",
+    "index": "SGX (Mainboard)",
+    "adr": "No",
+    "description": "SATS fornisce servizi a terra negli aeroporti: movimentazione merci, gestione bagagli e pasti per le compagnie aeree. Con l'acquisto della francese Worldwide Flight Services nel 2023 è diventata il primo operatore al mondo nella gestione delle merci aeree.",
+    "strengths": [
+      "Leader mondiale nella logistica aeroportuale",
+      "Crescita del commercio elettronico",
+      "Clienti in tutto il mondo"
+    ],
+    "risks": [
+      "Debito aumentato dopo l'acquisizione",
+      "Ciclo del traffico aereo",
+      "Margini bassi"
+    ],
+    "ceo": {
+      "name": "Kerry Mok",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "singapore-c09",
+    "country": "singapore",
+    "name": "City Developments (CDL)",
+    "ticker": "C09",
+    "yahoo": "C09.SI",
+    "sector": "Immobiliare",
+    "size_fallback": "Mid cap",
+    "hq": "Singapore",
+    "index": "SGX (Mainboard)",
+    "adr": "No",
+    "description": "City Developments è uno dei maggiori costruttori immobiliari di Singapore, controllato dalla famiglia Kwek (gruppo Hong Leong). Costruisce e vende abitazioni e possiede uffici, centri commerciali e alberghi a Singapore e all'estero. Nel 2025 c'è stato uno scontro pubblico tra il presidente e il figlio amministratore delegato.",
+    "strengths": [
+      "Molti terreni e immobili di valore",
+      "Marchio storico a Singapore",
+      "Azioni scambiate sotto il valore degli immobili"
+    ],
+    "risks": [
+      "Mercato immobiliare regolato e ciclico",
+      "Tensioni nella famiglia di controllo",
+      "Debito elevato"
+    ],
+    "ceo": {
+      "name": "Sherman Kwek",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "singapore-bs6",
+    "country": "singapore",
+    "name": "Yangzijiang Shipbuilding",
+    "ticker": "BS6",
+    "yahoo": "BS6.SI",
+    "sector": "Industria",
+    "size_fallback": "Mid cap",
+    "hq": "Cina (quotata a Singapore)",
+    "index": "SGX (Mainboard)",
+    "adr": "No",
+    "description": "Yangzijiang è uno dei maggiori cantieri navali privati della Cina, quotato a Singapore. Costruisce navi portacontainer, petroliere e navi per gas, sempre più spesso con motori a combustibili alternativi.",
+    "strengths": [
+      "Portafoglio ordini pieno per anni",
+      "Margini alti per il settore",
+      "Molta liquidità"
+    ],
+    "risks": [
+      "Ciclo della navalmeccanica",
+      "Tensioni tra Stati Uniti e Cina",
+      "Società cinese con regole diverse"
+    ],
+    "ceo": {
+      "name": "Ren Letian",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "singapore-ov8",
+    "country": "singapore",
+    "name": "Sheng Siong",
+    "ticker": "OV8",
+    "yahoo": "OV8.SI",
+    "sector": "Distribuzione",
+    "size_fallback": "Small cap",
+    "hq": "Singapore",
+    "index": "SGX (Mainboard)",
+    "adr": "No",
+    "description": "Sheng Siong è la terza catena di supermercati di Singapore, con oltre 80 punti vendita, molti nei quartieri di case popolari. È nota per prezzi bassi e prodotti freschi ed è guidata dalla famiglia Lim che l'ha fondata.",
+    "strengths": [
+      "Spesa alimentare stabile anche in crisi",
+      "Nessun debito",
+      "Dividendi regolari"
+    ],
+    "risks": [
+      "Mercato piccolo e già maturo",
+      "Concorrenza di NTUC FairPrice",
+      "Costi di personale e affitti"
+    ],
+    "ceo": {
+      "name": "Lim Hock Chee",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "singapore-aiy",
+    "country": "singapore",
+    "name": "iFAST Corporation",
+    "ticker": "AIY",
+    "yahoo": "AIY.SI",
+    "sector": "Finanza",
+    "size_fallback": "Small cap",
+    "hq": "Singapore",
+    "index": "SGX (Mainboard)",
+    "adr": "No",
+    "description": "iFAST è una piattaforma online di investimento: permette a privati e consulenti di comprare fondi, azioni e obbligazioni a Singapore, Hong Kong, Malesia e Regno Unito, dove possiede anche una banca digitale.",
+    "strengths": [
+      "Crescita rapida del patrimonio gestito",
+      "Modello digitale scalabile",
+      "Fondatore ancora alla guida"
+    ],
+    "risks": [
+      "Banca britannica ancora giovane",
+      "Dipende dall'andamento dei mercati",
+      "Concorrenza di altre piattaforme"
+    ],
+    "ceo": {
+      "name": "Lim Chung Chun",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "singapore-bsl",
+    "country": "singapore",
+    "name": "Raffles Medical Group",
+    "ticker": "BSL",
+    "yahoo": "BSL.SI",
+    "sector": "Salute",
+    "size_fallback": "Small cap",
+    "hq": "Singapore",
+    "index": "SGX (Mainboard)",
+    "adr": "No",
+    "description": "Raffles Medical gestisce l'ospedale Raffles Hospital, una rete di ambulatori a Singapore e ospedali in Cina. Offre anche assicurazioni sanitarie e servizi medici per aziende.",
+    "strengths": [
+      "Marchio sanitario affidabile",
+      "Popolazione che invecchia",
+      "Bilancio senza debito"
+    ],
+    "risks": [
+      "Ospedali in Cina ancora in perdita",
+      "Costi di medici e infermieri",
+      "Crescita lenta"
+    ],
+    "ceo": {
+      "name": "Loo Choon Yong",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "sudafrica-npn",
+    "country": "sudafrica",
+    "name": "Naspers",
+    "ticker": "NPN",
+    "yahoo": "NPN.JO",
+    "sector": "Tecnologia",
+    "size_fallback": "Large cap",
+    "hq": "Città del Capo",
+    "index": "JSE Top 40",
+    "adr": "No",
+    "description": "Naspers è una holding sudafricana di internet. Il suo patrimonio principale è la quota di controllo nell'olandese Prosus, che a sua volta possiede circa un quarto del colosso cinese Tencent e attività di commercio elettronico, consegne di cibo e pagamenti (iFood, OLX, PayU).",
+    "strengths": [
+      "Accesso a Tencent a prezzo scontato",
+      "Riacquisti di azioni continui",
+      "Società di internet in crescita"
+    ],
+    "risks": [
+      "Valore legato quasi tutto a Tencent e alla Cina",
+      "Struttura a scatole cinesi complessa",
+      "Sconto persistente sul valore delle partecipazioni"
+    ],
+    "ceo": {
+      "name": "Fabricio Bloisi",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "sudafrica-fsr",
+    "country": "sudafrica",
+    "name": "FirstRand",
+    "ticker": "FSR",
+    "yahoo": "FSR.JO",
+    "sector": "Finanza",
+    "size_fallback": "Large cap",
+    "hq": "Johannesburg",
+    "index": "JSE Top 40",
+    "adr": "No",
+    "description": "FirstRand è il maggior gruppo bancario del Sudafrica per valore di borsa. Comprende la banca al dettaglio FNB, la banca d'affari RMB, il credito auto WesBank e la britannica Aldermore.",
+    "strengths": [
+      "Banca più redditizia del paese",
+      "Forte nella banca digitale",
+      "Dividendi regolari"
+    ],
+    "risks": [
+      "Economia sudafricana debole",
+      "Indagine britannica sui finanziamenti auto",
+      "Rand volatile"
+    ],
+    "ceo": {
+      "name": "Mary Vilakazi",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "sudafrica-sbk",
+    "country": "sudafrica",
+    "name": "Standard Bank",
+    "ticker": "SBK",
+    "yahoo": "SBK.JO",
+    "sector": "Finanza",
+    "size_fallback": "Large cap",
+    "hq": "Johannesburg",
+    "index": "JSE Top 40",
+    "adr": "No",
+    "description": "Standard Bank è la più grande banca dell'Africa per attivi ed è presente in circa 20 paesi del continente. La banca cinese ICBC ne possiede circa il 20%. Controlla anche la compagnia assicurativa Liberty.",
+    "strengths": [
+      "Presenza in molti paesi africani",
+      "Socio strategico cinese (ICBC)",
+      "Dividendi elevati"
+    ],
+    "risks": [
+      "Rischi politici e valutari in Africa",
+      "Crediti difficili in alcuni paesi",
+      "Economia sudafricana lenta"
+    ],
+    "ceo": {
+      "name": "Sim Tshabalala",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "sudafrica-cpi",
+    "country": "sudafrica",
+    "name": "Capitec Bank",
+    "ticker": "CPI",
+    "yahoo": "CPI.JO",
+    "sector": "Finanza",
+    "size_fallback": "Large cap",
+    "hq": "Stellenbosch",
+    "index": "JSE Top 40",
+    "adr": "No",
+    "description": "Capitec è la banca con più clienti del Sudafrica, oltre 20 milioni. Fondata nel 2001 con un modello semplice e a basso costo, è cresciuta rapidamente nei conti correnti, nei pagamenti e nel credito alle famiglie, e ora anche alle imprese.",
+    "strengths": [
+      "Crescita molto rapida dei clienti",
+      "Costi bassi e app molto usata",
+      "Redditività alta"
+    ],
+    "risks": [
+      "Credito non garantito a famiglie fragili",
+      "Valutazione di borsa molto alta",
+      "Concorrenza delle banche digitali"
+    ],
+    "ceo": {
+      "name": "Graham Lee",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "sudafrica-gfi",
+    "country": "sudafrica",
+    "name": "Gold Fields",
+    "ticker": "GFI",
+    "yahoo": "GFI.JO",
+    "sector": "Materiali",
+    "size_fallback": "Large cap",
+    "hq": "Johannesburg",
+    "index": "JSE Top 40",
+    "adr": "Sì (GFI a New York)",
+    "description": "Gold Fields è uno dei maggiori produttori d'oro al mondo, con miniere in Australia, Ghana, Perù, Cile e Sudafrica. Nel 2025 ha comprato l'australiana Gold Road per controllare la miniera di Gruyere.",
+    "strengths": [
+      "Beneficia del prezzo dell'oro alto",
+      "Miniere in paesi diversi",
+      "Quotata anche a New York"
+    ],
+    "risks": [
+      "Prezzo dell'oro variabile",
+      "Costi di estrazione in aumento",
+      "Rischi politici in Africa e Sud America"
+    ],
+    "ceo": {
+      "name": "Mike Fraser",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "sudafrica-mtn",
+    "country": "sudafrica",
+    "name": "MTN Group",
+    "ticker": "MTN",
+    "yahoo": "MTN.JO",
+    "sector": "Telecomunicazioni",
+    "size_fallback": "Large cap",
+    "hq": "Johannesburg",
+    "index": "JSE Top 40",
+    "adr": "No",
+    "description": "MTN è il maggiore operatore di telefonia mobile dell'Africa, con oltre 280 milioni di clienti in circa 16 paesi, tra cui Nigeria, Sudafrica e Ghana. Offre anche pagamenti via cellulare (MoMo), molto diffusi dove le banche sono poche.",
+    "strengths": [
+      "Leader in mercati con popolazione giovane",
+      "Pagamenti mobili in forte crescita",
+      "Rete molto estesa"
+    ],
+    "risks": [
+      "Svalutazione della naira nigeriana",
+      "Cause legali e multe in vari paesi",
+      "Rischi politici"
+    ],
+    "ceo": {
+      "name": "Ralph Mupita",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "sudafrica-shp",
+    "country": "sudafrica",
+    "name": "Shoprite",
+    "ticker": "SHP",
+    "yahoo": "SHP.JO",
+    "sector": "Distribuzione",
+    "size_fallback": "Large cap",
+    "hq": "Città del Capo",
+    "index": "JSE Top 40",
+    "adr": "No",
+    "description": "Shoprite è la più grande catena di supermercati dell'Africa, con insegne come Shoprite, Checkers e Usave. Ha oltre 3.000 negozi, quasi tutti in Sudafrica, e una forte crescita nelle consegne rapide con l'app Sixty60.",
+    "strengths": [
+      "Leader della distribuzione alimentare",
+      "Consegne a domicilio in crescita",
+      "Marchi per ogni fascia di prezzo"
+    ],
+    "risks": [
+      "Consumi deboli in Sudafrica",
+      "Blackout e costi energetici",
+      "Concorrenza aggressiva"
+    ],
+    "ceo": {
+      "name": "Pieter Engelbrecht",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "sudafrica-slm",
+    "country": "sudafrica",
+    "name": "Sanlam",
+    "ticker": "SLM",
+    "yahoo": "SLM.JO",
+    "sector": "Finanza",
+    "size_fallback": "Large cap",
+    "hq": "Città del Capo",
+    "index": "JSE Top 40",
+    "adr": "No",
+    "description": "Sanlam è il maggior gruppo assicurativo dell'Africa: polizze vita, pensioni, gestione del risparmio e assicurazioni danni in Sudafrica e in molti paesi africani, anche in alleanza con la tedesca Allianz.",
+    "strengths": [
+      "Leader nelle assicurazioni africane",
+      "Ricavi diversificati",
+      "Alleanza con Allianz"
+    ],
+    "risks": [
+      "Mercati finanziari volatili",
+      "Rischi valutari in Africa",
+      "Crescita dell'economia sudafricana lenta"
+    ],
+    "ceo": {
+      "name": "Paul Hanratty",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "sudafrica-val",
+    "country": "sudafrica",
+    "name": "Valterra Platinum",
+    "ticker": "VAL",
+    "yahoo": "VAL.JO",
+    "sector": "Materiali",
+    "size_fallback": "Large cap",
+    "hq": "Johannesburg",
+    "index": "JSE Top 40",
+    "adr": "No",
+    "description": "Valterra Platinum, nota fino al 2025 come Anglo American Platinum, è il maggior produttore al mondo di metalli del gruppo del platino (platino, palladio, rodio), usati soprattutto nelle marmitte catalitiche. Nel 2025 Anglo American se ne è separata.",
+    "strengths": [
+      "Miniere di grande qualità",
+      "Leader mondiale del platino",
+      "Bilancio senza debito"
+    ],
+    "risks": [
+      "Domanda legata alle auto a benzina e diesel",
+      "Prezzi dei metalli molto volatili",
+      "Costi di energia e personale"
+    ],
+    "ceo": {
+      "name": "Craig Miller",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "sudafrica-bid",
+    "country": "sudafrica",
+    "name": "Bid Corporation (Bidcorp)",
+    "ticker": "BID",
+    "yahoo": "BID.JO",
+    "sector": "Distribuzione",
+    "size_fallback": "Large cap",
+    "hq": "Johannesburg",
+    "index": "JSE Top 40",
+    "adr": "No",
+    "description": "Bidcorp distribuisce alimenti e prodotti a ristoranti, alberghi, mense e ospedali. Ricava la maggior parte del fatturato fuori dal Sudafrica, in Europa, Regno Unito, Australia e Asia, dove possiede anche aziende italiane del settore.",
+    "strengths": [
+      "Ricavi soprattutto in valute forti",
+      "Clienti molto diversificati",
+      "Crescita con acquisizioni"
+    ],
+    "risks": [
+      "Margini bassi",
+      "Dipende dalla ristorazione",
+      "Costi logistici"
+    ],
+    "ceo": {
+      "name": "Bernard Berson",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "sudafrica-cls",
+    "country": "sudafrica",
+    "name": "Clicks Group",
+    "ticker": "CLS",
+    "yahoo": "CLS.JO",
+    "sector": "Salute",
+    "size_fallback": "Mid cap",
+    "hq": "Città del Capo",
+    "index": "JSE Top 40",
+    "adr": "No",
+    "description": "Clicks è la principale catena di farmacie e prodotti per la salute e la bellezza del Sudafrica, con quasi 1.000 negozi. Possiede anche UPD, uno dei maggiori distributori all'ingrosso di farmaci del paese.",
+    "strengths": [
+      "Leader delle farmacie in Sudafrica",
+      "Programma fedeltà con milioni di iscritti",
+      "Crescita costante"
+    ],
+    "risks": [
+      "Prezzi dei farmaci regolati",
+      "Valutazione di borsa alta",
+      "Consumi deboli"
+    ],
+    "ceo": {
+      "name": "Bertina Engelbrecht",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "sudafrica-mrp",
+    "country": "sudafrica",
+    "name": "Mr Price Group",
+    "ticker": "MRP",
+    "yahoo": "MRP.JO",
+    "sector": "Abbigliamento",
+    "size_fallback": "Mid cap",
+    "hq": "Durban",
+    "index": "JSE Top 40",
+    "adr": "No",
+    "description": "Mr Price è una catena di abbigliamento, articoli per la casa e sport a prezzi bassi, con oltre 2.900 negozi soprattutto in Sudafrica. Vende in gran parte in contanti, senza fare credito ai clienti.",
+    "strengths": [
+      "Prezzi bassi adatti al mercato",
+      "Poco credito ai clienti",
+      "Bilancio solido"
+    ],
+    "risks": [
+      "Consumi delle famiglie deboli",
+      "Concorrenza di Shein e Temu",
+      "Rand e costi di importazione"
+    ],
+    "ceo": {
+      "name": "Mark Blair",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "sudafrica-dsy",
+    "country": "sudafrica",
+    "name": "Discovery",
+    "ticker": "DSY",
+    "yahoo": "DSY.JO",
+    "sector": "Finanza",
+    "size_fallback": "Mid cap",
+    "hq": "Johannesburg",
+    "index": "JSE Top 40",
+    "adr": "No",
+    "description": "Discovery è un gruppo assicurativo nato nel 1992 con le assicurazioni sanitarie. È noto per il programma Vitality, che premia con sconti i clienti che fanno attività fisica. Ha anche una banca digitale e licenzia Vitality ad assicuratori di altri paesi, tra cui l'italiana Generali.",
+    "strengths": [
+      "Modello innovativo copiato all'estero",
+      "Leader nelle assicurazioni sanitarie",
+      "Fondatore ancora alla guida"
+    ],
+    "risks": [
+      "Banca digitale ancora poco redditizia",
+      "Riforma sanitaria nazionale (NHI)",
+      "Struttura complessa"
+    ],
+    "ceo": {
+      "name": "Adrian Gore",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "sudafrica-sol",
+    "country": "sudafrica",
+    "name": "Sasol",
+    "ticker": "SOL",
+    "yahoo": "SOL.JO",
+    "sector": "Energia",
+    "size_fallback": "Mid cap",
+    "hq": "Johannesburg",
+    "index": "JSE Top 40",
+    "adr": "Sì (SSL a New York)",
+    "description": "Sasol produce carburanti e prodotti chimici a partire da carbone e gas, con una tecnologia sviluppata durante l'isolamento del Sudafrica. È uno dei maggiori emettitori di gas serra del paese e sta cercando di ridurli.",
+    "strengths": [
+      "Tecnologia unica al mondo",
+      "Beneficia di petrolio caro",
+      "Ruolo centrale per il Sudafrica"
+    ],
+    "risks": [
+      "Forte inquinamento e costi per ridurlo",
+      "Debito elevato",
+      "Problemi operativi nelle miniere di carbone"
+    ],
+    "ceo": {
+      "name": "Simon Baloyi",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "sudafrica-bvt",
+    "country": "sudafrica",
+    "name": "Bidvest Group",
+    "ticker": "BVT",
+    "yahoo": "BVT.JO",
+    "sector": "Conglomerato",
+    "size_fallback": "Mid cap",
+    "hq": "Johannesburg",
+    "index": "JSE Top 40",
+    "adr": "No",
+    "description": "Bidvest è un conglomerato di servizi: pulizie e sicurezza per aziende, logistica portuale, distribuzione di prodotti per ufficio e industria, servizi finanziari e concessionarie auto, in Sudafrica e sempre più nel Regno Unito.",
+    "strengths": [
+      "Attività molto diversificate",
+      "Crescita con acquisizioni",
+      "Clienti aziendali stabili"
+    ],
+    "risks": [
+      "Economia sudafricana lenta",
+      "Struttura complessa",
+      "Debito aumentato con le acquisizioni"
+    ],
+    "ceo": {
+      "name": "Mpumi Madisa",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "sudafrica-apn",
+    "country": "sudafrica",
+    "name": "Aspen Pharmacare",
+    "ticker": "APN",
+    "yahoo": "APN.JO",
+    "sector": "Salute",
+    "size_fallback": "Mid cap",
+    "hq": "Durban",
+    "index": "JSE Top 40",
+    "adr": "No",
+    "description": "Aspen è la più grande casa farmaceutica africana. Produce farmaci generici, anestetici e prodotti sterili in Sudafrica, Europa e Asia ed è uno dei pochi produttori di vaccini e farmaci iniettabili del continente.",
+    "strengths": [
+      "Fabbriche con standard internazionali",
+      "Produzione per conto di grandi gruppi",
+      "Leader in Africa"
+    ],
+    "risks": [
+      "Perdita di contratti di produzione",
+      "Debito elevato",
+      "Prezzi regolati"
+    ],
+    "ceo": {
+      "name": "Stephen Saad",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "sudafrica-tbs",
+    "country": "sudafrica",
+    "name": "Tiger Brands",
+    "ticker": "TBS",
+    "yahoo": "TBS.JO",
+    "sector": "Beni di consumo",
+    "size_fallback": "Small cap",
+    "hq": "Johannesburg",
+    "index": "JSE",
+    "adr": "No",
+    "description": "Tiger Brands è il maggior produttore di alimenti confezionati del Sudafrica: pane, cereali, salse, conserve e prodotti per la casa. Nel 2017-2018 una sua fabbrica di carni lavorate fu all'origine della più grave epidemia di listeriosi mai registrata, con una causa collettiva ancora in corso.",
+    "strengths": [
+      "Marchi conosciuti in ogni famiglia",
+      "Nuova gestione che taglia i costi",
+      "Bilancio solido"
+    ],
+    "risks": [
+      "Causa per la listeriosi",
+      "Consumi deboli",
+      "Costi delle materie prime"
+    ],
+    "ceo": {
+      "name": "Tjaart Kruger",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "sudafrica-pik",
+    "country": "sudafrica",
+    "name": "Pick n Pay",
+    "ticker": "PIK",
+    "yahoo": "PIK.JO",
+    "sector": "Distribuzione",
+    "size_fallback": "Small cap",
+    "hq": "Città del Capo",
+    "index": "JSE",
+    "adr": "No",
+    "description": "Pick n Pay è una storica catena di supermercati sudafricana. Dopo anni di perdite di quote di mercato ha avviato un piano di risanamento con un aumento di capitale nel 2024 e la quotazione separata della catena discount Boxer.",
+    "strengths": [
+      "Marchio storico",
+      "Boxer in forte crescita",
+      "Piano di risanamento in corso"
+    ],
+    "risks": [
+      "Perdite nei supermercati principali",
+      "Concorrenza di Shoprite",
+      "Rischio che il risanamento fallisca"
+    ],
+    "ceo": {
+      "name": "Sean Summers",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "sudafrica-whl",
+    "country": "sudafrica",
+    "name": "Woolworths Holdings",
+    "ticker": "WHL",
+    "yahoo": "WHL.JO",
+    "sector": "Distribuzione",
+    "size_fallback": "Small cap",
+    "hq": "Città del Capo",
+    "index": "JSE",
+    "adr": "No",
+    "description": "Woolworths Holdings gestisce i grandi magazzini Woolworths in Sudafrica, con alimentari, abbigliamento e casa di fascia alta, e la catena australiana Country Road. Non ha legami con la Woolworths australiana.",
+    "strengths": [
+      "Clientela con reddito alto",
+      "Alimentari di qualità",
+      "Marchio forte"
+    ],
+    "risks": [
+      "Abbigliamento in difficoltà",
+      "Attività australiane deboli",
+      "Consumi incerti"
+    ],
+    "ceo": {
+      "name": "Roy Bagattini",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "sudafrica-pph",
+    "country": "sudafrica",
+    "name": "Pepkor",
+    "ticker": "PPH",
+    "yahoo": "PPH.JO",
+    "sector": "Distribuzione",
+    "size_fallback": "Mid cap",
+    "hq": "Città del Capo",
+    "index": "JSE Top 40",
+    "adr": "No",
+    "description": "Pepkor gestisce catene di negozi a prezzi bassi come PEP, Ackermans e Tekkie Town, con oltre 6.000 negozi in Africa australe. Vende abbigliamento, telefoni e servizi finanziari a famiglie con redditi bassi. Nasce dal gruppo Steinhoff, travolto da uno scandalo contabile nel 2017.",
+    "strengths": [
+      "Leader nei prezzi bassi",
+      "Rete di negozi molto capillare",
+      "Servizi finanziari in crescita"
+    ],
+    "risks": [
+      "Clienti con redditi fragili",
+      "Eredità del caso Steinhoff",
+      "Concorrenza di Shein e Temu"
+    ],
+    "ceo": {
+      "name": "Pieter Erasmus",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "australia-bhp",
+    "country": "australia",
+    "name": "BHP Group",
+    "ticker": "BHP",
+    "yahoo": "BHP.AX",
+    "sector": "Materiali",
+    "size_fallback": "Large cap",
+    "hq": "Melbourne",
+    "index": "S&P/ASX 50",
+    "adr": "Sì (BHP a New York)",
+    "description": "BHP è la più grande società mineraria al mondo per valore di borsa. Estrae soprattutto minerale di ferro e rame, oltre a carbone per l'acciaio e potassio per fertilizzanti, con miniere in Australia, Cile e Canada.",
+    "strengths": [
+      "Miniere di ferro tra le più economiche al mondo",
+      "Crescita nel rame per l'elettrificazione",
+      "Dividendi elevati"
+    ],
+    "risks": [
+      "Dipende dalla domanda cinese di acciaio",
+      "Prezzi delle materie prime volatili",
+      "Causa per il crollo della diga di Mariana in Brasile"
+    ],
+    "ceo": {
+      "name": "Mike Henry",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "australia-cba",
+    "country": "australia",
+    "name": "Commonwealth Bank of Australia",
+    "ticker": "CBA",
+    "yahoo": "CBA.AX",
+    "sector": "Finanza",
+    "size_fallback": "Large cap",
+    "hq": "Sydney",
+    "index": "S&P/ASX 50",
+    "adr": "No",
+    "description": "Commonwealth Bank è la più grande banca australiana, con circa un quarto dei mutui del paese. Nata come banca pubblica nel 1911 e privatizzata negli anni '90, è oggi una delle banche più care al mondo rispetto agli utili.",
+    "strengths": [
+      "Leader nei mutui e nei conti correnti",
+      "App bancaria molto usata",
+      "Capitale solido"
+    ],
+    "risks": [
+      "Valutazione di borsa molto alta",
+      "Mercato immobiliare australiano caro",
+      "Multe passate per antiriciclaggio"
+    ],
+    "ceo": {
+      "name": "Matt Comyn",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "australia-csl",
+    "country": "australia",
+    "name": "CSL",
+    "ticker": "CSL",
+    "yahoo": "CSL.AX",
+    "sector": "Salute",
+    "size_fallback": "Large cap",
+    "hq": "Melbourne",
+    "index": "S&P/ASX 50",
+    "adr": "No",
+    "description": "CSL è una delle maggiori aziende biotecnologiche al mondo. Raccoglie plasma sanguigno dai donatori e lo trasforma in farmaci per malattie rare e immunitarie; produce anche vaccini antinfluenzali (Seqirus) e farmaci per i reni (Vifor).",
+    "strengths": [
+      "Leader mondiale nei derivati del plasma",
+      "Barriere all'ingresso molto alte",
+      "Ricerca solida"
+    ],
+    "risks": [
+      "Costi di raccolta del plasma",
+      "Vendita di vaccini in calo",
+      "Integrazione di Vifor deludente"
+    ],
+    "ceo": {
+      "name": "Paul McKenzie",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "australia-wbc",
+    "country": "australia",
+    "name": "Westpac",
+    "ticker": "WBC",
+    "yahoo": "WBC.AX",
+    "sector": "Finanza",
+    "size_fallback": "Large cap",
+    "hq": "Sydney",
+    "index": "S&P/ASX 50",
+    "adr": "No",
+    "description": "Westpac è la banca più antica dell'Australia, fondata nel 1817 come Bank of New South Wales. Offre conti, mutui e prestiti a famiglie e imprese in Australia e Nuova Zelanda. Nel 2020 ha pagato la multa più alta della storia australiana per violazioni antiriciclaggio.",
+    "strengths": [
+      "Seconda banca per mutui",
+      "Presenza in Nuova Zelanda",
+      "Dividendi regolari"
+    ],
+    "risks": [
+      "Sistemi informatici da rinnovare",
+      "Concorrenza nei mutui",
+      "Rischio di nuove sanzioni"
+    ],
+    "ceo": {
+      "name": "Anthony Miller",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "australia-nab",
+    "country": "australia",
+    "name": "National Australia Bank",
+    "ticker": "NAB",
+    "yahoo": "NAB.AX",
+    "sector": "Finanza",
+    "size_fallback": "Large cap",
+    "hq": "Melbourne",
+    "index": "S&P/ASX 50",
+    "adr": "No",
+    "description": "National Australia Bank è la maggiore banca australiana per prestiti alle imprese. Opera in Australia e Nuova Zelanda (con BNZ) e possiede la banca digitale ubank.",
+    "strengths": [
+      "Leader nel credito alle imprese",
+      "Dividendi elevati",
+      "Capitale solido"
+    ],
+    "risks": [
+      "Crediti alle imprese in un rallentamento",
+      "Concorrenza nei mutui",
+      "Costi informatici"
+    ],
+    "ceo": {
+      "name": "Andrew Irvine",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "australia-anz",
+    "country": "australia",
+    "name": "ANZ Group",
+    "ticker": "ANZ",
+    "yahoo": "ANZ.AX",
+    "sector": "Finanza",
+    "size_fallback": "Large cap",
+    "hq": "Melbourne",
+    "index": "S&P/ASX 50",
+    "adr": "No",
+    "description": "ANZ è una delle quattro grandi banche australiane, con una forte presenza in Nuova Zelanda e nel commercio internazionale in Asia. Nel 2024 ha comprato la banca Suncorp Bank. Nel 2025 ha accettato una multa record per comportamenti scorretti nel mercato dei titoli di Stato e verso i clienti.",
+    "strengths": [
+      "Rete in Asia per le imprese",
+      "Nuova Zelanda redditizia",
+      "Acquisizione di Suncorp Bank"
+    ],
+    "risks": [
+      "Problemi di controllo interno e multe",
+      "Costi di integrazione",
+      "Concorrenza nei mutui"
+    ],
+    "ceo": {
+      "name": "Nuno Matos",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "australia-wes",
+    "country": "australia",
+    "name": "Wesfarmers",
+    "ticker": "WES",
+    "yahoo": "WES.AX",
+    "sector": "Distribuzione",
+    "size_fallback": "Large cap",
+    "hq": "Perth",
+    "index": "S&P/ASX 50",
+    "adr": "No",
+    "description": "Wesfarmers è un conglomerato nato nel 1914 come cooperativa di agricoltori. Oggi possiede le catene Bunnings (fai da te), Kmart, Officeworks e Priceline, oltre ad attività in chimica, fertilizzanti e litio.",
+    "strengths": [
+      "Bunnings domina il fai da te australiano",
+      "Gestione del capitale molto disciplinata",
+      "Attività diversificate"
+    ],
+    "risks": [
+      "Consumi delle famiglie",
+      "Progetto del litio costoso",
+      "Valutazione alta"
+    ],
+    "ceo": {
+      "name": "Rob Scott",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "australia-mqg",
+    "country": "australia",
+    "name": "Macquarie Group",
+    "ticker": "MQG",
+    "yahoo": "MQG.AX",
+    "sector": "Finanza",
+    "size_fallback": "Large cap",
+    "hq": "Sydney",
+    "index": "S&P/ASX 50",
+    "adr": "No",
+    "description": "Macquarie è la principale banca d'affari australiana e uno dei maggiori gestori al mondo di investimenti in infrastrutture (autostrade, aeroporti, energia). Ha anche un'attività importante nel commercio di materie prime ed energia.",
+    "strengths": [
+      "Leader mondiale nelle infrastrutture",
+      "Attività molto diversificate",
+      "Cultura imprenditoriale"
+    ],
+    "risks": [
+      "Utili molto variabili",
+      "Rischi nel commercio di materie prime",
+      "Controlli dei regolatori"
+    ],
+    "ceo": {
+      "name": "Shemara Wikramanayake",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "australia-wow",
+    "country": "australia",
+    "name": "Woolworths Group",
+    "ticker": "WOW",
+    "yahoo": "WOW.AX",
+    "sector": "Distribuzione",
+    "size_fallback": "Large cap",
+    "hq": "Sydney",
+    "index": "S&P/ASX 50",
+    "adr": "No",
+    "description": "Woolworths è la più grande catena di supermercati dell'Australia e della Nuova Zelanda (Countdown, ora Woolworths NZ), con circa 1.100 supermercati e la catena di articoli per animali Petstock. Non ha legami con la Woolworths sudafricana.",
+    "strengths": [
+      "Spesa alimentare stabile",
+      "Leader nella vendita online",
+      "Programma fedeltà forte"
+    ],
+    "risks": [
+      "Indagini sui prezzi dei supermercati",
+      "Concorrenza di Aldi e Coles",
+      "Margini sotto pressione"
+    ],
+    "ceo": {
+      "name": "Amanda Bardwell",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "australia-fmg",
+    "country": "australia",
+    "name": "Fortescue",
+    "ticker": "FMG",
+    "yahoo": "FMG.AX",
+    "sector": "Materiali",
+    "size_fallback": "Large cap",
+    "hq": "Perth",
+    "index": "S&P/ASX 50",
+    "adr": "No",
+    "description": "Fortescue è il quarto produttore mondiale di minerale di ferro, fondato nel 2003 dal miliardario Andrew Forrest, ancora primo azionista. Sta investendo per eliminare le emissioni delle proprie miniere entro il 2030.",
+    "strengths": [
+      "Costi di produzione bassi",
+      "Dividendi molto alti",
+      "Piano ambizioso sulle emissioni"
+    ],
+    "risks": [
+      "Dipende quasi solo dal ferro e dalla Cina",
+      "Minerale di qualità inferiore",
+      "Ricambio frequente dei dirigenti"
+    ],
+    "ceo": {
+      "name": "Dino Otranto",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "australia-jbh",
+    "country": "australia",
+    "name": "JB Hi-Fi",
+    "ticker": "JBH",
+    "yahoo": "JBH.AX",
+    "sector": "Distribuzione",
+    "size_fallback": "Mid cap",
+    "hq": "Melbourne",
+    "index": "S&P/ASX 200",
+    "adr": "No",
+    "description": "JB Hi-Fi è la maggiore catena di elettronica di consumo in Australia, con negozi JB Hi-Fi ed elettrodomestici The Good Guys, anche in Nuova Zelanda. È famosa per costi bassi e prezzi aggressivi.",
+    "strengths": [
+      "Costi tra i più bassi del settore",
+      "Marchio molto forte",
+      "Nessun debito"
+    ],
+    "risks": [
+      "Consumi ciclici",
+      "Concorrenza di Amazon",
+      "Margini sottili"
+    ],
+    "ceo": {
+      "name": "Nick Wells",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "australia-brg",
+    "country": "australia",
+    "name": "Breville Group",
+    "ticker": "BRG",
+    "yahoo": "BRG.AX",
+    "sector": "Beni di consumo",
+    "size_fallback": "Mid cap",
+    "hq": "Sydney",
+    "index": "S&P/ASX 200",
+    "adr": "No",
+    "description": "Breville progetta piccoli elettrodomestici da cucina di fascia alta, famosa soprattutto per le macchine da caffè espresso. Vende in oltre 80 paesi, anche in Europa con il marchio Sage, e ha comprato la torrefazione Beanz e l'italiana Lelit.",
+    "strengths": [
+      "Leader nelle macchine da caffè per la casa",
+      "Crescita internazionale",
+      "Marchio premium"
+    ],
+    "risks": [
+      "Dazi statunitensi sulla produzione in Cina",
+      "Consumi ciclici",
+      "Concorrenza"
+    ],
+    "ceo": {
+      "name": "Jim Clayton",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "australia-lyc",
+    "country": "australia",
+    "name": "Lynas Rare Earths",
+    "ticker": "LYC",
+    "yahoo": "LYC.AX",
+    "sector": "Materiali",
+    "size_fallback": "Mid cap",
+    "hq": "Perth",
+    "index": "S&P/ASX 200",
+    "adr": "No",
+    "description": "Lynas è il maggior produttore di terre rare fuori dalla Cina. Estrae a Mount Weld in Australia e lavora il minerale in Malesia e Australia; le terre rare servono per magneti di motori elettrici, turbine eoliche e armamenti.",
+    "strengths": [
+      "Unica grande alternativa alla Cina",
+      "Sostegno dei governi occidentali",
+      "Giacimento di alta qualità"
+    ],
+    "risks": [
+      "Prezzi controllati di fatto dalla Cina",
+      "Utili molto variabili",
+      "Rischi ambientali in Malesia"
+    ],
+    "ceo": {
+      "name": "Amanda Lacaze",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "australia-qan",
+    "country": "australia",
+    "name": "Qantas Airways",
+    "ticker": "QAN",
+    "yahoo": "QAN.AX",
+    "sector": "Turismo e trasporti",
+    "size_fallback": "Mid cap",
+    "hq": "Sydney",
+    "index": "S&P/ASX 200",
+    "adr": "No",
+    "description": "Qantas è la compagnia aerea di bandiera australiana, con la low cost Jetstar e un programma fedeltà molto redditizio. Dopo la pandemia ha subito multe e risarcimenti per la vendita di voli già cancellati e per il licenziamento illegale di 1.700 lavoratori.",
+    "strengths": [
+      "Posizione dominante in Australia",
+      "Programma fedeltà molto redditizio",
+      "Bilancio risanato"
+    ],
+    "risks": [
+      "Prezzo del carburante",
+      "Danni alla reputazione",
+      "Investimenti alti nella nuova flotta"
+    ],
+    "ceo": {
+      "name": "Vanessa Hudson",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "australia-twe",
+    "country": "australia",
+    "name": "Treasury Wine Estates",
+    "ticker": "TWE",
+    "yahoo": "TWE.AX",
+    "sector": "Beni di consumo",
+    "size_fallback": "Small cap",
+    "hq": "Melbourne",
+    "index": "S&P/ASX 200",
+    "adr": "No",
+    "description": "Treasury Wine Estates è uno dei maggiori produttori di vino al mondo, con marchi come Penfolds, 19 Crimes e Wolf Blass, e vigneti in Australia, Stati Uniti, Francia e Italia. Il vino di lusso Penfolds è molto richiesto in Cina.",
+    "strengths": [
+      "Penfolds marchio di lusso globale",
+      "Ritorno sul mercato cinese",
+      "Vigneti in più continenti"
+    ],
+    "risks": [
+      "Calo del consumo di vino",
+      "Distribuzione negli Stati Uniti in difficoltà",
+      "Ricambio al vertice"
+    ],
+    "ceo": {
+      "name": "Sam Fischer",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "australia-dmp",
+    "country": "australia",
+    "name": "Domino's Pizza Enterprises",
+    "ticker": "DMP",
+    "yahoo": "DMP.AX",
+    "sector": "Beni di consumo",
+    "size_fallback": "Small cap",
+    "hq": "Brisbane",
+    "index": "S&P/ASX 200",
+    "adr": "No",
+    "description": "Domino's Pizza Enterprises gestisce il marchio Domino's in Australia, Nuova Zelanda, Europa (Francia, Germania, Paesi Bassi) e Giappone, con oltre 3.000 punti vendita in franchising. Non è la società statunitense Domino's.",
+    "strengths": [
+      "Marchio globale",
+      "Modello in franchising",
+      "Presenza in molti paesi"
+    ],
+    "risks": [
+      "Chiusure di negozi in Giappone e Francia",
+      "Calo forte del titolo",
+      "Ricambio al vertice dopo l'uscita del CEO storico"
+    ],
+    "ceo": {
+      "name": "Andrew Rennie",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "australia-sek",
+    "country": "australia",
+    "name": "Seek",
+    "ticker": "SEK",
+    "yahoo": "SEK.AX",
+    "sector": "Tecnologia",
+    "size_fallback": "Small cap",
+    "hq": "Melbourne",
+    "index": "S&P/ASX 200",
+    "adr": "No",
+    "description": "Seek gestisce il principale sito di annunci di lavoro in Australia e Nuova Zelanda e siti simili in Sud-est asiatico (JobStreet, JobsDB). Guadagna dalle aziende che pubblicano le offerte.",
+    "strengths": [
+      "Leader nel suo mercato",
+      "Margini alti",
+      "Clienti aziendali fedeli"
+    ],
+    "risks": [
+      "Ricavi legati al mercato del lavoro",
+      "Concorrenza di LinkedIn",
+      "Investimenti in Asia"
+    ],
+    "ceo": {
+      "name": "Ian Narev",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "australia-rhc",
+    "country": "australia",
+    "name": "Ramsay Health Care",
+    "ticker": "RHC",
+    "yahoo": "RHC.AX",
+    "sector": "Salute",
+    "size_fallback": "Small cap",
+    "hq": "Sydney",
+    "index": "S&P/ASX 200",
+    "adr": "No",
+    "description": "Ramsay Health Care è uno dei maggiori gruppi di ospedali privati al mondo, con circa 500 strutture in Australia, Regno Unito, Svezia e Francia (dove controlla Ramsay Santé).",
+    "strengths": [
+      "Popolazione che invecchia",
+      "Rete ospedaliera ampia",
+      "Leader in Australia"
+    ],
+    "risks": [
+      "Costi del personale sanitario",
+      "Debito elevato",
+      "Rimborsi pubblici e assicurativi"
+    ],
+    "ceo": {
+      "name": "Natalie Davis",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "australia-pls",
+    "country": "australia",
+    "name": "PLS Group (ex Pilbara Minerals)",
+    "ticker": "PLS",
+    "yahoo": "PLS.AX",
+    "sector": "Materiali",
+    "size_fallback": "Small cap",
+    "hq": "Perth",
+    "index": "S&P/ASX 200",
+    "adr": "No",
+    "description": "PLS Group, nota fino al 2025 come Pilbara Minerals, estrae litio nella miniera di Pilgangoora in Australia, una delle più grandi al mondo. Il litio serve per le batterie delle auto elettriche.",
+    "strengths": [
+      "Grande miniera di litio di qualità",
+      "Domanda di batterie in crescita",
+      "Clienti in Cina e Corea"
+    ],
+    "risks": [
+      "Prezzo del litio crollato e volatile",
+      "Dipende dalla Cina",
+      "Utili molto variabili"
+    ],
+    "ceo": {
+      "name": "Dale Henderson",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "australia-flt",
+    "country": "australia",
+    "name": "Flight Centre Travel Group",
+    "ticker": "FLT",
+    "yahoo": "FLT.AX",
+    "sector": "Turismo e trasporti",
+    "size_fallback": "Small cap",
+    "hq": "Brisbane",
+    "index": "S&P/ASX 200",
+    "adr": "No",
+    "description": "Flight Centre è una delle maggiori agenzie di viaggio al mondo: vende voli e vacanze a privati e organizza i viaggi di lavoro delle aziende con il marchio Corporate Traveller e FCM. È guidata dal fondatore Graham Turner.",
+    "strengths": [
+      "Ripresa dei viaggi d'affari",
+      "Marchio forte in Australia",
+      "Fondatore ancora alla guida"
+    ],
+    "risks": [
+      "Concorrenza delle agenzie online",
+      "Ciclo dei viaggi",
+      "Margini sottili"
+    ],
+    "ceo": {
+      "name": "Graham Turner",
+      "note": "",
+      "source": null,
+      "checked": null
+    },
+    "events": []
   }
 ]

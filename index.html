@@ -236,6 +236,12 @@ function divCalc(g){
     const afterForeign = 100 * (1 - w), net = afterForeign * (1 - it);
     return `<tr><td>${label}</td><td>−${nf(100 * w, 1)} €</td><td>−${nf(afterForeign * it, 1)} €</td><td><b>${nf(net, 1)} €</b></td></tr>`;
   };
+  if (Array.isArray(g.dividend_rows)) {
+    const rs = g.dividend_rows.map(r => row(r.withholding, esc(r.label))).join("");
+    return `<div class="calc"><div class="calc-title">Su 100 € di dividendo lordo ti restano circa:</div>
+    <table><tr><th></th><th>Tassa estera</th><th>Tassa italiana</th><th>Netto</th></tr>${rs}</table>
+    <div class="note">Esempio indicativo con broker italiano in regime amministrato.</div></div>`;
+  }
   if (g.dividend_withholding == null) return "";
   let rows = row(g.dividend_withholding, g.dividend_withholding_treaty != null ? "Senza certificato" : "Netto per te");
   if (g.dividend_withholding_treaty != null) rows += row(g.dividend_withholding_treaty, "Con trattato");
