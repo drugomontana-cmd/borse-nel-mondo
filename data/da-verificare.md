@@ -7,4 +7,3 @@ indipendente e poi confermarlo, correggerlo o nasconderlo in `data/verifiche.jso
 |---|---|---|
 | Grendene (`brasile-grnd3`) | `dividendo_alto` | Rendimento del dividendo insolitamente alto |
 | Lojas Renner (`brasile-lren3`) | `dividendo_alto` | Rendimento del dividendo insolitamente alto |
-| Sabeco (`vietnam-sab`) | `dividendo_alto` | Rendimento del dividendo insolitamente alto |
