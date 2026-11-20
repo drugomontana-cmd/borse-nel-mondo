@@ -17,7 +17,13 @@
       "yahoo_suffix": ".NS",
       "dividend_withholding": 0.208,
       "country_risk": 3,
-      "country_risk_note": "Mercato grande ma accessibile ai privati italiani quasi solo tramite ADR o ETF; limiti agli stranieri in alcuni settori."
+      "country_risk_note": "Mercato grande ma accessibile ai privati italiani quasi solo tramite ADR o ETF; limiti agli stranieri in alcuni settori.",
+      "aliases": [
+        "India",
+        "Bharat",
+        "Mumbai",
+        "Asia"
+      ]
     },
     "thailandia": {
       "name": "Thailandia",
@@ -35,7 +41,12 @@
       "yahoo_suffix": ".BK",
       "dividend_withholding": 0.1,
       "country_risk": 3,
-      "country_risk_note": "Mercato emergente con limiti di partecipazione per gli stranieri (NVDR) e accesso solo tramite alcuni broker."
+      "country_risk_note": "Mercato emergente con limiti di partecipazione per gli stranieri (NVDR) e accesso solo tramite alcuni broker.",
+      "aliases": [
+        "Thailand",
+        "Bangkok",
+        "Asia"
+      ]
     },
     "vietnam": {
       "name": "Vietnam",
@@ -53,7 +64,13 @@
       "yahoo_suffix": ".VN",
       "dividend_withholding": 0.05,
       "country_risk": 4,
-      "country_risk_note": "Mercato di frontiera: tetti alla partecipazione estera, accesso diretto complicato, valuta gestita dalla banca centrale."
+      "country_risk_note": "Mercato di frontiera: tetti alla partecipazione estera, accesso diretto complicato, valuta gestita dalla banca centrale.",
+      "aliases": [
+        "Viet Nam",
+        "Hanoi",
+        "Ho Chi Minh",
+        "Asia"
+      ]
     },
     "polonia": {
       "name": "Polonia",
@@ -72,7 +89,14 @@
       "dividend_withholding": 0.19,
       "dividend_withholding_treaty": 0.1,
       "country_risk": 2,
-      "country_risk_note": "Mercato dell'Unione Europea, accessibile da molti broker, ma con valuta più volatile dell'euro."
+      "country_risk_note": "Mercato dell'Unione Europea, accessibile da molti broker, ma con valuta più volatile dell'euro.",
+      "aliases": [
+        "Poland",
+        "Polska",
+        "Varsavia",
+        "Warsaw",
+        "Europa"
+      ]
     },
     "brasile": {
       "name": "Brasile",
@@ -90,7 +114,14 @@
       "yahoo_suffix": ".SA",
       "dividend_withholding": 0.1,
       "country_risk": 3,
-      "country_risk_note": "Mercato grande e liquido, ma con valuta molto volatile, tassi altissimi e forte peso della politica sulle società controllate dallo Stato."
+      "country_risk_note": "Mercato grande e liquido, ma con valuta molto volatile, tassi altissimi e forte peso della politica sulle società controllate dallo Stato.",
+      "aliases": [
+        "Brazil",
+        "Brasil",
+        "San Paolo",
+        "São Paulo",
+        "America Latina"
+      ]
     },
     "singapore": {
       "name": "Singapore",
@@ -108,7 +139,11 @@
       "yahoo_suffix": ".SI",
       "dividend_withholding": 0.0,
       "country_risk": 1,
-      "country_risk_note": "Paese stabile, con regole chiare e valuta solida. Il rischio principale è che molte società sono piccole e poco scambiate."
+      "country_risk_note": "Paese stabile, con regole chiare e valuta solida. Il rischio principale è che molte società sono piccole e poco scambiate.",
+      "aliases": [
+        "Singapore",
+        "Asia"
+      ]
     },
     "sudafrica": {
       "name": "Sudafrica",
@@ -127,7 +162,12 @@
       "dividend_withholding": 0.2,
       "dividend_withholding_treaty": 0.15,
       "country_risk": 3,
-      "country_risk_note": "Borsa grande e ben regolata, ma economia debole, problemi di energia e infrastrutture e valuta molto volatile."
+      "country_risk_note": "Borsa grande e ben regolata, ma economia debole, problemi di energia e infrastrutture e valuta molto volatile.",
+      "aliases": [
+        "South Africa",
+        "Johannesburg",
+        "Africa"
+      ]
     },
     "australia": {
       "name": "Australia",
@@ -154,7 +194,12 @@
         }
       ],
       "country_risk": 1,
-      "country_risk_note": "Paese stabile e mercato sviluppato. Il rischio principale è il peso delle materie prime e della domanda cinese."
+      "country_risk_note": "Paese stabile e mercato sviluppato. Il rischio principale è il peso delle materie prime e della domanda cinese.",
+      "aliases": [
+        "Australia",
+        "Sydney",
+        "Oceania"
+      ]
     }
   },
   "italy_tax_rate": 0.26,
