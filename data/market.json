@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T02:53:44Z",
+  "updated_at": "2026-11-20T03:00:12Z",
   "fx": {
     "date": "2026-11-19",
     "per_eur": {
@@ -38,7 +38,10 @@
       "avg_value_traded_eur": 211154075.56784153,
       "size": "Large cap",
       "liquidity": "Alta",
-      "stale": false
+      "stale": false,
+      "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "india-hdfcbank": {
       "source": "Yahoo Finance",
@@ -56,7 +59,10 @@
       "avg_value_traded_eur": 266117702.98837999,
       "size": "Large cap",
       "liquidity": "Alta",
-      "stale": false
+      "stale": false,
+      "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "india-infy": {
       "source": "Yahoo Finance",
@@ -74,7 +80,10 @@
       "avg_value_traded_eur": 124741181.3567282,
       "size": "Large cap",
       "liquidity": "Alta",
-      "stale": false
+      "stale": false,
+      "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "india-tcs": {
       "source": "Yahoo Finance",
@@ -92,7 +101,10 @@
       "avg_value_traded_eur": 91931691.59301548,
       "size": "Large cap",
       "liquidity": "Alta",
-      "stale": false
+      "stale": false,
+      "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "india-hindunilvr": {
       "source": "Yahoo Finance",
@@ -110,7 +122,10 @@
       "avg_value_traded_eur": 28189942.343247198,
       "size": "Large cap",
       "liquidity": "Alta",
-      "stale": false
+      "stale": false,
+      "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "india-bhartiartl": {
       "source": "Yahoo Finance",
@@ -128,7 +143,10 @@
       "avg_value_traded_eur": 160836268.20087764,
       "size": "Large cap",
       "liquidity": "Alta",
-      "stale": false
+      "stale": false,
+      "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "india-drreddy": {
       "source": "Yahoo Finance",
@@ -146,7 +164,10 @@
       "avg_value_traded_eur": 25734477.51046341,
       "size": "Large cap",
       "liquidity": "Alta",
-      "stale": false
+      "stale": false,
+      "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "india-irctc": {
       "source": "Yahoo Finance",
@@ -164,7 +185,10 @@
       "avg_value_traded_eur": 3848506.664629047,
       "size": "Mid cap",
       "liquidity": "Media",
-      "stale": false
+      "stale": false,
+      "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "thailandia-ptt": {
       "source": "Yahoo Finance",
@@ -182,7 +206,10 @@
       "avg_value_traded_eur": 96385750.58729285,
       "size": "Large cap",
       "liquidity": "Alta",
-      "stale": false
+      "stale": false,
+      "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "thailandia-cpall": {
       "source": "Yahoo Finance",
@@ -200,7 +227,10 @@
       "avg_value_traded_eur": 49280558.84038173,
       "size": "Large cap",
       "liquidity": "Alta",
-      "stale": false
+      "stale": false,
+      "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "thailandia-aot": {
       "source": "Yahoo Finance",
@@ -218,7 +248,10 @@
       "avg_value_traded_eur": 37278670.77653751,
       "size": "Large cap",
       "liquidity": "Alta",
-      "stale": false
+      "stale": false,
+      "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "thailandia-advanc": {
       "source": "Yahoo Finance",
@@ -236,7 +269,17 @@
       "avg_value_traded_eur": 51846800.830023974,
       "size": "Large cap",
       "liquidity": "Alta",
-      "stale": false
+      "stale": false,
+      "warnings": [
+        {
+          "code": "dividendo_alto",
+          "field": "dividend_yield",
+          "title": "Rendimento del dividendo insolitamente alto",
+          "detail": "10.7%: può includere un dividendo straordinario o un errore della fonte."
+        }
+      ],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "thailandia-bdms": {
       "source": "Yahoo Finance",
@@ -254,7 +297,10 @@
       "avg_value_traded_eur": 39829936.81698313,
       "size": "Mid cap",
       "liquidity": "Alta",
-      "stale": false
+      "stale": false,
+      "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "thailandia-kbank": {
       "source": "Yahoo Finance",
@@ -272,7 +318,10 @@
       "avg_value_traded_eur": 88694322.2067189,
       "size": "Large cap",
       "liquidity": "Alta",
-      "stale": false
+      "stale": false,
+      "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "thailandia-delta": {
       "source": "Yahoo Finance",
@@ -290,7 +339,10 @@
       "avg_value_traded_eur": 113366930.47341776,
       "size": "Large cap",
       "liquidity": "Alta",
-      "stale": false
+      "stale": false,
+      "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "thailandia-bh": {
       "source": "Yahoo Finance",
@@ -308,97 +360,115 @@
       "avg_value_traded_eur": 18737322.233551573,
       "size": "Mid cap",
       "liquidity": "Alta",
-      "stale": false
+      "stale": false,
+      "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "vietnam-vnm": {
       "source": "Yahoo Finance",
-      "price": 51300.0,
+      "price": 51200.0,
       "currency": "VND",
-      "change_1y": -0.15485996705107086,
-      "market_cap": 107214714961920.0,
-      "pe": 10.693493,
+      "change_1y": -0.15650741350906094,
+      "market_cap": 106796727402496.0,
+      "pe": 10.651803,
       "dividends_12m": 4350.0,
-      "avg_volume": 2116729.1333333333,
+      "avg_volume": 2117370.8666666667,
       "last_trade_date": "2026-11-20",
-      "price_eur": 1.8189554302733753,
-      "market_cap_eur": 3801535828.171471,
-      "dividend_yield": 0.0847953216374269,
-      "avg_value_traded_eur": 3850235.951494522,
+      "price_eur": 1.8154097081870724,
+      "market_cap_eur": 3786715150.958976,
+      "dividend_yield": 0.0849609375,
+      "avg_value_traded_eur": 3843895.6271791416,
       "size": "Mid cap",
       "liquidity": "Media",
-      "stale": false
+      "stale": false,
+      "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "vietnam-fpt": {
       "source": "Yahoo Finance",
-      "price": 45750.0,
+      "price": 45700.0,
       "currency": "VND",
-      "change_1y": -0.4916666666666667,
-      "market_cap": 86272034996224.0,
-      "pe": 9.081886,
+      "change_1y": -0.4922222222222222,
+      "market_cap": 86177755430912.0,
+      "pe": 9.07196,
       "dividends_12m": 1818.1818,
-      "avg_volume": 7165965.333333333,
+      "avg_volume": 7172485.9,
       "last_trade_date": "2026-11-20",
-      "price_eur": 1.6221678544835656,
-      "market_cap_eur": 3058966599.1640606,
-      "dividend_yield": 0.039741678688524594,
-      "avg_value_traded_eur": 11624398.610076942,
+      "price_eur": 1.620394993440414,
+      "market_cap_eur": 3055623707.7939224,
+      "dividend_yield": 0.03978515973741795,
+      "avg_value_traded_eur": 11622260.242881963,
       "size": "Mid cap",
       "liquidity": "Alta",
-      "stale": false
+      "stale": false,
+      "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "vietnam-vcb": {
       "source": "Yahoo Finance",
-      "price": 50300.0,
+      "price": 50400.0,
       "currency": "VND",
-      "change_1y": -0.15319865319865322,
-      "market_cap": 420290467201024.0,
-      "pe": 10.346899,
+      "change_1y": -0.1515151515151515,
+      "market_cap": 421126039666688.0,
+      "pe": 10.36747,
       "dividends_12m": 450.0,
-      "avg_volume": 3968245.966666667,
+      "avg_volume": 3969861.9833333334,
       "last_trade_date": "2026-11-20",
-      "price_eur": 1.7834982094103464,
-      "market_cap_eur": 14902331922.17225,
-      "dividend_yield": 0.008946322067594433,
-      "avg_value_traded_eur": 7077359.57604983,
+      "price_eur": 1.7870439314966493,
+      "market_cap_eur": 14931958999.634365,
+      "dividend_yield": 0.008928571428571428,
+      "avg_value_traded_eur": 7094317.766195086,
       "size": "Large cap",
       "liquidity": "Media",
-      "stale": false
+      "stale": false,
+      "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "vietnam-hpg": {
       "source": "Yahoo Finance",
-      "price": 20300.0,
+      "price": 20350.0,
       "currency": "VND",
-      "change_1y": -0.18055043522220282,
-      "market_cap": 171392179896320.0,
-      "pe": 6.4133143,
+      "change_1y": -0.17853208654048414,
+      "market_cap": 171814328205312.0,
+      "pe": 6.4291105,
       "dividends_12m": 454.54544,
-      "avg_volume": 17010611.25,
+      "avg_volume": 17015717.433333334,
       "last_trade_date": "2026-11-20",
-      "price_eur": 0.7197815835194837,
-      "market_cap_eur": 6077090376.779776,
-      "dividend_yield": 0.022391400985221674,
-      "avg_value_traded_eur": 12243924.702159345,
+      "price_eur": 0.7215544445626352,
+      "market_cap_eur": 6092058582.608659,
+      "dividend_yield": 0.02233638525798526,
+      "avg_value_traded_eur": 12277766.54144358,
       "size": "Mid cap",
       "liquidity": "Alta",
-      "stale": false
+      "stale": false,
+      "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "vietnam-mwg": {
       "source": "Yahoo Finance",
-      "price": 71300.0,
+      "price": 71200.0,
       "currency": "VND",
-      "change_1y": -0.11975308641975313,
-      "market_cap": 105216984743936.0,
-      "pe": 9.24115,
+      "change_1y": -0.12098765432098768,
+      "market_cap": 105069420740608.0,
+      "pe": 9.2281885,
       "dividends_12m": 2000.0,
-      "avg_volume": 2426864.816666667,
+      "avg_volume": 2428057.283333333,
       "last_trade_date": "2026-11-20",
-      "price_eur": 2.5280998475339502,
-      "market_cap_eur": 3730701866.607666,
-      "dividend_yield": 0.028050490883590462,
-      "avg_value_traded_eur": 6135356.573000508,
+      "price_eur": 2.5245541254476476,
+      "market_cap_eur": 3725469657.1502323,
+      "dividend_yield": 0.028089887640449437,
+      "avg_value_traded_eur": 6129762.031462373,
       "size": "Mid cap",
       "liquidity": "Media",
-      "stale": false
+      "stale": false,
+      "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "vietnam-msn": {
       "source": "Yahoo Finance",
@@ -408,51 +478,67 @@
       "market_cap": 101203966951424.0,
       "pe": 11.255646,
       "dividends_12m": 0.0,
-      "avg_volume": 4283213.0,
+      "avg_volume": 4284067.65,
       "last_trade_date": "2026-11-20",
       "price_eur": 2.4571854058078926,
       "market_cap_eur": 3588411408.411304,
       "dividend_yield": 0.0,
-      "avg_value_traded_eur": 10524648.473566642,
+      "avg_value_traded_eur": 10526748.507073715,
       "size": "Mid cap",
       "liquidity": "Alta",
-      "stale": false
+      "stale": false,
+      "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "vietnam-vic": {
       "source": "Yahoo Finance",
-      "price": 238000.0,
+      "price": 238900.0,
       "currency": "VND",
-      "change_1y": 1.0877192982456139,
-      "market_cap": 1784700108537856.0,
-      "pe": 41.891747,
+      "change_1y": 1.0956140350877193,
+      "market_cap": 1791448978554880.0,
+      "pe": 42.05016,
       "dividends_12m": 0.0,
-      "avg_volume": 2828545.85,
+      "avg_volume": 2828712.8333333335,
       "last_trade_date": "2026-11-20",
-      "price_eur": 8.438818565400844,
-      "market_cap_eur": 63280505922.69815,
+      "price_eur": 8.47073006417757,
+      "market_cap_eur": 63519802097.46764,
       "dividend_yield": 0.0,
-      "avg_value_traded_eur": 23869585.23206751,
+      "avg_value_traded_eur": 23961262.840241585,
       "size": "Large cap",
       "liquidity": "Alta",
-      "stale": false
+      "stale": false,
+      "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "vietnam-pnj": {
       "source": "Yahoo Finance",
-      "price": 13400.0,
+      "price": 13500.0,
       "currency": "VND",
-      "change_1y": -0.7710706099415978,
-      "market_cap": 6857096691712.0,
-      "pe": 4.5382657,
+      "change_1y": -0.7693621816575799,
+      "market_cap": 6908269297664.0,
+      "pe": 4.572133,
       "dividends_12m": 666.6667,
-      "avg_volume": 9049069.666666666,
+      "avg_volume": 9050351.5,
       "last_trade_date": "2026-11-20",
-      "price_eur": 0.47512675956458533,
-      "market_cap_eur": 243133591.8771762,
-      "dividend_yield": 0.049751246268656714,
-      "avg_value_traded_eur": 4299455.147797516,
+      "price_eur": 0.4786724816508882,
+      "market_cap_eur": 244948030.268553,
+      "dividend_yield": 0.04938271851851852,
+      "avg_value_traded_eur": 4332154.212317838,
       "size": "Small cap",
       "liquidity": "Media",
-      "stale": false
+      "stale": false,
+      "warnings": [
+        {
+          "code": "variazione_estrema",
+          "field": "change_1y",
+          "title": "Variazione a un anno estrema",
+          "detail": "-77%: può essere un evento reale, un frazionamento o aumento di capitale, oppure un errore della fonte."
+        }
+      ],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "polonia-pko": {
       "source": "Yahoo Finance",
@@ -470,7 +556,10 @@
       "avg_value_traded_eur": 73626332.66741109,
       "size": "Large cap",
       "liquidity": "Alta",
-      "stale": false
+      "stale": false,
+      "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "polonia-pkn": {
       "source": "Yahoo Finance",
@@ -488,7 +577,10 @@
       "avg_value_traded_eur": 38295264.73192205,
       "size": "Large cap",
       "liquidity": "Alta",
-      "stale": false
+      "stale": false,
+      "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "polonia-dnp": {
       "source": "Yahoo Finance",
@@ -506,7 +598,10 @@
       "avg_value_traded_eur": 32108049.010990467,
       "size": "Mid cap",
       "liquidity": "Alta",
-      "stale": false
+      "stale": false,
+      "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "polonia-cdr": {
       "source": "Yahoo Finance",
@@ -524,7 +619,10 @@
       "avg_value_traded_eur": 20065850.409283537,
       "size": "Mid cap",
       "liquidity": "Alta",
-      "stale": false
+      "stale": false,
+      "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "polonia-lpp": {
       "source": "Yahoo Finance",
@@ -542,7 +640,10 @@
       "avg_value_traded_eur": 25866906.271224815,
       "size": "Large cap",
       "liquidity": "Alta",
-      "stale": false
+      "stale": false,
+      "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "polonia-ale": {
       "source": "Yahoo Finance",
@@ -560,7 +661,10 @@
       "avg_value_traded_eur": 72834799.72297049,
       "size": "Large cap",
       "liquidity": "Alta",
-      "stale": false
+      "stale": false,
+      "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "polonia-kgh": {
       "source": "Yahoo Finance",
@@ -578,7 +682,10 @@
       "avg_value_traded_eur": 40100271.142293006,
       "size": "Large cap",
       "liquidity": "Alta",
-      "stale": false
+      "stale": false,
+      "warnings": [],
+      "verified_notes": [],
+      "hidden_fields": []
     },
     "polonia-txt": {
       "source": "Yahoo Finance",
@@ -596,7 +703,17 @@
       "avg_value_traded_eur": 584476.6218675397,
       "size": "Small cap",
       "liquidity": "Bassa",
-      "stale": false
+      "stale": false,
+      "warnings": [
+        {
+          "code": "dividendo_alto",
+          "field": "dividend_yield",
+          "title": "Rendimento del dividendo insolitamente alto",
+          "detail": "11.6%: può includere un dividendo straordinario o un errore della fonte."
+        }
+      ],
+      "verified_notes": [],
+      "hidden_fields": []
     }
   }
 }
