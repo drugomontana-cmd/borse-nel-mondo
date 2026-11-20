@@ -1,0 +1,663 @@
+[
+  {
+    "id": "india-reliance",
+    "country": "india",
+    "name": "Reliance Industries",
+    "ticker": "RELIANCE",
+    "yahoo": "RELIANCE.NS",
+    "sector": "Energia",
+    "size_fallback": "Blue chip",
+    "hq": "Mumbai",
+    "index": "Nifty 50",
+    "adr": "No (GDR a Londra, poco accessibile ai privati)",
+    "description": "Il più grande conglomerato privato indiano: raffinazione e petrolchimica, telecomunicazioni con Jio e grande distribuzione con Reliance Retail.",
+    "strengths": [
+      "Gestisce a Jamnagar uno dei complessi di raffinazione più grandi al mondo",
+      "Jio è il primo operatore mobile indiano per numero di abbonati",
+      "Il retail e il digitale pesano sempre di più sui ricavi"
+    ],
+    "risks": [
+      "Controllo concentrato nella famiglia Ambani",
+      "Investimenti molto elevati in nuovi business",
+      "Dipendenza dai margini della raffinazione"
+    ]
+  },
+  {
+    "id": "india-hdfcbank",
+    "country": "india",
+    "name": "HDFC Bank",
+    "ticker": "HDFCBANK",
+    "yahoo": "HDFCBANK.NS",
+    "sector": "Finanza",
+    "size_fallback": "Blue chip",
+    "hq": "Mumbai",
+    "index": "Nifty 50",
+    "adr": "Sì – HDB (New York)",
+    "description": "La più grande banca privata indiana, attiva in conti, prestiti, carte e credito alle imprese. Nel 2023 si è fusa con la società madre HDFC Ltd.",
+    "strengths": [
+      "Storicamente tra le banche indiane con migliore qualità del credito",
+      "Rete di filiali in forte espansione anche nelle aree rurali"
+    ],
+    "risks": [
+      "Integrazione della fusione con HDFC Ltd",
+      "Concorrenza crescente di fintech e banche pubbliche"
+    ]
+  },
+  {
+    "id": "india-infy",
+    "country": "india",
+    "name": "Infosys",
+    "ticker": "INFY",
+    "yahoo": "INFY.NS",
+    "sector": "Tecnologia",
+    "size_fallback": "Blue chip",
+    "hq": "Bengaluru",
+    "index": "Nifty 50",
+    "adr": "Sì – INFY (New York)",
+    "description": "Uno dei principali gruppi mondiali di servizi IT e consulenza digitale, con clienti soprattutto negli Stati Uniti e in Europa.",
+    "strengths": [
+      "Grandi clienti multinazionali con contratti pluriennali",
+      "Forte generazione di cassa e dividendi regolari"
+    ],
+    "risks": [
+      "Dipendenza dalla spesa IT dei clienti americani",
+      "L'intelligenza artificiale può ridurre la domanda di servizi tradizionali"
+    ]
+  },
+  {
+    "id": "india-tcs",
+    "country": "india",
+    "name": "Tata Consultancy Services",
+    "ticker": "TCS",
+    "yahoo": "TCS.NS",
+    "sector": "Tecnologia",
+    "size_fallback": "Blue chip",
+    "hq": "Mumbai",
+    "index": "Nifty 50",
+    "adr": "No",
+    "description": "La più grande società indiana di servizi informatici, parte del gruppo Tata.",
+    "strengths": [
+      "Leader del settore per dimensioni in India",
+      "Appartenenza a uno dei gruppi industriali più solidi del paese"
+    ],
+    "risks": [
+      "Stessi rischi del settore IT: rallentamento della domanda e impatto dell'AI"
+    ]
+  },
+  {
+    "id": "india-hindunilvr",
+    "country": "india",
+    "name": "Hindustan Unilever",
+    "ticker": "HINDUNILVR",
+    "yahoo": "HINDUNILVR.NS",
+    "sector": "Beni di consumo",
+    "size_fallback": "Blue chip",
+    "hq": "Mumbai",
+    "index": "Nifty 50",
+    "adr": "No",
+    "description": "Filiale indiana di Unilever: detersivi, prodotti per la cura personale, alimentari e bevande.",
+    "strengths": [
+      "Marchi presenti in quasi tutte le case indiane",
+      "Distribuzione capillare anche nei villaggi"
+    ],
+    "risks": [
+      "Concorrenza di marchi locali e del commercio online",
+      "Valutazioni storicamente elevate"
+    ]
+  },
+  {
+    "id": "india-bhartiartl",
+    "country": "india",
+    "name": "Bharti Airtel",
+    "ticker": "BHARTIARTL",
+    "yahoo": "BHARTIARTL.NS",
+    "sector": "Telecomunicazioni",
+    "size_fallback": "Blue chip",
+    "hq": "Nuova Delhi",
+    "index": "Nifty 50",
+    "adr": "No",
+    "description": "Secondo operatore mobile indiano, presente anche in diversi paesi africani.",
+    "strengths": [
+      "Mercato indiano concentrato in pochi operatori",
+      "Crescita del ricavo medio per utente"
+    ],
+    "risks": [
+      "Investimenti elevati nelle reti 5G",
+      "Regolamentazione del settore"
+    ]
+  },
+  {
+    "id": "india-drreddy",
+    "country": "india",
+    "name": "Dr. Reddy's Laboratories",
+    "ticker": "DRREDDY",
+    "yahoo": "DRREDDY.NS",
+    "sector": "Salute",
+    "size_fallback": "Large cap",
+    "hq": "Hyderabad",
+    "index": "Nifty 50",
+    "adr": "Sì – RDY (New York)",
+    "description": "Casa farmaceutica che produce soprattutto farmaci generici venduti in India, Stati Uniti ed Europa.",
+    "strengths": [
+      "Forte presenza nel mercato dei generici americano",
+      "Uno dei pochi titoli indiani accessibili facilmente tramite ADR"
+    ],
+    "risks": [
+      "Ispezioni e controlli dell'FDA americana",
+      "Pressione sui prezzi dei generici"
+    ]
+  },
+  {
+    "id": "india-irctc",
+    "country": "india",
+    "name": "IRCTC",
+    "ticker": "IRCTC",
+    "yahoo": "IRCTC.NS",
+    "sector": "Turismo e trasporti",
+    "size_fallback": "Mid cap",
+    "hq": "Nuova Delhi",
+    "index": "Nifty Midcap",
+    "adr": "No",
+    "description": "Società controllata dallo Stato che gestisce la vendita online dei biglietti ferroviari, la ristorazione sui treni e servizi turistici.",
+    "strengths": [
+      "Posizione di monopolio nella biglietteria ferroviaria online",
+      "Business con pochi investimenti necessari"
+    ],
+    "risks": [
+      "Le decisioni del governo possono cambiare tariffe e commissioni"
+    ]
+  },
+  {
+    "id": "thailandia-ptt",
+    "country": "thailandia",
+    "name": "PTT",
+    "ticker": "PTT",
+    "yahoo": "PTT.BK",
+    "sector": "Energia",
+    "size_fallback": "Blue chip",
+    "hq": "Bangkok",
+    "index": "SET50",
+    "adr": "No",
+    "description": "Il gruppo energetico nazionale thailandese, controllato dallo Stato: gas, petrolio, raffinazione, petrolchimica e stazioni di servizio.",
+    "strengths": [
+      "Ruolo centrale nella sicurezza energetica del paese",
+      "Dividendi storicamente regolari"
+    ],
+    "risks": [
+      "Il governo può imporre prezzi calmierati",
+      "Esposizione al prezzo di petrolio e gas"
+    ]
+  },
+  {
+    "id": "thailandia-cpall",
+    "country": "thailandia",
+    "name": "CP All",
+    "ticker": "CPALL",
+    "yahoo": "CPALL.BK",
+    "sector": "Distribuzione",
+    "size_fallback": "Blue chip",
+    "hq": "Bangkok",
+    "index": "SET50",
+    "adr": "No",
+    "description": "Gestisce i negozi 7-Eleven in Thailandia ed è parte del gruppo Charoen Pokphand. Controlla anche la catena all'ingrosso Makro.",
+    "strengths": [
+      "Migliaia di negozi di prossimità in tutto il paese",
+      "Beneficia dei consumi quotidiani e del turismo"
+    ],
+    "risks": [
+      "Debito elevato legato alle acquisizioni",
+      "Dipendenza dai consumi interni"
+    ]
+  },
+  {
+    "id": "thailandia-aot",
+    "country": "thailandia",
+    "name": "Airports of Thailand",
+    "ticker": "AOT",
+    "yahoo": "AOT.BK",
+    "sector": "Turismo e trasporti",
+    "size_fallback": "Blue chip",
+    "hq": "Bangkok",
+    "index": "SET50",
+    "adr": "No",
+    "description": "Gestisce i principali aeroporti del paese, tra cui Suvarnabhumi e Don Mueang a Bangkok, Phuket e Chiang Mai.",
+    "strengths": [
+      "Monopolio di fatto sugli aeroporti principali",
+      "Legata alla crescita del turismo internazionale"
+    ],
+    "risks": [
+      "Molto sensibile a crisi sanitarie e calo del turismo",
+      "Contratti duty free rinegoziati con il governo"
+    ]
+  },
+  {
+    "id": "thailandia-advanc",
+    "country": "thailandia",
+    "name": "Advanced Info Service (AIS)",
+    "ticker": "ADVANC",
+    "yahoo": "ADVANC.BK",
+    "sector": "Telecomunicazioni",
+    "size_fallback": "Blue chip",
+    "hq": "Bangkok",
+    "index": "SET50",
+    "adr": "No",
+    "description": "Il più grande operatore di telefonia mobile thailandese, attivo anche nella banda larga fissa.",
+    "strengths": [
+      "Mercato concentrato in pochi operatori",
+      "Dividendi elevati"
+    ],
+    "risks": [
+      "Costi delle licenze per le frequenze",
+      "Concorrenza dopo le fusioni nel settore"
+    ]
+  },
+  {
+    "id": "thailandia-bdms",
+    "country": "thailandia",
+    "name": "Bangkok Dusit Medical Services",
+    "ticker": "BDMS",
+    "yahoo": "BDMS.BK",
+    "sector": "Salute",
+    "size_fallback": "Blue chip",
+    "hq": "Bangkok",
+    "index": "SET50",
+    "adr": "No",
+    "description": "La più grande rete di ospedali privati del paese, con marchi come Bangkok Hospital e Samitivej.",
+    "strengths": [
+      "Beneficia del turismo medico e dell'invecchiamento della popolazione",
+      "Rete diffusa in tutta la Thailandia"
+    ],
+    "risks": [
+      "Carenza di medici e infermieri",
+      "Concorrenza di altri paesi nel turismo medico"
+    ]
+  },
+  {
+    "id": "thailandia-kbank",
+    "country": "thailandia",
+    "name": "Kasikornbank",
+    "ticker": "KBANK",
+    "yahoo": "KBANK.BK",
+    "sector": "Finanza",
+    "size_fallback": "Blue chip",
+    "hq": "Bangkok",
+    "index": "SET50",
+    "adr": "No",
+    "description": "Una delle principali banche thailandesi, nota per i servizi digitali e il credito alle piccole imprese.",
+    "strengths": [
+      "App bancaria tra le più usate nel paese",
+      "Forte presenza nel credito alle PMI"
+    ],
+    "risks": [
+      "Debito delle famiglie thailandesi molto elevato",
+      "Crediti deteriorati in aumento nei periodi di crisi"
+    ]
+  },
+  {
+    "id": "thailandia-delta",
+    "country": "thailandia",
+    "name": "Delta Electronics (Thailand)",
+    "ticker": "DELTA",
+    "yahoo": "DELTA.BK",
+    "sector": "Tecnologia",
+    "size_fallback": "Large cap",
+    "hq": "Samut Prakan",
+    "index": "SET50",
+    "adr": "No",
+    "description": "Filiale del gruppo taiwanese Delta Electronics: alimentatori, componenti per auto elettriche e sistemi di alimentazione per data center.",
+    "strengths": [
+      "Esposta alla crescita di data center e veicoli elettrici",
+      "Uno dei titoli più cresciuti della borsa thailandese"
+    ],
+    "risks": [
+      "Pochissime azioni in libera circolazione: prezzo molto volatile",
+      "Valutazione molto elevata rispetto al mercato"
+    ]
+  },
+  {
+    "id": "thailandia-bh",
+    "country": "thailandia",
+    "name": "Bumrungrad Hospital",
+    "ticker": "BH",
+    "yahoo": "BH.BK",
+    "sector": "Salute",
+    "size_fallback": "Mid cap",
+    "hq": "Bangkok",
+    "index": "SET50",
+    "adr": "No",
+    "description": "Ospedale privato di Bangkok tra i più noti al mondo per il turismo medico.",
+    "strengths": [
+      "Clientela internazionale ad alta capacità di spesa"
+    ],
+    "risks": [
+      "Concentrazione su un'unica struttura principale",
+      "Dipendenza dai pazienti esteri"
+    ]
+  },
+  {
+    "id": "vietnam-vnm",
+    "country": "vietnam",
+    "name": "Vinamilk",
+    "ticker": "VNM",
+    "yahoo": "VNM.VN",
+    "sector": "Beni di consumo",
+    "size_fallback": "Blue chip",
+    "hq": "Ho Chi Minh City",
+    "index": "VN30",
+    "adr": "No",
+    "description": "Il principale produttore di latte e derivati del Vietnam, con esportazioni in diversi paesi.",
+    "strengths": [
+      "Marchio leader nel mercato nazionale",
+      "Dividendi storicamente generosi"
+    ],
+    "risks": [
+      "Crescita rallentata e calo delle nascite",
+      "Concorrenza di marchi stranieri"
+    ]
+  },
+  {
+    "id": "vietnam-fpt",
+    "country": "vietnam",
+    "name": "FPT Corporation",
+    "ticker": "FPT",
+    "yahoo": "FPT.VN",
+    "sector": "Tecnologia",
+    "size_fallback": "Blue chip",
+    "hq": "Hanoi",
+    "index": "VN30",
+    "adr": "No",
+    "description": "Il maggiore gruppo tecnologico vietnamita: servizi IT per clienti esteri, telecomunicazioni e istruzione.",
+    "strengths": [
+      "Forte crescita dei servizi IT per Giappone, Stati Uniti ed Europa",
+      "Gestisce anche scuole e università"
+    ],
+    "risks": [
+      "Spesso al limite di partecipazione estera: difficile da comprare per gli stranieri"
+    ]
+  },
+  {
+    "id": "vietnam-vcb",
+    "country": "vietnam",
+    "name": "Vietcombank",
+    "ticker": "VCB",
+    "yahoo": "VCB.VN",
+    "sector": "Finanza",
+    "size_fallback": "Blue chip",
+    "hq": "Hanoi",
+    "index": "VN30",
+    "adr": "No",
+    "description": "La più grande banca quotata del Vietnam per valore di borsa, controllata dallo Stato. La giapponese Mizuho ne è socia.",
+    "strengths": [
+      "Considerata la banca più solida del paese"
+    ],
+    "risks": [
+      "Limite del 30% alla partecipazione estera",
+      "Rischi legati al settore immobiliare vietnamita"
+    ]
+  },
+  {
+    "id": "vietnam-hpg",
+    "country": "vietnam",
+    "name": "Hoa Phat Group",
+    "ticker": "HPG",
+    "yahoo": "HPG.VN",
+    "sector": "Materiali",
+    "size_fallback": "Blue chip",
+    "hq": "Hanoi",
+    "index": "VN30",
+    "adr": "No",
+    "description": "Il maggiore produttore di acciaio del Vietnam.",
+    "strengths": [
+      "Beneficia della costruzione di infrastrutture nel paese"
+    ],
+    "risks": [
+      "Prezzo dell'acciaio molto ciclico",
+      "Concorrenza delle importazioni cinesi"
+    ]
+  },
+  {
+    "id": "vietnam-mwg",
+    "country": "vietnam",
+    "name": "Mobile World Investment",
+    "ticker": "MWG",
+    "yahoo": "MWG.VN",
+    "sector": "Distribuzione",
+    "size_fallback": "Large cap",
+    "hq": "Ho Chi Minh City",
+    "index": "VN30",
+    "adr": "No",
+    "description": "Il primo distributore vietnamita di telefoni ed elettronica (Thế Giới Di Động, Điện Máy Xanh) e una catena di alimentari (Bách Hóa Xanh).",
+    "strengths": [
+      "Rete di negozi capillare",
+      "La catena di alimentari è il principale motore di crescita"
+    ],
+    "risks": [
+      "Il mercato di telefoni ed elettronica è maturo"
+    ]
+  },
+  {
+    "id": "vietnam-msn",
+    "country": "vietnam",
+    "name": "Masan Group",
+    "ticker": "MSN",
+    "yahoo": "MSN.VN",
+    "sector": "Beni di consumo",
+    "size_fallback": "Large cap",
+    "hq": "Ho Chi Minh City",
+    "index": "VN30",
+    "adr": "No",
+    "description": "Gruppo di beni di consumo (salse, noodles, bevande) e proprietario della catena di supermercati WinMart.",
+    "strengths": [
+      "Integrazione tra produzione e distribuzione"
+    ],
+    "risks": [
+      "Debito elevato",
+      "Struttura di gruppo complessa"
+    ]
+  },
+  {
+    "id": "vietnam-vic",
+    "country": "vietnam",
+    "name": "Vingroup",
+    "ticker": "VIC",
+    "yahoo": "VIC.VN",
+    "sector": "Conglomerato",
+    "size_fallback": "Blue chip",
+    "hq": "Hanoi",
+    "index": "VN30",
+    "adr": "No",
+    "description": "Il più grande gruppo privato vietnamita: immobiliare con Vinhomes, auto elettriche con VinFast, centri commerciali e servizi.",
+    "strengths": [
+      "Peso enorme nell'economia e nell'indice di borsa vietnamita"
+    ],
+    "risks": [
+      "Le forti perdite di VinFast pesano sul gruppo",
+      "Debito elevato e governance concentrata nel fondatore"
+    ]
+  },
+  {
+    "id": "vietnam-pnj",
+    "country": "vietnam",
+    "name": "Phu Nhuan Jewelry",
+    "ticker": "PNJ",
+    "yahoo": "PNJ.VN",
+    "sector": "Distribuzione",
+    "size_fallback": "Mid cap",
+    "hq": "Ho Chi Minh City",
+    "index": "VN-Index",
+    "adr": "No",
+    "description": "La principale catena di gioiellerie del Vietnam.",
+    "strengths": [
+      "Beneficia della crescita della classe media"
+    ],
+    "risks": [
+      "Spesso al limite di partecipazione estera",
+      "Sensibile al prezzo dell'oro e ai consumi"
+    ]
+  },
+  {
+    "id": "polonia-pko",
+    "country": "polonia",
+    "name": "PKO Bank Polski",
+    "ticker": "PKO",
+    "yahoo": "PKO.WA",
+    "sector": "Finanza",
+    "size_fallback": "Blue chip",
+    "hq": "Varsavia",
+    "index": "WIG20",
+    "adr": "No",
+    "description": "La più grande banca polacca, controllata dallo Stato.",
+    "strengths": [
+      "Leader per clienti e depositi in Polonia",
+      "Forte presenza nei servizi digitali"
+    ],
+    "risks": [
+      "Influenza del governo sulle decisioni",
+      "Contenziosi sui vecchi mutui in franchi svizzeri"
+    ]
+  },
+  {
+    "id": "polonia-pkn",
+    "country": "polonia",
+    "name": "ORLEN",
+    "ticker": "PKN",
+    "yahoo": "PKN.WA",
+    "sector": "Energia",
+    "size_fallback": "Blue chip",
+    "hq": "Płock",
+    "index": "WIG20",
+    "adr": "No",
+    "description": "Il gruppo energetico nazionale polacco, controllato dallo Stato: raffinazione, distribuzione di carburanti, gas ed energia elettrica.",
+    "strengths": [
+      "Dimensioni cresciute dopo le fusioni con Lotos e PGNiG",
+      "Rete di distributori anche in Germania, Repubblica Ceca e Lituania"
+    ],
+    "risks": [
+      "Decisioni influenzate dalla politica",
+      "Transizione energetica costosa"
+    ]
+  },
+  {
+    "id": "polonia-dnp",
+    "country": "polonia",
+    "name": "Dino Polska",
+    "ticker": "DNP",
+    "yahoo": "DNP.WA",
+    "sector": "Distribuzione",
+    "size_fallback": "Blue chip",
+    "hq": "Krotoszyn",
+    "index": "WIG20",
+    "adr": "No",
+    "description": "Catena di supermercati di medie dimensioni concentrata nei piccoli centri, con forte crescita del numero di negozi.",
+    "strengths": [
+      "Possiede la maggior parte degli immobili dei negozi",
+      "Crescita storicamente molto rapida"
+    ],
+    "risks": [
+      "Rallentamento della crescita",
+      "Concorrenza dei discount come Biedronka e Lidl"
+    ]
+  },
+  {
+    "id": "polonia-cdr",
+    "country": "polonia",
+    "name": "CD Projekt",
+    "ticker": "CDR",
+    "yahoo": "CDR.WA",
+    "sector": "Tecnologia",
+    "size_fallback": "Large cap",
+    "hq": "Varsavia",
+    "index": "WIG20",
+    "adr": "No",
+    "description": "Casa di videogiochi creatrice delle serie The Witcher e Cyberpunk 2077, proprietaria del negozio digitale GOG.",
+    "strengths": [
+      "Marchi riconosciuti in tutto il mondo",
+      "Nessun debito significativo"
+    ],
+    "risks": [
+      "Ricavi concentrati su pochi giochi",
+      "Ritardi nei lanci possono pesare molto sul titolo"
+    ]
+  },
+  {
+    "id": "polonia-lpp",
+    "country": "polonia",
+    "name": "LPP",
+    "ticker": "LPP",
+    "yahoo": "LPP.WA",
+    "sector": "Abbigliamento",
+    "size_fallback": "Blue chip",
+    "hq": "Danzica",
+    "index": "WIG20",
+    "adr": "No",
+    "description": "Gruppo di moda con marchi come Reserved, Sinsay, Cropp, House e Mohito, presente in molti paesi europei.",
+    "strengths": [
+      "Forte crescita del marchio economico Sinsay",
+      "Vendite online in crescita"
+    ],
+    "risks": [
+      "Concorrenza di Inditex, H&M e piattaforme cinesi"
+    ]
+  },
+  {
+    "id": "polonia-ale",
+    "country": "polonia",
+    "name": "Allegro",
+    "ticker": "ALE",
+    "yahoo": "ALE.WA",
+    "sector": "Tecnologia",
+    "size_fallback": "Large cap",
+    "hq": "Poznań (società registrata in Lussemburgo)",
+    "index": "WIG20",
+    "adr": "No",
+    "description": "La principale piattaforma di commercio online in Polonia, attiva anche in Repubblica Ceca, Slovacchia e Ungheria.",
+    "strengths": [
+      "Posizione dominante nell'e-commerce polacco"
+    ],
+    "risks": [
+      "Concorrenza di Amazon, Temu e Shein",
+      "Espansione estera ancora in perdita"
+    ]
+  },
+  {
+    "id": "polonia-kgh",
+    "country": "polonia",
+    "name": "KGHM",
+    "ticker": "KGH",
+    "yahoo": "KGH.WA",
+    "sector": "Materiali",
+    "size_fallback": "Large cap",
+    "hq": "Lubin",
+    "index": "WIG20",
+    "adr": "No",
+    "description": "Uno dei maggiori produttori mondiali di rame e argento, controllato dallo Stato.",
+    "strengths": [
+      "Esposta alla domanda di rame per elettrificazione e rinnovabili"
+    ],
+    "risks": [
+      "Prezzi delle materie prime molto volatili",
+      "Tasse speciali sull'estrazione"
+    ]
+  },
+  {
+    "id": "polonia-txt",
+    "country": "polonia",
+    "name": "Text (ex LiveChat Software)",
+    "ticker": "TXT",
+    "yahoo": "TXT.WA",
+    "sector": "Tecnologia",
+    "size_fallback": "Mid cap",
+    "hq": "Breslavia",
+    "index": "mWIG40",
+    "adr": "No",
+    "description": "Sviluppa software in abbonamento per la chat con i clienti (LiveChat, ChatBot), venduto soprattutto all'estero.",
+    "strengths": [
+      "Ricavi in dollari e margini elevati",
+      "Dividendi regolari"
+    ],
+    "risks": [
+      "Crescita rallentata",
+      "Concorrenza degli strumenti basati sull'intelligenza artificiale"
+    ]
+  }
+]

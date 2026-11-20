@@ -1,0 +1,77 @@
+{
+  "italy_tax": "In Italia plusvalenze e dividendi da azioni sono tassati al 26%. Con un broker italiano in regime amministrato, il 26% si applica sul dividendo già ridotto dalla ritenuta estera, senza credito per l'imposta pagata all'estero. Sui titoli detenuti si paga un'imposta annua dello 0,2% (bollo con broker italiano, IVAFE con broker estero, che richiede anche il quadro RW).",
+  "countries": {
+    "india": {
+      "name": "India",
+      "flag": "🇮🇳",
+      "exchange": "NSE / BSE (Mumbai)",
+      "currency": "Rupia indiana (INR)",
+      "index": "Nifty 50, Sensex",
+      "hours": "9:15–15:30 locali (4:45–11:00 ora italiana, in inverno)",
+      "access": "Un privato residente in Italia di norma non può comprare azioni direttamente sulle borse indiane: l'accesso è riservato a investitori istituzionali registrati o a indiani non residenti. Le alternative più comuni sono gli ADR quotati a New York (per esempio Infosys, HDFC Bank, Dr. Reddy's) oppure gli ETF sull'India.",
+      "foreign": "Esistono limiti alla partecipazione estera in alcuni settori (banche, assicurazioni, difesa, media).",
+      "tax": "Ritenuta indiana sui dividendi pagati a non residenti: circa il 20,8% (20% più contributi). Il trattato Italia–India non aiuta i piccoli investitori: prevede il 15% solo per società che possiedono almeno il 10% del capitale e il 25% negli altri casi, quindi si applica l'aliquota indiana. Chi possiede azioni indiane direttamente paga anche le tasse indiane sulle plusvalenze. Gli ADR seguono le regole del broker e del mercato americano.",
+      "liquidity": "Molto alta per le grandi società del Nifty 50; può essere bassa per le small cap.",
+      "fx": "La rupia ha avuto storicamente un deprezzamento graduale rispetto a euro e dollaro: un rendimento in rupie può ridursi convertito in euro.",
+      "currency_code": "INR",
+      "yahoo_suffix": ".NS",
+      "dividend_withholding": 0.208
+    },
+    "thailandia": {
+      "name": "Thailandia",
+      "flag": "🇹🇭",
+      "exchange": "SET – Stock Exchange of Thailand (Bangkok)",
+      "currency": "Baht thailandese (THB)",
+      "index": "SET50, SET Index",
+      "hours": "10:00–12:30 e 14:30–16:30 locali (4:00–6:30 e 8:30–10:30 ora italiana, in inverno)",
+      "access": "Accessibile tramite alcuni broker internazionali che offrono la borsa di Bangkok (non tutti la offrono: va verificato prima). In alternativa ETF sulla Thailandia o sul Sud-est asiatico.",
+      "foreign": "Molte società hanno un tetto alle azioni possedute da stranieri. Quando il tetto è raggiunto si comprano gli NVDR: danno diritto a dividendi e variazioni di prezzo, ma non al voto in assemblea.",
+      "tax": "Ritenuta thailandese sui dividendi pagati a non residenti: 10%. Le plusvalenze realizzate da investitori esteri in borsa sono in genere esenti in Thailandia.",
+      "liquidity": "Buona per le società del SET50, ridotta per molte mid e small cap.",
+      "fx": "Il baht è una valuta relativamente stabile in Asia, ma sensibile al turismo e ai flussi di capitale.",
+      "currency_code": "THB",
+      "yahoo_suffix": ".BK",
+      "dividend_withholding": 0.1
+    },
+    "vietnam": {
+      "name": "Vietnam",
+      "flag": "🇻🇳",
+      "exchange": "HOSE – Ho Chi Minh City Stock Exchange",
+      "currency": "Dong vietnamita (VND)",
+      "index": "VN30, VN-Index",
+      "hours": "9:15–11:30 e 13:00–14:45 locali (3:15–5:30 e 7:00–8:45 ora italiana, in inverno)",
+      "access": "Per comprare azioni direttamente serve un codice di negoziazione per investitori esteri, da ottenere tramite un broker locale: una procedura lunga. La maggior parte degli investitori europei usa ETF o fondi dedicati al Vietnam.",
+      "foreign": "Limite generale del 49% di azioni in mano a stranieri, 30% per le banche. Alcune società molto richieste hanno già raggiunto il limite e si comprano solo da altri stranieri, spesso a premio.",
+      "tax": "Imposta vietnamita dello 0,1% sul valore di ogni vendita e del 5% sui dividendi per le persone fisiche (dato da verificare con un professionista prima della pubblicazione).",
+      "liquidity": "Media; il mercato è dominato da piccoli investitori locali ed è molto volatile.",
+      "fx": "Il dong è gestito dalla banca centrale con un deprezzamento controllato nel tempo.",
+      "currency_code": "VND",
+      "yahoo_suffix": ".VN",
+      "dividend_withholding": 0.05
+    },
+    "polonia": {
+      "name": "Polonia",
+      "flag": "🇵🇱",
+      "exchange": "GPW – Borsa di Varsavia",
+      "currency": "Zloty polacco (PLN)",
+      "index": "WIG20, WIG",
+      "hours": "9:00–17:00 (stesso fuso orario dell'Italia)",
+      "access": "Il mercato più semplice dei quattro: è nell'Unione Europea ed è offerto da molti broker europei.",
+      "foreign": "Nessun limite generale per gli investitori europei.",
+      "tax": "Ritenuta polacca sui dividendi: 19%. Il trattato Italia–Polonia la riduce al 10%, ma solo se il broker trasmette un certificato di residenza fiscale italiana; altrimenti si paga il 19% e la differenza va chiesta a rimborso al fisco polacco.",
+      "liquidity": "Buona per le società del WIG20, più bassa per le altre.",
+      "fx": "Lo zloty è più volatile dell'euro, ma l'economia è strettamente legata a quella europea.",
+      "currency_code": "PLN",
+      "yahoo_suffix": ".WA",
+      "dividend_withholding": 0.19,
+      "dividend_withholding_treaty": 0.1
+    }
+  },
+  "italy_tax_rate": 0.26,
+  "legal_refs": [
+    "TUIR – D.P.R. 917/1986 (redditi di capitale e diversi)",
+    "D.L. 167/1990 (quadro RW e IVAFE)",
+    "Convenzioni contro le doppie imposizioni pubblicate dal Ministero dell'Economia e delle Finanze"
+  ],
+  "content_checked": "2026-11-20"
+}
