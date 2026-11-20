@@ -23,5 +23,11 @@
       "dividendo_alto"
     ],
     "nota": "Dato corretto: negli ultimi 12 mesi Vale ha distribuito 3,58 real per azione (stacco a dicembre 2025, pagati a gennaio e marzo 2026) e 2,03 real (stacco ad agosto 2026), in parte come dividendi e in parte come JCP. Il rendimento è alto anche perché il prezzo è sceso da allora. Verificato il 20/11/2026 su Money Times e B3 Bora Investir."
+  },
+  "vietnam-sab": {
+    "accetta": [
+      "dividendo_alto"
+    ],
+    "nota": "Dato corretto: Sabeco paga un dividendo in contanti pari al 50% del valore nominale (5.000 dong per azione) per il secondo anno consecutivo. Il rendimento è alto anche perché il prezzo è sceso. Verificato il 20/11/2026 su Tiền Phong (assemblea 2026)."
   }
 }
