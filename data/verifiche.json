@@ -29,5 +29,17 @@
       "dividendo_alto"
     ],
     "nota": "Dato corretto: Sabeco paga un dividendo in contanti pari al 50% del valore nominale (5.000 dong per azione) per il secondo anno consecutivo. Il rendimento è alto anche perché il prezzo è sceso. Verificato il 20/11/2026 su Tiền Phong (assemblea 2026)."
+  },
+  "brasile-grnd3": {
+    "accetta": [
+      "dividendo_alto"
+    ],
+    "nota": "Il rendimento degli ultimi 12 mesi è gonfiato da un dividendo straordinario di circa 1,09 BRL per azione (979,9 milioni di reais), approvato a dicembre 2025 e pagato nel 2026. È una distribuzione una tantum: i dividendi ordinari sono molto più bassi (circa 0,06 BRL a trimestre nel 2026). Fonte: comunicati Grendene riportati da Investidor10 (verificato il 20/11/2026)."
+  },
+  "brasile-lren3": {
+    "accetta": [
+      "dividendo_alto"
+    ],
+    "nota": "I dividendi degli ultimi 12 mesi (circa 0,90 BRL per azione, in gran parte come JCP, tassati al 15% alla fonte) sono confermati. Il rendimento è salito sopra il 10% soprattutto perché il prezzo dell'azione è sceso nel 2026, non perché la società abbia aumentato i pagamenti. Fonte: Status Invest e comunicati Lojas Renner (verificato il 20/11/2026)."
   }
 }
