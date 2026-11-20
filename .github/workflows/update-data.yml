@@ -6,6 +6,12 @@ on:
     # dopo la chiusura di tutte le borse del sito
     - cron: "30 17 * * 1-5"
   workflow_dispatch: {}   # permette di avviarlo a mano dalla scheda "Actions"
+  push:                   # riparte anche quando cambiano le società o lo script
+    branches: [main]
+    paths:
+      - "data/companies.json"
+      - "scripts/**"
+      - ".github/workflows/**"
 
 permissions:
   contents: write
