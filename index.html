@@ -455,7 +455,8 @@ function stCell(v){ const [c, t] = ST[v] || ["verificare", "? Da verificare"]; r
 function brokerBlock(countryKey, opts){
   const B = DATA.brokers; if (!B || !B.access || !B.access[countryKey]) return "";
   const a = B.access[countryKey], showAdr = !!a.adr && !(opts && opts.directOnly), adrOnly = opts && opts.adrOnly;
-  const cols = adrOnly ? [a.adr] : (showAdr ? [a.direct, a.adr] : [a.direct]);
+  const cols = ((adrOnly && a.adr) ? [a.adr] : (showAdr ? [a.direct, a.adr] : [a.direct])).filter(Boolean);
+  if (!cols.length) return "";
   const head = `<tr><th>Broker e tasse</th>${cols.map(c => `<th>${esc(c.label)}</th>`).join("")}</tr>`;
   const rows = Object.entries(B.brokers).map(([k, b]) => `<tr><td><a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.name)}</a><div class="regime" title="${esc(b.regime_note)}">${esc(b.regime)}</div></td>${cols.map(c => `<td>${stCell(c.brokers[k])}</td>`).join("")}</tr>`).join("");
   const etfs = (a.etfs || []).map(e => `<div class="etf">• <b>${esc(e.name)}</b>${e.isin ? ` <code>${esc(e.isin)}</code>` : ""}<br><span class="note">${esc(e.note)} <a href="${esc(e.source)}" target="_blank" rel="noopener">Fonte ↗</a></span></div>`).join("");
