@@ -2355,25 +2355,25 @@
     "events": []
   },
   {
-    "id": "polonia-spl",
+    "id": "polonia-ebp",
     "country": "polonia",
-    "name": "Santander Bank Polska",
-    "ticker": "SPL",
-    "yahoo": "SPL.WA",
+    "name": "Erste Bank Polska (ex Santander Bank Polska)",
+    "ticker": "EBP",
+    "yahoo": "EBP.WA",
     "sector": "Finanza",
     "size_fallback": "Large cap",
     "hq": "Varsavia",
     "index": "WIG20",
     "adr": "No",
-    "description": "Santander Bank Polska è la terza banca della Polonia, nata dall'unione di Bank Zachodni WBK e di altre banche acquistate dal gruppo spagnolo Santander. Nel 2025 Santander ha venduto una quota di circa il 49%, che dà il controllo della banca, al gruppo austriaco Erste.",
+    "description": "Erste Bank Polska è la terza banca della Polonia. Fino ad aprile 2026 si chiamava Santander Bank Polska: nel 2025 il gruppo spagnolo Santander ha venduto una quota di circa il 49%, che dà il controllo, al gruppo austriaco Erste, e la banca ha cambiato nome. Serve privati e imprese in tutto il paese.",
     "strengths": [
       "Grande banca universale",
       "Redditività elevata",
-      "Nuovo azionista di controllo europeo (Erste)"
+      "Azionista di controllo europeo (Erste Group)"
     ],
     "risks": [
       "Costi legali sui vecchi mutui in franchi svizzeri",
-      "Cambio di proprietà in corso",
+      "Integrazione nel nuovo gruppo e cambio di marchio",
       "Tasse bancarie polacche"
     ],
     "ceo": {
@@ -2985,26 +2985,26 @@
     "events": []
   },
   {
-    "id": "brasile-odpv3",
+    "id": "brasile-grnd3",
     "country": "brasile",
-    "name": "Odontoprev",
-    "ticker": "ODPV3",
-    "yahoo": "ODPV3.SA",
-    "sector": "Salute",
+    "name": "Grendene",
+    "ticker": "GRND3",
+    "yahoo": "GRND3.SA",
+    "sector": "Abbigliamento",
     "size_fallback": "Small cap",
-    "hq": "Barueri (San Paolo)",
+    "hq": "Sobral (Ceará)",
     "index": "Small Cap B3",
     "adr": "No",
-    "description": "Odontoprev è il maggiore operatore di piani odontoiatrici del Brasile, con milioni di assicurati, venduti soprattutto alle aziende e tramite le filiali del Bradesco, suo azionista di controllo. Non possiede studi propri ma lavora con una rete di dentisti convenzionati.",
+    "description": "Grendene è uno dei maggiori produttori di calzature al mondo per numero di paia: realizza sandali e ciabatte in plastica e gomma con marchi come Melissa, Rider, Ipanema (in licenza) e Grendha, venduti in Brasile e in oltre 100 paesi. È controllata dalla famiglia fondatrice Grendene Bartelle.",
     "strengths": [
-      "Leader dei piani dentali in Brasile",
-      "Poco capitale necessario e dividendi alti",
-      "Canale di vendita del Bradesco"
+      "Grandi volumi e costi bassi",
+      "Marchi noti, come Melissa",
+      "Bilancio con molta liquidità e senza debiti"
     ],
     "risks": [
-      "Concorrenza sui prezzi",
-      "Dipendenza dal partner Bradesco",
-      "Crescita lenta"
+      "Vendite stagnanti negli ultimi anni",
+      "Concorrenza di prodotti asiatici a basso costo",
+      "Costi delle materie prime plastiche"
     ],
     "ceo": {
       "name": "Vertice da verificare",
