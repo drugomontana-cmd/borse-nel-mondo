@@ -110,6 +110,7 @@
   .btable th{font-size:11.5px;color:var(--muted);font-weight:600;text-align:left;padding:4px 4px;border-bottom:1px solid var(--line)}
   .btable td{padding:5px 4px;border-bottom:1px solid var(--line);vertical-align:top}
   .st{white-space:nowrap;font-weight:500}
+  .regime{font-size:11.5px;color:var(--muted)}
   .st.si{color:#17733f}.st.no{color:#8a949e}.st.verificare{color:#8a4b0f}
   .etf{font-size:13.5px;margin-top:8px}
   .etf code{font-size:12px;color:var(--muted)}
@@ -423,12 +424,12 @@ function brokerBlock(countryKey, opts){
   const B = DATA.brokers; if (!B || !B.access || !B.access[countryKey]) return "";
   const a = B.access[countryKey], showAdr = !!a.adr && !(opts && opts.directOnly), adrOnly = opts && opts.adrOnly;
   const cols = adrOnly ? [a.adr] : (showAdr ? [a.direct, a.adr] : [a.direct]);
-  const head = `<tr><th>Broker</th>${cols.map(c => `<th>${esc(c.label)}</th>`).join("")}<th>Tasse</th></tr>`;
-  const rows = Object.entries(B.brokers).map(([k, b]) => `<tr><td><a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.name)}</a></td>${cols.map(c => `<td>${stCell(c.brokers[k])}</td>`).join("")}<td title="${esc(b.regime_note)}">${esc(b.regime)}</td></tr>`).join("");
+  const head = `<tr><th>Broker e tasse</th>${cols.map(c => `<th>${esc(c.label)}</th>`).join("")}</tr>`;
+  const rows = Object.entries(B.brokers).map(([k, b]) => `<tr><td><a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.name)}</a><div class="regime" title="${esc(b.regime_note)}">${esc(b.regime)}</div></td>${cols.map(c => `<td>${stCell(c.brokers[k])}</td>`).join("")}</tr>`).join("");
   const etfs = (a.etfs || []).map(e => `<div class="etf">• <b>${esc(e.name)}</b>${e.isin ? ` <code>${esc(e.isin)}</code>` : ""}<br><span class="note">${esc(e.note)} <a href="${esc(e.source)}" target="_blank" rel="noopener">Fonte ↗</a></span></div>`).join("");
   return `${opts && opts.noSummary ? "" : `<p>${esc(a.summary)}</p>`}
     <table class="btable">${head}${rows}</table>
-    <p class="note">"Tasse": <b>amministrato</b> = il broker calcola e versa le imposte per te; <b>dichiarativo</b> = le dichiari tu. ${esc(B.note)} Verificato il ${esc(dateIt(B.checked))}.</p>
+    <p class="note">Sotto il nome del broker: <b>amministrato</b> = il broker calcola e versa le imposte per te; <b>dichiarativo</b> = le dichiari tu. ${esc(B.note)} Verificato il ${esc(dateIt(B.checked))}.</p>
     ${etfs ? `<p style="margin-top:10px"><b>In alternativa, con un ETF:</b></p>${etfs}` : ""}`;
 }
 

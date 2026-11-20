@@ -225,8 +225,8 @@
     ],
     "ceo": {
       "name": "Rahul Himalian",
-      "note": "Guida la società ad interim dal 20 luglio 2026, dopo le dimissioni del precedente presidente e amministratore delegato.",
-      "source": "https://www.psuconnect.in/new-faces-in-psus/shri-rahul-himalian-given-additional-charge-as-cmd-of-irctc",
+      "note": "Guida la società ad interim dal 20 luglio 2026, dopo le dimissioni del precedente presidente e amministratore delegato. L'incarico è per nove mesi o fino alla nomina di un successore; resta anche direttore turismo e marketing.",
+      "source": "https://nsearchives.nseindia.com/corporate/IRCTC_29072026165025_STXintimation_AdditionalchargeRahulHimalian.pdf",
       "checked": "2026-11-20"
     },
     "events": [
@@ -515,7 +515,8 @@
       "Gestisce anche scuole e università"
     ],
     "risks": [
-      "Spesso al limite di partecipazione estera: difficile da comprare per gli stranieri"
+      "In passato spesso al limite di partecipazione estera; nel 2026 gli investitori esteri sono stati forti venditori",
+      "Nel 2026 il titolo è sceso molto nonostante ricavi e utili in crescita: pesano le vendite degli investitori esteri e il timore che l'intelligenza artificiale riduca la domanda di servizi informatici"
     ],
     "ceo": {
       "name": "Nguyễn Văn Khoa",
@@ -857,7 +858,15 @@
       "source": "https://www.lpp.com/en/press-releases",
       "checked": "2026-11-20"
     },
-    "events": []
+    "events": [
+      {
+        "date": "marzo 2024",
+        "severity": "media",
+        "text": "Il fondo ribassista Hindenburg Research ha accusato LPP di aver venduto solo in apparenza le attività in Russia nel 2022 e di continuare a vendere lì tramite terzi. LPP ha respinto le accuse parlando di un attacco di disinformazione; il titolo ha perso fino al 36% in un giorno.",
+        "source": "Reuters (via Investing.com)",
+        "url": "https://m.uk.investing.com/news/stock-market-news/polish-fashion-group-lpps-shares-tumble-after-hindenburg-report-3384486?ampMode=1"
+      }
+    ]
   },
   {
     "id": "polonia-ale",
