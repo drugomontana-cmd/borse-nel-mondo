@@ -10,7 +10,7 @@
     "hq": "Mumbai",
     "index": "Nifty 50",
     "adr": "No (GDR a Londra, poco accessibile ai privati)",
-    "description": "Il più grande conglomerato privato indiano: raffinazione e petrolchimica, telecomunicazioni con Jio e grande distribuzione con Reliance Retail.",
+    "description": "Reliance Industries è il più grande gruppo privato dell'India e uno dei più diversificati al mondo. Nasce nel tessile e nella petrolchimica e gestisce a Jamnagar uno dei complessi di raffinazione più grandi del pianeta. Negli ultimi dieci anni si è trasformata in un gruppo di consumo e tecnologia: Jio è il primo operatore di telefonia mobile del paese e Reliance Retail la maggiore catena di negozi. Sta investendo molto anche in energie rinnovabili, e prepara la quotazione separata di Jio Platforms.",
     "strengths": [
       "Gestisce a Jamnagar uno dei complessi di raffinazione più grandi al mondo",
       "Jio è il primo operatore mobile indiano per numero di abbonati",
@@ -20,7 +20,14 @@
       "Controllo concentrato nella famiglia Ambani",
       "Investimenti molto elevati in nuovi business",
       "Dipendenza dai margini della raffinazione"
-    ]
+    ],
+    "ceo": {
+      "name": "Mukesh D. Ambani",
+      "note": "Presidente e amministratore delegato dal 2002, figlio del fondatore Dhirubhai Ambani. La famiglia Ambani controlla il gruppo.",
+      "source": "https://www.ril.com/ar2025-26/chairman-and-managing-directors-statement.html",
+      "checked": "2026-11-20"
+    },
+    "events": []
   },
   {
     "id": "india-hdfcbank",
@@ -33,7 +40,7 @@
     "hq": "Mumbai",
     "index": "Nifty 50",
     "adr": "Sì – HDB (New York)",
-    "description": "La più grande banca privata indiana, attiva in conti, prestiti, carte e credito alle imprese. Nel 2023 si è fusa con la società madre HDFC Ltd.",
+    "description": "HDFC Bank è la più grande banca privata dell'India. Offre conti, mutui, prestiti personali, carte di credito e finanziamenti alle imprese, con una rete di filiali che si sta espandendo anche nelle aree rurali. Nel 2023 si è fusa con la sua ex società madre HDFC Ltd, specializzata in mutui, diventando una delle banche più grandi al mondo per valore di borsa.",
     "strengths": [
       "Storicamente tra le banche indiane con migliore qualità del credito",
       "Rete di filiali in forte espansione anche nelle aree rurali"
@@ -41,6 +48,21 @@
     "risks": [
       "Integrazione della fusione con HDFC Ltd",
       "Concorrenza crescente di fintech e banche pubbliche"
+    ],
+    "ceo": {
+      "name": "Anup Bagchi",
+      "note": "Amministratore delegato dal 27 ottobre 2026: è il primo CEO arrivato dall'esterno nella storia della banca (prima lavorava nel gruppo ICICI).",
+      "source": "https://www.theasianbanker.com/updates-and-articles/anup-bagchi-succeeds-sashidhar-jagdishan-as-hdfc-bank-ceo-as-post-merger-profitability-comes-into-focus",
+      "checked": "2026-11-20"
+    },
+    "events": [
+      {
+        "date": "2026",
+        "severity": "media",
+        "text": "A marzo 2026 il presidente si è dimesso all'improvviso. Una revisione interna su alcuni depositi di un ente pubblico del Maharashtra ha portato a richiami e piccole sanzioni interne per l'allora CEO e il direttore finanziario. Ad agosto 2026 il CEO ha annunciato che non avrebbe chiesto il rinnovo.",
+        "source": "Business Today",
+        "url": "https://www.businesstoday.in/latest/corporate/story/hdfc-bank-leadership-shake-up-ceo-sashidhar-jagdishan-to-retire-on-oct-26-will-not-seek-reappointment-552056-2026-08-29"
+      }
     ]
   },
   {
@@ -54,7 +76,7 @@
     "hq": "Bengaluru",
     "index": "Nifty 50",
     "adr": "Sì – INFY (New York)",
-    "description": "Uno dei principali gruppi mondiali di servizi IT e consulenza digitale, con clienti soprattutto negli Stati Uniti e in Europa.",
+    "description": "Infosys è una delle principali società al mondo di servizi informatici e consulenza digitale. Sviluppa e gestisce software, infrastrutture cloud e progetti di intelligenza artificiale per grandi aziende, soprattutto negli Stati Uniti e in Europa, in settori come banche, industria e commercio. Ha superato i 20 miliardi di dollari di ricavi annui.",
     "strengths": [
       "Grandi clienti multinazionali con contratti pluriennali",
       "Forte generazione di cassa e dividendi regolari"
@@ -62,7 +84,14 @@
     "risks": [
       "Dipendenza dalla spesa IT dei clienti americani",
       "L'intelligenza artificiale può ridurre la domanda di servizi tradizionali"
-    ]
+    ],
+    "ceo": {
+      "name": "Salil Parekh",
+      "note": "Amministratore delegato dal 2018. Lascerà l'incarico il 31 marzo 2027; il successore designato è Ashiss Kumar Dash.",
+      "source": "https://india.entrepreneur.com/leadership/5-things-to-know-about-salil-parekh-as-he-steps-down-as-infosys-ceo",
+      "checked": "2026-11-20"
+    },
+    "events": []
   },
   {
     "id": "india-tcs",
@@ -75,14 +104,21 @@
     "hq": "Mumbai",
     "index": "Nifty 50",
     "adr": "No",
-    "description": "La più grande società indiana di servizi informatici, parte del gruppo Tata.",
+    "description": "Tata Consultancy Services è la più grande società indiana di servizi informatici e una delle prime al mondo, con circa 600.000 dipendenti. Fa parte del gruppo Tata, uno dei conglomerati più antichi e rispettati dell'India. Gestisce sistemi informatici, sviluppo software e consulenza per grandi clienti internazionali, in particolare nel settore finanziario.",
     "strengths": [
       "Leader del settore per dimensioni in India",
       "Appartenenza a uno dei gruppi industriali più solidi del paese"
     ],
     "risks": [
       "Stessi rischi del settore IT: rallentamento della domanda e impatto dell'AI"
-    ]
+    ],
+    "ceo": {
+      "name": "K. Krithivasan",
+      "note": "Amministratore delegato dal 2023, dopo una lunga carriera interna nel settore bancario e finanziario di TCS.",
+      "source": "https://www.businesstoday.in/technology/story/tcs-ceo-k-krithivasan-asks-employees-to-embrace-ai-even-if-it-hurts-revenue-517951-2026-02-25",
+      "checked": "2026-11-20"
+    },
+    "events": []
   },
   {
     "id": "india-hindunilvr",
@@ -95,7 +131,7 @@
     "hq": "Mumbai",
     "index": "Nifty 50",
     "adr": "No",
-    "description": "Filiale indiana di Unilever: detersivi, prodotti per la cura personale, alimentari e bevande.",
+    "description": "Hindustan Unilever è la filiale indiana della multinazionale Unilever, che ne possiede la maggioranza. È la più grande azienda di beni di consumo del paese: detersivi, saponi, shampoo, creme, tè, gelati e alimentari, con marchi presenti in quasi tutte le case indiane. La sua forza principale è una rete distributiva che arriva fino ai villaggi più piccoli.",
     "strengths": [
       "Marchi presenti in quasi tutte le case indiane",
       "Distribuzione capillare anche nei villaggi"
@@ -103,7 +139,14 @@
     "risks": [
       "Concorrenza di marchi locali e del commercio online",
       "Valutazioni storicamente elevate"
-    ]
+    ],
+    "ceo": {
+      "name": "Priya Nair",
+      "note": "Amministratrice delegata dal 1° agosto 2025: è la prima donna a guidare l'azienda in oltre 90 anni di storia.",
+      "source": "https://fortune.com/ranking/most-powerful-women-asia/2026/priya-nair/",
+      "checked": "2026-11-20"
+    },
+    "events": []
   },
   {
     "id": "india-bhartiartl",
@@ -116,7 +159,7 @@
     "hq": "Nuova Delhi",
     "index": "Nifty 50",
     "adr": "No",
-    "description": "Secondo operatore mobile indiano, presente anche in diversi paesi africani.",
+    "description": "Bharti Airtel è il secondo operatore di telecomunicazioni dell'India per numero di clienti. Offre telefonia mobile, internet fisso, servizi per le imprese e televisione digitale, e tramite la controllata Airtel Africa è presente in diversi paesi africani. Il mercato indiano è concentrato in pochi grandi operatori, il che sostiene i prezzi.",
     "strengths": [
       "Mercato indiano concentrato in pochi operatori",
       "Crescita del ricavo medio per utente"
@@ -124,7 +167,14 @@
     "risks": [
       "Investimenti elevati nelle reti 5G",
       "Regolamentazione del settore"
-    ]
+    ],
+    "ceo": {
+      "name": "Shashwat Sharma",
+      "note": "Amministratore delegato dal 1° gennaio 2026. Il predecessore Gopal Vittal è diventato vicepresidente esecutivo; il fondatore Sunil Bharti Mittal è presidente.",
+      "source": "https://www.peoplematters.in/news/appointments/bharti-airtel-names-shashwat-sharma-as-md-and-ceo-from-january-2026-47775",
+      "checked": "2026-11-20"
+    },
+    "events": []
   },
   {
     "id": "india-drreddy",
@@ -137,7 +187,7 @@
     "hq": "Hyderabad",
     "index": "Nifty 50",
     "adr": "Sì – RDY (New York)",
-    "description": "Casa farmaceutica che produce soprattutto farmaci generici venduti in India, Stati Uniti ed Europa.",
+    "description": "Dr. Reddy's Laboratories è una delle principali case farmaceutiche indiane. Produce soprattutto farmaci generici, cioè copie di farmaci il cui brevetto è scaduto, venduti in India, negli Stati Uniti, in Europa e nei mercati emergenti. Produce anche principi attivi per altre aziende farmaceutiche. È tra le poche società indiane comprabili facilmente tramite un ADR alla borsa di New York.",
     "strengths": [
       "Forte presenza nel mercato dei generici americano",
       "Uno dei pochi titoli indiani accessibili facilmente tramite ADR"
@@ -145,7 +195,14 @@
     "risks": [
       "Ispezioni e controlli dell'FDA americana",
       "Pressione sui prezzi dei generici"
-    ]
+    ],
+    "ceo": {
+      "name": "Erez Israeli",
+      "note": "Amministratore delegato dal 2019, ex dirigente del gruppo farmaceutico israeliano Teva. La famiglia fondatrice resta ai vertici del consiglio.",
+      "source": "https://www.biopharmawatch.com/news/RDY/dr-reddy-s-laboratories-ltd-8-2-337-road-no-3-banjara-hills-hyderabad-500-034-telangana-in-rdy-20260127",
+      "checked": "2026-11-20"
+    },
+    "events": []
   },
   {
     "id": "india-irctc",
@@ -158,13 +215,28 @@
     "hq": "Nuova Delhi",
     "index": "Nifty Midcap",
     "adr": "No",
-    "description": "Società controllata dallo Stato che gestisce la vendita online dei biglietti ferroviari, la ristorazione sui treni e servizi turistici.",
+    "description": "IRCTC (Indian Railway Catering and Tourism Corporation) è una società controllata dallo Stato indiano. Ha di fatto il monopolio della vendita online dei biglietti ferroviari in India, gestisce la ristorazione su treni e stazioni, vende acqua in bottiglia e organizza pacchetti turistici. Il suo modello richiede pochi investimenti e genera molta cassa.",
     "strengths": [
       "Posizione di monopolio nella biglietteria ferroviaria online",
       "Business con pochi investimenti necessari"
     ],
     "risks": [
       "Le decisioni del governo possono cambiare tariffe e commissioni"
+    ],
+    "ceo": {
+      "name": "Rahul Himalian",
+      "note": "Guida la società ad interim dal 20 luglio 2026, dopo le dimissioni del precedente presidente e amministratore delegato.",
+      "source": "https://www.psuconnect.in/new-faces-in-psus/shri-rahul-himalian-given-additional-charge-as-cmd-of-irctc",
+      "checked": "2026-11-20"
+    },
+    "events": [
+      {
+        "date": "2026",
+        "severity": "bassa",
+        "text": "A luglio 2026 il presidente e amministratore delegato si è dimesso per motivi personali; la guida è stata affidata ad interim a un direttore interno. Come società statale, le decisioni su tariffe e commissioni dipendono anche dal governo.",
+        "source": "Business Today",
+        "url": "https://www.businesstoday.in/latest/corporate/story/irctc-cmd-sanjay-kumar-jain-resigns-railways-ministry-accepts-exit-effective-july-20-538950-2026-06-24"
+      }
     ]
   },
   {
@@ -178,7 +250,7 @@
     "hq": "Bangkok",
     "index": "SET50",
     "adr": "No",
-    "description": "Il gruppo energetico nazionale thailandese, controllato dallo Stato: gas, petrolio, raffinazione, petrolchimica e stazioni di servizio.",
+    "description": "PTT è il gruppo energetico nazionale della Thailandia, controllato dallo Stato e quotato in borsa. È presente in tutta la filiera: ricerca ed estrazione di petrolio e gas (tramite PTTEP), trasporto e distribuzione del gas, raffinazione, petrolchimica, stazioni di servizio (tramite PTT Oil and Retail) e commercio di gas naturale liquefatto. Ha anche il compito di garantire la sicurezza energetica del paese.",
     "strengths": [
       "Ruolo centrale nella sicurezza energetica del paese",
       "Dividendi storicamente regolari"
@@ -186,7 +258,14 @@
     "risks": [
       "Il governo può imporre prezzi calmierati",
       "Esposizione al prezzo di petrolio e gas"
-    ]
+    ],
+    "ceo": {
+      "name": "Kongkrapan Intarajang",
+      "note": "Presidente e amministratore delegato dal 2024.",
+      "source": "https://www.kaohooninternational.com/markets/578106",
+      "checked": "2026-11-20"
+    },
+    "events": []
   },
   {
     "id": "thailandia-cpall",
@@ -199,7 +278,7 @@
     "hq": "Bangkok",
     "index": "SET50",
     "adr": "No",
-    "description": "Gestisce i negozi 7-Eleven in Thailandia ed è parte del gruppo Charoen Pokphand. Controlla anche la catena all'ingrosso Makro.",
+    "description": "CP All gestisce in Thailandia la catena di negozi di prossimità 7-Eleven, con oltre 15.000 punti vendita, ed è la principale società di distribuzione del gruppo Charoen Pokphand, il più grande conglomerato privato del paese. Controlla anche CP Axtra, che gestisce la catena all'ingrosso Makro e i supermercati Lotus's. Vende soprattutto beni di uso quotidiano, cibo pronto e servizi come il pagamento delle bollette.",
     "strengths": [
       "Migliaia di negozi di prossimità in tutto il paese",
       "Beneficia dei consumi quotidiani e del turismo"
@@ -207,6 +286,21 @@
     "risks": [
       "Debito elevato legato alle acquisizioni",
       "Dipendenza dai consumi interni"
+    ],
+    "ceo": {
+      "name": "Yuthasak Poomsurakul",
+      "note": "Amministratore delegato dal 2022. Il gruppo Charoen Pokphand, della famiglia Chearavanont, è l'azionista di controllo.",
+      "source": "https://simplywall.st/stocks/us/consumer-retailing/otc-cvpb.f/cp-all/management",
+      "checked": "2026-11-20"
+    },
+    "events": [
+      {
+        "date": "2026",
+        "severity": "bassa",
+        "text": "A maggio 2026 gli azionisti hanno respinto la proposta, voluta dal gruppo di controllo, di far entrare alcune controllate di CP All nella nuova banca digitale del gruppo CP: un segnale di attenzione sui rapporti tra le società del gruppo.",
+        "source": "The Nation",
+        "url": "https://www.nationthailand.com/tags/CP%20Group"
+      }
     ]
   },
   {
@@ -220,7 +314,7 @@
     "hq": "Bangkok",
     "index": "SET50",
     "adr": "No",
-    "description": "Gestisce i principali aeroporti del paese, tra cui Suvarnabhumi e Don Mueang a Bangkok, Phuket e Chiang Mai.",
+    "description": "Airports of Thailand gestisce i sei principali aeroporti del paese: Suvarnabhumi e Don Mueang a Bangkok, Phuket, Chiang Mai, Chiang Rai e Hat Yai. Guadagna dalle tariffe pagate da compagnie aeree e passeggeri e, soprattutto, da affitti e quote sugli incassi di negozi, duty free e ristoranti. È controllata dal Ministero delle Finanze thailandese e dipende fortemente dal turismo internazionale.",
     "strengths": [
       "Monopolio di fatto sugli aeroporti principali",
       "Legata alla crescita del turismo internazionale"
@@ -228,7 +322,14 @@
     "risks": [
       "Molto sensibile a crisi sanitarie e calo del turismo",
       "Contratti duty free rinegoziati con il governo"
-    ]
+    ],
+    "ceo": {
+      "name": "Paweena Jariyathitipong",
+      "note": "Presidente dal 16 gennaio 2026: è la prima donna alla guida della società.",
+      "source": "https://www.nationthailand.com/business/corporate/40061270",
+      "checked": "2026-11-20"
+    },
+    "events": []
   },
   {
     "id": "thailandia-advanc",
@@ -241,7 +342,7 @@
     "hq": "Bangkok",
     "index": "SET50",
     "adr": "No",
-    "description": "Il più grande operatore di telefonia mobile thailandese, attivo anche nella banda larga fissa.",
+    "description": "Advanced Info Service (AIS) è il più grande operatore di telefonia mobile della Thailandia. Offre anche internet fisso a banda larga, servizi digitali e soluzioni per le imprese come cloud e data center, e partecipa a una nuova banca digitale autorizzata nel 2026. Il mercato thailandese è dominato da due soli grandi operatori.",
     "strengths": [
       "Mercato concentrato in pochi operatori",
       "Dividendi elevati"
@@ -249,7 +350,14 @@
     "risks": [
       "Costi delle licenze per le frequenze",
       "Concorrenza dopo le fusioni nel settore"
-    ]
+    ],
+    "ceo": {
+      "name": "Pratthana Leelapanang",
+      "note": "Amministratore delegato dal 3 novembre 2025, in azienda da quasi 30 anni.",
+      "source": "https://thereporter.asia/eng/?p=3984",
+      "checked": "2026-11-20"
+    },
+    "events": []
   },
   {
     "id": "thailandia-bdms",
@@ -262,7 +370,7 @@
     "hq": "Bangkok",
     "index": "SET50",
     "adr": "No",
-    "description": "La più grande rete di ospedali privati del paese, con marchi come Bangkok Hospital e Samitivej.",
+    "description": "Bangkok Dusit Medical Services è la più grande rete di ospedali privati della Thailandia e una delle maggiori del Sud-est asiatico. Gestisce decine di ospedali con marchi come Bangkok Hospital, Samitivej, BNH e Phyathai, servendo sia pazienti thailandesi sia stranieri che arrivano per il turismo medico. Ha anche attività in farmaceutica, laboratori e assicurazioni sanitarie.",
     "strengths": [
       "Beneficia del turismo medico e dell'invecchiamento della popolazione",
       "Rete diffusa in tutta la Thailandia"
@@ -270,7 +378,14 @@
     "risks": [
       "Carenza di medici e infermieri",
       "Concorrenza di altri paesi nel turismo medico"
-    ]
+    ],
+    "ceo": {
+      "name": "Poramaporn Prasarttong-Osoth",
+      "note": "Presidente e amministratrice delegata dal 2020. È medico e figlia del fondatore; la famiglia Prasarttong-Osoth è tra i principali azionisti.",
+      "source": "https://bdms.co.th/discover-bdms/news-events/iaa2025",
+      "checked": "2026-11-20"
+    },
+    "events": []
   },
   {
     "id": "thailandia-kbank",
@@ -283,7 +398,7 @@
     "hq": "Bangkok",
     "index": "SET50",
     "adr": "No",
-    "description": "Una delle principali banche thailandesi, nota per i servizi digitali e il credito alle piccole imprese.",
+    "description": "Kasikornbank è una delle maggiori banche thailandesi. È nota per la sua app K PLUS, tra le più usate nel paese, e per il credito alle piccole e medie imprese. Offre anche gestione del risparmio, assicurazioni e servizi bancari nella regione del Mekong. Nel 2026 il primo azionista è diventato un gruppo legato all'uomo più ricco della Thailandia.",
     "strengths": [
       "App bancaria tra le più usate nel paese",
       "Forte presenza nel credito alle PMI"
@@ -291,7 +406,14 @@
     "risks": [
       "Debito delle famiglie thailandesi molto elevato",
       "Crediti deteriorati in aumento nei periodi di crisi"
-    ]
+    ],
+    "ceo": {
+      "name": "Kattiya Indaravijaya",
+      "note": "Amministratrice delegata dal 2020: è la prima donna e la prima persona esterna alla famiglia fondatrice a guidare la banca.",
+      "source": "https://fortune.com/ranking/most-powerful-women-asia/2026/kattiya-indaravijaya/",
+      "checked": "2026-11-20"
+    },
+    "events": []
   },
   {
     "id": "thailandia-delta",
@@ -304,7 +426,7 @@
     "hq": "Samut Prakan",
     "index": "SET50",
     "adr": "No",
-    "description": "Filiale del gruppo taiwanese Delta Electronics: alimentatori, componenti per auto elettriche e sistemi di alimentazione per data center.",
+    "description": "Delta Electronics (Thailand) è la filiale thailandese del gruppo taiwanese Delta Electronics. Progetta e produce alimentatori, sistemi di gestione dell'energia per data center, componenti per auto elettriche e stazioni di ricarica, e prodotti per l'automazione industriale, quasi tutti venduti all'estero. È diventata una delle società più grandi della borsa thailandese grazie alla domanda legata all'intelligenza artificiale.",
     "strengths": [
       "Esposta alla crescita di data center e veicoli elettrici",
       "Uno dei titoli più cresciuti della borsa thailandese"
@@ -312,7 +434,14 @@
     "risks": [
       "Pochissime azioni in libera circolazione: prezzo molto volatile",
       "Valutazione molto elevata rispetto al mercato"
-    ]
+    ],
+    "ceo": {
+      "name": "Victor Cheng",
+      "note": "Amministratore delegato. La capogruppo taiwanese Delta Electronics controlla la maggioranza delle azioni.",
+      "source": "https://www.nationthailand.com/business/40069801",
+      "checked": "2026-11-20"
+    },
+    "events": []
   },
   {
     "id": "thailandia-bh",
@@ -325,14 +454,21 @@
     "hq": "Bangkok",
     "index": "SET50",
     "adr": "No",
-    "description": "Ospedale privato di Bangkok tra i più noti al mondo per il turismo medico.",
+    "description": "Bumrungrad International Hospital è uno degli ospedali privati più noti al mondo per il turismo medico. Ha sede a Bangkok e cura ogni anno pazienti da decine di paesi, soprattutto per cardiologia, oncologia e interventi complessi. Nel 2026 Newsweek lo ha classificato al 96° posto tra i migliori ospedali del mondo, unico thailandese tra i primi 100.",
     "strengths": [
       "Clientela internazionale ad alta capacità di spesa"
     ],
     "risks": [
       "Concentrazione su un'unica struttura principale",
       "Dipendenza dai pazienti esteri"
-    ]
+    ],
+    "ceo": {
+      "name": "Artirat Charukitpipat",
+      "note": "Amministratrice delegata.",
+      "source": "https://www.bumrungrad.com/en/blog-news/worlds-best-hospitals-2026-ranking-by-newsweek",
+      "checked": "2026-11-20"
+    },
+    "events": []
   },
   {
     "id": "vietnam-vnm",
@@ -345,7 +481,7 @@
     "hq": "Ho Chi Minh City",
     "index": "VN30",
     "adr": "No",
-    "description": "Il principale produttore di latte e derivati del Vietnam, con esportazioni in diversi paesi.",
+    "description": "Vinamilk è il principale produttore di latte e derivati del Vietnam, fondato nel 1976. Produce latte, yogurt, latte in polvere per l'infanzia e bevande, gestisce allevamenti e stabilimenti moderni ed esporta in decine di paesi. Il fondo statale SCIC e il gruppo F&N di Singapore sono tra i principali azionisti.",
     "strengths": [
       "Marchio leader nel mercato nazionale",
       "Dividendi storicamente generosi"
@@ -353,7 +489,14 @@
     "risks": [
       "Crescita rallentata e calo delle nascite",
       "Concorrenza di marchi stranieri"
-    ]
+    ],
+    "ceo": {
+      "name": "Mai Kiều Liên",
+      "note": "Amministratrice delegata dal 1992, figura storica dell'industria vietnamita. La società ha annunciato un piano di successione per il 2026.",
+      "source": "https://tapchicongthuong.vn/vinamilk-bao-lai-quy-i-2026-tang-55--so-voi-cung-ky--co-tuc-tien-mat-tiep-tuc-duy-tri-muc-cao-512333.htm",
+      "checked": "2026-11-20"
+    },
+    "events": []
   },
   {
     "id": "vietnam-fpt",
@@ -366,14 +509,21 @@
     "hq": "Hanoi",
     "index": "VN30",
     "adr": "No",
-    "description": "Il maggiore gruppo tecnologico vietnamita: servizi IT per clienti esteri, telecomunicazioni e istruzione.",
+    "description": "FPT è il maggiore gruppo tecnologico del Vietnam, con circa 86.000 dipendenti. La parte principale del business sono i servizi informatici per clienti esteri, soprattutto in Giappone, Stati Uniti ed Europa. Gestisce anche una rete di internet e televisione in Vietnam e un sistema di scuole e università, e investe in intelligenza artificiale, semiconduttori e droni.",
     "strengths": [
       "Forte crescita dei servizi IT per Giappone, Stati Uniti ed Europa",
       "Gestisce anche scuole e università"
     ],
     "risks": [
       "Spesso al limite di partecipazione estera: difficile da comprare per gli stranieri"
-    ]
+    ],
+    "ceo": {
+      "name": "Nguyễn Văn Khoa",
+      "note": "Amministratore delegato. Il fondatore Trương Gia Bình è presidente del consiglio.",
+      "source": "https://fpt.com/en/news/fpt-ceo-businesses-must-shift-from-using-ai-to-integrating-ai-to-build-competitive-advantage",
+      "checked": "2026-11-20"
+    },
+    "events": []
   },
   {
     "id": "vietnam-vcb",
@@ -386,14 +536,21 @@
     "hq": "Hanoi",
     "index": "VN30",
     "adr": "No",
-    "description": "La più grande banca quotata del Vietnam per valore di borsa, controllata dallo Stato. La giapponese Mizuho ne è socia.",
+    "description": "Vietcombank è la banca quotata più grande del Vietnam per valore di borsa ed è controllata dallo Stato. Nata come banca per il commercio estero, è leader nei pagamenti internazionali e nel credito alle grandi imprese, e ha una grande clientela privata. La banca giapponese Mizuho è socia di minoranza.",
     "strengths": [
       "Considerata la banca più solida del paese"
     ],
     "risks": [
       "Limite del 30% alla partecipazione estera",
       "Rischi legati al settore immobiliare vietnamita"
-    ]
+    ],
+    "ceo": {
+      "name": "Lê Quang Vinh",
+      "note": "Amministratore delegato. Come banca statale, i vertici sono nominati con il coinvolgimento delle autorità.",
+      "source": "https://vnba.org.vn/vi/vnba/member/ngan-hang-tmcp-ngoai-thuong-viet-nam-vietcombank-4.htm?page=7",
+      "checked": "2026-11-20"
+    },
+    "events": []
   },
   {
     "id": "vietnam-hpg",
@@ -406,14 +563,21 @@
     "hq": "Hanoi",
     "index": "VN30",
     "adr": "No",
-    "description": "Il maggiore produttore di acciaio del Vietnam.",
+    "description": "Hòa Phát è il maggiore produttore di acciaio del Vietnam e del Sud-est asiatico: a fine 2026 la sua capacità arriva a circa 16 milioni di tonnellate l'anno. Produce acciaio per edilizia, tubi, lamiere e, in futuro, binari ferroviari; è attivo anche in agricoltura, elettrodomestici e immobiliare. I suoi risultati seguono il ciclo delle costruzioni e delle infrastrutture.",
     "strengths": [
       "Beneficia della costruzione di infrastrutture nel paese"
     ],
     "risks": [
       "Prezzo dell'acciaio molto ciclico",
       "Concorrenza delle importazioni cinesi"
-    ]
+    ],
+    "ceo": {
+      "name": "Nguyễn Việt Thắng",
+      "note": "Amministratore delegato dal 2021. Il fondatore e presidente Trần Đình Long è il principale azionista.",
+      "source": "https://vcci.com.vn/tin-tuc/tap-doan-hoa-phat-cam-ket-luon-dong-hanh-voi-chinh-phu-trong-nhung-du-an-ha-tang-chien-luoc",
+      "checked": "2026-11-20"
+    },
+    "events": []
   },
   {
     "id": "vietnam-mwg",
@@ -426,14 +590,21 @@
     "hq": "Ho Chi Minh City",
     "index": "VN30",
     "adr": "No",
-    "description": "Il primo distributore vietnamita di telefoni ed elettronica (Thế Giới Di Động, Điện Máy Xanh) e una catena di alimentari (Bách Hóa Xanh).",
+    "description": "Mobile World Investment è il primo distributore al dettaglio del Vietnam. Gestisce circa 1.000 negozi di telefonia Thế Giới Di Động, oltre 2.000 negozi di elettronica Điện Máy Xanh, più di 3.300 supermercati di quartiere Bách Hóa Xanh, farmacie An Khang e negozi per l'infanzia AvaKids. La catena di alimentari è oggi il principale motore di crescita.",
     "strengths": [
       "Rete di negozi capillare",
       "La catena di alimentari è il principale motore di crescita"
     ],
     "risks": [
       "Il mercato di telefoni ed elettronica è maturo"
-    ]
+    ],
+    "ceo": {
+      "name": "Vũ Đăng Linh",
+      "note": "Amministratore delegato dal 3 aprile 2025, ex direttore finanziario. Il fondatore Nguyễn Đức Tài è presidente del consiglio.",
+      "source": "https://vnexpress.net/the-gioi-di-dong-co-ceo-moi-4869972.html",
+      "checked": "2026-11-20"
+    },
+    "events": []
   },
   {
     "id": "vietnam-msn",
@@ -446,14 +617,21 @@
     "hq": "Ho Chi Minh City",
     "index": "VN30",
     "adr": "No",
-    "description": "Gruppo di beni di consumo (salse, noodles, bevande) e proprietario della catena di supermercati WinMart.",
+    "description": "Masan è un grande gruppo vietnamita dei beni di consumo. Produce salse, noodles istantanei, bevande e carne lavorata, controlla WinCommerce (oltre 4.000 negozi WinMart) e la catena di tè e caffè Phúc Long, e ha partecipazioni in servizi finanziari e materiali per l'alta tecnologia. La strategia punta a collegare produzione, negozi e dati sui clienti.",
     "strengths": [
       "Integrazione tra produzione e distribuzione"
     ],
     "risks": [
       "Debito elevato",
       "Struttura di gruppo complessa"
-    ]
+    ],
+    "ceo": {
+      "name": "Danny Le",
+      "note": "Amministratore delegato. Il fondatore Nguyễn Đăng Quang è presidente del consiglio.",
+      "source": "https://theinvestor.vn/masan-shares-undervalued-by-60-ceo-d18934.html",
+      "checked": "2026-11-20"
+    },
+    "events": []
   },
   {
     "id": "vietnam-vic",
@@ -466,13 +644,28 @@
     "hq": "Hanoi",
     "index": "VN30",
     "adr": "No",
-    "description": "Il più grande gruppo privato vietnamita: immobiliare con Vinhomes, auto elettriche con VinFast, centri commerciali e servizi.",
+    "description": "Vingroup è il più grande gruppo privato del Vietnam e ha un peso enorme sull'indice di borsa. Comprende immobiliare residenziale (Vinhomes), alberghi e parchi (Vinpearl), auto ed e-bus elettrici (VinFast, quotata a New York), una società di taxi elettrici (GSM), scuole e ospedali, e nuove attività in acciaio, energia e robotica.",
     "strengths": [
       "Peso enorme nell'economia e nell'indice di borsa vietnamita"
     ],
     "risks": [
       "Le forti perdite di VinFast pesano sul gruppo",
       "Debito elevato e governance concentrata nel fondatore"
+    ],
+    "ceo": {
+      "name": "Nguyễn Việt Quang",
+      "note": "Amministratore delegato dal 2018, riconfermato per il mandato 2026–2031. Il fondatore Phạm Nhật Vượng, uomo più ricco del Vietnam, controlla il gruppo.",
+      "source": "https://www.dnse.com.vn/senses/tin-tuc/vingroup-thong-bao-ve-vi-tri-tong-giam-doc-35245334",
+      "checked": "2026-11-20"
+    },
+    "events": [
+      {
+        "date": "2026",
+        "severity": "media",
+        "text": "Il gruppo ha sostenuto per anni le forti perdite di VinFast, che secondo il piano dovrebbe tornare in utile tra il 2026 e il 2027. Il controllo è molto concentrato nella famiglia del fondatore: da settembre 2026 due suoi figli guidano VinFast e GSM.",
+        "source": "Lao Động",
+        "url": "https://news.laodong.vn/kinh-doanh/vingroup-tham-vong-loi-nhuan-gap-3-lan-vinfast-du-kien-co-lai-ngay-nam-nay-1690068.ldo"
+      }
     ]
   },
   {
@@ -486,7 +679,7 @@
     "hq": "Ho Chi Minh City",
     "index": "VN-Index",
     "adr": "No",
-    "description": "La principale catena di gioiellerie del Vietnam.",
+    "description": "Phu Nhuan Jewelry (PNJ) è la principale catena di gioiellerie del Vietnam, con centinaia di negozi in tutto il paese. Produce e vende gioielli in oro, argento e diamanti, oltre a lingotti d'oro, e possedeva un laboratorio di certificazione delle pietre preziose (P-Lab). La crescita era legata alla classe media vietnamese, ma nel 2026 è stata travolta da uno scandalo.",
     "strengths": [
       "Beneficia della crescita della classe media"
     ],
@@ -494,6 +687,21 @@
       "A luglio 2026 un caso legato alla certificazione dei diamanti ha fatto crollare il titolo di circa il 78%",
       "Utili in forte calo nel 2026 e dimissioni di alcuni dirigenti a novembre 2026",
       "Sensibile al prezzo dell'oro e ai consumi"
+    ],
+    "ceo": {
+      "name": "Phan Quốc Công",
+      "note": "Amministratore delegato dal 3 aprile 2026; nel consiglio della società dal 2015.",
+      "source": "https://24hmoney.vn/news/tong-giam-doc-pnj-hoan-tat-mua-1-trieu-co-phieu-c1a2822033.html",
+      "checked": "2026-11-20"
+    },
+    "events": [
+      {
+        "date": "luglio 2026",
+        "severity": "alta",
+        "text": "L'ex direttore della controllata P-Lab, che certificava i diamanti, è stato arrestato in un'indagine sul contrabbando di circa 28.000 diamanti da Hong Kong. La società sostiene che quei diamanti non sono entrati nei suoi negozi, ma il titolo ha perso circa il 78% e a novembre 2026 alcuni dirigenti si sono dimessi.",
+        "source": "VnEconomy (Baomoi)",
+        "url": "https://baomoi.com/pnj-tiep-tuc-co-bien-dong-ve-nhan-su-cao-cap-c56557544.epi"
+      }
     ]
   },
   {
@@ -507,7 +715,7 @@
     "hq": "Varsavia",
     "index": "WIG20",
     "adr": "No",
-    "description": "La più grande banca polacca, controllata dallo Stato.",
+    "description": "PKO Bank Polski è la più grande banca della Polonia per clienti, depositi e prestiti, con oltre 100 anni di storia. Offre tutti i servizi bancari a privati e imprese, ha la sua app IKO tra le più usate del paese e controlla società di leasing, fondi di investimento e assicurazioni. Lo Stato polacco è il primo azionista.",
     "strengths": [
       "Leader per clienti e depositi in Polonia",
       "Forte presenza nei servizi digitali"
@@ -515,7 +723,14 @@
     "risks": [
       "Influenza del governo sulle decisioni",
       "Contenziosi sui vecchi mutui in franchi svizzeri"
-    ]
+    ],
+    "ceo": {
+      "name": "Szymon Midera",
+      "note": "Presidente del consiglio di gestione. Nelle banche controllate dallo Stato polacco i vertici cambiano spesso dopo le elezioni.",
+      "source": "https://www.pkobp.pl/media/aktualnosci/wyniki-finansowe/najmocniejszy-rok-w-historii-pko-banku-polskiego-i-ponad-320-tysiecy-nowych-klientow-szymon-midera-nadajemy-tempo-rynkowi",
+      "checked": "2026-11-20"
+    },
+    "events": []
   },
   {
     "id": "polonia-pkn",
@@ -528,7 +743,7 @@
     "hq": "Płock",
     "index": "WIG20",
     "adr": "No",
-    "description": "Il gruppo energetico nazionale polacco, controllato dallo Stato: raffinazione, distribuzione di carburanti, gas ed energia elettrica.",
+    "description": "ORLEN è il gruppo energetico nazionale polacco e una delle maggiori aziende dell'Europa centrale. Gestisce raffinerie in Polonia, Repubblica Ceca e Lituania, migliaia di stazioni di servizio anche in Germania, estrazione e distribuzione di gas (dopo la fusione con PGNiG), produzione di energia elettrica e petrolchimica. Lo Stato polacco ne è l'azionista di controllo.",
     "strengths": [
       "Dimensioni cresciute dopo le fusioni con Lotos e PGNiG",
       "Rete di distributori anche in Germania, Repubblica Ceca e Lituania"
@@ -536,7 +751,14 @@
     "risks": [
       "Decisioni influenzate dalla politica",
       "Transizione energetica costosa"
-    ]
+    ],
+    "ceo": {
+      "name": "Ireneusz Fąfara",
+      "note": "Presidente del consiglio di gestione dall'11 aprile 2024, riconfermato a giugno 2026 per il mandato 2026–2029.",
+      "source": "https://tvn24.pl/biznes/z-kraju/rada-nadzorcza-orlenu-wybrala-prezesa-ireneusz-fafara-pozostanie-na-stanowisku-st9078782",
+      "checked": "2026-11-20"
+    },
+    "events": []
   },
   {
     "id": "polonia-dnp",
@@ -549,7 +771,7 @@
     "hq": "Krotoszyn",
     "index": "WIG20",
     "adr": "No",
-    "description": "Catena di supermercati di medie dimensioni concentrata nei piccoli centri, con forte crescita del numero di negozi.",
+    "description": "Dino Polska gestisce una catena di oltre 2.500 supermercati di medie dimensioni, concentrati nei piccoli centri e nelle periferie della Polonia, dove la concorrenza è minore. Ogni negozio ha un banco carne servito, rifornito da un macello di proprietà, e la società possiede la maggior parte degli immobili. Negli ultimi anni è cresciuta aprendo centinaia di negozi l'anno.",
     "strengths": [
       "Possiede la maggior parte degli immobili dei negozi",
       "Crescita storicamente molto rapida"
@@ -557,6 +779,21 @@
     "risks": [
       "Rallentamento della crescita",
       "Concorrenza dei discount come Biedronka e Lidl"
+    ],
+    "ceo": {
+      "name": "Nessun presidente unico",
+      "note": "La società è guidata collegialmente dal consiglio di gestione, di cui fa parte il direttore finanziario Michał Krauze. Il fondatore Tomasz Biernacki è l'azionista di controllo.",
+      "source": "https://strefainwestorow.pl/wiadomosci/20260326/dino-polska-chce-w-2026-r-wzrost-sprzedazy-lfl-byl-wyzszy-niz-w-2025-r",
+      "checked": "2026-11-20"
+    },
+    "events": [
+      {
+        "date": "2026",
+        "severity": "media",
+        "text": "Nel 2026 la società ha affrontato un conflitto con i dipendenti, con proteste e minacce di sciopero, e due membri del consiglio di gestione si sono dimessi. A giugno 2026 l'autorità antitrust polacca (UOKiK) ha avviato un procedimento contro la catena che può portare a una sanzione rilevante.",
+        "source": "Wiadomości Handlowe",
+        "url": "https://www.wiadomoscihandlowe.pl/tag/dino-polska-0"
+      }
     ]
   },
   {
@@ -570,14 +807,29 @@
     "hq": "Varsavia",
     "index": "WIG20",
     "adr": "No",
-    "description": "Casa di videogiochi creatrice delle serie The Witcher e Cyberpunk 2077, proprietaria del negozio digitale GOG.",
+    "description": "CD Projekt è la casa di videogiochi polacca che ha creato le serie The Witcher e Cyberpunk 2077, vendute in decine di milioni di copie. Sviluppa i giochi nel suo studio CD Projekt Red, con sedi in Polonia e Nord America, e sta lavorando a un nuovo capitolo di The Witcher e al seguito di Cyberpunk. A dicembre 2025 ha venduto il negozio digitale GOG a uno dei cofondatori.",
     "strengths": [
       "Marchi riconosciuti in tutto il mondo",
-      "Nessun debito significativo"
+      "Nessun debito significativo e molta liquidità"
     ],
     "risks": [
       "Ricavi concentrati su pochi giochi",
       "Ritardi nei lanci possono pesare molto sul titolo"
+    ],
+    "ceo": {
+      "name": "Michał Nowakowski e Adam Badowski",
+      "note": "Amministratori delegati congiunti dal 2024. I cofondatori restano grandi azionisti.",
+      "source": "https://www.cdprojekt.com/en/capital-group/management-board/",
+      "checked": "2026-11-20"
+    },
+    "events": [
+      {
+        "date": "2020",
+        "severity": "bassa",
+        "text": "Il lancio pieno di problemi di Cyberpunk 2077 nel dicembre 2020 ha fatto crollare il titolo e portato ad azioni legali degli investitori, poi chiuse con un accordo. Il gioco è stato in seguito molto migliorato.",
+        "source": "Gamereactor",
+        "url": "https://www.gamereactor.eu/?p=125595"
+      }
     ]
   },
   {
@@ -591,14 +843,21 @@
     "hq": "Danzica",
     "index": "WIG20",
     "adr": "No",
-    "description": "Gruppo di moda con marchi come Reserved, Sinsay, Cropp, House e Mohito, presente in molti paesi europei.",
+    "description": "LPP è il più grande gruppo di abbigliamento della Polonia e uno dei maggiori in Europa. Possiede i marchi Reserved, Sinsay, Cropp, House e Mohito, con migliaia di negozi in oltre 40 paesi e un forte commercio online. Il marchio economico Sinsay è quello che cresce più velocemente. I fondatori controllano la società tramite fondazioni di famiglia.",
     "strengths": [
       "Forte crescita del marchio economico Sinsay",
       "Vendite online in crescita"
     ],
     "risks": [
       "Concorrenza di Inditex, H&M e piattaforme cinesi"
-    ]
+    ],
+    "ceo": {
+      "name": "Marek Piechocki",
+      "note": "Cofondatore e presidente del consiglio di gestione dalla nascita della società negli anni Novanta.",
+      "source": "https://www.lpp.com/en/press-releases",
+      "checked": "2026-11-20"
+    },
+    "events": []
   },
   {
     "id": "polonia-ale",
@@ -611,14 +870,21 @@
     "hq": "Poznań (società registrata in Lussemburgo)",
     "index": "WIG20",
     "adr": "No",
-    "description": "La principale piattaforma di commercio online in Polonia, attiva anche in Repubblica Ceca, Slovacchia e Ungheria.",
+    "description": "Allegro è la principale piattaforma di commercio online della Polonia, dove migliaia di venditori offrono milioni di prodotti, ed è presente anche in Repubblica Ceca, Slovacchia e Ungheria. Offre servizi di consegna con armadietti automatici, pagamenti a rate tramite Allegro Pay e pubblicità per i venditori. La società capogruppo ha sede legale in Lussemburgo.",
     "strengths": [
       "Posizione dominante nell'e-commerce polacco"
     ],
     "risks": [
       "Concorrenza di Amazon, Temu e Shein",
       "Espansione estera ancora in perdita"
-    ]
+    ],
+    "ceo": {
+      "name": "Marcin Kuśmierz",
+      "note": "Amministratore delegato da giugno 2025, ex capo della piattaforma per negozi online Shoper.",
+      "source": "https://www.retail-insight-network.com/news/marcin-ceo-allegro",
+      "checked": "2026-11-20"
+    },
+    "events": []
   },
   {
     "id": "polonia-kgh",
@@ -631,13 +897,28 @@
     "hq": "Lubin",
     "index": "WIG20",
     "adr": "No",
-    "description": "Uno dei maggiori produttori mondiali di rame e argento, controllato dallo Stato.",
+    "description": "KGHM Polska Miedź è uno dei maggiori produttori mondiali di rame e argento. Gestisce miniere e fonderie nel sud-ovest della Polonia e ha miniere in Cile, Canada e Stati Uniti. Il rame serve per reti elettriche, auto elettriche ed energie rinnovabili. Lo Stato polacco è il primo azionista.",
     "strengths": [
       "Esposta alla domanda di rame per elettrificazione e rinnovabili"
     ],
     "risks": [
       "Prezzi delle materie prime molto volatili",
       "Tasse speciali sull'estrazione"
+    ],
+    "ceo": {
+      "name": "Remigiusz Paszkiewicz",
+      "note": "Presidente del consiglio di gestione dal 24 febbraio 2026, ex presidente di Anwil e delle ferrovie PKP PLK.",
+      "source": "https://www.pap.pl/aktualnosci/zmiany-w-kghm-rada-nadzorcza-powolala-nowego-prezesa",
+      "checked": "2026-11-20"
+    },
+    "events": [
+      {
+        "date": "gennaio 2026",
+        "severity": "bassa",
+        "text": "Il consiglio di sorveglianza ha revocato l'amministratore delegato e un vicepresidente; il nuovo vertice è in carica da febbraio 2026. Nelle società controllate dallo Stato polacco i cambi al vertice sono frequenti.",
+        "source": "xyz.pl",
+        "url": "https://xyz.pl/?p=163334"
+      }
     ]
   },
   {
@@ -651,7 +932,7 @@
     "hq": "Breslavia",
     "index": "mWIG40",
     "adr": "No",
-    "description": "Sviluppa software in abbonamento per la chat con i clienti (LiveChat, ChatBot), venduto soprattutto all'estero.",
+    "description": "Text (fino al 2024 LiveChat Software) sviluppa software in abbonamento per comunicare con i clienti: chat sui siti web (LiveChat), assistenti automatici (ChatBot), gestione delle richieste (HelpDesk) e la nuova piattaforma Text. Vende soprattutto all'estero, incassa in dollari e ha margini molto alti, ma ricavi e utili sono in calo.",
     "strengths": [
       "Ricavi in dollari e margini elevati",
       "Dividendi regolari"
@@ -659,6 +940,13 @@
     "risks": [
       "Crescita rallentata",
       "Concorrenza degli strumenti basati sull'intelligenza artificiale"
-    ]
+    ],
+    "ceo": {
+      "name": "Mariusz Ciepły",
+      "note": "Presidente del consiglio di gestione, riconfermato per il mandato 2026–2029. È anche il primo azionista, con circa il 13%.",
+      "source": "https://www.parkiet.com/komunikaty-espi/art44799741-text-spolka-akcyjna-powolanie-zarzadu-nowej-kadencji-2026-2029",
+      "checked": "2026-11-20"
+    },
+    "events": []
   }
 ]

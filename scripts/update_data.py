@@ -347,6 +347,69 @@ def apply_checks(results, previous, companies, today):
     return len(report)
 
 
+# ---------------------------------------------------------------- livello di rischio
+
+COUNTRIES_FILE = ROOT / "data" / "countries.json"
+RISK_LABELS = {1: "Contenuto", 2: "Moderato", 3: "Medio", 4: "Elevato", 5: "Molto elevato"}
+RISK_WEIGHTS = {"volatilita": 0.30, "calo": 0.25, "liquidita": 0.15, "dimensione": 0.10, "paese": 0.20}
+EVENT_ADJ = {"bassa": 0.25, "media": 0.5, "alta": 1.0}
+
+
+def band(value, limits):
+    """Restituisce 1..5 secondo le soglie crescenti indicate."""
+    for i, lim in enumerate(limits, start=1):
+        if value < lim:
+            return i
+    return 5
+
+
+def history_stats(history):
+    """Volatilità annua (da rendimenti settimanali) e calo massimo dall'ultimo picco."""
+    prices = [p[1] for p in history or [] if p[1]]
+    if len(prices) < 10:
+        return None, None
+    rets = [math.log(b / a) for a, b in zip(prices, prices[1:]) if a > 0 and b > 0]
+    mean = sum(rets) / len(rets)
+    vol = math.sqrt(sum((r - mean) ** 2 for r in rets) / (len(rets) - 1)) * math.sqrt(52)
+    peak, mdd = prices[0], 0.0
+    for p in prices:
+        peak = max(peak, p)
+        mdd = min(mdd, p / peak - 1)
+    return vol, mdd
+
+
+def compute_risk(cur, company, country):
+    """Indicatore di rischio 1-5, con il dettaglio di ogni componente."""
+    comps = []
+    vol, mdd = history_stats(cur.get("history"))
+    if vol is not None:
+        comps.append(("volatilita", "Volatilità", f"{vol * 100:.0f}% annuo", band(vol, [0.20, 0.30, 0.40, 0.55])))
+        comps.append(("calo", "Calo massimo in un anno", f"{mdd * 100:.0f}%", band(-mdd, [0.15, 0.25, 0.40, 0.60])))
+    liq = cur.get("liquidity")
+    if liq:
+        comps.append(("liquidita", "Liquidità", liq, {"Alta": 1, "Media": 3, "Bassa": 5}[liq]))
+    size = cur.get("size")
+    if size:
+        comps.append(("dimensione", "Dimensione", size, {"Large cap": 1, "Mid cap": 2, "Small cap": 4}[size]))
+    if country.get("country_risk"):
+        comps.append(("paese", "Paese e accesso", country.get("name", ""), country["country_risk"]))
+    if not comps:
+        return None
+    wsum = sum(RISK_WEIGHTS[k] for k, *_ in comps)
+    base = sum(RISK_WEIGHTS[k] * s for k, _, _, s in comps) / wsum
+    events = company.get("events", [])
+    adj = max((EVENT_ADJ.get(e.get("severity"), 0) for e in events), default=0)
+    score = min(5.0, base + adj)
+    level = max(1, min(5, int(score + 0.5)))
+    return {
+        "level": level,
+        "label": RISK_LABELS[level],
+        "score": round(score, 2),
+        "components": [{"key": k, "name": n, "value": v, "score": s} for k, n, v, s in comps],
+        "events_adjustment": adj,
+    }
+
+
 # ---------------------------------------------------------------- principale
 
 def run(fetch_yahoo=fetch_yahoo, fetch_vnstock=fetch_vnstock,
@@ -404,6 +467,15 @@ def run(fetch_yahoo=fetch_yahoo, fetch_vnstock=fetch_vnstock,
         else:
             failed.append(c["id"])
         time.sleep(pause)
+
+    countries = json.loads(COUNTRIES_FILE.read_text(encoding="utf-8")).get("countries", {})
+    by_id = {c["id"]: c for c in companies}
+    for cid, cur in results.items():
+        try:
+            cur["risk"] = compute_risk(cur, by_id[cid], countries.get(by_id[cid]["country"], {}))
+        except Exception as exc:
+            print(f"    rischio non calcolato per {cid}: {exc}")
+            cur["risk"] = None
 
     n_warnings = apply_checks(results, previous, companies, date.today())
     print(f"Dati da verificare: {n_warnings}")

@@ -89,3 +89,17 @@ Dopo il controllo manuale, l'esito va scritto in `data/verifiche.json`:
 - `accetta`: l'avviso era un falso allarme e sparisce;
 - `nascondi`: il dato è sbagliato e non viene mostrato;
 - `nota`: spiegazione mostrata sul sito come "✓ Verificato".
+
+## Livello di rischio (1–5)
+
+Calcolato a ogni aggiornamento in `scripts/update_data.py` (funzione `compute_risk`), con questi pesi:
+
+| Componente | Peso | Come si misura |
+|---|---|---|
+| Volatilità | 30% | deviazione dei rendimenti settimanali dell'ultimo anno, annualizzata |
+| Calo massimo | 25% | peggior discesa da un picco nell'ultimo anno |
+| Liquidità | 15% | scambi medi giornalieri in euro |
+| Dimensione | 10% | capitalizzazione in euro |
+| Paese e accesso | 20% | valore fisso per paese in `data/countries.json` |
+
+Gli eventi documentati in `data/companies.json` (campo `events`) aggiungono +0,25, +0,5 o +1 in base alla gravità (bassa, media, alta). L'indicatore confronta le società tra loro e non è un consiglio d'investimento.

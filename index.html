@@ -85,6 +85,25 @@
   .chart-table td,.chart-table th{padding:2px 8px;text-align:right;border-bottom:1px solid var(--line)}
   .chart-table td:first-child,.chart-table th:first-child{text-align:left}
   .spark{display:block;margin-top:8px}
+  .riskbox{border:1px solid var(--line);border-radius:12px;padding:14px}
+  .riskhead{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+  .dots{display:flex;gap:5px}
+  .dots i{width:14px;height:14px;border-radius:50%;background:#e6e3dc;display:block}
+  .dots i.on{background:var(--ink)}
+  .risklabel{font-weight:600;font-size:16px}
+  .riskbox table{width:100%;border-collapse:collapse;margin-top:10px;font-size:13.5px}
+  .riskbox td{padding:5px 4px;border-top:1px solid var(--line)}
+  .riskbox td.s{text-align:right;white-space:nowrap}
+  .mini-dots{display:inline-flex;gap:3px;vertical-align:middle}
+  .mini-dots i{width:7px;height:7px;border-radius:50%;background:#e6e3dc;display:block}
+  .mini-dots i.on{background:var(--ink)}
+  .ceo{display:flex;gap:12px;align-items:flex-start}
+  .ceo .avatar{width:40px;height:40px;border-radius:50%;background:var(--accent-soft);color:var(--accent);display:flex;align-items:center;justify-content:center;font-weight:700;flex:none}
+  .ceo b{font-size:15.5px}
+  .event{border-left:3px solid var(--line);padding:4px 0 4px 12px;margin-bottom:10px;font-size:14px}
+  .event.alta{border-color:#b3261e}.event.media{border-color:#c77c11}.event.bassa{border-color:#9aa3ad}
+  .sev{font-size:11.5px;font-weight:600;text-transform:uppercase;letter-spacing:.03em;color:var(--muted)}
+  .pill.risk{background:#f0eee8;color:var(--ink)}
   .access{background:var(--warn-soft);border-radius:10px;padding:12px;font-size:14px}
   .calc{background:var(--accent-soft);border-radius:10px;padding:12px;margin-top:10px;font-size:13.5px}
   .calc-title{font-weight:600;margin-bottom:6px}
@@ -112,10 +131,17 @@
       <div class="filters">
         <select id="sector" aria-label="Settore"></select>
         <select id="size" aria-label="Dimensione"></select>
+        <select id="riskf" aria-label="Rischio">
+          <option value="">Tutti i livelli di rischio</option>
+          <option value="1-2">Rischio contenuto o moderato (1–2)</option>
+          <option value="3">Rischio medio (3)</option>
+          <option value="4-5">Rischio elevato (4–5)</option>
+        </select>
         <select id="sort" aria-label="Ordina">
           <option value="cap">Ordina per capitalizzazione</option>
           <option value="name">Ordina per nome</option>
           <option value="change">Ordina per variazione a 1 anno</option>
+          <option value="risk">Ordina per rischio (dal più basso)</option>
         </select>
         <span class="count" id="count"></span>
       </div>
@@ -236,10 +262,14 @@ function renderFilters(){
 
 function renderList(){
   const sec = $("sector").value, sz = $("size").value, sort = $("sort").value;
-  let list = DATA.companies.filter(x => x.country === current && (!sec || x.sector === sec) && (!sz || sizeOf(x) === sz));
+  const rf = $("riskf").value;
+  const lvl = c => (mkt(c) && mkt(c).risk) ? mkt(c).risk.level : null;
+  const riskOk = c => !rf || (lvl(c) != null && (rf === "1-2" ? lvl(c) <= 2 : rf === "3" ? lvl(c) === 3 : lvl(c) >= 4));
+  let list = DATA.companies.filter(x => x.country === current && (!sec || x.sector === sec) && (!sz || sizeOf(x) === sz) && riskOk(x));
   const val = (c, k) => (mkt(c) && mkt(c)[k] != null) ? mkt(c)[k] : -Infinity;
   if (sort === "name") list.sort((a, b) => a.name.localeCompare(b.name, "it"));
   else if (sort === "change") list.sort((a, b) => val(b, "change_1y") - val(a, "change_1y"));
+  else if (sort === "risk") list.sort((a, b) => (lvl(a) ?? 9) - (lvl(b) ?? 9) || ((mkt(a)?.risk?.score ?? 9) - (mkt(b)?.risk?.score ?? 9)));
   else list.sort((a, b) => val(b, "market_cap_eur") - val(a, "market_cap_eur"));
 
   $("count").textContent = `${list.length} società`;
@@ -253,7 +283,7 @@ function renderList(){
       <div class="ticker">${esc(x.ticker)} · ${esc(x.index)}</div>
       ${cap || ch ? `<div class="cap">${cap ? "Cap. " + cap : ""}${cap && ch ? " · " : ""}${ch ? `<span class="${m.change_1y >= 0 ? "up" : "down"}">${ch} in 1 anno</span>` : ""}</div>` : ""}
       ${m && m.history && !(m.hidden_fields || []).includes("price") ? sparkline(m.history) : ""}
-      <div class="pills"><span class="pill">${esc(x.sector)}</span><span class="pill size">${esc(sizeOf(x))}</span>${m && m.warnings && m.warnings.length ? `<span class="pill warn">⚠ da verificare</span>` : ""}</div>
+      <div class="pills"><span class="pill">${esc(x.sector)}</span><span class="pill size">${esc(sizeOf(x))}</span>${m && m.risk ? `<span class="pill risk" title="Livello di rischio ${m.risk.level} su 5: ${esc(m.risk.label)}">Rischio <span class="mini-dots">${dots(m.risk.level, true)}</span></span>` : ""}${m && m.warnings && m.warnings.length ? `<span class="pill warn">⚠ da verificare</span>` : ""}</div>
     </button>`;
   }).join("") : `<p class="empty">Nessuna società con questi filtri.</p>`;
   document.querySelectorAll(".co").forEach(b => b.onclick = () => openCo(b.dataset.id));
@@ -348,6 +378,32 @@ function priceChart(container, hist, currency){
   det.append(sm, tbl); container.appendChild(det);
 }
 
+function dots(n, mini){ let h = ""; for (let i = 1; i <= 5; i++) h += `<i class="${i <= n ? "on" : ""}"></i>`; return h; }
+const initials = name => name.split(/\s+/).filter(w => /^[A-ZÀ-ÝĐ]/.test(w)).slice(0, 2).map(w => w[0]).join("") || "•";
+function ceoBlock(x){
+  if (!x.ceo) return "";
+  return `<div class="ceo"><div class="avatar" aria-hidden="true">${esc(initials(x.ceo.name))}</div><div>
+    <b>${esc(x.ceo.name)}</b><p style="margin-top:2px">${esc(x.ceo.note || "")}</p>
+    ${x.ceo.source ? `<p class="note">Verificato il ${esc(dateIt(x.ceo.checked))} · <a href="${esc(x.ceo.source)}" target="_blank" rel="noopener">Fonte ↗</a></p>` : ""}</div></div>`;
+}
+function riskBlock(x){
+  const r = mkt(x) && mkt(x).risk;
+  if (!r) return `<p class="note">Il livello di rischio sarà calcolato al prossimo aggiornamento dei dati.</p>`;
+  const rows = r.components.map(c => `<tr><td>${esc(c.name)}</td><td>${esc(c.value)}</td><td class="s"><span class="mini-dots">${dots(c.score, true)}</span></td></tr>`).join("");
+  const ev = r.events_adjustment ? `<tr><td>Eventi rilevanti</td><td>vedi sotto</td><td class="s">+${nf(r.events_adjustment, 2)}</td></tr>` : "";
+  return `<div class="riskbox">
+    <div class="riskhead"><div class="dots" aria-hidden="true">${dots(r.level)}</div><span class="risklabel">${r.level} su 5 · ${esc(r.label)}</span></div>
+    <table>${rows}${ev}</table>
+    <p class="note">Indicatore calcolato in automatico da volatilità, calo massimo, liquidità e dimensione dell'ultimo anno, rischio del paese ed eventi documentati. Confronta le società tra loro: investire in una singola azione di questi mercati resta comunque un investimento rischioso. Non è un consiglio d'investimento.</p>
+  </div>`;
+}
+function eventsBlock(x){
+  if (!x.events || !x.events.length) return `<p>Nessun evento rilevante documentato.</p>`;
+  const sevIt = { alta: "Gravità alta", media: "Gravità media", bassa: "Gravità bassa" };
+  return x.events.map(e => `<div class="event ${esc(e.severity)}"><span class="sev">${esc(sevIt[e.severity] || "")} · ${esc(e.date)}</span>
+    <p style="margin-top:2px">${esc(e.text)}</p>${e.url ? `<p class="note"><a href="${esc(e.url)}" target="_blank" rel="noopener">Fonte: ${esc(e.source)} ↗</a></p>` : ""}</div>`).join("");
+}
+
 function box(label, main, sub, cls, flag){
   return `<div><span>${label}${flag ? ' <span title="Dato da verificare">⚠</span>' : ""}</span>${main ? `<b class="${cls || ""}">${main}</b>` : `<b class="na">—</b>`}${sub ? `<small>${sub}</small>` : ""}</div>`;
 }
@@ -386,6 +442,12 @@ function openCo(id){
 
     <h4>Cosa fa</h4><p>${esc(x.description)}</p>
 
+    <h4>Chi la guida</h4>
+    ${ceoBlock(x)}
+
+    <h4>Livello di rischio</h4>
+    ${riskBlock(x)}
+
     <h4>Dati di mercato</h4>
     ${marketBlock(x)}
 
@@ -399,6 +461,9 @@ function openCo(id){
       <dt>Valuta di quotazione</dt><dd>${esc(g.currency)}</dd>
       <dt>Quotata anche negli USA (ADR)</dt><dd>${esc(x.adr)}</dd>
     </dl>
+
+    <h4>Eventi rilevanti</h4>
+    ${eventsBlock(x)}
 
     <h4>Punti di forza</h4><ul>${x.strengths.map(k => `<li>${esc(k)}</li>`).join("")}</ul>
     <h4>Rischi da conoscere</h4><ul>${x.risks.map(k => `<li>${esc(k)}</li>`).join("")}</ul>
@@ -419,7 +484,7 @@ function openCo(id){
 function closeCo(){ $("overlay").classList.remove("open"); }
 $("overlay").addEventListener("click", e => { if (e.target.id === "overlay") closeCo(); });
 document.addEventListener("keydown", e => { if (e.key === "Escape") closeCo(); });
-["sector", "size", "sort"].forEach(id => $(id).onchange = renderList);
+["sector", "size", "riskf", "sort"].forEach(id => $(id).onchange = renderList);
 
 function render(){ renderCountries(); renderGuide(); renderFilters(); renderList(); }
 load();

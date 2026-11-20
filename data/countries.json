@@ -15,7 +15,9 @@
       "fx": "La rupia ha avuto storicamente un deprezzamento graduale rispetto a euro e dollaro: un rendimento in rupie può ridursi convertito in euro.",
       "currency_code": "INR",
       "yahoo_suffix": ".NS",
-      "dividend_withholding": 0.208
+      "dividend_withholding": 0.208,
+      "country_risk": 3,
+      "country_risk_note": "Mercato grande ma accessibile ai privati italiani quasi solo tramite ADR o ETF; limiti agli stranieri in alcuni settori."
     },
     "thailandia": {
       "name": "Thailandia",
@@ -31,7 +33,9 @@
       "fx": "Il baht è una valuta relativamente stabile in Asia, ma sensibile al turismo e ai flussi di capitale.",
       "currency_code": "THB",
       "yahoo_suffix": ".BK",
-      "dividend_withholding": 0.1
+      "dividend_withholding": 0.1,
+      "country_risk": 3,
+      "country_risk_note": "Mercato emergente con limiti di partecipazione per gli stranieri (NVDR) e accesso solo tramite alcuni broker."
     },
     "vietnam": {
       "name": "Vietnam",
@@ -47,7 +51,9 @@
       "fx": "Il dong è gestito dalla banca centrale con un deprezzamento controllato nel tempo.",
       "currency_code": "VND",
       "yahoo_suffix": ".VN",
-      "dividend_withholding": 0.05
+      "dividend_withholding": 0.05,
+      "country_risk": 4,
+      "country_risk_note": "Mercato di frontiera: tetti alla partecipazione estera, accesso diretto complicato, valuta gestita dalla banca centrale."
     },
     "polonia": {
       "name": "Polonia",
@@ -64,7 +70,9 @@
       "currency_code": "PLN",
       "yahoo_suffix": ".WA",
       "dividend_withholding": 0.19,
-      "dividend_withholding_treaty": 0.1
+      "dividend_withholding_treaty": 0.1,
+      "country_risk": 2,
+      "country_risk_note": "Mercato dell'Unione Europea, accessibile da molti broker, ma con valuta più volatile dell'euro."
     }
   },
   "italy_tax_rate": 0.26,
