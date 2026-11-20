@@ -643,22 +643,26 @@ function finBlock(x){
   const f = F && F.companies && F.companies[x.id];
   if (!f || !f.years || !f.years.length)
     return `<p class="note">${F ? "Dati di bilancio non disponibili per questa società nella nostra fonte." : "I dati di bilancio arriveranno con il prossimo aggiornamento automatico."}</p>`;
-  const ys = f.years.slice().reverse(), cur = f.currency;
+  const ys = f.years.slice().reverse(), cur = f.currency, rate = F.per_eur && F.per_eur[cur];
+  const fmt = v => {
+    if (v == null) return "—";
+    const s = v < 0 ? "−" : "", a = Math.abs(v);
+    return rate ? s + bigEur(a / rate) : s + bigLocal(a, cur);
+  };
   const maxRev = Math.max(...ys.map(y => Math.abs(y.revenue || 0)));
   const mon = d => { const dt = new Date(d); return isNaN(dt) ? d : dt.toLocaleDateString("it-IT", { month: "short", year: "numeric" }); };
   const rows = ys.map(y => {
     const margin = y.revenue && y.net_income != null ? y.net_income / y.revenue : null;
     const w = maxRev && y.revenue ? Math.max(4, Math.round(60 * Math.abs(y.revenue) / maxRev)) : 0;
     return `<tr><td>${esc(mon(y.period_end))}</td>
-      <td>${w ? `<span class="fin-bar" style="width:${w}px"></span>` : ""}${bigLocal(y.revenue, cur)}</td>
-      <td class="${y.operating_income < 0 ? "neg" : ""}">${bigLocal(y.operating_income, cur)}</td>
-      <td class="${y.net_income < 0 ? "neg" : ""}">${bigLocal(y.net_income, cur)}</td>
+      <td>${w ? `<span class="fin-bar" style="width:${w}px"></span>` : ""}${fmt(y.revenue)}</td>
+      <td class="${y.operating_income < 0 ? "neg" : ""}">${fmt(y.operating_income)}</td>
+      <td class="${y.net_income < 0 ? "neg" : ""}">${fmt(y.net_income)}</td>
       <td class="${margin < 0 ? "neg" : ""}">${margin == null ? "—" : nf(margin * 100, 1) + "%"}</td></tr>`;
   }).join("");
-  const rate = F.per_eur && F.per_eur[cur], last = ys[0];
-  const eur = rate && last.revenue ? ` Nell'ultimo esercizio i ricavi valgono circa ${bigEur(last.revenue / rate)} al cambio di oggi.` : "";
+  const unit = rate ? `Valori convertiti in euro al cambio di oggi (bilanci pubblicati in ${esc(cur)}): usare lo stesso cambio per tutti gli anni mostra la crescita reale dell'azienda, senza l'effetto della valuta.` : `Valori in ${esc(cur)}, come pubblicati dalla società.`;
   return `<table class="fin-table"><tr><th>Esercizio chiuso a</th><th>Ricavi</th><th>Utile operativo</th><th>Utile netto</th><th>Margine netto</th></tr>${rows}</table>
-    <p class="note" style="margin-top:6px">Valori in ${esc(cur)}, come pubblicati dalla società.${eur} Fonte: ${esc(F.source || "Yahoo Finance")}, aggiornati al ${esc(dateIt(f.checked) || "n.d.")}. Per banche e assicurazioni i "ricavi" seguono definizioni diverse.</p>`;
+    <p class="note" style="margin-top:6px">${unit} Fonte: ${esc(F.source || "Yahoo Finance")}, aggiornati al ${esc(dateIt(f.checked) || "n.d.")}. Per banche e assicurazioni i "ricavi" seguono definizioni diverse.</p>`;
 }
 
 function openCo(id){

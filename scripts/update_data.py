@@ -219,6 +219,26 @@ def extract_financials(t, info):
     return {"currency": info.get("financialCurrency") or info.get("currency"), "years": years[-5:]}
 
 
+def fix_financial_currency(financials, results, fx_rates):
+    """Yahoo a volte indica la valuta di quotazione per bilanci pubblicati in dollari (es. Petrobras, Embraer).
+    Confronta l'utile netto con quello implicito in capitalizzazione / P/E e, se torna solo in USD, corregge."""
+    for cid, fin in financials.items():
+        m = results.get(cid) or {}
+        try:
+            ni = fin["years"][-1]["net_income"]
+            implied = m["market_cap"] / m["pe"]
+            fc, tc = fin["currency"], m["currency"]
+            if not ni or fc == "USD" or fc not in fx_rates or tc not in fx_rates or "USD" not in fx_rates:
+                continue
+            r_stated = ni / fx_rates[fc] * fx_rates[tc] / implied
+            r_usd = ni / fx_rates["USD"] * fx_rates[tc] / implied
+            if not (0.33 < r_stated < 3) and 0.6 < r_usd < 1.6:
+                print(f"    bilanci di {cid}: valuta corretta da {fc} a USD")
+                fin["currency"] = "USD"
+        except (KeyError, TypeError, ZeroDivisionError, IndexError):
+            continue
+
+
 # ---------------------------------------------------------------- vnstock (Vietnam)
 
 def fetch_vnstock(ticker):
@@ -542,6 +562,8 @@ def run(fetch_yahoo=fetch_yahoo, fetch_vnstock=fetch_vnstock,
         except Exception as exc:
             print(f"    rischio non calcolato per {cid}: {exc}")
             cur["risk"] = None
+
+    fix_financial_currency(financials, results, fx_rates)
 
     n_warnings = apply_checks(results, previous, companies, date.today())
     print(f"Dati da verificare: {n_warnings}")
