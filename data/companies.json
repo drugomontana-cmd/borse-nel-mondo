@@ -957,5 +957,261 @@
       "checked": "2026-11-20"
     },
     "events": []
+  },
+  {
+    "id": "brasile-petr4",
+    "country": "brasile",
+    "name": "Petrobras",
+    "ticker": "PETR4",
+    "yahoo": "PETR4.SA",
+    "sector": "Energia",
+    "size_fallback": "Large cap",
+    "hq": "Rio de Janeiro",
+    "index": "Ibovespa",
+    "adr": "Sì (PBR a New York)",
+    "description": "Petrobras è la compagnia petrolifera nazionale del Brasile, controllata dallo Stato. Estrae la maggior parte del petrolio del paese, soprattutto dai giacimenti in acque profonde del \"pre-sal\" al largo di Rio de Janeiro e San Paolo, tra i più produttivi al mondo. Gestisce anche raffinerie e una parte importante della produzione di gas. In borsa si comprano soprattutto le azioni privilegiate (PETR4), che pagano dividendi ma non danno diritto di voto.",
+    "strengths": [
+      "Giacimenti del pre-sal con costi di estrazione bassi",
+      "Produzione in crescita negli ultimi anni",
+      "Storicamente dividendi elevati"
+    ],
+    "risks": [
+      "Il governo nomina i vertici e può orientare prezzi dei carburanti, investimenti e dividendi",
+      "Dipendenza dal prezzo del petrolio",
+      "Le azioni PETR4 non danno diritto di voto"
+    ],
+    "ceo": {
+      "name": "Magda Chambriard",
+      "note": "Presidente e amministratrice delegata dal maggio 2024, confermata nel 2026. Ingegnera, ha lavorato 22 anni in Petrobras e ha diretto l'agenzia nazionale del petrolio (ANP). Nominata su indicazione del governo.",
+      "source": "https://www.infomoney.com.br/mercados/petrobras-faz-hoje-assembleia-que-deve-confirmar-novo-presidente-do-seu-conselho/",
+      "checked": "2026-11-20"
+    },
+    "events": [
+      {
+        "date": "2014–2018",
+        "severity": "alta",
+        "text": "Scandalo \"Lava Jato\": un sistema di tangenti in cui ex dirigenti di Petrobras assegnavano contratti gonfiati in cambio di pagamenti a politici e partiti. Nel 2018 la società ha chiuso le indagini statunitensi pagando 853 milioni di dollari di sanzioni; le autorità l'hanno riconosciuta anche come vittima dello schema.",
+        "source": "ICIS",
+        "url": "https://www.icis.com/explore/resources/news/2021/10/04/10691509/brazil-petrobras-pays-853-2m-under-2018-lava-jato-deal"
+      }
+    ]
+  },
+  {
+    "id": "brasile-vale3",
+    "country": "brasile",
+    "name": "Vale",
+    "ticker": "VALE3",
+    "yahoo": "VALE3.SA",
+    "sector": "Materiali",
+    "size_fallback": "Large cap",
+    "hq": "Rio de Janeiro",
+    "index": "Ibovespa",
+    "adr": "Sì (VALE a New York)",
+    "description": "Vale è uno dei maggiori produttori di minerale di ferro al mondo, la materia prima dell'acciaio, con le grandi miniere di Carajás nello stato del Pará e nel Minas Gerais. Produce anche nichel e rame, attività riunite in una società separata dedicata ai metalli per la transizione energetica. Nel 2025 ha prodotto 336 milioni di tonnellate di minerale di ferro, superando per la prima volta dal 2018 la rivale Rio Tinto. La Cina è di gran lunga il suo primo cliente.",
+    "strengths": [
+      "Miniere di ferro di altissima qualità e a basso costo",
+      "Esposizione a rame e nichel, usati nella transizione energetica",
+      "Società privata, senza controllo statale"
+    ],
+    "risks": [
+      "Dipendenza dalla domanda cinese di acciaio",
+      "Prezzo del minerale di ferro molto variabile",
+      "Costi e cause legate ai disastri delle dighe di Mariana e Brumadinho"
+    ],
+    "ceo": {
+      "name": "Gustavo Pimenta",
+      "note": "Amministratore delegato dall'ottobre 2024, dopo essere stato direttore finanziario di Vale. In precedenza ha lavorato 12 anni in AES e in Citigroup a New York.",
+      "source": "https://www.mining.com/web/vale-ceo-meets-brazils-lula-touts-convergence-with-government-agenda/",
+      "checked": "2026-11-20"
+    },
+    "events": [
+      {
+        "date": "2015 e 2019",
+        "severity": "alta",
+        "text": "Due crolli di dighe di scarti minerari: a Mariana nel 2015 (Samarco, società di Vale e BHP, 19 morti e un vasto disastro ambientale) e a Brumadinho nel 2019 (circa 270 morti). Nel 2024 Vale, BHP e Samarco hanno firmato con lo Stato brasiliano un accordo da 170 miliardi di real per Mariana, da pagare in buona parte nell'arco di 20 anni.",
+        "source": "Insurance Journal (Reuters)",
+        "url": "https://www.insurancejournal.com/news/international/2024/10/28/798731.htm"
+      }
+    ]
+  },
+  {
+    "id": "brasile-itub4",
+    "country": "brasile",
+    "name": "Itaú Unibanco",
+    "ticker": "ITUB4",
+    "yahoo": "ITUB4.SA",
+    "sector": "Finanza",
+    "size_fallback": "Large cap",
+    "hq": "San Paolo",
+    "index": "Ibovespa",
+    "adr": "Sì (ITUB a New York)",
+    "description": "Itaú Unibanco è la più grande banca privata del Brasile e dell'America Latina. Offre conti, carte di credito, mutui, prestiti alle imprese, gestione del risparmio e assicurazioni, ed è presente anche in Argentina, Cile, Colombia, Paraguay e Uruguay. È controllata dalle famiglie Setubal e Moreira Salles tramite la holding Itaúsa. È considerata una delle banche più redditizie della regione.",
+    "strengths": [
+      "Leader del settore bancario brasiliano",
+      "Redditività elevata e stabile negli anni",
+      "Dividendi regolari"
+    ],
+    "risks": [
+      "Concorrenza delle banche digitali come Nubank",
+      "Aumento dei crediti non rimborsati quando l'economia rallenta",
+      "Esposizione all'economia e ai tassi brasiliani"
+    ],
+    "ceo": {
+      "name": "Milton Maluhy Filho",
+      "note": "Amministratore delegato dal 2021. Da aprile 2026 presiede anche il consiglio della Febraban, la federazione delle banche brasiliane.",
+      "source": "https://forbes.com.br/forbes-money/2026/04/ceo-do-itau-milton-maluhy-assume-a-presidencia-da-febraban-ate-2029/",
+      "checked": "2026-11-20"
+    },
+    "events": []
+  },
+  {
+    "id": "brasile-wege3",
+    "country": "brasile",
+    "name": "WEG",
+    "ticker": "WEGE3",
+    "yahoo": "WEGE3.SA",
+    "sector": "Industria",
+    "size_fallback": "Large cap",
+    "hq": "Jaraguá do Sul",
+    "index": "Ibovespa",
+    "adr": "No",
+    "description": "WEG produce motori elettrici, generatori, trasformatori, sistemi di automazione e componenti per le energie rinnovabili, come turbine eoliche e inverter solari. Fondata nel 1961 a Jaraguá do Sul, nello stato di Santa Catarina, ha fabbriche in 17 paesi e realizza circa metà dei ricavi fuori dal Brasile. È una delle società più apprezzate della borsa brasiliana per la crescita costante.",
+    "strengths": [
+      "Leader mondiale nei motori elettrici industriali",
+      "Ricavi diversificati tra Brasile ed estero",
+      "Bilancio solido e poco indebitato"
+    ],
+    "risks": [
+      "Valutazione di borsa storicamente alta",
+      "Dipendenza dagli investimenti industriali e nelle reti elettriche",
+      "Concorrenza di produttori cinesi ed europei"
+    ],
+    "ceo": {
+      "name": "Alberto Yoshikazu Kuba",
+      "note": "Amministratore delegato dall'aprile 2024. È entrato in WEG come stagista nel 2001; è il quarto presidente nella storia della società.",
+      "source": "https://ri.weg.net/en/corporate-governance/executive-officers/",
+      "checked": "2026-11-20"
+    },
+    "events": []
+  },
+  {
+    "id": "brasile-abev3",
+    "country": "brasile",
+    "name": "Ambev",
+    "ticker": "ABEV3",
+    "yahoo": "ABEV3.SA",
+    "sector": "Beni di consumo",
+    "size_fallback": "Large cap",
+    "hq": "San Paolo",
+    "index": "Ibovespa",
+    "adr": "Sì (ABEV a New York)",
+    "description": "Ambev è il maggiore produttore di birra del Brasile e dell'America Latina, con marchi come Skol, Brahma e Antarctica e licenze per marchi internazionali del gruppo. Produce anche bibite analcoliche ed è imbottigliatore di Pepsi in Brasile. Opera in gran parte dell'America Latina e in Canada. È controllata dal gruppo belga AB InBev, il più grande produttore di birra al mondo.",
+    "strengths": [
+      "Quota di mercato dominante nella birra in Brasile",
+      "Rete di distribuzione capillare",
+      "Forte generazione di cassa"
+    ],
+    "risks": [
+      "Consumi sensibili al clima e alla situazione economica",
+      "Concorrenza di Heineken in crescita",
+      "Le decisioni strategiche dipendono dal socio di controllo AB InBev"
+    ],
+    "ceo": {
+      "name": "Carlos Lisboa",
+      "note": "Amministratore delegato dal gennaio 2025. In AB InBev da oltre 30 anni, prima guidava la regione Centro America del gruppo.",
+      "source": "https://www.ab-inbev.com/news-media/news-stories/ab-inbev-announces-change-to-senior-leadership",
+      "checked": "2026-11-20"
+    },
+    "events": []
+  },
+  {
+    "id": "brasile-embj3",
+    "country": "brasile",
+    "name": "Embraer",
+    "ticker": "EMBJ3",
+    "yahoo": "EMBJ3.SA",
+    "sector": "Industria",
+    "size_fallback": "Large cap",
+    "hq": "San Paolo",
+    "index": "Ibovespa",
+    "adr": "Sì (EMBJ a New York)",
+    "description": "Embraer è il terzo costruttore di aerei commerciali al mondo dopo Airbus e Boeing, specializzato nei jet regionali da circa 80 a 150 posti (famiglia E2). Produce anche jet privati (Phenom e Praetor) e aerei militari, come il cargo C-390. Controlla Eve, una società che sviluppa \"taxi volanti\" elettrici a decollo verticale. Nel 2024 ha cambiato il codice di borsa da EMBR3 a EMBJ3.",
+    "strengths": [
+      "Leader mondiale nei jet regionali",
+      "Ordini in crescita per aerei commerciali, privati e militari",
+      "Ricavi in gran parte in dollari"
+    ],
+    "risks": [
+      "Dipendenza da pochi grandi clienti e da fornitori esteri",
+      "Programmi aeronautici lunghi e costosi",
+      "Dazi e tensioni commerciali con gli Stati Uniti"
+    ],
+    "ceo": {
+      "name": "Francisco Gomes Neto",
+      "note": "Presidente e amministratore delegato dal maggio 2019; in precedenza ha guidato il costruttore di autobus Marcopolo.",
+      "source": "https://www.embraer.com/media/5h0bs2lm/biography-francisco-gomes-neto-ceo.pdf",
+      "checked": "2026-11-20"
+    },
+    "events": []
+  },
+  {
+    "id": "brasile-rent3",
+    "country": "brasile",
+    "name": "Localiza",
+    "ticker": "RENT3",
+    "yahoo": "RENT3.SA",
+    "sector": "Turismo e trasporti",
+    "size_fallback": "Mid cap",
+    "hq": "Belo Horizonte",
+    "index": "Ibovespa",
+    "adr": "No",
+    "description": "Localiza è la più grande società di noleggio auto dell'America Latina. Noleggia auto a privati e aziende, gestisce flotte aziendali, offre auto in abbonamento e rivende le auto usate tramite la propria rete. Nel 2022 si è fusa con la concorrente Unidas. Ha una flotta di circa 630.000 veicoli e 700 agenzie in sette paesi.",
+    "strengths": [
+      "Leader del noleggio auto in Brasile",
+      "Grande rete di vendita delle auto usate",
+      "Economie di scala dopo la fusione con Unidas"
+    ],
+    "risks": [
+      "Molto sensibile ai tassi d'interesse, perché compra le auto a debito",
+      "Rischio che le auto usate si rivendano a prezzi più bassi del previsto",
+      "Concorrenza e pressione sui prezzi dei noleggi"
+    ],
+    "ceo": {
+      "name": "Bruno Lasansky",
+      "note": "Amministratore delegato dall'aprile 2021; in Localiza dal 2016, prima ex consulente di Bain & Company. Il fondatore Eugênio Mattar presiede il consiglio.",
+      "source": "https://www.bloomberglinea.com/english/reports/bloomberg-linea-characters/bruno-lasansky/",
+      "checked": "2026-11-20"
+    },
+    "events": []
+  },
+  {
+    "id": "brasile-mglu3",
+    "country": "brasile",
+    "name": "Magazine Luiza",
+    "ticker": "MGLU3",
+    "yahoo": "MGLU3.SA",
+    "sector": "Distribuzione",
+    "size_fallback": "Small cap",
+    "hq": "Franca (San Paolo)",
+    "index": "Ibovespa",
+    "adr": "No",
+    "description": "Magazine Luiza (Magalu) è una delle principali catene di elettronica ed elettrodomestici del Brasile, fondata nel 1957. Negli ultimi dieci anni è diventata anche una grande piattaforma di vendita online, con un marketplace aperto ad altri venditori e marchi come Netshoes, KaBuM! ed Época Cosméticos. Ha una società di carte di credito insieme a Itaú (Luizacred). È guidata dalla famiglia fondatrice Trajano.",
+    "strengths": [
+      "Rete di negozi fisici molto estesa, con vendite in crescita",
+      "Marchio molto conosciuto in Brasile",
+      "Integrazione tra negozi e vendita online"
+    ],
+    "risks": [
+      "Concorrenza durissima nell'e-commerce di Mercado Livre, Amazon e Shopee",
+      "I tassi altissimi pesano su debiti e acquisti a rate dei clienti",
+      "Titolo molto volatile: nel 2026 è sceso di circa il 46% fino a metà anno"
+    ],
+    "ceo": {
+      "name": "Frederico Trajano",
+      "note": "Amministratore delegato dal 2016, nipote della fondatrice. Sua madre Luiza Helena Trajano presiede il consiglio di amministrazione.",
+      "source": "https://neofeed.com.br/negocios/no-magalu-o-micro-ganha-do-macro-e-mostra-um-filme-melhor-que-a-foto/",
+      "checked": "2026-11-20"
+    },
+    "events": []
   }
 ]

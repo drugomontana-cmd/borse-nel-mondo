@@ -174,6 +174,49 @@
           "source": "https://www.ishares.com/ch/individual/en/products/251875/ishares-msci-poland-ucits-etf"
         }
       ]
+    },
+    "brasile": {
+      "summary": "Comprare direttamente alla borsa di San Paolo da privato è complicato. Da dicembre 2025 Interactive Brokers offre l'accesso diretto ai clienti europei; per gli altri broker non abbiamo trovato conferme. La strada più semplice sono gli ADR a New York (Petrobras, Vale, Itaú, Ambev, Embraer) o un ETF sul Brasile.",
+      "direct": {
+        "label": "Borsa di San Paolo (B3)",
+        "brokers": {
+          "fineco": "verificare",
+          "directa": "verificare",
+          "saxo": "verificare",
+          "traderepublic": "verificare",
+          "scalable": "verificare",
+          "ibkr": "si",
+          "degiro": "verificare",
+          "xtb": "verificare"
+        }
+      },
+      "adr": {
+        "label": "ADR a New York",
+        "brokers": {
+          "fineco": "si",
+          "directa": "si",
+          "saxo": "si",
+          "traderepublic": "verificare",
+          "scalable": "verificare",
+          "ibkr": "si",
+          "degiro": "si",
+          "xtb": "verificare"
+        }
+      },
+      "etfs": [
+        {
+          "name": "iShares MSCI Brazil UCITS ETF (DE) USD (Acc)",
+          "isin": "DE000A0Q4R85",
+          "note": "Il più grande ETF UCITS sul Brasile; costo annuo 0,31%.",
+          "source": "https://www.justetf.com/de/how-to/invest-in-brazil.html"
+        },
+        {
+          "name": "Xtrackers MSCI Brazil UCITS ETF 1C",
+          "isin": "LU0292109344",
+          "note": "Replica fisica, costo annuo 0,25%.",
+          "source": "https://www.justetf.com/en/etf-profile.html?isin=LU0292109344"
+        }
+      ]
     }
   },
   "sources": {
@@ -182,6 +225,7 @@
     "degiro-polonia-discordante": "https://freenance.io/comparisons/interactive-brokers-vs-xtb-vs-degiro-europe/",
     "vietnam-riforma": "https://www.china-briefing.com/china-outbound-news/vietnam-eases-foreign-access-to-equities-what-the-new-rules-mean-for-global-investors",
     "thailandia-canali": "https://www.set.or.th/en/trade-in-set",
-    "xtb-polonia": "https://www.financemagnates.com/forex/brokers/warsaw-stock-exchange-taps-xtb-to-bring-foreign-retail-investors-to-polish-stocks/"
+    "xtb-polonia": "https://www.financemagnates.com/forex/brokers/warsaw-stock-exchange-taps-xtb-to-bring-foreign-retail-investors-to-polish-stocks/",
+    "ibkr-brasile": "https://www.brasil247.com/brazilstockguide/?p=2547"
   }
 }

@@ -62,7 +62,7 @@
       "currency": "Zloty polacco (PLN)",
       "index": "WIG20, WIG",
       "hours": "9:00–17:00 (stesso fuso orario dell'Italia)",
-      "access": "Il mercato più semplice dei quattro: è nell'Unione Europea ed è offerto da molti broker europei.",
+      "access": "Il mercato più semplice tra quelli trattati: è nell'Unione Europea ed è offerto da molti broker europei.",
       "foreign": "Nessun limite generale per gli investitori europei.",
       "tax": "Ritenuta polacca sui dividendi: 19%. Il trattato Italia–Polonia la riduce al 10%, ma solo se il broker trasmette un certificato di residenza fiscale italiana; altrimenti si paga il 19% e la differenza va chiesta a rimborso al fisco polacco.",
       "liquidity": "Buona per le società del WIG20, più bassa per le altre.",
@@ -73,6 +73,24 @@
       "dividend_withholding_treaty": 0.1,
       "country_risk": 2,
       "country_risk_note": "Mercato dell'Unione Europea, accessibile da molti broker, ma con valuta più volatile dell'euro."
+    },
+    "brasile": {
+      "name": "Brasile",
+      "flag": "🇧🇷",
+      "exchange": "B3 – Borsa di San Paolo",
+      "currency": "Real brasiliano (BRL)",
+      "index": "Ibovespa",
+      "hours": "10:00–17:55 locali (14:00–21:55 ora italiana, in inverno)",
+      "access": "Per comprare direttamente sulla borsa di San Paolo un non residente deve registrarsi come investitore estero, con un rappresentante e un custode in Brasile. Da dicembre 2025 Interactive Brokers offre l'accesso diretto ai clienti europei. Le strade più semplici restano gli ADR quotati a New York (Petrobras, Vale, Itaú, Ambev, Embraer) e gli ETF sul Brasile.",
+      "foreign": "Nessun limite generale per gli investitori esteri nelle società quotate. Alcune grandi società, come Petrobras, sono controllate dallo Stato.",
+      "tax": "Dal 1° gennaio 2026 il Brasile trattiene il 10% sui dividendi pagati ai non residenti (Legge 15.270/2025); prima erano esenti. Una parte delle distribuzioni può essere pagata come \"interessi sul capitale proprio\" (JCP), con una ritenuta diversa e più alta: verifica con il broker. Le plusvalenze realizzate in borsa dai non residenti sono di norma esenti in Brasile.",
+      "liquidity": "Molto alta per le grandi società dell'Ibovespa; più bassa per le medio-piccole.",
+      "fx": "Il real è una delle valute emergenti più volatili: può muoversi del 10–20% in un anno rispetto all'euro. I tassi d'interesse brasiliani sono molto alti (oltre il 14% nel 2026), il che pesa su consumi e società indebitate.",
+      "currency_code": "BRL",
+      "yahoo_suffix": ".SA",
+      "dividend_withholding": 0.1,
+      "country_risk": 3,
+      "country_risk_note": "Mercato grande e liquido, ma con valuta molto volatile, tassi altissimi e forte peso della politica sulle società controllate dallo Stato."
     }
   },
   "italy_tax_rate": 0.26,

@@ -422,7 +422,7 @@ def run(fetch_yahoo=fetch_yahoo, fetch_vnstock=fetch_vnstock,
         previous_fx = old.get("fx", {}) or {}
 
     # Cambi: BCE, poi Yahoo per le valute mancanti, poi l'ultimo cambio salvato
-    country_currency = {"india": "INR", "thailandia": "THB", "vietnam": "VND", "polonia": "PLN"}
+    country_currency = {k: v["currency_code"] for k, v in json.loads(COUNTRIES_FILE.read_text(encoding="utf-8")).get("countries", {}).items()}
     try:
         fx_rates, fx_date = fetch_ecb()
     except Exception as exc:
