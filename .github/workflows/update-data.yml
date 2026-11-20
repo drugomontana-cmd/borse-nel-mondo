@@ -27,7 +27,9 @@ jobs:
           python-version: "3.12"
 
       - name: Installa librerie
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+          pip install vnstock || echo "vnstock non disponibile: per il Vietnam si usa solo Yahoo Finance"
 
       - name: Scarica i dati
         run: python scripts/update_data.py
