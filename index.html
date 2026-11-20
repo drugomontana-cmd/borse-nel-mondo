@@ -106,6 +106,13 @@
   .event.alta{border-color:#b3261e}.event.media{border-color:#c77c11}.event.bassa{border-color:#9aa3ad}
   .sev{font-size:11.5px;font-weight:600;text-transform:uppercase;letter-spacing:.03em;color:var(--muted)}
   .pill.risk{background:#f0eee8;color:var(--ink)}
+  .btable{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px}
+  .btable th{font-size:11.5px;color:var(--muted);font-weight:600;text-align:left;padding:4px 4px;border-bottom:1px solid var(--line)}
+  .btable td{padding:5px 4px;border-bottom:1px solid var(--line);vertical-align:top}
+  .st{white-space:nowrap;font-weight:500}
+  .st.si{color:#17733f}.st.no{color:#8a949e}.st.verificare{color:#8a4b0f}
+  .etf{font-size:13.5px;margin-top:8px}
+  .etf code{font-size:12px;color:var(--muted)}
   .access{background:var(--warn-soft);border-radius:10px;padding:12px;font-size:14px}
   .calc{background:var(--accent-soft);border-radius:10px;padding:12px;margin-top:10px;font-size:13.5px}
   .calc-title{font-weight:600;margin-bottom:6px}
@@ -190,6 +197,7 @@ async function load(){
     try { const r = await fetch(url, { cache: "no-store" }); if (!r.ok) throw 0; return await r.json(); }
     catch (e) { return fallback; }
   };
+  const brokersP = get("data/brokers.json", null);
   const [countries, companies, market] = await Promise.all([
     get("data/countries.json", null), get("data/companies.json", null),
     get("data/market.json", { companies: {}, fx: { per_eur: {} } })
@@ -198,7 +206,8 @@ async function load(){
     document.querySelector("main").innerHTML = `<p class="empty">Impossibile caricare i dati. Se apri il file dal computer, avvia prima un piccolo server locale (vedi README).</p>`;
     return;
   }
-  DATA = { countries: countries.countries, italyTax: countries.italy_tax, italyTaxRate: countries.italy_tax_rate,
+  const brokers = await brokersP;
+  DATA = { brokers, countries: countries.countries, italyTax: countries.italy_tax, italyTaxRate: countries.italy_tax_rate,
            legalRefs: countries.legal_refs || [], contentChecked: countries.content_checked, companies, market };
   current = Object.keys(DATA.countries)[0];
   $("updated").textContent = market.updated_at
@@ -246,7 +255,7 @@ function renderGuide(){
       <dt>Orari</dt><dd>${esc(g.hours)}</dd>
     </dl>
     <div style="height:12px"></div>
-    <details open><summary>Come accedere da un broker italiano</summary><p>${esc(g.access)}</p></details>
+    <details open><summary>Con quali broker comprarle</summary>${brokerBlock(current) || `<p>${esc(g.access)}</p>`}</details>
     <details><summary>Limiti per investitori stranieri</summary><p>${esc(g.foreign)}</p></details>
     <details open><summary>Quanto ti resta di un dividendo</summary>${divCalc(g)}</details>
     <details><summary>Tasse nel paese</summary><p>${esc(g.tax)}</p></details>
@@ -408,6 +417,21 @@ function eventsBlock(x){
     <p style="margin-top:2px">${esc(e.text)}</p>${e.url ? `<p class="note"><a href="${esc(e.url)}" target="_blank" rel="noopener">Fonte: ${esc(e.source)} ↗</a></p>` : ""}</div>`).join("");
 }
 
+const ST = { si: ["si", "✓ Sì"], no: ["no", "✗ No"], verificare: ["verificare", "? Da verificare"] };
+function stCell(v){ const [c, t] = ST[v] || ["verificare", "? Da verificare"]; return `<span class="st ${c}">${t}</span>`; }
+function brokerBlock(countryKey, opts){
+  const B = DATA.brokers; if (!B || !B.access || !B.access[countryKey]) return "";
+  const a = B.access[countryKey], showAdr = !!a.adr && !(opts && opts.directOnly), adrOnly = opts && opts.adrOnly;
+  const cols = adrOnly ? [a.adr] : (showAdr ? [a.direct, a.adr] : [a.direct]);
+  const head = `<tr><th>Broker</th>${cols.map(c => `<th>${esc(c.label)}</th>`).join("")}<th>Tasse</th></tr>`;
+  const rows = Object.entries(B.brokers).map(([k, b]) => `<tr><td><a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.name)}</a></td>${cols.map(c => `<td>${stCell(c.brokers[k])}</td>`).join("")}<td title="${esc(b.regime_note)}">${esc(b.regime)}</td></tr>`).join("");
+  const etfs = (a.etfs || []).map(e => `<div class="etf">• <b>${esc(e.name)}</b>${e.isin ? ` <code>${esc(e.isin)}</code>` : ""}<br><span class="note">${esc(e.note)} <a href="${esc(e.source)}" target="_blank" rel="noopener">Fonte ↗</a></span></div>`).join("");
+  return `${opts && opts.noSummary ? "" : `<p>${esc(a.summary)}</p>`}
+    <table class="btable">${head}${rows}</table>
+    <p class="note">"Tasse": <b>amministrato</b> = il broker calcola e versa le imposte per te; <b>dichiarativo</b> = le dichiari tu. ${esc(B.note)} Verificato il ${esc(dateIt(B.checked))}.</p>
+    ${etfs ? `<p style="margin-top:10px"><b>In alternativa, con un ETF:</b></p>${etfs}` : ""}`;
+}
+
 function box(label, main, sub, cls, flag){
   return `<div><span>${label}${flag ? ' <span title="Dato da verificare">⚠</span>' : ""}</span>${main ? `<b class="${cls || ""}">${main}</b>` : `<b class="na">—</b>`}${sub ? `<small>${sub}</small>` : ""}</div>`;
 }
@@ -471,6 +495,9 @@ function openCo(id){
 
     <h4>Punti di forza</h4><ul>${x.strengths.map(k => `<li>${esc(k)}</li>`).join("")}</ul>
     <h4>Rischi da conoscere</h4><ul>${x.risks.map(k => `<li>${esc(k)}</li>`).join("")}</ul>
+
+    <h4>Come comprarla dall'Italia</h4>
+    ${/^S[iì]/i.test(x.adr || "") ? `<p>Questa società ha un <b>ADR</b> quotato a New York (${esc(x.adr)}): è il modo più semplice per comprarla da un broker italiano.</p>${brokerBlock(x.country, {adrOnly: true, noSummary: true})}` : brokerBlock(x.country, {directOnly: true})}
 
     <h4>Prima di investire dall'Italia</h4>
     <div class="access">

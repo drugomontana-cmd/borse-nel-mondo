@@ -1,0 +1,52 @@
+{
+  "checked": "2026-11-20",
+  "note": "Disponibilità e condizioni cambiano spesso e possono dipendere dal tipo di conto: verifica sempre sul sito del broker prima di aprire un conto. Nessun broker ci paga per comparire qui.",
+  "brokers": {
+    "fineco": {"name": "Fineco", "regime": "Amministrato", "regime_note": "Fa da sostituto d'imposta (si può scegliere anche il dichiarativo).", "url": "https://finecobank.com", "source": "https://investimi.com/broker-sostituto-imposta/"},
+    "directa": {"name": "Directa", "regime": "Amministrato", "regime_note": "SIM italiana, sostituto d'imposta.", "url": "https://www.directa.it", "source": "https://rankia.it/degiro-vs-directa/"},
+    "saxo": {"name": "Saxo (BG Saxo)", "regime": "Amministrato", "regime_note": "Per i clienti italiani offre il regime amministrato.", "url": "https://www.home.saxo/it-it", "source": "https://www.economia-italia.com/broker-italiano-o-straniero-differenze-costi"},
+    "traderepublic": {"name": "Trade Republic", "regime": "Amministrato", "regime_note": "Sostituto d'imposta in Italia dal 30 gennaio 2025.", "url": "https://traderepublic.com/it-it", "source": "https://fiscoinvestimenti.it/?p=13551"},
+    "scalable": {"name": "Scalable Capital", "regime": "Amministrato (facoltativo)", "regime_note": "Dal 1° settembre 2026 si può scegliere il regime amministrato.", "url": "https://de.scalable.capital/it", "source": "https://rankia.it/scalable-capital-regime-amministrato/"},
+    "ibkr": {"name": "Interactive Brokers", "regime": "Dichiarativo", "regime_note": "Le tasse le dichiari tu (quadro RW, IVAFE, redditi esteri).", "url": "https://www.interactivebrokers.ie/it", "source": "https://letraderdudimanche.com/it/interactive-brokers-vs-trade-republic-confronto"},
+    "degiro": {"name": "DEGIRO", "regime": "Dichiarativo", "regime_note": "Fornisce un report fiscale, ma le tasse le dichiari tu.", "url": "https://www.degiro.it", "source": "https://rankia.it/degiro-vs-directa/"}
+  },
+  "access": {
+    "india": {
+      "summary": "Un privato residente in Italia non può di norma comprare azioni direttamente sulle borse indiane. Le strade pratiche sono gli ADR quotati a New York (per esempio Infosys, HDFC Bank, Dr. Reddy's) e gli ETF sull'India.",
+      "direct": {"label": "Borsa di Mumbai (NSE/BSE)", "brokers": {"fineco": "no", "directa": "no", "saxo": "no", "traderepublic": "no", "scalable": "no", "ibkr": "no", "degiro": "no"}},
+      "adr": {"label": "ADR a New York", "brokers": {"fineco": "si", "directa": "si", "saxo": "si", "traderepublic": "verificare", "scalable": "verificare", "ibkr": "si", "degiro": "si"}},
+      "etfs": [
+        {"name": "iShares MSCI India UCITS ETF USD (Acc)", "isin": "IE00BZCQB185", "note": "Il più grande ETF UCITS sull'India.", "source": "https://justetf.com/it/stock-profiles/INE364U01010"},
+        {"name": "Amundi MSCI India IMI UCITS ETF Acc", "isin": null, "note": "Include anche società medio-piccole.", "source": "https://www.justetf.com/it/stock-profiles/INE075A01022"}
+      ]
+    },
+    "thailandia": {
+      "summary": "Per comprare direttamente sulla borsa di Bangkok serve un broker membro della SET o un broker internazionale che la offra. Tra i broker usati in Italia non abbiamo trovato conferme: va verificato caso per caso. L'alternativa più semplice è l'ETF sulla Thailandia.",
+      "direct": {"label": "Borsa di Bangkok (SET)", "brokers": {"fineco": "no", "directa": "no", "saxo": "verificare", "traderepublic": "no", "scalable": "no", "ibkr": "verificare", "degiro": "verificare"}},
+      "etfs": [
+        {"name": "Xtrackers MSCI Thailand UCITS ETF 1C", "isin": "LU0514694701", "note": "Costo annuo 0,50%; molto concentrato su poche società (Delta pesa circa il 22%).", "source": "https://fiscoinvestimenti.it/?p=10571"}
+      ]
+    },
+    "vietnam": {
+      "summary": "Per un privato serve un codice di negoziazione per investitori esteri e un conto presso un broker vietnamita. Una riforma di febbraio 2026 permette ora di passare da broker internazionali, ma pensata soprattutto per i grandi investitori e con il codice ancora obbligatorio. Per un italiano la strada pratica è l'ETF sul Vietnam.",
+      "direct": {"label": "Borsa di Ho Chi Minh (HOSE)", "brokers": {"fineco": "no", "directa": "no", "saxo": "no", "traderepublic": "no", "scalable": "no", "ibkr": "no", "degiro": "no"}},
+      "etfs": [
+        {"name": "Xtrackers Vietnam Swap UCITS ETF 1C", "isin": "LU0322252924", "note": "L'unico ETF UCITS dedicato solo al Vietnam; replica sintetica (swap).", "source": "https://fiscoinvestimenti.it/?p=13701"}
+      ]
+    },
+    "polonia": {
+      "summary": "La borsa di Varsavia è nell'Unione Europea ed è offerta da diversi broker internazionali, non da tutti quelli italiani. Per avere la ritenuta polacca ridotta al 10% chiedi al broker se gestisce il certificato di residenza fiscale.",
+      "direct": {"label": "Borsa di Varsavia (GPW)", "brokers": {"fineco": "verificare", "directa": "no", "saxo": "si", "traderepublic": "verificare", "scalable": "verificare", "ibkr": "si", "degiro": "verificare"}},
+      "etfs": [
+        {"name": "iShares MSCI Poland UCITS ETF USD (Acc)", "isin": null, "note": "Uno dei soli due ETF UCITS sulla Polonia; concentrato su banche ed energia.", "source": "https://fiscoinvestimenti.it/?p=13854"}
+      ]
+    }
+  },
+  "sources": {
+    "ibkr-polonia": "https://www.interactivebrokers.com/en/index.php?f=26172",
+    "saxo-polonia": "https://iiaward.tilda.ws/saxo",
+    "degiro-polonia-discordante": "https://freenance.io/comparisons/interactive-brokers-vs-xtb-vs-degiro-europe/",
+    "vietnam-riforma": "https://www.china-briefing.com/china-outbound-news/vietnam-eases-foreign-access-to-equities-what-the-new-rules-mean-for-global-investors",
+    "thailandia-canali": "https://www.set.or.th/en/trade-in-set"
+  }
+}
