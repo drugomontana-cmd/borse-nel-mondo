@@ -1213,5 +1213,1805 @@
       "checked": "2026-11-20"
     },
     "events": []
+  },
+  {
+    "id": "india-icicibank",
+    "country": "india",
+    "name": "ICICI Bank",
+    "ticker": "ICICIBANK",
+    "yahoo": "ICICIBANK.NS",
+    "sector": "Finanza",
+    "size_fallback": "Large cap",
+    "hq": "Mumbai",
+    "index": "Nifty 50",
+    "adr": "Sì (IBN a New York)",
+    "description": "ICICI Bank è la seconda banca privata dell'India dopo HDFC Bank. Offre conti, carte, mutui, prestiti alle imprese e, tramite società del gruppo, assicurazioni, gestione del risparmio e intermediazione in borsa. Negli ultimi anni è cresciuta molto nei servizi digitali e nel credito ai privati, migliorando la qualità dei prestiti dopo i problemi degli anni 2010.",
+    "strengths": [
+      "Tra le banche più redditizie dell'India",
+      "Forte presenza digitale",
+      "ADR quotato a New York, quindi accessibile dall'Italia"
+    ],
+    "risks": [
+      "Concorrenza intensa nel credito ai privati",
+      "Rischio di aumento dei crediti non rimborsati se l'economia rallenta",
+      "Regolamentazione della banca centrale indiana"
+    ],
+    "ceo": {
+      "name": "Sandeep Bakhshi",
+      "note": "Amministratore delegato dall'ottobre 2018; il mandato è stato rinnovato fino all'ottobre 2028. In ICICI dal 1986.",
+      "source": "https://www.angelone.in/news/stocks/icici-bank-share-price-in-focus-rbi-approves-sandeep-bakhshi-s-re-appointment-as-md-and-ceo",
+      "checked": "2026-11-20"
+    },
+    "events": []
+  },
+  {
+    "id": "india-lt",
+    "country": "india",
+    "name": "Larsen & Toubro",
+    "ticker": "LT",
+    "yahoo": "LT.NS",
+    "sector": "Industria",
+    "size_fallback": "Large cap",
+    "hq": "Mumbai",
+    "index": "Nifty 50",
+    "adr": "No",
+    "description": "Larsen & Toubro (L&T) è il più grande gruppo indiano di ingegneria e costruzioni. Realizza infrastrutture (strade, ferrovie, metropolitane, porti), impianti energetici e petroliferi, attrezzature per la difesa e grandi edifici, in India e nel Medio Oriente. Controlla anche società quotate nei servizi informatici e nella finanza.",
+    "strengths": [
+      "Primo costruttore di infrastrutture in India",
+      "Portafoglio ordini molto ampio",
+      "Diversificato tra costruzioni, energia, tecnologia e difesa"
+    ],
+    "risks": [
+      "Dipendenza dalla spesa pubblica in infrastrutture",
+      "Progetti lunghi con rischio di ritardi e costi extra",
+      "Esposizione al Medio Oriente"
+    ],
+    "ceo": {
+      "name": "S. N. Subrahmanyan",
+      "note": "Presidente e amministratore delegato dal 2023, alla guida operativa dal 2017. In L&T dal 1984.",
+      "source": "https://www.larsentoubro.com/leadership/s-n-subrahmanyan/",
+      "checked": "2026-11-20"
+    },
+    "events": []
+  },
+  {
+    "id": "india-sunpharma",
+    "country": "india",
+    "name": "Sun Pharmaceutical",
+    "ticker": "SUNPHARMA",
+    "yahoo": "SUNPHARMA.NS",
+    "sector": "Salute",
+    "size_fallback": "Large cap",
+    "hq": "Mumbai",
+    "index": "Nifty 50",
+    "adr": "No",
+    "description": "Sun Pharma è la più grande casa farmaceutica dell'India e una delle maggiori produttrici al mondo di farmaci generici. Vende in oltre 100 paesi, con una presenza forte negli Stati Uniti, e negli ultimi anni ha puntato sui farmaci specialistici, soprattutto in dermatologia. È stata fondata da Dilip Shanghvi, che ne è ancora presidente.",
+    "strengths": [
+      "Leader del mercato farmaceutico indiano",
+      "Farmaci specialistici con margini più alti",
+      "Presenza globale"
+    ],
+    "risks": [
+      "Controlli sulla qualità delle fabbriche da parte dell'autorità statunitense FDA",
+      "Pressione sui prezzi dei generici negli Stati Uniti",
+      "Rischio legato alle acquisizioni"
+    ],
+    "ceo": {
+      "name": "Kirti Ganorkar",
+      "note": "Amministratore delegato dal settembre 2025; in Sun Pharma dal 1996. Il fondatore Dilip Shanghvi è presidente esecutivo.",
+      "source": "https://sunpharma.com/wp-content/uploads/2026/07/Chairman-MDs-Message-and-Management-Discussion-Analysis.pdf",
+      "checked": "2026-11-20"
+    },
+    "events": []
+  },
+  {
+    "id": "india-dixon",
+    "country": "india",
+    "name": "Dixon Technologies",
+    "ticker": "DIXON",
+    "yahoo": "DIXON.NS",
+    "sector": "Tecnologia",
+    "size_fallback": "Mid cap",
+    "hq": "Noida",
+    "index": "Nifty Midcap 150",
+    "adr": "No",
+    "description": "Dixon Technologies è il maggiore produttore indiano di elettronica per conto terzi: assembla smartphone, televisori, lavatrici, illuminazione e computer per marchi noti, che poi li vendono con il proprio nome. È cresciuta molto grazie agli incentivi del governo per produrre elettronica in India. Nel 2026 ha ottenuto il via libera a una società comune con il produttore cinese di smartphone Vivo.",
+    "strengths": [
+      "Beneficia della produzione di elettronica che si sposta in India",
+      "Crescita dei ricavi molto rapida",
+      "Clienti tra i principali marchi mondiali"
+    ],
+    "risks": [
+      "Margini bassi, tipici della produzione per conto terzi",
+      "Dipendenza da pochi grandi clienti e dagli incentivi pubblici",
+      "Titolo molto caro e volatile"
+    ],
+    "ceo": {
+      "name": "Atul Lall",
+      "note": "Vicepresidente e amministratore delegato dal 2015. Il fondatore Sunil Vachani è presidente esecutivo.",
+      "source": "https://www.jmfinancialservices.in/market-news-and-insights/1692622",
+      "checked": "2026-11-20"
+    },
+    "events": []
+  },
+  {
+    "id": "india-pageind",
+    "country": "india",
+    "name": "Page Industries",
+    "ticker": "PAGEIND",
+    "yahoo": "PAGEIND.NS",
+    "sector": "Abbigliamento",
+    "size_fallback": "Mid cap",
+    "hq": "Bangalore",
+    "index": "Nifty Midcap 150",
+    "adr": "No",
+    "description": "Page Industries produce e vende in India l'intimo e l'abbigliamento sportivo a marchio Jockey, di cui ha la licenza esclusiva per India, Sri Lanka, Bangladesh, Nepal ed Emirati Arabi. Ha anche la licenza dei costumi da bagno Speedo. È controllata dalla famiglia Genomal ed è nota per margini alti e un marchio molto forte.",
+    "strengths": [
+      "Marchio Jockey leader nell'intimo in India",
+      "Rete di distribuzione capillare",
+      "Bilancio senza debiti e dividendi regolari"
+    ],
+    "risks": [
+      "Dipendenza da una licenza di un marchio estero",
+      "Valutazione di borsa alta",
+      "Concorrenza di marchi più economici e online"
+    ],
+    "ceo": {
+      "name": "Karthik Yathindra",
+      "note": "Amministratore delegato operativo; lavora accanto al managing director V. S. Ganesh. La famiglia Genomal controlla la società.",
+      "source": "https://pageind.com/pages/about-us",
+      "checked": "2026-11-20"
+    },
+    "events": []
+  },
+  {
+    "id": "india-jublfood",
+    "country": "india",
+    "name": "Jubilant FoodWorks",
+    "ticker": "JUBLFOOD",
+    "yahoo": "JUBLFOOD.NS",
+    "sector": "Beni di consumo",
+    "size_fallback": "Mid cap",
+    "hq": "Noida",
+    "index": "Nifty Midcap 150",
+    "adr": "No",
+    "description": "Jubilant FoodWorks gestisce i ristoranti Domino's in India, Bangladesh e Sri Lanka, e tramite una controllata anche in Turchia; Domino's è la più grande catena di pizza in India, con oltre 2.000 locali. Gestisce anche Popeyes e altri marchi di ristorazione veloce. Fa parte del gruppo Jubilant della famiglia Bhartia.",
+    "strengths": [
+      "Leader della consegna di pizza in India",
+      "Grande rete di locali e logistica propria",
+      "Crescita dei consumi fuori casa"
+    ],
+    "risks": [
+      "Concorrenza delle app di consegna e di nuove catene",
+      "Costi di ingredienti e personale",
+      "Margini sotto pressione nell'espansione all'estero"
+    ],
+    "ceo": {
+      "name": "Sameer Khetarpal",
+      "note": "Amministratore delegato dal 2022 (incarico da confermare sulle fonti più recenti).",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "india-lalpathlab",
+    "country": "india",
+    "name": "Dr. Lal PathLabs",
+    "ticker": "LALPATHLAB",
+    "yahoo": "LALPATHLAB.NS",
+    "sector": "Salute",
+    "size_fallback": "Mid cap",
+    "hq": "Nuova Delhi",
+    "index": "Nifty Midcap 150",
+    "adr": "No",
+    "description": "Dr. Lal PathLabs è una delle maggiori catene di laboratori di analisi cliniche dell'India, con migliaia di punti di prelievo soprattutto nel nord del paese. Esegue esami del sangue, diagnostica e test specialistici per privati e ospedali. È controllata dalla famiglia Lal, che l'ha fondata nel 1949.",
+    "strengths": [
+      "Marchio di fiducia nella diagnostica",
+      "Rete capillare di punti prelievo",
+      "Bilancio solido e senza debiti"
+    ],
+    "risks": [
+      "Concorrenza crescente, anche di nuovi operatori online",
+      "Pressione sui prezzi degli esami",
+      "Crescita più lenta fuori dal nord dell'India"
+    ],
+    "ceo": {
+      "name": "Shankha Banerjee",
+      "note": "Amministratore delegato dal maggio 2024. Il presidente esecutivo è Arvind Lal, della famiglia fondatrice.",
+      "source": "https://nsearchives.nseindia.com/corporate/LALPATHLAB_10112026145433_transcript.pdf",
+      "checked": "2026-11-20"
+    },
+    "events": []
+  },
+  {
+    "id": "india-kpittech",
+    "country": "india",
+    "name": "KPIT Technologies",
+    "ticker": "KPITTECH",
+    "yahoo": "KPITTECH.NS",
+    "sector": "Tecnologia",
+    "size_fallback": "Mid cap",
+    "hq": "Pune",
+    "index": "Nifty Midcap 150",
+    "adr": "No",
+    "description": "KPIT Technologies sviluppa software per l'industria automobilistica: sistemi per auto elettriche, guida assistita e autonoma, connettività e il software che gestisce le funzioni del veicolo. I suoi clienti sono grandi costruttori di auto e camion in Europa, Stati Uniti e Asia.",
+    "strengths": [
+      "Specializzata in un settore in forte crescita (software per auto)",
+      "Clienti tra i principali costruttori mondiali",
+      "Crescita dei ricavi superiore alla media dell'IT indiano"
+    ],
+    "risks": [
+      "Dipendenza dagli investimenti dell'industria auto",
+      "Pochi grandi clienti pesano molto sui ricavi",
+      "Concorrenza per i talenti informatici"
+    ],
+    "ceo": {
+      "name": "Kishor Patil",
+      "note": "Cofondatore, amministratore delegato e managing director. L'altro cofondatore e presidente Ravi Pandit è scomparso a maggio 2026.",
+      "source": "https://www.newsx.com/business/sb-ravi-pandit-passes-away-who-will-take-over-kpit-after-sb-ravi-pandit-leadership-structure-faces-scrutiny-after-founders-passing-215346/amp/",
+      "checked": "2026-11-20"
+    },
+    "events": []
+  },
+  {
+    "id": "india-affle",
+    "country": "india",
+    "name": "Affle 3i",
+    "ticker": "AFFLE",
+    "yahoo": "AFFLE.NS",
+    "sector": "Tecnologia",
+    "size_fallback": "Small cap",
+    "hq": "Gurugram",
+    "index": "Nifty Smallcap 250",
+    "adr": "No",
+    "description": "Affle 3i è una società di pubblicità digitale per smartphone: aiuta le aziende a trovare clienti tramite app e annunci, facendosi pagare soprattutto quando l'utente compie un'azione concreta (per esempio un acquisto o un'installazione). Opera in India, nei mercati emergenti e, tramite acquisizioni, anche in Europa e Stati Uniti.",
+    "strengths": [
+      "Modello pagato a risultato",
+      "Crescita rapida e alta redditività",
+      "Fondatore ancora alla guida"
+    ],
+    "risks": [
+      "Dipendenza dalle regole sulla privacy di Google e Apple",
+      "Concorrenza nella pubblicità digitale",
+      "Crescita legata alle acquisizioni"
+    ],
+    "ceo": {
+      "name": "Anuj Khanna Sohum",
+      "note": "Fondatore, presidente e amministratore delegato.",
+      "source": "https://affle.com/hubfs/affle-investor-relation/financial-details/fy2026/q4/Earnings-Call-Transcript.pdf",
+      "checked": "2026-11-20"
+    },
+    "events": []
+  },
+  {
+    "id": "india-cdsl",
+    "country": "india",
+    "name": "Central Depository Services (CDSL)",
+    "ticker": "CDSL",
+    "yahoo": "CDSL.NS",
+    "sector": "Finanza",
+    "size_fallback": "Mid cap",
+    "hq": "Mumbai",
+    "index": "Nifty Midcap 150",
+    "adr": "No",
+    "description": "CDSL è uno dei due depositari centrali dell'India: custodisce in forma elettronica le azioni e gli altri titoli degli investitori, con oltre 180 milioni di conti titoli. Guadagna sulle commissioni per conti, transazioni e servizi collegati. Beneficia direttamente della crescita del numero di investitori privati in India.",
+    "strengths": [
+      "Quasi un duopolio con l'altro depositario, NSDL",
+      "Cresce con il numero di investitori indiani",
+      "Bilancio senza debiti"
+    ],
+    "risks": [
+      "Ricavi legati all'attività di borsa, che può calare",
+      "Regole e tariffe decise dall'autorità di borsa SEBI",
+      "Concorrenza di NSDL"
+    ],
+    "ceo": {
+      "name": "Nehal Vora",
+      "note": "Amministratore delegato dal 2019, confermato nel 2024 per altri cinque anni. In passato ha lavorato in BSE, Merrill Lynch e SEBI.",
+      "source": "https://www.cdslindia.com/About/Leadership.html",
+      "checked": "2026-11-20"
+    },
+    "events": []
+  },
+  {
+    "id": "india-kaynes",
+    "country": "india",
+    "name": "Kaynes Technology",
+    "ticker": "KAYNES",
+    "yahoo": "KAYNES.NS",
+    "sector": "Industria",
+    "size_fallback": "Mid cap",
+    "hq": "Mysore",
+    "index": "Nifty Midcap 150",
+    "adr": "No",
+    "description": "Kaynes Technology progetta e produce componenti e sistemi elettronici per conto terzi per auto, industria, aerospazio, difesa, ferrovie e medicale. Sta investendo nell'assemblaggio di semiconduttori, uno dei settori che il governo indiano vuole sviluppare.",
+    "strengths": [
+      "Settori ad alto valore aggiunto (difesa, aerospazio, medicale)",
+      "Progetti nei semiconduttori",
+      "Forte crescita degli ordini"
+    ],
+    "risks": [
+      "Investimenti molto elevati e rischio di esecuzione",
+      "Valutazione di borsa alta",
+      "Cambi recenti nel vertice"
+    ],
+    "ceo": {
+      "name": "Muthukumar Narayanaswamy",
+      "note": "Managing director dal settembre 2025. Il fondatore Ramesh Kunhikannan è vicepresidente esecutivo e sua moglie Savitha Ramesh presiede il consiglio.",
+      "source": "https://nsearchives.nseindia.com/corporate/KAYNESTECH_12082026164943_TranscriptoftheEarningAnnouncement.pdf",
+      "checked": "2026-11-20"
+    },
+    "events": []
+  },
+  {
+    "id": "india-relaxo",
+    "country": "india",
+    "name": "Relaxo Footwears",
+    "ticker": "RELAXO",
+    "yahoo": "RELAXO.NS",
+    "sector": "Abbigliamento",
+    "size_fallback": "Small cap",
+    "hq": "Nuova Delhi",
+    "index": "Nifty Smallcap 250",
+    "adr": "No",
+    "description": "Relaxo Footwears è uno dei maggiori produttori di calzature dell'India, specializzato in ciabatte, sandali e scarpe economiche vendute con marchi come Sparx, Flite e Bahamas. Vende soprattutto tramite negozi tradizionali in tutto il paese. È controllata dalla famiglia Dua.",
+    "strengths": [
+      "Marchi molto diffusi nella fascia economica",
+      "Produzione in grandi volumi",
+      "Bilancio senza debiti"
+    ],
+    "risks": [
+      "Vendite in calo negli ultimi anni",
+      "Concorrenza di prodotti a basso costo",
+      "Costi delle materie prime (gomma e plastica)"
+    ],
+    "ceo": {
+      "name": "Ramesh Kumar Dua",
+      "note": "Presidente e managing director; dall'aprile 2026 i co-amministratori delegati sono Gaurav Kumaar Dua e Ritesh Dua, della famiglia fondatrice.",
+      "source": "https://www.whalesbook.com/corporate-news/English/consumer-products/Gaurav-Kumaar-Dua-Ritesh-Dua-Named-Relaxo-Footwears-Co-CEOs-from-April-1-2026/69c52e4f63d6db8f4b4d795a",
+      "checked": "2026-11-20"
+    },
+    "events": []
+  },
+  {
+    "id": "thailandia-gulf",
+    "country": "thailandia",
+    "name": "Gulf Development",
+    "ticker": "GULF",
+    "yahoo": "GULF.BK",
+    "sector": "Energia",
+    "size_fallback": "Large cap",
+    "hq": "Bangkok",
+    "index": "SET50",
+    "adr": "No",
+    "description": "Gulf Development è il maggiore produttore privato di elettricità della Thailandia, con centrali a gas, impianti solari ed eolici in Thailandia e all'estero. Nel 2025 si è fusa con Intouch Holdings, diventando anche il primo azionista dell'operatore mobile AIS. Il fondatore Sarath Ratanavadi, uno degli uomini più ricchi del paese, ne controlla la maggioranza.",
+    "strengths": [
+      "Contratti di vendita di elettricità di lungo periodo con lo Stato",
+      "Diversificata tra energia, telecomunicazioni e infrastrutture",
+      "Crescita nelle energie rinnovabili"
+    ],
+    "risks": [
+      "Debito elevato per finanziare le nuove centrali",
+      "Controllo concentrato nel fondatore",
+      "Dipendenza dalle decisioni pubbliche sull'energia"
+    ],
+    "ceo": {
+      "name": "Sarath Ratanavadi",
+      "note": "Fondatore, amministratore delegato e vicepresidente; possiede la maggioranza delle azioni.",
+      "source": "https://www.kaohooninternational.com/markets/577373",
+      "checked": "2026-11-20"
+    },
+    "events": []
+  },
+  {
+    "id": "thailandia-scb",
+    "country": "thailandia",
+    "name": "SCB X",
+    "ticker": "SCB",
+    "yahoo": "SCB.BK",
+    "sector": "Finanza",
+    "size_fallback": "Large cap",
+    "hq": "Bangkok",
+    "index": "SET50",
+    "adr": "No",
+    "description": "SCB X è la holding che controlla Siam Commercial Bank, la più antica banca thailandese, fondata nel 1906, oltre a società di credito al consumo e attività digitali. Tra gli azionisti principali c'è l'Ufficio dei beni della Corona. Negli ultimi anni ha puntato su app, credito digitale e una banca virtuale.",
+    "strengths": [
+      "Una delle tre maggiori banche thailandesi",
+      "Dividendi elevati",
+      "Investimenti nei servizi digitali"
+    ],
+    "risks": [
+      "Crediti a rischio nel credito al consumo",
+      "Economia thailandese in crescita lenta",
+      "Ritorni incerti dei nuovi business digitali"
+    ],
+    "ceo": {
+      "name": "Arthid Nanthawithaya",
+      "note": "Amministratore delegato fino al 31 dicembre 2026; dal 1° gennaio 2027 gli succederà Arak Sutivong, oggi vice amministratore delegato.",
+      "source": "https://www.scbx.com/en/news/scbx-next-ceo-2027/",
+      "checked": "2026-11-20"
+    },
+    "events": []
+  },
+  {
+    "id": "thailandia-scc",
+    "country": "thailandia",
+    "name": "Siam Cement Group (SCG)",
+    "ticker": "SCC",
+    "yahoo": "SCC.BK",
+    "sector": "Materiali",
+    "size_fallback": "Large cap",
+    "hq": "Bangkok",
+    "index": "SET50",
+    "adr": "No",
+    "description": "Siam Cement Group (SCG) è uno dei più grandi gruppi industriali del Sud-est asiatico, fondato nel 1913 per decreto reale. Produce cemento e materiali da costruzione, prodotti chimici e plastiche, e imballaggi, con attività in tutta l'area ASEAN. Il primo azionista è l'Ufficio dei beni della Corona.",
+    "strengths": [
+      "Leader regionale nei materiali da costruzione",
+      "Marchio storico e solido",
+      "Diversificato in più settori"
+    ],
+    "risks": [
+      "La chimica soffre per la sovrapproduzione cinese",
+      "Settore edilizio ciclico",
+      "Grandi investimenti in Vietnam con ritorni incerti"
+    ],
+    "ceo": {
+      "name": "Thammasak Sethaudom",
+      "note": "Presidente e amministratore delegato dal gennaio 2024.",
+      "source": "https://www.nationthailand.com/business/corporate/40068934",
+      "checked": "2026-11-20"
+    },
+    "events": []
+  },
+  {
+    "id": "thailandia-mint",
+    "country": "thailandia",
+    "name": "Minor International",
+    "ticker": "MINT",
+    "yahoo": "MINT.BK",
+    "sector": "Turismo e trasporti",
+    "size_fallback": "Mid cap",
+    "hq": "Bangkok",
+    "index": "SET50",
+    "adr": "No",
+    "description": "Minor International gestisce oltre 600 hotel in più di 50 paesi con marchi come Anantara, Avani, Oaks e NH Hotels (acquisita in Spagna), e circa 2.500 ristoranti, tra cui The Pizza Company e Swensen's. È stata fondata dall'imprenditore americano naturalizzato thailandese William Heinecke, la cui famiglia la controlla ancora.",
+    "strengths": [
+      "Presenza globale negli hotel, anche in Europa",
+      "Marchi riconosciuti nella ristorazione thailandese",
+      "Ripresa del turismo"
+    ],
+    "risks": [
+      "Debito elevato dopo l'acquisto di NH Hotels",
+      "Molto sensibile alle crisi del turismo",
+      "Esposizione al cambio euro-baht"
+    ],
+    "ceo": {
+      "name": "Dillip Rajakarier",
+      "note": "Amministratore delegato del gruppo dal 2020 e di Minor Hotels dal 2011; in Minor dal 2007.",
+      "source": "https://media.minorhotels.com/224892-dillip-rajakarier",
+      "checked": "2026-11-20"
+    },
+    "events": []
+  },
+  {
+    "id": "thailandia-hmpro",
+    "country": "thailandia",
+    "name": "Home Product Center (HomePro)",
+    "ticker": "HMPRO",
+    "yahoo": "HMPRO.BK",
+    "sector": "Distribuzione",
+    "size_fallback": "Mid cap",
+    "hq": "Nonthaburi",
+    "index": "SET50",
+    "adr": "No",
+    "description": "Home Product Center gestisce HomePro, la più grande catena thailandese di negozi per la casa e il fai-da-te, e Mega Home, dedicata a tecnici e imprese edili. Ha punti vendita anche in Malaysia. Tra gli azionisti principali ci sono il gruppo immobiliare Land and Houses e Quality Houses.",
+    "strengths": [
+      "Leader nei prodotti per la casa in Thailandia",
+      "Dividendi elevati",
+      "Marchi propri con margini più alti"
+    ],
+    "risks": [
+      "Consumi deboli e mercato immobiliare lento",
+      "Concorrenza online",
+      "Crescita ormai matura"
+    ],
+    "ceo": {
+      "name": "Weerapun Ungsumalee",
+      "note": "Managing director (indicato come amministratore delegato dalle principali banche dati finanziarie).",
+      "source": "https://simplywall.st/stocks/th/retail/set-hmpro/home-product-center-shares/management",
+      "checked": "2026-11-20"
+    },
+    "events": []
+  },
+  {
+    "id": "thailandia-tu",
+    "country": "thailandia",
+    "name": "Thai Union Group",
+    "ticker": "TU",
+    "yahoo": "TU.BK",
+    "sector": "Beni di consumo",
+    "size_fallback": "Small cap",
+    "hq": "Samut Sakhon",
+    "index": "SET100",
+    "adr": "No",
+    "description": "Thai Union è uno dei maggiori produttori di tonno in scatola e prodotti ittici al mondo. Possiede marchi noti in Europa, tra cui John West, Petit Navire e Mareblu in Italia, e Chicken of the Sea negli Stati Uniti. Produce anche cibo per animali.",
+    "strengths": [
+      "Marchi leader in Europa, Italia compresa",
+      "Presenza globale",
+      "Crescita nel cibo per animali"
+    ],
+    "risks": [
+      "Prezzo del tonno e costi delle materie prime variabili",
+      "Controlli su condizioni di lavoro e pesca sostenibile",
+      "Rischio di cambio"
+    ],
+    "ceo": {
+      "name": "Thiraphong Chansiri",
+      "note": "Presidente e amministratore delegato; la famiglia Chansiri è tra i fondatori del gruppo.",
+      "source": "https://www.pattayamail.com/latestnews/news/thai-union-sharpens-investment-strategy-to-deliver-2026-targets-after-strong-nine-month-results-570779",
+      "checked": "2026-11-20"
+    },
+    "events": []
+  },
+  {
+    "id": "thailandia-bch",
+    "country": "thailandia",
+    "name": "Bangkok Chain Hospital",
+    "ticker": "BCH",
+    "yahoo": "BCH.BK",
+    "sector": "Salute",
+    "size_fallback": "Small cap",
+    "hq": "Bangkok",
+    "index": "SET100",
+    "adr": "No",
+    "description": "Bangkok Chain Hospital gestisce una rete di ospedali privati con i marchi Kasemrad e World Medical Center, in Thailandia e in Laos. Una parte importante dei pazienti arriva tramite il sistema di previdenza sociale thailandese, che paga una quota fissa per assistito.",
+    "strengths": [
+      "Rete ospedaliera in crescita",
+      "Clientela stabile grazie alla previdenza sociale",
+      "Domanda sanitaria in aumento"
+    ],
+    "risks": [
+      "Margini legati alle tariffe pubbliche",
+      "Calo dei ricavi dopo la fine del Covid",
+      "Concorrenza dei grandi gruppi ospedalieri"
+    ],
+    "ceo": {
+      "name": "Chalerm Harnphanich",
+      "note": "Fondatore e presidente (ruoli da confermare sulle fonti più recenti).",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "thailandia-com7",
+    "country": "thailandia",
+    "name": "Com7",
+    "ticker": "COM7",
+    "yahoo": "COM7.BK",
+    "sector": "Distribuzione",
+    "size_fallback": "Small cap",
+    "hq": "Bangkok",
+    "index": "SET100",
+    "adr": "No",
+    "description": "Com7 è la maggiore catena thailandese di negozi di elettronica di consumo, rivenditore autorizzato Apple (con il marchio BaNANA e negozi Apple Premium) e di altri marchi di smartphone e computer. Offre anche finanziamenti per l'acquisto e servizi di assistenza.",
+    "strengths": [
+      "Leader nella vendita di prodotti Apple in Thailandia",
+      "Rete di negozi molto estesa",
+      "Crescita dei servizi finanziari"
+    ],
+    "risks": [
+      "Dipendenza dai prodotti Apple",
+      "Margini bassi del commercio di elettronica",
+      "Consumi sensibili all'economia"
+    ],
+    "ceo": {
+      "name": "Sura Khanittaweekul",
+      "note": "Fondatore e amministratore delegato (dato da confermare sulle fonti più recenti).",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "thailandia-hana",
+    "country": "thailandia",
+    "name": "Hana Microelectronics",
+    "ticker": "HANA",
+    "yahoo": "HANA.BK",
+    "sector": "Tecnologia",
+    "size_fallback": "Small cap",
+    "hq": "Bangkok",
+    "index": "SET100",
+    "adr": "No",
+    "description": "Hana Microelectronics assembla e testa componenti elettronici e semiconduttori per conto terzi, con fabbriche in Thailandia, Cambogia e Cina. Produce per clienti nell'auto, nell'industria e nell'elettronica di consumo, e sta investendo nei chip al carburo di silicio per le auto elettriche.",
+    "strengths": [
+      "Bilancio solido con molta liquidità",
+      "Clienti internazionali",
+      "Investimenti nei chip per auto elettriche"
+    ],
+    "risks": [
+      "Settore molto ciclico",
+      "Margini bassi",
+      "Ritorni incerti dei nuovi investimenti"
+    ],
+    "ceo": {
+      "name": "Richard Han",
+      "note": "Fondatore e amministratore delegato (dato da confermare sulle fonti più recenti).",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "thailandia-cbg",
+    "country": "thailandia",
+    "name": "Carabao Group",
+    "ticker": "CBG",
+    "yahoo": "CBG.BK",
+    "sector": "Beni di consumo",
+    "size_fallback": "Small cap",
+    "hq": "Bangkok",
+    "index": "SET100",
+    "adr": "No",
+    "description": "Carabao Group produce la bevanda energetica Carabao Dang, una delle più vendute in Thailandia, esportata in Cambogia, Myanmar, Vietnam e Regno Unito, dove è nota per aver dato il nome alla coppa di lega inglese di calcio (Carabao Cup). Distribuisce anche prodotti di altri marchi tramite la propria rete.",
+    "strengths": [
+      "Marchio molto conosciuto nel Sud-est asiatico",
+      "Rete distributiva propria",
+      "Esportazioni in crescita"
+    ],
+    "risks": [
+      "Concorrenza di Red Bull e M-150",
+      "Dipendenza da pochi prodotti",
+      "Costi dello zucchero e delle lattine"
+    ],
+    "ceo": {
+      "name": "Sathien Setthasit",
+      "note": "Cofondatore e amministratore delegato (dato da confermare sulle fonti più recenti).",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "thailandia-mtc",
+    "country": "thailandia",
+    "name": "Muangthai Capital",
+    "ticker": "MTC",
+    "yahoo": "MTC.BK",
+    "sector": "Finanza",
+    "size_fallback": "Mid cap",
+    "hq": "Bangkok",
+    "index": "SET100",
+    "adr": "No",
+    "description": "Muangthai Capital è la più grande società thailandese di piccoli prestiti garantiti da moto, auto e terreni, con oltre 7.000 filiali, soprattutto nelle zone rurali. Si rivolge a persone che hanno difficoltà ad accedere alle banche. È stata fondata dai coniugi Petaumpai.",
+    "strengths": [
+      "Rete di filiali capillare",
+      "Mercato poco servito dalle banche",
+      "Crescita storica molto rapida"
+    ],
+    "risks": [
+      "Crediti non rimborsati in aumento quando l'economia rallenta",
+      "Limiti ai tassi d'interesse fissati dalle autorità",
+      "Debito elevato"
+    ],
+    "ceo": {
+      "name": "Chuchat Petaumpai",
+      "note": "Cofondatore e amministratore delegato (dato da confermare sulle fonti più recenti).",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "thailandia-bem",
+    "country": "thailandia",
+    "name": "Bangkok Expressway and Metro",
+    "ticker": "BEM",
+    "yahoo": "BEM.BK",
+    "sector": "Turismo e trasporti",
+    "size_fallback": "Mid cap",
+    "hq": "Bangkok",
+    "index": "SET50",
+    "adr": "No",
+    "description": "Bangkok Expressway and Metro gestisce in concessione autostrade urbane a pedaggio e le linee della metropolitana blu e viola di Bangkok. Fa parte del gruppo di costruzioni CH. Karnchang. I ricavi dipendono dal traffico e dal numero di passeggeri.",
+    "strengths": [
+      "Concessioni di lungo periodo",
+      "Ricavi stabili e prevedibili",
+      "Crescita dei passeggeri della metropolitana"
+    ],
+    "risks": [
+      "Rinnovo delle concessioni deciso dallo Stato",
+      "Debito elevato",
+      "Tariffe regolate"
+    ],
+    "ceo": {
+      "name": "Sombat Kitjalaksana",
+      "note": "Amministratore delegato (dato da confermare sulle fonti più recenti).",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "vietnam-bid",
+    "country": "vietnam",
+    "name": "BIDV",
+    "ticker": "BID",
+    "yahoo": "BID.VN",
+    "sector": "Finanza",
+    "size_fallback": "Large cap",
+    "hq": "Hanoi",
+    "index": "VN30",
+    "adr": "No",
+    "description": "BIDV (Banca per gli investimenti e lo sviluppo del Vietnam) è una delle maggiori banche del paese per attivi, controllata dallo Stato. Finanzia grandi imprese e infrastrutture ma è sempre più attiva anche nei prestiti ai privati. La coreana Hana Bank è socia di minoranza.",
+    "strengths": [
+      "Una delle maggiori banche vietnamite",
+      "Sostegno dello Stato",
+      "Partner strategico coreano (Hana Bank)"
+    ],
+    "risks": [
+      "Controllo statale: obiettivi non solo di profitto",
+      "Limite alla partecipazione estera nelle banche (30%)",
+      "Rischi sui crediti alle imprese e all'immobiliare"
+    ],
+    "ceo": {
+      "name": "Hoàng Việt Hùng",
+      "note": "Direttore generale (amministratore delegato) dal 1° luglio 2026, in BIDV dal 1996; il precedente direttore generale Lê Ngọc Lâm è diventato presidente.",
+      "source": "https://nguoiquansat.vn/tu-hom-nay-bidv-chinh-thuc-co-chu-tich-hdqt-va-tong-giam-doc-moi-301275.html",
+      "checked": "2026-11-20"
+    },
+    "events": []
+  },
+  {
+    "id": "vietnam-tcb",
+    "country": "vietnam",
+    "name": "Techcombank",
+    "ticker": "TCB",
+    "yahoo": "TCB.VN",
+    "sector": "Finanza",
+    "size_fallback": "Large cap",
+    "hq": "Hanoi",
+    "index": "VN30",
+    "adr": "No",
+    "description": "Techcombank è una delle maggiori banche private del Vietnam, nota per i servizi digitali e la clientela benestante. È tra le banche più redditizie del paese e ha legami storici con il gruppo Masan e importanti clienti immobiliari come Vingroup.",
+    "strengths": [
+      "Banca privata tra le più redditizie",
+      "Leader nei servizi digitali",
+      "Gestione guidata da un CEO internazionale"
+    ],
+    "risks": [
+      "Forte esposizione al settore immobiliare",
+      "Limite alla partecipazione estera nelle banche (30%)",
+      "Concorrenza nel credito"
+    ],
+    "ceo": {
+      "name": "Jens Lottner",
+      "note": "Amministratore delegato dal 2020, confermato per il mandato 2025–2030; tedesco, in passato in McKinsey, BCG e Siam Commercial Bank.",
+      "source": "https://fortune.com/2026/06/16/techcombank-ceo-jens-lottner-vietnam-energy-growth/",
+      "checked": "2026-11-20"
+    },
+    "events": []
+  },
+  {
+    "id": "vietnam-vhm",
+    "country": "vietnam",
+    "name": "Vinhomes",
+    "ticker": "VHM",
+    "yahoo": "VHM.VN",
+    "sector": "Immobiliare",
+    "size_fallback": "Large cap",
+    "hq": "Hanoi",
+    "index": "VN30",
+    "adr": "No",
+    "description": "Vinhomes è il maggiore costruttore immobiliare del Vietnam, parte del gruppo Vingroup. Sviluppa grandi quartieri residenziali e città satellite, come Vinhomes Ocean Park vicino ad Hanoi e progetti a Ho Chi Minh City, vendendo appartamenti, ville e terreni.",
+    "strengths": [
+      "Enorme riserva di terreni",
+      "Marchio leader nell'immobiliare vietnamita",
+      "Parte dell'ecosistema Vingroup"
+    ],
+    "risks": [
+      "Legata alle sorti di Vingroup e VinFast",
+      "Mercato immobiliare ciclico e regolato",
+      "Ricavi irregolari, legati alle vendite all'ingrosso"
+    ],
+    "ceo": {
+      "name": "Nguyễn Thu Hằng",
+      "note": "Direttrice generale (amministratrice delegata); il presidente è Phạm Thiếu Hoa. Il fondatore di Vingroup Phạm Nhật Vượng controlla il gruppo.",
+      "source": "https://tuoitre.vn/thu-nhap-cua-lanh-dao-vinhomes-va-vincom-nam-2025-the-nao-20260326110247279.htm",
+      "checked": "2026-11-20"
+    },
+    "events": []
+  },
+  {
+    "id": "vietnam-vjc",
+    "country": "vietnam",
+    "name": "Vietjet",
+    "ticker": "VJC",
+    "yahoo": "VJC.VN",
+    "sector": "Turismo e trasporti",
+    "size_fallback": "Mid cap",
+    "hq": "Hanoi",
+    "index": "VN30",
+    "adr": "No",
+    "description": "Vietjet è la maggiore compagnia aerea privata a basso costo del Vietnam, con voli nazionali e internazionali verso Asia e Australia. È nota per il marketing aggressivo e una flotta di Airbus in forte crescita. Controlla anche Vietjet Thailand.",
+    "strengths": [
+      "Leader del volo low cost in Vietnam",
+      "Turismo in forte crescita",
+      "Grandi ordini di nuovi aerei"
+    ],
+    "risks": [
+      "Prezzo del carburante",
+      "Debito elevato per la flotta",
+      "Settore molto ciclico"
+    ],
+    "ceo": {
+      "name": "Nguyễn Thị Phương Thảo",
+      "note": "Fondatrice, presidente e amministratrice delegata; è tra le donne più ricche del Sud-est asiatico (dato da confermare sulle fonti più recenti).",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "vietnam-sab",
+    "country": "vietnam",
+    "name": "Sabeco",
+    "ticker": "SAB",
+    "yahoo": "SAB.VN",
+    "sector": "Beni di consumo",
+    "size_fallback": "Mid cap",
+    "hq": "Ho Chi Minh City",
+    "index": "VN30",
+    "adr": "No",
+    "description": "Sabeco produce le birre Saigon e 333, le più bevute in Vietnam. Era un'azienda statale fino al 2017, quando il gruppo thailandese ThaiBev ne ha comprato la quota di controllo. Paga dividendi molto alti.",
+    "strengths": [
+      "Marchi di birra leader in Vietnam",
+      "Dividendi elevati",
+      "Consumo di birra tra i più alti in Asia"
+    ],
+    "risks": [
+      "Leggi più severe su alcol e guida",
+      "Concorrenza di Heineken",
+      "Pochi titoli in circolazione: bassa liquidità"
+    ],
+    "ceo": {
+      "name": "Lester Tan",
+      "note": "Direttore generale (amministratore delegato) dall'ottobre 2023; in precedenza guidava la birra di ThaiBev in Thailandia.",
+      "source": "https://vcci.com.vn/news/sabeco-cung-cong-dong-doanh-nghiep-viet-kien-tao-dong-luc-tang-truong-giai-doan-moi",
+      "checked": "2026-11-20"
+    },
+    "events": []
+  },
+  {
+    "id": "vietnam-gmd",
+    "country": "vietnam",
+    "name": "Gemadept",
+    "ticker": "GMD",
+    "yahoo": "GMD.VN",
+    "sector": "Turismo e trasporti",
+    "size_fallback": "Small cap",
+    "hq": "Ho Chi Minh City",
+    "index": "VN-Index",
+    "adr": "No",
+    "description": "Gemadept è uno dei maggiori operatori portuali e logistici privati del Vietnam. Gestisce terminal container nel nord (Hai Phong) e nel sud del paese, tra cui il grande porto in acque profonde di Gemalink a Cai Mep, e servizi di logistica.",
+    "strengths": [
+      "Porti strategici per l'export vietnamita",
+      "Beneficia dello spostamento della produzione in Vietnam",
+      "Partner internazionali nei terminal"
+    ],
+    "risks": [
+      "Dipendenza dal commercio mondiale",
+      "Investimenti elevati nei porti",
+      "Concorrenza tra porti"
+    ],
+    "ceo": {
+      "name": "Nguyễn Thanh Bình",
+      "note": "Direttore generale (dato da confermare sulle fonti più recenti).",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "vietnam-ree",
+    "country": "vietnam",
+    "name": "REE Corporation",
+    "ticker": "REE",
+    "yahoo": "REE.VN",
+    "sector": "Energia",
+    "size_fallback": "Small cap",
+    "hq": "Ho Chi Minh City",
+    "index": "VN-Index",
+    "adr": "No",
+    "description": "REE (Refrigeration Electrical Engineering) è nata nel 1977 come impresa di impianti di condizionamento ed è oggi un gruppo diversificato: produce energia idroelettrica, solare ed eolica, gestisce acquedotti, uffici in affitto e impianti elettromeccanici. È stata la prima società quotata alla borsa di Ho Chi Minh City nel 2000.",
+    "strengths": [
+      "Ricavi stabili da energia e affitti",
+      "Diversificazione",
+      "Gestione storica affidabile"
+    ],
+    "risks": [
+      "Produzione idroelettrica legata alle piogge",
+      "Tariffe elettriche regolate",
+      "Liquidità del titolo limitata"
+    ],
+    "ceo": {
+      "name": "Nguyễn Thị Mai Thanh",
+      "note": "Presidente e figura storica del gruppo (incarichi attuali da confermare sulle fonti più recenti).",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "vietnam-vhc",
+    "country": "vietnam",
+    "name": "Vinh Hoan",
+    "ticker": "VHC",
+    "yahoo": "VHC.VN",
+    "sector": "Beni di consumo",
+    "size_fallback": "Small cap",
+    "hq": "Dong Thap",
+    "index": "VN-Index",
+    "adr": "No",
+    "description": "Vinh Hoan è il maggiore esportatore vietnamita di pangasio, un pesce d'acqua dolce allevato nel delta del Mekong e venduto soprattutto negli Stati Uniti, in Europa e in Cina. Controlla tutta la filiera, dall'allevamento alla lavorazione, e produce anche collagene e gelatina.",
+    "strengths": [
+      "Filiera integrata, dall'allevamento alla lavorazione",
+      "Leader mondiale del pangasio",
+      "Prodotti a maggior valore (collagene)"
+    ],
+    "risks": [
+      "Dazi antidumping negli Stati Uniti",
+      "Prezzi del pesce variabili",
+      "Rischio di malattie negli allevamenti"
+    ],
+    "ceo": {
+      "name": "Trương Thị Lệ Khanh",
+      "note": "Fondatrice e presidente (incarichi attuali da confermare sulle fonti più recenti).",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "vietnam-frt",
+    "country": "vietnam",
+    "name": "FPT Retail",
+    "ticker": "FRT",
+    "yahoo": "FRT.VN",
+    "sector": "Distribuzione",
+    "size_fallback": "Small cap",
+    "hq": "Ho Chi Minh City",
+    "index": "VN-Index",
+    "adr": "No",
+    "description": "FPT Retail gestisce FPT Shop, una delle principali catene di elettronica del Vietnam, e soprattutto Long Chau, la più grande catena di farmacie del paese, cresciuta molto rapidamente. Fa parte del gruppo FPT.",
+    "strengths": [
+      "Long Chau leader nelle farmacie",
+      "Crescita rapida della rete",
+      "Parte del gruppo FPT"
+    ],
+    "risks": [
+      "Margini bassi nell'elettronica",
+      "Debito per finanziare l'espansione",
+      "Valutazione di borsa alta"
+    ],
+    "ceo": {
+      "name": "Nguyễn Bạch Điệp",
+      "note": "Presidente (vertici attuali da confermare sulle fonti più recenti).",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "vietnam-dgw",
+    "country": "vietnam",
+    "name": "Digiworld",
+    "ticker": "DGW",
+    "yahoo": "DGW.VN",
+    "sector": "Tecnologia",
+    "size_fallback": "Small cap",
+    "hq": "Ho Chi Minh City",
+    "index": "VN-Index",
+    "adr": "No",
+    "description": "Digiworld distribuisce in Vietnam prodotti tecnologici e di consumo per marchi internazionali: smartphone (tra cui Xiaomi), computer, apparecchi per l'ufficio, elettrodomestici, prodotti sanitari e alimentari. Fa da intermediario tra i produttori e migliaia di negozi.",
+    "strengths": [
+      "Rete distributiva capillare",
+      "Diversificazione in nuove categorie",
+      "Partner di marchi internazionali"
+    ],
+    "risks": [
+      "Margini bassi",
+      "Dipendenza da pochi marchi",
+      "Consumi sensibili all'economia"
+    ],
+    "ceo": {
+      "name": "Đoàn Hồng Việt",
+      "note": "Presidente e amministratore delegato (dato da confermare sulle fonti più recenti).",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "vietnam-imp",
+    "country": "vietnam",
+    "name": "Imexpharm",
+    "ticker": "IMP",
+    "yahoo": "IMP.VN",
+    "sector": "Salute",
+    "size_fallback": "Small cap",
+    "hq": "Dong Thap",
+    "index": "VN-Index",
+    "adr": "No",
+    "description": "Imexpharm è una delle principali case farmaceutiche del Vietnam, specializzata in antibiotici e farmaci generici prodotti secondo standard europei. Tra gli azionisti principali c'è il gruppo coreano SK.",
+    "strengths": [
+      "Fabbriche con certificazione europea",
+      "Domanda farmaceutica in crescita",
+      "Socio industriale coreano"
+    ],
+    "risks": [
+      "Prezzi dei farmaci regolati e gare pubbliche",
+      "Concorrenza dei generici importati",
+      "Titolo poco liquido"
+    ],
+    "ceo": {
+      "name": "Vertice da verificare",
+      "note": "Il nome dell'amministratore delegato va confermato sulle fonti più recenti.",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "vietnam-nlg",
+    "country": "vietnam",
+    "name": "Nam Long Group",
+    "ticker": "NLG",
+    "yahoo": "NLG.VN",
+    "sector": "Immobiliare",
+    "size_fallback": "Small cap",
+    "hq": "Ho Chi Minh City",
+    "index": "VN-Index",
+    "adr": "No",
+    "description": "Nam Long è un costruttore immobiliare focalizzato sulle abitazioni a prezzi accessibili e di fascia media nel sud del Vietnam, con grandi progetti realizzati insieme a partner giapponesi come Hankyu Hanshin e Nishi Nippon Railroad.",
+    "strengths": [
+      "Focus su case accessibili, con domanda ampia",
+      "Partner giapponesi solidi",
+      "Riserva di terreni nel sud"
+    ],
+    "risks": [
+      "Mercato immobiliare ciclico",
+      "Tempi lunghi per le autorizzazioni",
+      "Debito"
+    ],
+    "ceo": {
+      "name": "Nguyễn Xuân Quang",
+      "note": "Fondatore e presidente (incarichi attuali da confermare sulle fonti più recenti).",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "polonia-pzu",
+    "country": "polonia",
+    "name": "PZU",
+    "ticker": "PZU",
+    "yahoo": "PZU.WA",
+    "sector": "Finanza",
+    "size_fallback": "Large cap",
+    "hq": "Varsavia",
+    "index": "WIG20",
+    "adr": "No",
+    "description": "PZU è la più grande compagnia di assicurazioni della Polonia e dell'Europa centro-orientale, attiva in assicurazioni auto, casa, vita e salute, con presenza anche nei paesi baltici. È controllata dallo Stato polacco e possiede quote importanti nelle banche Pekao e Alior. Paga dividendi elevati.",
+    "strengths": [
+      "Leader assoluto delle assicurazioni in Polonia",
+      "Dividendi elevati",
+      "Partecipazioni bancarie"
+    ],
+    "risks": [
+      "Controllo statale e frequenti cambi di vertice",
+      "Riorganizzazione del gruppo con Pekao ancora in corso",
+      "Concorrenza nelle polizze auto"
+    ],
+    "ceo": {
+      "name": "Bogdan Benczak",
+      "note": "Presidente del consiglio di gestione, confermato ad aprile 2026 per il mandato 2027–2029.",
+      "source": "https://www.parkiet.com/finanse/art44157891-pzu-ma-nowego-prezesa-spolka-dalej-bedzie-kierowal-bogdan-benczak",
+      "checked": "2026-11-20"
+    },
+    "events": []
+  },
+  {
+    "id": "polonia-peo",
+    "country": "polonia",
+    "name": "Bank Pekao",
+    "ticker": "PEO",
+    "yahoo": "PEO.WA",
+    "sector": "Finanza",
+    "size_fallback": "Large cap",
+    "hq": "Varsavia",
+    "index": "WIG20",
+    "adr": "No",
+    "description": "Bank Pekao è la seconda banca della Polonia per attivi. Dal 2017 è tornata sotto controllo pubblico tramite PZU e il fondo statale PFR, dopo essere stata per anni del gruppo italiano UniCredit. Serve privati e imprese, con una forte presenza nel credito alle aziende.",
+    "strengths": [
+      "Seconda banca polacca",
+      "Alta redditività",
+      "Dividendi elevati"
+    ],
+    "risks": [
+      "Controllo statale indiretto",
+      "Rischio legale sui vecchi mutui in franchi svizzeri (minore rispetto ad altre banche)",
+      "Tasse bancarie e regole decise dal governo"
+    ],
+    "ceo": {
+      "name": "Cezary Stypułkowski",
+      "note": "Presidente del consiglio di gestione dal 2024, riconfermato ad aprile 2026. In passato ha guidato mBank, PZU e Bank Handlowy.",
+      "source": "https://bank.pl/tag/cezary-stypulkowski/",
+      "checked": "2026-11-20"
+    },
+    "events": []
+  },
+  {
+    "id": "polonia-spl",
+    "country": "polonia",
+    "name": "Santander Bank Polska",
+    "ticker": "SPL",
+    "yahoo": "SPL.WA",
+    "sector": "Finanza",
+    "size_fallback": "Large cap",
+    "hq": "Varsavia",
+    "index": "WIG20",
+    "adr": "No",
+    "description": "Santander Bank Polska è la terza banca della Polonia, nata dall'unione di Bank Zachodni WBK e di altre banche acquistate dal gruppo spagnolo Santander. Nel 2025 Santander ha venduto una quota di circa il 49%, che dà il controllo della banca, al gruppo austriaco Erste.",
+    "strengths": [
+      "Grande banca universale",
+      "Redditività elevata",
+      "Nuovo azionista di controllo europeo (Erste)"
+    ],
+    "risks": [
+      "Costi legali sui vecchi mutui in franchi svizzeri",
+      "Cambio di proprietà in corso",
+      "Tasse bancarie polacche"
+    ],
+    "ceo": {
+      "name": "Michał Gajewski",
+      "note": "Presidente del consiglio di gestione dal 2015, riconfermato nel 2026.",
+      "source": "https://bank.pl/kronika-maj-2026/",
+      "checked": "2026-11-20"
+    },
+    "events": []
+  },
+  {
+    "id": "polonia-bft",
+    "country": "polonia",
+    "name": "Benefit Systems",
+    "ticker": "BFT",
+    "yahoo": "BFT.WA",
+    "sector": "Industria",
+    "size_fallback": "Mid cap",
+    "hq": "Varsavia",
+    "index": "mWIG40",
+    "adr": "No",
+    "description": "Benefit Systems gestisce MultiSport, la carta che molte aziende offrono ai dipendenti per accedere a migliaia di palestre e centri sportivi. Possiede anche una propria rete di palestre ed è attiva in Repubblica Ceca, Slovacchia, Bulgaria, Croazia e Turchia.",
+    "strengths": [
+      "Leader dei benefit sportivi aziendali",
+      "Effetto rete: più palestre e più utenti si rafforzano a vicenda",
+      "Crescita all'estero"
+    ],
+    "risks": [
+      "Dipendenza dai budget aziendali per il welfare",
+      "Concorrenza di altre piattaforme",
+      "Investimenti nell'espansione estera"
+    ],
+    "ceo": {
+      "name": "Emilia Rogalewicz",
+      "note": "Presidente del consiglio di gestione (dato da confermare sulle fonti più recenti).",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "polonia-bdx",
+    "country": "polonia",
+    "name": "Budimex",
+    "ticker": "BDX",
+    "yahoo": "BDX.WA",
+    "sector": "Industria",
+    "size_fallback": "Mid cap",
+    "hq": "Varsavia",
+    "index": "mWIG40",
+    "adr": "No",
+    "description": "Budimex è la maggiore impresa di costruzioni della Polonia: realizza autostrade, ferrovie, ponti, edifici pubblici e impianti energetici. È controllata dal gruppo spagnolo Ferrovial, che ne possiede circa la metà.",
+    "strengths": [
+      "Leader delle costruzioni in Polonia",
+      "Beneficia dei fondi europei per le infrastrutture",
+      "Bilancio con molta liquidità"
+    ],
+    "risks": [
+      "Margini sottili e costi dei materiali",
+      "Dipendenza dagli appalti pubblici",
+      "Settore ciclico"
+    ],
+    "ceo": {
+      "name": "Artur Popko",
+      "note": "Presidente del consiglio di gestione (dato da confermare sulle fonti più recenti).",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "polonia-acp",
+    "country": "polonia",
+    "name": "Asseco Poland",
+    "ticker": "ACP",
+    "yahoo": "ACP.WA",
+    "sector": "Tecnologia",
+    "size_fallback": "Mid cap",
+    "hq": "Rzeszów",
+    "index": "mWIG40",
+    "adr": "No",
+    "description": "Asseco Poland è la maggiore società informatica polacca e una delle più grandi d'Europa nel software. Sviluppa programmi per banche, enti pubblici, sanità e imprese, ed è presente in oltre 60 paesi tramite numerose controllate, tra cui la israeliana Formula Systems.",
+    "strengths": [
+      "Leader del software in Europa centro-orientale",
+      "Ricavi ricorrenti da contratti pluriennali",
+      "Presenza internazionale"
+    ],
+    "risks": [
+      "Struttura di gruppo complessa",
+      "Dipendenza da clienti pubblici",
+      "Crescita in parte legata alle acquisizioni"
+    ],
+    "ceo": {
+      "name": "Adam Góral",
+      "note": "Fondatore e presidente del consiglio di gestione (dato da confermare sulle fonti più recenti).",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "polonia-kru",
+    "country": "polonia",
+    "name": "Kruk",
+    "ticker": "KRU",
+    "yahoo": "KRU.WA",
+    "sector": "Finanza",
+    "size_fallback": "Mid cap",
+    "hq": "Breslavia",
+    "index": "mWIG40",
+    "adr": "No",
+    "description": "Kruk compra crediti non pagati da banche e altre società e cerca di recuperarli, spesso proponendo ai debitori rate sostenibili. È uno dei maggiori operatori del settore in Europa, attivo in Polonia, Romania, Italia, Spagna e altri paesi. In Italia opera con il marchio Kruk Italia.",
+    "strengths": [
+      "Leader europeo nel recupero crediti",
+      "Attiva anche in Italia",
+      "Storico di rendimenti elevati"
+    ],
+    "risks": [
+      "Rischio reputazionale del settore",
+      "Dipendenza dalla disponibilità di portafogli da comprare",
+      "Debito per finanziare gli acquisti"
+    ],
+    "ceo": {
+      "name": "Piotr Krupa",
+      "note": "Fondatore e presidente del consiglio di gestione (dato da confermare sulle fonti più recenti).",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "polonia-xtb",
+    "country": "polonia",
+    "name": "XTB",
+    "ticker": "XTB",
+    "yahoo": "XTB.WA",
+    "sector": "Finanza",
+    "size_fallback": "Mid cap",
+    "hq": "Varsavia",
+    "index": "mWIG40",
+    "adr": "No",
+    "description": "XTB è un broker online polacco che offre azioni, ETF e CFD a clienti in tutta Europa, Italia compresa. È cresciuto molto rapidamente grazie all'app e alle commissioni zero sulle azioni. Da novembre 2026 offre anche le azioni della borsa di Varsavia a tutti i clienti europei.",
+    "strengths": [
+      "Crescita molto rapida dei clienti",
+      "Alta redditività",
+      "Presente in molti paesi europei"
+    ],
+    "risks": [
+      "Ricavi molto legati alla volatilità dei mercati e ai CFD",
+      "Regole europee più severe sui CFD",
+      "Concorrenza dei neobroker"
+    ],
+    "ceo": {
+      "name": "Omar Arnaout",
+      "note": "Presidente del consiglio di gestione (dato da confermare sulle fonti più recenti).",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "polonia-car",
+    "country": "polonia",
+    "name": "Inter Cars",
+    "ticker": "CAR",
+    "yahoo": "CAR.WA",
+    "sector": "Distribuzione",
+    "size_fallback": "Mid cap",
+    "hq": "Varsavia",
+    "index": "mWIG40",
+    "adr": "No",
+    "description": "Inter Cars è il maggiore distributore di ricambi auto dell'Europa centro-orientale. Rifornisce officine e negozi in oltre 15 paesi con una rete di magazzini e filiali, e offre anche servizi per le officine.",
+    "strengths": [
+      "Leader regionale nei ricambi auto",
+      "Il parco auto in Europa invecchia e richiede più manutenzione",
+      "Rete logistica estesa"
+    ],
+    "risks": [
+      "Margini bassi della distribuzione",
+      "Il passaggio alle auto elettriche ridurrà alcuni ricambi",
+      "Debito per il capitale circolante"
+    ],
+    "ceo": {
+      "name": "Maciej Oleksowicz",
+      "note": "Presidente del consiglio di gestione (dato da confermare sulle fonti più recenti).",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "polonia-apr",
+    "country": "polonia",
+    "name": "Auto Partner",
+    "ticker": "APR",
+    "yahoo": "APR.WA",
+    "sector": "Distribuzione",
+    "size_fallback": "Small cap",
+    "hq": "Bieruń",
+    "index": "sWIG80",
+    "adr": "No",
+    "description": "Auto Partner distribuisce ricambi auto in Polonia e in decine di paesi europei, anche tramite vendita online alle officine. È cresciuta rapidamente e compete con Inter Cars con prezzi più bassi e un'offerta di marchi propri.",
+    "strengths": [
+      "Crescita storica rapida",
+      "Export in molti paesi europei",
+      "Marchi propri con margini più alti"
+    ],
+    "risks": [
+      "Concorrenza di Inter Cars e dei grandi gruppi",
+      "Margini sotto pressione",
+      "Transizione alle auto elettriche"
+    ],
+    "ceo": {
+      "name": "Aleksander Górecki",
+      "note": "Fondatore e presidente del consiglio di gestione (dato da confermare sulle fonti più recenti).",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "polonia-11b",
+    "country": "polonia",
+    "name": "11 bit studios",
+    "ticker": "11B",
+    "yahoo": "11B.WA",
+    "sector": "Tecnologia",
+    "size_fallback": "Small cap",
+    "hq": "Varsavia",
+    "index": "sWIG80",
+    "adr": "No",
+    "description": "11 bit studios è uno studio di videogiochi polacco noto per This War of Mine e la serie Frostpunk. Sviluppa giochi propri e pubblica giochi di altri studi indipendenti. I ricavi dipendono molto dal successo delle singole uscite.",
+    "strengths": [
+      "Titoli di successo riconosciuti a livello mondiale",
+      "Proprietà intellettuale propria",
+      "Bilancio senza debiti"
+    ],
+    "risks": [
+      "Ricavi molto irregolari, legati alle singole uscite",
+      "Rischio di insuccesso o ritardi dei nuovi giochi",
+      "Titolo molto volatile"
+    ],
+    "ceo": {
+      "name": "Przemysław Marszał",
+      "note": "Cofondatore e presidente del consiglio di gestione (dato da confermare sulle fonti più recenti).",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "polonia-gpp",
+    "country": "polonia",
+    "name": "Grupa Pracuj",
+    "ticker": "GPP",
+    "yahoo": "GPP.WA",
+    "sector": "Tecnologia",
+    "size_fallback": "Small cap",
+    "hq": "Varsavia",
+    "index": "sWIG80",
+    "adr": "No",
+    "description": "Grupa Pracuj gestisce Pracuj.pl, il principale sito di annunci di lavoro in Polonia, e theprotocol.it per i lavori informatici. Possiede anche robota.ua, uno dei maggiori siti di lavoro in Ucraina, e software per la selezione del personale.",
+    "strengths": [
+      "Leader degli annunci di lavoro in Polonia",
+      "Margini molto alti",
+      "Pochi investimenti necessari"
+    ],
+    "risks": [
+      "Dipendenza dal mercato del lavoro",
+      "Concorrenza di LinkedIn e di nuovi servizi",
+      "Esposizione all'Ucraina"
+    ],
+    "ceo": {
+      "name": "Gracjan Fiedorowicz",
+      "note": "Presidente del consiglio di gestione (dato da confermare sulle fonti più recenti).",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "brasile-bbas3",
+    "country": "brasile",
+    "name": "Banco do Brasil",
+    "ticker": "BBAS3",
+    "yahoo": "BBAS3.SA",
+    "sector": "Finanza",
+    "size_fallback": "Large cap",
+    "hq": "Brasilia",
+    "index": "Ibovespa",
+    "adr": "No (solo ADR non quotato in borsa)",
+    "description": "Banco do Brasil è la più antica banca del paese, fondata nel 1808, ed è controllata dal governo federale. È la prima banca brasiliana nel credito all'agricoltura e ha milioni di clienti privati, imprese ed enti pubblici. Paga dividendi elevati.",
+    "strengths": [
+      "Leader nel credito agricolo",
+      "Grande base di clienti",
+      "Dividendi elevati"
+    ],
+    "risks": [
+      "Controllo statale e possibili scelte politiche",
+      "Crediti a rischio nell'agricoltura negli anni difficili",
+      "Concorrenza delle banche digitali"
+    ],
+    "ceo": {
+      "name": "Tarciana Medeiros",
+      "note": "Presidente dal 2023, prima donna alla guida della banca (dato da confermare sulle fonti più recenti).",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "brasile-bpac11",
+    "country": "brasile",
+    "name": "BTG Pactual",
+    "ticker": "BPAC11",
+    "yahoo": "BPAC11.SA",
+    "sector": "Finanza",
+    "size_fallback": "Large cap",
+    "hq": "San Paolo",
+    "index": "Ibovespa",
+    "adr": "No",
+    "description": "BTG Pactual è la maggiore banca d'investimento dell'America Latina. Offre consulenza su fusioni e quotazioni, gestione di patrimoni, intermediazione in borsa e, sempre di più, servizi bancari per privati e piccole imprese tramite canali digitali. Le azioni BPAC11 sono \"unit\", pacchetti di azioni di diverse categorie.",
+    "strengths": [
+      "Leader regionale nell'investment banking e nella gestione patrimoniale",
+      "Redditività elevata",
+      "Crescita nel retail digitale"
+    ],
+    "risks": [
+      "Ricavi legati all'andamento dei mercati",
+      "Concorrenza di XP e delle banche digitali",
+      "Struttura azionaria complessa"
+    ],
+    "ceo": {
+      "name": "Roberto Sallouti",
+      "note": "Amministratore delegato dal 2019; il fondatore André Esteves presiede il consiglio (dato da confermare sulle fonti più recenti).",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "brasile-b3sa3",
+    "country": "brasile",
+    "name": "B3",
+    "ticker": "B3SA3",
+    "yahoo": "B3SA3.SA",
+    "sector": "Finanza",
+    "size_fallback": "Large cap",
+    "hq": "San Paolo",
+    "index": "Ibovespa",
+    "adr": "No",
+    "description": "B3 è la borsa del Brasile: gestisce la negoziazione di azioni, derivati, titoli di Stato e fondi, oltre alla compensazione e al deposito dei titoli. È di fatto in monopolio nel paese e guadagna su ogni transazione, oltre che su dati e servizi.",
+    "strengths": [
+      "Monopolio di fatto della borsa brasiliana",
+      "Alti margini e molta liquidità",
+      "Dividendi e riacquisti di azioni regolari"
+    ],
+    "risks": [
+      "Ricavi legati ai volumi di borsa",
+      "Possibile arrivo di borse concorrenti",
+      "Tassi alti che allontanano gli investitori dalle azioni"
+    ],
+    "ceo": {
+      "name": "Christian Egan",
+      "note": "Amministratore delegato dal 2026, dopo Gilson Finkelsztain (passato a guidare Santander Brasil); in precedenza in Credit Suisse, Itaú e Santander Brasil.",
+      "source": "https://www.b3.com.br/pt_br/noticias/b3-anuncia-christian-egan-como-novo-ceo.htm",
+      "checked": "2026-11-20"
+    },
+    "events": []
+  },
+  {
+    "id": "brasile-suzb3",
+    "country": "brasile",
+    "name": "Suzano",
+    "ticker": "SUZB3",
+    "yahoo": "SUZB3.SA",
+    "sector": "Materiali",
+    "size_fallback": "Large cap",
+    "hq": "Salvador",
+    "index": "Ibovespa",
+    "adr": "Sì (SUZ a New York)",
+    "description": "Suzano è il maggiore produttore mondiale di cellulosa da eucalipto, la materia prima per carta, carta igienica e imballaggi. Gestisce enormi piantagioni in Brasile e produce anche carta e tessuti per uso domestico. Esporta la maggior parte della produzione, soprattutto in Cina, Europa e Stati Uniti.",
+    "strengths": [
+      "Costi di produzione tra i più bassi al mondo",
+      "Ricavi in dollari",
+      "Leader mondiale della cellulosa"
+    ],
+    "risks": [
+      "Prezzo della cellulosa molto variabile",
+      "Debito elevato dopo grandi investimenti",
+      "Acquisizioni rischiose all'estero"
+    ],
+    "ceo": {
+      "name": "João Alberto (Beto) Abreu",
+      "note": "Amministratore delegato dal luglio 2024 (dato da confermare sulle fonti più recenti).",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "brasile-tots3",
+    "country": "brasile",
+    "name": "Totvs",
+    "ticker": "TOTS3",
+    "yahoo": "TOTS3.SA",
+    "sector": "Tecnologia",
+    "size_fallback": "Mid cap",
+    "hq": "San Paolo",
+    "index": "Ibovespa",
+    "adr": "No",
+    "description": "Totvs è la maggiore azienda di software gestionale del Brasile: vende programmi per contabilità, magazzino, risorse umane e gestione d'impresa a decine di migliaia di piccole e medie aziende. Ha anche attività di servizi finanziari e marketing digitale per i clienti.",
+    "strengths": [
+      "Leader del software gestionale in Brasile",
+      "Ricavi ricorrenti da abbonamenti",
+      "Clientela molto ampia"
+    ],
+    "risks": [
+      "Concorrenza di software internazionali",
+      "Clienti sensibili all'economia brasiliana",
+      "Valutazione di borsa alta"
+    ],
+    "ceo": {
+      "name": "Dennis Herszkowicz",
+      "note": "Amministratore delegato dal 2019 (dato da confermare sulle fonti più recenti).",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "brasile-radl3",
+    "country": "brasile",
+    "name": "Raia Drogasil (RD Saúde)",
+    "ticker": "RADL3",
+    "yahoo": "RADL3.SA",
+    "sector": "Distribuzione",
+    "size_fallback": "Mid cap",
+    "hq": "San Paolo",
+    "index": "Ibovespa",
+    "adr": "No",
+    "description": "Raia Drogasil (oggi RD Saúde) è la più grande catena di farmacie del Brasile, con migliaia di punti vendita con i marchi Droga Raia e Drogasil. Vende farmaci, prodotti di bellezza e igiene, ed è attiva anche online e nei servizi sanitari.",
+    "strengths": [
+      "Leader delle farmacie in Brasile",
+      "Domanda stabile e popolazione che invecchia",
+      "Forte presenza digitale"
+    ],
+    "risks": [
+      "Margini bassi",
+      "Concorrenza di altre catene e dell'online",
+      "Investimenti continui in nuovi negozi"
+    ],
+    "ceo": {
+      "name": "Vertice da verificare",
+      "note": "Il nome dell'amministratore delegato va confermato sulle fonti più recenti.",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "brasile-lren3",
+    "country": "brasile",
+    "name": "Lojas Renner",
+    "ticker": "LREN3",
+    "yahoo": "LREN3.SA",
+    "sector": "Abbigliamento",
+    "size_fallback": "Mid cap",
+    "hq": "Porto Alegre",
+    "index": "Ibovespa",
+    "adr": "No",
+    "description": "Lojas Renner è la maggiore catena di abbigliamento del Brasile, con negozi Renner, Youcom e Camicado, e operazioni anche in Uruguay e Argentina. Disegna e vende abbigliamento a prezzi medi e offre carte di credito ai clienti tramite la propria finanziaria.",
+    "strengths": [
+      "Marchio leader nella moda brasiliana",
+      "Catena di fornitura efficiente",
+      "Servizi finanziari collegati"
+    ],
+    "risks": [
+      "Concorrenza di Shein e Shopee",
+      "Consumi sensibili a tassi e inflazione",
+      "Crediti a rischio nella carta propria"
+    ],
+    "ceo": {
+      "name": "Fabio Faccio",
+      "note": "Amministratore delegato dal 2019 (dato da confermare sulle fonti più recenti).",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "brasile-viva3",
+    "country": "brasile",
+    "name": "Vivara",
+    "ticker": "VIVA3",
+    "yahoo": "VIVA3.SA",
+    "sector": "Abbigliamento",
+    "size_fallback": "Small cap",
+    "hq": "San Paolo",
+    "index": "Small Cap B3",
+    "adr": "No",
+    "description": "Vivara è la maggiore catena di gioiellerie del Brasile, con i marchi Vivara e Life. Produce in proprio i gioielli in una fabbrica a Manaus e li vende in centinaia di negozi nei centri commerciali.",
+    "strengths": [
+      "Leader delle gioiellerie in Brasile",
+      "Produzione propria con margini alti",
+      "Crescita del marchio Life"
+    ],
+    "risks": [
+      "Prezzo di oro e argento",
+      "Consumi discrezionali sensibili all'economia",
+      "Cambi recenti nel vertice"
+    ],
+    "ceo": {
+      "name": "Vertice da verificare",
+      "note": "Il nome dell'amministratore delegato va confermato sulle fonti più recenti.",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "brasile-slce3",
+    "country": "brasile",
+    "name": "SLC Agrícola",
+    "ticker": "SLCE3",
+    "yahoo": "SLCE3.SA",
+    "sector": "Beni di consumo",
+    "size_fallback": "Small cap",
+    "hq": "Porto Alegre",
+    "index": "Small Cap B3",
+    "adr": "No",
+    "description": "SLC Agrícola è una delle maggiori aziende agricole quotate al mondo: coltiva soia, cotone e mais su centinaia di migliaia di ettari nel Cerrado brasiliano, con tecnologie avanzate. Possiede anche una parte importante dei terreni che coltiva.",
+    "strengths": [
+      "Grandi economie di scala",
+      "Valore dei terreni posseduti",
+      "Esposizione alla domanda mondiale di cibo"
+    ],
+    "risks": [
+      "Prezzi agricoli molto variabili",
+      "Rischio clima e siccità",
+      "Debito e tassi alti"
+    ],
+    "ceo": {
+      "name": "Aurélio Pavinato",
+      "note": "Amministratore delegato (dato da confermare sulle fonti più recenti).",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "brasile-flry3",
+    "country": "brasile",
+    "name": "Fleury",
+    "ticker": "FLRY3",
+    "yahoo": "FLRY3.SA",
+    "sector": "Salute",
+    "size_fallback": "Small cap",
+    "hq": "San Paolo",
+    "index": "Small Cap B3",
+    "adr": "No",
+    "description": "Fleury è uno dei maggiori gruppi brasiliani di medicina diagnostica: gestisce laboratori di analisi e centri di diagnostica per immagini con marchi come Fleury, a+ e Labs a+. Offre anche servizi di ortopedia, oculistica e infusioni.",
+    "strengths": [
+      "Marchio di alta qualità nella diagnostica",
+      "Domanda sanitaria in crescita",
+      "Diversificazione in nuovi servizi"
+    ],
+    "risks": [
+      "Pressione sui prezzi da parte delle assicurazioni sanitarie",
+      "Concorrenza di Dasa e Hapvida",
+      "Integrazione delle acquisizioni"
+    ],
+    "ceo": {
+      "name": "Jeane Tsutsui",
+      "note": "Amministratrice delegata (dato da confermare sulle fonti più recenti).",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "brasile-intb3",
+    "country": "brasile",
+    "name": "Intelbras",
+    "ticker": "INTB3",
+    "yahoo": "INTB3.SA",
+    "sector": "Tecnologia",
+    "size_fallback": "Small cap",
+    "hq": "São José (Santa Catarina)",
+    "index": "Small Cap B3",
+    "adr": "No",
+    "description": "Intelbras produce apparecchi per sicurezza (telecamere, allarmi, controllo accessi), reti informatiche, telefonia e pannelli solari, venduti soprattutto in Brasile tramite una rete capillare di installatori e rivenditori.",
+    "strengths": [
+      "Marchio molto diffuso in Brasile",
+      "Rete di vendita capillare",
+      "Crescita nell'energia solare"
+    ],
+    "risks": [
+      "Concorrenza di prodotti cinesi a basso costo",
+      "Dipendenza da componenti importati e dal cambio",
+      "Settore solare molto volatile"
+    ],
+    "ceo": {
+      "name": "Vertice da verificare",
+      "note": "Il nome dell'amministratore delegato va confermato sulle fonti più recenti.",
+      "source": null,
+      "checked": null
+    },
+    "events": []
+  },
+  {
+    "id": "brasile-odpv3",
+    "country": "brasile",
+    "name": "Odontoprev",
+    "ticker": "ODPV3",
+    "yahoo": "ODPV3.SA",
+    "sector": "Salute",
+    "size_fallback": "Small cap",
+    "hq": "Barueri (San Paolo)",
+    "index": "Small Cap B3",
+    "adr": "No",
+    "description": "Odontoprev è il maggiore operatore di piani odontoiatrici del Brasile, con milioni di assicurati, venduti soprattutto alle aziende e tramite le filiali del Bradesco, suo azionista di controllo. Non possiede studi propri ma lavora con una rete di dentisti convenzionati.",
+    "strengths": [
+      "Leader dei piani dentali in Brasile",
+      "Poco capitale necessario e dividendi alti",
+      "Canale di vendita del Bradesco"
+    ],
+    "risks": [
+      "Concorrenza sui prezzi",
+      "Dipendenza dal partner Bradesco",
+      "Crescita lenta"
+    ],
+    "ceo": {
+      "name": "Vertice da verificare",
+      "note": "Il nome dell'amministratore delegato va confermato sulle fonti più recenti.",
+      "source": null,
+      "checked": null
+    },
+    "events": []
   }
 ]

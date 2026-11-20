@@ -396,9 +396,10 @@ function dots(n, mini){ let h = ""; for (let i = 1; i <= 5; i++) h += `<i class=
 const initials = name => name.split(/\s+/).filter(w => /^[A-ZÀ-ÝĐ]/.test(w)).slice(0, 2).map(w => w[0]).join("") || "•";
 function ceoBlock(x){
   if (!x.ceo) return "";
-  return `<div class="ceo"><div class="avatar" aria-hidden="true">${esc(initials(x.ceo.name))}</div><div>
+  const unk = /^Vertice da verificare/.test(x.ceo.name);
+  return `<div class="ceo"><div class="avatar" aria-hidden="true">${unk ? "?" : esc(initials(x.ceo.name))}</div><div>
     <b>${esc(x.ceo.name)}</b><p style="margin-top:2px">${esc(x.ceo.note || "")}</p>
-    ${x.ceo.source ? `<p class="note">Verificato il ${esc(dateIt(x.ceo.checked))} · <a href="${esc(x.ceo.source)}" target="_blank" rel="noopener">Fonte ↗</a></p>` : ""}</div></div>`;
+    ${x.ceo.source ? `<p class="note">Verificato il ${esc(dateIt(x.ceo.checked))} · <a href="${esc(x.ceo.source)}" target="_blank" rel="noopener">Fonte ↗</a></p>` : `<p class="note">⚠ Dato non ancora verificato su una fonte recente.</p>`}</div></div>`;
 }
 function riskBlock(x){
   const r = mkt(x) && mkt(x).risk;
