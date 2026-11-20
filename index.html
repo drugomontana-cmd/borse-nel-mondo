@@ -9,10 +9,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg:#f2f4f4; --card:#ffffff; --ink:#162126; --muted:#5b6673; --line:#dde2e3; --soft:#f7f8fa;
-    --accent:#0b6478; --accent-soft:#e2f0f3; --warn:#8a4b0f; --warn-soft:#fbf0e3;
+    --bg:#f2f4f7; --card:#ffffff; --ink:#111c2d; --muted:#5b6673; --line:#dfe3ea; --soft:#f7f8fa;
+    --accent:#1b4a80; --accent-soft:#e7eef8; --warn:#8a4b0f; --warn-soft:#fbf0e3;
     --up:#17733f; --down:#b3261e; --up-soft:#e5f2ea; --down-soft:#fbe9e7;
-    --top-bg:#1c272d; --top-ink:#ffffff; --top-muted:#9fb0b7; --top-line:#1c272d; --mark:#2bb3c0; --mark-ink:#1c272d;
+    --top-bg:#0f1f38; --top-ink:#ffffff; --top-muted:#a3b3c9; --top-line:#0f1f38; --mark:#5fa8e8; --mark-ink:#0f1f38;
     --size-bg:#eef0f3; --size-ink:#3a4553;
     --shadow:0 1px 2px rgba(20,32,46,.05),0 1px 3px rgba(20,32,46,.04);
   }
@@ -379,14 +379,14 @@ function priceChart(container, hist, currency){
   });
   // area e linea
   const line = hist.map((p, i) => `${X(i).toFixed(1)},${Y(p[1]).toFixed(1)}`).join(" ");
-  el("polygon", { points: `${X(0)},${Y(y0)} ${line} ${X(hist.length - 1)},${Y(y0)}`, fill: "#0b6478", "fill-opacity": 0.1 }, svg);
-  el("polyline", { points: line, fill: "none", stroke: "#0b6478", "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round" }, svg);
+  el("polygon", { points: `${X(0)},${Y(y0)} ${line} ${X(hist.length - 1)},${Y(y0)}`, fill: "#1b4a80", "fill-opacity": 0.1 }, svg);
+  el("polyline", { points: line, fill: "none", stroke: "#1b4a80", "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round" }, svg);
   // punto finale con etichetta
   const li = hist.length - 1;
-  el("circle", { cx: X(li), cy: Y(ys[li]), r: 4, fill: "#0b6478", stroke: "#fff", "stroke-width": 2 }, svg);
+  el("circle", { cx: X(li), cy: Y(ys[li]), r: 4, fill: "#1b4a80", stroke: "#fff", "stroke-width": 2 }, svg);
   // livello hover
   const cross = el("line", { y1: m.t, y2: H - m.b, stroke: "#5d6670", "stroke-width": 1, opacity: 0 }, svg);
-  const dot = el("circle", { r: 4, fill: "#0b6478", stroke: "#fff", "stroke-width": 2, opacity: 0 }, svg);
+  const dot = el("circle", { r: 4, fill: "#1b4a80", stroke: "#fff", "stroke-width": 2, opacity: 0 }, svg);
   const hit = el("rect", { x: m.l, y: 0, width: W - m.l - m.r, height: H, fill: "transparent" }, svg);
   const tip = document.createElement("div"); tip.className = "chart-tip";
   const tv = document.createElement("b"), td = document.createElement("span"); tip.append(tv, td);
