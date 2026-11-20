@@ -5,5 +5,17 @@
       "dividendo_alto"
     ],
     "nota": "Il rendimento degli ultimi 12 mesi include un dividendo straordinario di 19 THB pagato ad aprile 2026. Senza lo straordinario, il rendimento ricorrente è circa il 5%. Fonte: AIS Investor Relations (verificato il 20/11/2026)."
+  },
+  "polonia-txt": {
+    "accetta": [
+      "dividendo_alto"
+    ],
+    "nota": "Dato corretto: per l'esercizio 2025/26 Text ha pagato 4,26 zł per azione in tre rate (febbraio, luglio e ottobre 2026), senza dividendi straordinari. Il rendimento è alto anche perché il prezzo è sceso; l'anno precedente il dividendo era di 6,06 zł, quindi è in calo. Verificato il 20/11/2026 su comunicati della società."
+  },
+  "vietnam-pnj": {
+    "accetta": [
+      "variazione_estrema"
+    ],
+    "nota": "Dato corretto: il titolo ha perso circa il 78% da inizio luglio 2026, dopo un caso legato al servizio di certificazione dei diamanti. Il 19/11/2026 ha chiuso a 13.800 dong, ai minimi da circa 10 anni. Verificato il 20/11/2026 su CafeF e Vietstock."
   }
 }
