@@ -17,5 +17,11 @@
       "variazione_estrema"
     ],
     "nota": "Dato corretto: il titolo ha perso circa il 78% da inizio luglio 2026, dopo un caso legato al servizio di certificazione dei diamanti. Il 19/11/2026 ha chiuso a 13.800 dong, ai minimi da circa 10 anni. Verificato il 20/11/2026 su CafeF e Vietstock."
+  },
+  "brasile-vale3": {
+    "accetta": [
+      "dividendo_alto"
+    ],
+    "nota": "Dato corretto: negli ultimi 12 mesi Vale ha distribuito 3,58 real per azione (stacco a dicembre 2025, pagati a gennaio e marzo 2026) e 2,03 real (stacco ad agosto 2026), in parte come dividendi e in parte come JCP. Il rendimento è alto anche perché il prezzo è sceso da allora. Verificato il 20/11/2026 su Money Times e B3 Bora Investir."
   }
 }
