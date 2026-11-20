@@ -41,5 +41,17 @@
       "dividendo_alto"
     ],
     "nota": "I dividendi degli ultimi 12 mesi (circa 0,90 BRL per azione, in gran parte come JCP, tassati al 15% alla fonte) sono confermati. Il rendimento è salito sopra il 10% soprattutto perché il prezzo dell'azione è sceso nel 2026, non perché la società abbia aumentato i pagamenti. Fonte: Status Invest e comunicati Lojas Renner (verificato il 20/11/2026)."
+  },
+  "sudafrica-tbs": {
+    "accetta": [
+      "dividendo_alto"
+    ],
+    "nota": "Il rendimento degli ultimi 12 mesi è gonfiato da un dividendo straordinario di 27,10 rand per azione pagato a gennaio 2026, dopo i buoni risultati dell'esercizio 2025. Senza la parte straordinaria il rendimento è intorno al 6% (dividendi ordinari di 12,29 e 4,30 rand). Non va considerato ripetibile. Fonte: comunicato SENS di Tiger Brands del 6 gennaio 2026 (verificato il 20/11/2026)."
+  },
+  "sudafrica-val": {
+    "accetta": [
+      "dividendo_alto"
+    ],
+    "nota": "Negli ultimi 12 mesi Valterra ha pagato circa 100 rand per azione (43 a marzo e 57 ad agosto 2026), di cui circa 44 rand come dividendo aggiuntivo, oltre la politica del 40% degli utili, grazie al forte aumento del prezzo del platino. La sola parte di base vale circa il 5%. I dividendi seguono il prezzo dei metalli e possono scendere molto. Fonte: comunicati Valterra del 25 febbraio e 29 luglio 2026 (verificato il 20/11/2026)."
   }
 }

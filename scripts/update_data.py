@@ -231,6 +231,17 @@ def fetch_vnstock(ticker):
 def enrich(raw, fx_rates, fallback_currency):
     """Aggiunge valori in euro, rendimento del dividendo, dimensione e liquidità."""
     currency = raw.get("currency") or fallback_currency
+    # Alcune borse quotano in centesimi (Johannesburg: ZAc; Londra: GBp; Tel Aviv: ILA).
+    # Prezzo, dividendi e storico vanno divisi per 100; la capitalizzazione arriva già in valuta intera.
+    minor = {"ZAc": "ZAR", "GBp": "GBP", "GBX": "GBP", "ILA": "ILS"}
+    if currency in minor:
+        raw = dict(raw)
+        for k in ("price", "dividends_12m"):
+            if raw.get(k) is not None:
+                raw[k] = raw[k] / 100
+        if raw.get("history"):
+            raw["history"] = [[d, round(v / 100, 4)] for d, v in raw["history"]]
+        currency = minor[currency]
     rate = fx_rates.get(currency)  # unità di valuta per 1 euro
     price = raw.get("price")
 
