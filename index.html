@@ -642,7 +642,7 @@ function finBlock(x){
   const F = DATA.financials;
   const f = F && F.companies && F.companies[x.id];
   if (!f || !f.years || !f.years.length)
-    return `<p class="note">${F ? "Dati di bilancio non disponibili per questa società nella nostra fonte." : "I dati di bilancio arriveranno con il prossimo aggiornamento automatico."}</p>`;
+    return `<p class="note">${F ? "Dati di bilancio non disponibili per questa società nella nostra fonte." : "I dati di bilancio arriveranno con il prossimo aggiornamento automatico."} <a href="https://finance.yahoo.com/quote/${encodeURIComponent(x.yahoo)}/financials/" target="_blank" rel="noopener">Cerca il bilancio su Yahoo Finance ↗</a></p>`;
   const ys = f.years.slice().reverse(), cur = f.currency, rate = F.per_eur && F.per_eur[cur];
   const fmt = v => {
     if (v == null) return "—";
@@ -661,8 +661,10 @@ function finBlock(x){
       <td class="${margin < 0 ? "neg" : ""}">${margin == null ? "—" : nf(margin * 100, 1) + "%"}</td></tr>`;
   }).join("");
   const unit = rate ? `Valori convertiti in euro al cambio di oggi (bilanci pubblicati in ${esc(cur)}): usare lo stesso cambio per tutti gli anni mostra la crescita reale dell'azienda, senza l'effetto della valuta.` : `Valori in ${esc(cur)}, come pubblicati dalla società.`;
+  const yl = `https://finance.yahoo.com/quote/${encodeURIComponent(x.yahoo)}/financials/`;
   return `<table class="fin-table"><tr><th>Esercizio chiuso a</th><th>Ricavi</th><th>Utile operativo</th><th>Utile netto</th><th>Margine netto</th></tr>${rows}</table>
-    <p class="note" style="margin-top:6px">${unit} Fonte: ${esc(F.source || "Yahoo Finance")}, aggiornati al ${esc(dateIt(f.checked) || "n.d.")}. Per banche e assicurazioni i "ricavi" seguono definizioni diverse.</p>`;
+    <p class="note" style="margin-top:6px">${unit} Fonte: ${esc(F.source || "Yahoo Finance")}, aggiornati al ${esc(dateIt(f.checked) || "n.d.")}. Per banche e assicurazioni i "ricavi" seguono definizioni diverse.</p>
+    <p style="margin-top:8px"><a href="${yl}" target="_blank" rel="noopener">Vedi il bilancio completo su Yahoo Finance ↗</a> <span class="note">(conto economico, stato patrimoniale e flussi di cassa)</span></p>`;
 }
 
 function openCo(id){
