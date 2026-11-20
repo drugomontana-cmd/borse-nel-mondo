@@ -14,6 +14,10 @@ on:
       - "scripts/**"
       - ".github/workflows/**"
 
+concurrency:
+  group: aggiorna-dati
+  cancel-in-progress: false
+
 permissions:
   contents: write
   issues: write
@@ -44,7 +48,7 @@ jobs:
           git add data/market.json data/da-verificare.md
           git diff --cached --quiet -- data/da-verificare.md || echo "report_changed=1" >> "$GITHUB_OUTPUT"
           git diff --cached --quiet || git commit -m "Dati di mercato aggiornati"
-          git push
+          for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 10; done
 
       - name: Avvisa se ci sono dati da verificare
         if: steps.save.outputs.report_changed == '1'
