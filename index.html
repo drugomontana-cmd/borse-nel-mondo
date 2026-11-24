@@ -265,7 +265,42 @@ a{color:var(--ink)}
 .eyebrow{color:#45604a}
 .star.on{color:#45604a}
 .fin-bar{background:#45604a}
+
+/* ===== Ritocchi e movimento ===== */
+:root{--up:#2e7a4e;--down:#b0432e}
+.flg{display:inline-block;width:21px;height:14px;border-radius:2.5px;overflow:hidden;vertical-align:-2px;box-shadow:0 0 0 1px rgba(27,31,26,.12);flex:none}
+.flg svg{width:100%;height:100%;display:block}
+.ticker{font-family:inherit!important;font-size:11.5px;letter-spacing:.07em;text-transform:uppercase}
+.spark-axis{display:flex;justify-content:space-between;font-size:10.5px;color:#9a9a92;margin-top:3px;letter-spacing:.03em}
+.demo-badge{background:transparent!important;color:#45604a!important;border:1px solid #b8c4b5;padding:4px 11px;font-size:11px;letter-spacing:.1em;text-transform:uppercase;cursor:default}
+header.intro{padding:26px 24px 0}
+.eyebrow{margin-bottom:10px}
+header.intro h1{font-size:38px;margin-bottom:10px}
+.tag{max-width:none}
+.updated{margin-top:8px}
+.countries{margin:22px 0 20px}
+/* movimento */
+.co{transition:transform .28s cubic-bezier(.2,.8,.2,1),box-shadow .28s ease,border-color .28s ease;will-change:transform;position:relative}
+.co:hover,.co:focus-visible{transform:translateY(-3px) scale(1.035);box-shadow:0 14px 34px rgba(27,31,26,.11);border-color:#c7cfc3;z-index:2}
+.co:active{transform:scale(1.01)}
+.country-btn{transition:transform .22s cubic-bezier(.2,.8,.2,1),background-color .22s ease,color .22s ease}
+.country-btn:hover{transform:scale(1.08)}
+.country-btn.active{transform:scale(1.04)}
+.pill,.star,.star-lg,.btn-ghost,.presets button{transition:transform .18s ease,background-color .18s ease,color .18s ease}
+.star:hover{transform:scale(1.25)}
+.presets button:hover,.star-lg:hover{transform:translateY(-1px)}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.grid.enter .co{animation:rise .45s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(var(--i,0) * 35ms)}
+.grid.enter .co:hover{animation:none;opacity:1}
+@keyframes pop{from{opacity:0;transform:translateY(14px) scale(.98)}to{opacity:1;transform:none}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+.overlay.open{animation:fade .2s ease both}
+.overlay.open .modal{animation:pop .32s cubic-bezier(.2,.8,.2,1) both}
+.panel{animation:fade .35s ease both}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+.co:focus{outline:none}.co:focus-visible{outline:2px solid #45604a;outline-offset:3px}
 </style>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%2716%27 fill=%27%2345604a%27/%3E%3Cg fill=%27none%27 stroke=%27%23fff%27 stroke-width=%272%27%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%279%27/%3E%3Cpath d=%27M7 16h18M16 7c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S13.5 9.6 16 7z%27/%3E%3C/g%3E%3C/svg%3E">
 </head>
 <body>
 <div class="topbar"><div class="topbar-in">
@@ -334,6 +369,13 @@ a{color:var(--ink)}
 const SIZES = ["Large cap", "Mid cap", "Small cap"];
 const FALLBACK_SIZE = {"Blue chip": "Large cap", "Large cap": "Large cap", "Mid cap": "Mid cap", "Small cap": "Small cap"};
 let DATA = { countries: {}, italyTax: "", companies: [], market: { companies: {}, fx: { per_eur: {} } } };
+const FLAG_SVG = {"polonia": "<rect width=\"30\" height=\"20\" fill=\"#fff\"/><rect y=\"10\" width=\"30\" height=\"10\" fill=\"#dc143c\"/>", "thailandia": "<rect width=\"30\" height=\"20\" fill=\"#a51931\"/><rect y=\"3.33\" width=\"30\" height=\"13.34\" fill=\"#f4f5f8\"/><rect y=\"6.67\" width=\"30\" height=\"6.66\" fill=\"#2d2a4a\"/>", "vietnam": "<rect width=\"30\" height=\"20\" fill=\"#da251d\"/><polygon points=\"15.00,4.40 16.41,8.46 20.71,8.55 17.28,11.14 18.53,15.25 15.00,12.80 11.47,15.25 12.72,11.14 9.29,8.55 13.59,8.46\" fill=\"#ffcd00\"/>", "india": "<rect width=\"30\" height=\"20\" fill=\"#fff\"/><rect width=\"30\" height=\"6.67\" fill=\"#ff9933\"/><rect y=\"13.33\" width=\"30\" height=\"6.67\" fill=\"#138808\"/><circle cx=\"15\" cy=\"10\" r=\"2.7\" fill=\"none\" stroke=\"#000080\" stroke-width=\".7\"/><circle cx=\"15\" cy=\"10\" r=\".6\" fill=\"#000080\"/>", "singapore": "<rect width=\"30\" height=\"20\" fill=\"#fff\"/><rect width=\"30\" height=\"10\" fill=\"#ef3340\"/><circle cx=\"6.6\" cy=\"5\" r=\"3.3\" fill=\"#fff\"/><circle cx=\"7.9\" cy=\"5\" r=\"3.1\" fill=\"#ef3340\"/><polygon points=\"11.00,2.75 11.18,3.26 11.71,3.27 11.29,3.59 11.44,4.11 11.00,3.80 10.56,4.11 10.71,3.59 10.29,3.27 10.82,3.26\" fill=\"#fff\"/><polygon points=\"12.62,3.92 12.79,4.43 13.33,4.44 12.90,4.77 13.06,5.28 12.62,4.97 12.18,5.28 12.33,4.77 11.90,4.44 12.44,4.43\" fill=\"#fff\"/><polygon points=\"12.00,5.83 12.18,6.33 12.71,6.34 12.28,6.67 12.44,7.18 12.00,6.88 11.56,7.18 11.71,6.67 11.29,6.34 11.82,6.33\" fill=\"#fff\"/><polygon points=\"10.00,5.83 10.18,6.33 10.71,6.34 10.29,6.67 10.44,7.18 10.00,6.88 9.56,7.18 9.72,6.67 9.29,6.34 9.82,6.33\" fill=\"#fff\"/><polygon points=\"9.38,3.92 9.56,4.43 10.10,4.44 9.67,4.77 9.82,5.28 9.38,4.97 8.94,5.28 9.10,4.77 8.67,4.44 9.21,4.43\" fill=\"#fff\"/>", "brasile": "<rect width=\"30\" height=\"20\" fill=\"#009c3b\"/><polygon points=\"2.5,10 15,2 27.5,10 15,18\" fill=\"#ffdf00\"/><circle cx=\"15\" cy=\"10\" r=\"4.4\" fill=\"#002776\"/><path d=\"M10.7 9.2 Q15 7.6 19.3 10.6\" stroke=\"#fff\" stroke-width=\".8\" fill=\"none\"/>", "sudafrica": "<rect width=\"30\" height=\"10\" fill=\"#e03c31\"/><rect y=\"10\" width=\"30\" height=\"10\" fill=\"#001489\"/><polygon points=\"0,0 5.2,0 16.2,6.6 30,6.6 30,13.4 16.2,13.4 5.2,20 0,20\" fill=\"#fff\"/><polygon points=\"0,0 2.6,0 15.3,8.1 30,8.1 30,11.9 15.3,11.9 2.6,20 0,20\" fill=\"#007749\"/><polygon points=\"0,2.6 11.2,10 0,17.4\" fill=\"#ffb81c\"/><polygon points=\"0,4.3 8.6,10 0,15.7\" fill=\"#000\"/>", "australia": "<rect width=\"30\" height=\"20\" fill=\"#00247d\"/><clipPath id=\"cau\"><rect width=\"15\" height=\"10\"/></clipPath><g clip-path=\"url(#cau)\"><path d=\"M0 0L15 10M15 0L0 10\" stroke=\"#fff\" stroke-width=\"2\"/><path d=\"M0 0L15 10M15 0L0 10\" stroke=\"#cf142b\" stroke-width=\".7\"/><path d=\"M7.5 0V10M0 5H15\" stroke=\"#fff\" stroke-width=\"3.2\"/><path d=\"M7.5 0V10M0 5H15\" stroke=\"#cf142b\" stroke-width=\"1.8\"/></g><polygon points=\"7.50,12.60 7.96,14.05 9.38,13.50 8.52,14.77 9.84,15.53 8.32,15.65 8.54,17.16 7.50,16.05 6.46,17.16 6.68,15.65 5.16,15.53 6.48,14.77 5.62,13.50 7.04,14.05\" fill=\"#fff\"/><polygon points=\"22.50,15.40 22.73,16.11 23.44,15.85 23.03,16.48 23.67,16.87 22.92,16.94 23.02,17.68 22.50,17.14 21.98,17.68 22.08,16.94 21.33,16.87 21.97,16.48 21.56,15.85 22.27,16.11\" fill=\"#fff\"/><polygon points=\"19.60,8.20 19.83,8.91 20.54,8.65 20.13,9.28 20.77,9.67 20.02,9.74 20.12,10.48 19.60,9.94 19.08,10.48 19.18,9.74 18.43,9.67 19.07,9.28 18.66,8.65 19.37,8.91\" fill=\"#fff\"/><polygon points=\"22.50,2.70 22.73,3.41 23.44,3.15 23.03,3.78 23.67,4.17 22.92,4.24 23.02,4.98 22.50,4.44 21.98,4.98 22.08,4.24 21.33,4.17 21.97,3.78 21.56,3.15 22.27,3.41\" fill=\"#fff\"/><polygon points=\"26.00,7.20 26.23,7.91 26.94,7.65 26.53,8.28 27.17,8.67 26.42,8.74 26.52,9.48 26.00,8.94 25.48,9.48 25.58,8.74 24.83,8.67 25.47,8.28 25.06,7.65 25.77,7.91\" fill=\"#fff\"/><polygon points=\"24.30,10.50 24.44,10.92 24.85,10.76 24.61,11.13 24.98,11.36 24.55,11.40 24.60,11.83 24.30,11.51 24.00,11.83 24.05,11.40 23.62,11.36 23.99,11.13 23.75,10.76 24.16,10.92\" fill=\"#fff\"/>"};
+function flag(k){
+  const s = FLAG_SVG[k];
+  if (!s) return (DATA.countries[k] && DATA.countries[k].flag) || "";
+  return `<span class="flg" aria-hidden="true"><svg viewBox="0 0 30 20" preserveAspectRatio="none">${s.replace('id="cau"', 'id="cau' + (++flag.n) + '"').replace("url(#cau)", "url(#cau" + flag.n + ")")}</svg></span>`;
+}
+flag.n = 0;
 let current = null;
 const WATCH_KEY = "bdm_preferiti";
 let WATCH = new Set();
@@ -395,7 +437,7 @@ function renderCountries(){
   const q = norm($("cq").value.trim());
   const shown = Object.entries(DATA.countries).filter(([k, v]) => countryMatches(k, v, q));
   $("countries").innerHTML = shown.map(([k, v]) =>
-    `<button class="country-btn ${k === current ? "active" : ""}" data-k="${k}"><span class="flag">${v.flag}</span>${esc(v.name)}</button>`).join("")
+    `<button class="country-btn ${k === current ? "active" : ""}" data-k="${k}"><span class="flag">${flag(k)}</span>${esc(v.name)}</button>`).join("")
     + (shown.length ? "" : `<span class="none">Nessun paese trovato</span>`);
   $("watchTab").innerHTML = `<button class="country-btn watch-btn ${current === "__watch" ? "active" : ""}" data-k="__watch" title="Le società che hai segnato con la stella">★ Preferiti${WATCH.size ? ` <span class="wcount">${WATCH.size}</span>` : ""}</button>`;
   document.querySelectorAll(".country-btn").forEach(b => b.onclick = () => { current = b.dataset.k; $("q").value = ""; render(); });
@@ -437,7 +479,7 @@ function watchGuide(){
     <p>Non hai ancora preferiti. Clicca la stella ☆ su una società, nella lista o nella sua scheda, per ritrovarla qui insieme alle altre, anche di paesi diversi.</p>
     <p class="note" style="margin-top:10px">I preferiti restano salvati solo in questo browser, su questo computer.</p>`;
   const rows = list.map(x => { const m = mkt(x), g = DATA.countries[x.country];
-    return `<tr><td>${g.flag} <a data-open="${esc(x.id)}">${esc(x.name)}</a></td>
+    return `<tr><td>${flag(x.country)} <a data-open="${esc(x.id)}">${esc(x.name)}</a></td>
       <td class="num ${m && m.change_1y < 0 ? "neg" : ""}">${(m && pct(m.change_1y)) || "—"}</td>
       <td class="num">${m && m.dividend_yield != null && !(m.hidden_fields || []).includes("dividend_yield") ? nf(m.dividend_yield * 100, 1) + "%" : "—"}</td></tr>`; }).join("");
   return `<h2>★ I tuoi preferiti</h2>
@@ -454,7 +496,7 @@ function renderGuide(){
   }
   const g = DATA.countries[current];
   $("guide").innerHTML = `
-    <h2>${g.flag} Investire in ${esc(g.name)}</h2>
+    <h2>${flag(current)} Investire in ${esc(g.name)}</h2>
     <dl class="facts">
       <dt>Borsa</dt><dd>${esc(g.exchange)}</dd>
       <dt>Valuta</dt><dd>${esc(g.currency)}</dd>
@@ -510,16 +552,16 @@ function renderList(){
   else list.sort((a, b) => val(b, "market_cap_eur") - val(a, "market_cap_eur"));
 
   $("count").textContent = q ? `${list.length} ${list.length === 1 ? "risultato" : "risultati"}` : `${list.length} società`;
-  $("list").innerHTML = list.length ? list.map(x => {
+  $("list").innerHTML = list.length ? list.map((x, idx) => {
     const m = mkt(x);
     const cap = m && bigEur(m.market_cap_eur);
     const ch = m && pct(m.change_1y);
     return `
-    <div class="co" role="button" tabindex="0" data-id="${esc(x.id)}">
+    <div class="co" role="button" tabindex="0" data-id="${esc(x.id)}" style="--i:${Math.min(idx, 18)}">
       <div class="co-top"><div class="name">${esc(x.name)}</div>${ch ? `<span class="chg ${m.change_1y >= 0 ? "up" : "down"}" title="Variazione in 1 anno">${ch}<small> 1 anno</small></span>` : ""}</div>
-      <div class="co-sub"><div class="ticker">${mixed ? DATA.countries[x.country].flag + " " : ""}${esc(x.ticker)} · ${esc(x.index)}</div><button class="star ${WATCH.has(x.id) ? "on" : ""}" data-star="${esc(x.id)}" aria-pressed="${WATCH.has(x.id)}" title="${WATCH.has(x.id) ? "Togli dai preferiti" : "Aggiungi ai preferiti"}">${WATCH.has(x.id) ? "★" : "☆"}</button></div>
+      <div class="co-sub"><div class="ticker">${mixed ? flag(x.country) + " " : ""}${esc(x.ticker)} · ${esc(x.index)}</div><button class="star ${WATCH.has(x.id) ? "on" : ""}" data-star="${esc(x.id)}" aria-pressed="${WATCH.has(x.id)}" title="${WATCH.has(x.id) ? "Togli dai preferiti" : "Aggiungi ai preferiti"}">${WATCH.has(x.id) ? "★" : "☆"}</button></div>
       ${cap ? `<div class="capv">Capitalizzazione <b>${twoTone(cap)}</b></div>` : ""}
-      ${m && m.history && !(m.hidden_fields || []).includes("price") ? sparkline(m.history) : ""}
+      ${m && m.history && !(m.hidden_fields || []).includes("price") ? sparkline(m.history) + `<div class="spark-axis"><span>un anno fa</span><span>oggi</span></div>` : ""}
       <div class="pills"><span class="pill">${esc(x.sector)}</span><span class="pill size">${esc(sizeOf(x))}</span>${m && m.risk ? `<span class="pill risk" title="Livello di rischio ${m.risk.level} su 5: ${esc(m.risk.label)}">Rischio <span class="mini-dots">${dots(m.risk.level, true)}</span></span>` : ""}${m && m.warnings && m.warnings.length ? `<span class="pill warn">⚠ da verificare</span>` : ""}</div>
     </div>`;
   }).join("") : `<p class="empty">${current === "__watch" && !q && !WATCH.size ? "Non hai ancora preferiti: clicca la stella ☆ su una società." : "Nessuna società con questi filtri."}</p>`;
@@ -628,7 +670,7 @@ const initials = name => name.split(/\s+/).filter(w => /^[A-ZÀ-ÝĐ]/.test(w)).
 function ceoBlock(x){
   if (!x.ceo) return "";
   const unk = /^Vertice da verificare/.test(x.ceo.name);
-  return `<div class="ceo"><div class="avatar" aria-hidden="true">${unk ? "?" : esc(initials(x.ceo.name))}</div><div>
+  return `<div class="ceo"><div>
     <b>${esc(x.ceo.name)}</b><p style="margin-top:2px">${esc(x.ceo.note || "")}</p>
     ${x.ceo.source ? `<p class="note">Verificato il ${esc(dateIt(x.ceo.checked))} · <a href="${esc(x.ceo.source)}" target="_blank" rel="noopener">Fonte ↗</a></p>` : `<p class="note">⚠ Dato non ancora verificato su una fonte recente.</p>`}</div></div>`;
 }
@@ -773,7 +815,7 @@ function openCo(id){
   $("modal").innerHTML = `
     <button class="close" aria-label="Chiudi" id="closeBtn">×</button>
     <h3>${esc(x.name)}</h3>
-    <div class="ticker" style="margin-top:4px">${esc(x.ticker)} · ${esc(g.exchange.split(" ")[0])} · ${g.flag} ${esc(g.name)}</div>
+    <div class="ticker" style="margin-top:4px">${esc(x.ticker)} · ${esc(g.exchange.split(" ")[0])} · ${flag(x.country)} ${esc(g.name)}</div>
     <div class="pills" style="align-items:center"><span class="pill">${esc(x.sector)}</span><span class="pill size">${esc(sizeOf(x))}</span><span class="pill">${esc(x.index)}</span>
       <button class="star-lg ${WATCH.has(x.id) ? "on" : ""}" id="watchBtn">${WATCH.has(x.id) ? "★ Nei preferiti" : "☆ Aggiungi ai preferiti"}</button></div>
 
@@ -849,7 +891,11 @@ $("cq").onkeydown = e => {
 };
 $("reset").onclick = resetFilters;
 
-function render(){ renderCountries(); renderGuide(); renderFilters(); renderList(); }
+function render(){
+  renderCountries(); renderGuide(); renderFilters(); renderList();
+  const L = $("list"); L.classList.remove("enter"); void L.offsetWidth; L.classList.add("enter");
+  clearTimeout(render.t); render.t = setTimeout(() => L.classList.remove("enter"), 1400);
+}
 load();
 </script>
 </body>
