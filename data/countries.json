@@ -1,6 +1,29 @@
 {
   "italy_tax": "In Italia plusvalenze e dividendi da azioni sono tassati al 26%. Con un broker italiano in regime amministrato, il 26% si applica sul dividendo già ridotto dalla ritenuta estera, senza credito per l'imposta pagata all'estero. Sui titoli detenuti si paga un'imposta annua dello 0,2% (bollo con broker italiano, IVAFE con broker estero, che richiede anche il quadro RW).",
   "countries": {
+    "thailandia": {
+      "name": "Thailandia",
+      "flag": "🇹🇭",
+      "exchange": "SET – Stock Exchange of Thailand (Bangkok)",
+      "currency": "Baht thailandese (THB)",
+      "index": "SET50, SET Index",
+      "hours": "10:00–12:30 e 14:30–16:30 locali (4:00–6:30 e 8:30–10:30 ora italiana, in inverno)",
+      "access": "Accessibile tramite alcuni broker internazionali che offrono la borsa di Bangkok (non tutti la offrono: va verificato prima). In alternativa ETF sulla Thailandia o sul Sud-est asiatico.",
+      "foreign": "Molte società hanno un tetto alle azioni possedute da stranieri. Quando il tetto è raggiunto si comprano gli NVDR: danno diritto a dividendi e variazioni di prezzo, ma non al voto in assemblea.",
+      "tax": "Ritenuta thailandese sui dividendi pagati a non residenti: 10%. Le plusvalenze realizzate da investitori esteri in borsa sono in genere esenti in Thailandia.",
+      "liquidity": "Buona per le società del SET50, ridotta per molte mid e small cap.",
+      "fx": "Il baht è una valuta relativamente stabile in Asia, ma sensibile al turismo e ai flussi di capitale.",
+      "currency_code": "THB",
+      "yahoo_suffix": ".BK",
+      "dividend_withholding": 0.1,
+      "country_risk": 3,
+      "country_risk_note": "Mercato emergente con limiti di partecipazione per gli stranieri (NVDR) e accesso solo tramite alcuni broker.",
+      "aliases": [
+        "Thailand",
+        "Bangkok",
+        "Asia"
+      ]
+    },
     "india": {
       "name": "India",
       "flag": "🇮🇳",
@@ -22,29 +45,6 @@
         "India",
         "Bharat",
         "Mumbai",
-        "Asia"
-      ]
-    },
-    "thailandia": {
-      "name": "Thailandia",
-      "flag": "🇹🇭",
-      "exchange": "SET – Stock Exchange of Thailand (Bangkok)",
-      "currency": "Baht thailandese (THB)",
-      "index": "SET50, SET Index",
-      "hours": "10:00–12:30 e 14:30–16:30 locali (4:00–6:30 e 8:30–10:30 ora italiana, in inverno)",
-      "access": "Accessibile tramite alcuni broker internazionali che offrono la borsa di Bangkok (non tutti la offrono: va verificato prima). In alternativa ETF sulla Thailandia o sul Sud-est asiatico.",
-      "foreign": "Molte società hanno un tetto alle azioni possedute da stranieri. Quando il tetto è raggiunto si comprano gli NVDR: danno diritto a dividendi e variazioni di prezzo, ma non al voto in assemblea.",
-      "tax": "Ritenuta thailandese sui dividendi pagati a non residenti: 10%. Le plusvalenze realizzate da investitori esteri in borsa sono in genere esenti in Thailandia.",
-      "liquidity": "Buona per le società del SET50, ridotta per molte mid e small cap.",
-      "fx": "Il baht è una valuta relativamente stabile in Asia, ma sensibile al turismo e ai flussi di capitale.",
-      "currency_code": "THB",
-      "yahoo_suffix": ".BK",
-      "dividend_withholding": 0.1,
-      "country_risk": 3,
-      "country_risk_note": "Mercato emergente con limiti di partecipazione per gli stranieri (NVDR) e accesso solo tramite alcuni broker.",
-      "aliases": [
-        "Thailand",
-        "Bangkok",
         "Asia"
       ]
     },
