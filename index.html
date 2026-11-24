@@ -416,7 +416,6 @@ body{background:
 footer{border-top-color:rgba(243,212,138,.18)!important}
 .hero{box-shadow:0 0 0 1px rgba(243,212,138,.22),0 18px 40px rgba(0,0,0,.35)}
 /* sfondo: parete scura con mappa del mondo retroilluminata (disegnata) */
-body{background:url("img/mappa-luce.svg") center 58% / 96vw auto no-repeat fixed,radial-gradient(75% 70% at 50% 55%,#4a4b4f,#2c2d30 65%,#1c1d1f) fixed!important;background-attachment:fixed!important}
 footer,footer *,.footer-in,.footer-in a{color:#fff!important;text-shadow:0 1px 3px rgba(0,0,0,.6)}
 .hero{box-shadow:0 0 0 2px #fff,0 0 0 3px rgba(0,0,0,.15),0 20px 50px rgba(0,0,0,.45)!important}
 
@@ -435,21 +434,56 @@ footer,footer *,.footer-in,.footer-in a{color:#fff!important;text-shadow:0 1px 3
 .hero{box-shadow:0 0 0 1px rgba(255,255,255,.55),0 20px 50px rgba(0,0,0,.45)!important}
 </style>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%2716%27 fill=%27%2345604a%27/%3E%3Cg fill=%27none%27 stroke=%27%23fff%27 stroke-width=%272%27%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%279%27/%3E%3Cpath d=%27M7 16h18M16 7c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S13.5 9.6 16 7z%27/%3E%3C/g%3E%3C/svg%3E">
-<style>body{background:url("img/mappa-filigrana.svg") center 58% / 96vw auto no-repeat fixed,radial-gradient(80% 70% at 50% 40%,#f8f3ea,#efe6d6 70%,#e6dbc6) fixed!important}
-footer,footer *,.footer-in,.footer-in a{color:#2a2218!important;text-shadow:none!important}footer{border-top-color:#d8ccb6!important}
+<style>footer,footer *,.footer-in,.footer-in a{color:#2a2218!important;text-shadow:none!important}footer{border-top-color:#d8ccb6!important}
 .panel,.filters,.co{box-shadow:0 1px 3px rgba(60,40,10,.08),0 0 0 1px rgba(60,40,10,.06)!important}
 .hero{box-shadow:0 18px 40px rgba(60,40,10,.25)!important}/* sfondo caffellatte chiaro con mappa illuminata */
-body{background:url("img/mappa-latte.svg") center 58% / 96vw auto no-repeat fixed,radial-gradient(80% 70% at 50% 45%,#c9ad8f,#b3967a 60%,#9c7f65) fixed!important}
 footer,footer *,.footer-in,.footer-in a{color:#fff!important;text-shadow:0 1px 2px rgba(60,40,20,.5)!important}
 footer{border-top-color:rgba(255,255,255,.3)!important}
+
+/* ===== PROVA: banner che cambia per paese ===== */
+.hero{background:#2a1a0e!important;isolation:isolate}
+.hbg{position:absolute;inset:0;z-index:-2;background-color:var(--cc,#8a6332);transition:background-color .8s ease}
+.hbg::after{content:"";position:absolute;inset:0;background:
+  linear-gradient(90deg,rgba(10,7,4,.93) 0%,rgba(10,7,4,.78) 38%,rgba(10,7,4,.25) 70%,rgba(10,7,4,.15) 100%),
+  radial-gradient(45% 80% at 72% 40%,rgba(255,235,200,.28),transparent 70%),
+  repeating-linear-gradient(90deg,rgba(255,255,255,0) 0,rgba(255,255,255,.05) 4px,rgba(0,0,0,.08) 11px,rgba(255,255,255,0) 17px)}
+.stage{position:absolute;right:250px;top:62px;width:210px;height:210px;z-index:-1;pointer-events:none}
+.stage svg{width:100%;height:100%;overflow:visible}
+.stage .sh{fill:rgba(12,8,5,.88);stroke:rgba(255,238,210,.9);stroke-width:1.2;filter:drop-shadow(0 0 14px rgba(255,230,190,.55)) drop-shadow(0 0 3px rgba(255,240,215,.8))}
+.stage.in svg{animation:shapeIn .7s cubic-bezier(.2,.8,.2,1) both}
+@keyframes shapeIn{from{opacity:0;transform:translateX(60px) scale(.85) rotate(4deg)}to{opacity:1;transform:none}}
+.snum{position:absolute;right:28px;top:96px;text-align:right;z-index:1}
+.snum .big{font-size:34px;font-weight:600;letter-spacing:-.02em;line-height:1.05}
+.snum .lbl{font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.75);margin-top:3px}
+.snum .chg2{display:inline-block;margin-top:12px;font-size:15px;font-weight:600;padding:4px 12px;border-radius:99px;background:rgba(10,7,4,.45);box-shadow:inset 0 0 0 1px rgba(255,255,255,.18)}
+.snum.in{animation:pop .55s cubic-bezier(.2,.8,.2,1) both}
+.arrows{display:flex;gap:6px;margin-top:22px}
+.arrows button{width:30px;height:30px;border-radius:50%;border:0;background:rgba(255,255,255,.14);color:#fff;font-size:15px;cursor:pointer;box-shadow:inset 0 0 0 1px rgba(255,255,255,.22);transition:background .2s,transform .2s}
+.arrows button:hover{background:rgba(255,255,255,.3);transform:scale(1.1)}
+.nextc{position:absolute;right:28px;top:196px;display:flex;align-items:center;gap:9px;padding:6px 12px 6px 6px;border-radius:14px;background:rgba(10,7,4,.4);box-shadow:inset 0 0 0 1px rgba(255,255,255,.16);color:#fff;cursor:pointer;border:0;font:inherit;transition:transform .2s,background .2s}
+.nextc:hover{transform:translateY(-2px);background:rgba(10,7,4,.55)}
+.nextc svg{width:34px;height:34px}.nextc .sh{fill:rgba(255,240,215,.85)}
+.nextc small{display:block;font-size:10.5px;text-transform:uppercase;letter-spacing:.08em;opacity:.75;text-align:left}
+.nextc b{font-size:13px;font-weight:600}
+.hero-date{margin-top:4px!important}
+
+/* PROVA: sfondo pagina che cambia per paese, senza mappa */
+body{background:transparent!important}
+#pagebg{position:fixed;inset:0;z-index:-10;background-color:var(--pb,#e9dccb);transition:background-color .9s ease}
+#pagebg::after{content:"";position:absolute;inset:0;background:radial-gradient(70% 60% at 50% 0%,rgba(255,255,255,.45),transparent 70%),radial-gradient(60% 50% at 100% 100%,rgba(0,0,0,.06),transparent 70%)}
+footer,footer *,.footer-in,.footer-in a{color:#1d1812!important;text-shadow:none!important}
+footer{border-top-color:rgba(0,0,0,.12)!important}
+.panel,.filters,.co{box-shadow:0 1px 3px rgba(40,25,10,.08),0 0 0 1px rgba(40,25,10,.05)!important}
 </style></head>
 <body>
-<div class="hero-wrap"><section class="hero">
+<div id="pagebg"></div>
+<div class="hero-wrap"><section class="hero"><div class="hbg" id="hbg"></div><div class="stage" id="stage"></div><div class="snum" id="snum"></div><button class="nextc" id="nextc"></button>
   <div class="hero-top">
   <a class="brand" href="index.html"><span class="logo"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg></span><span class="brand-name">Borse del Mondo</span></a>
   <nav class="topnav"><a href="index.html" class="here">Mercati</a><a href="metodo.html">Metodo e fonti</a><a href="chi-siamo.html">Chi siamo</a></nav>
   <span class="demo-badge">Demo</span>
   </div>
+  <div class="arrows"><button id="prevC" aria-label="Paese precedente">‹</button><button id="nextC" aria-label="Paese successivo">›</button></div>
   <div class="hero-date" id="today"></div>
   <h1>Le borse del mondo,<br><em>spiegate per chi investe dall'Italia</em></h1>
   <div class="hero-chips"><span class="hchip"><i></i><b id="nCountries">8</b> paesi</span><span class="hchip"><i></i><b id="nCompanies">160</b> società</span><span class="hchip" id="updated"></span></div>
@@ -516,6 +550,43 @@ function flag(k){
 }
 flag.n = 0;
 let current = null;
+const SHAPES = {"india": "M17.0,92.8 L27.3,110.9 L43.2,122.1 L47.2,140.8 L54.7,160.7 L63.2,181.3 L70.1,190.0 L74.0,185.0 L83.2,176.3 L86.0,156.4 L84.9,145.8 L97.4,137.1 L112.8,119.0 L124.2,107.8 L134.5,105.9 L135.7,100.3 L132.8,75.4 L152.8,73.5 L169.9,73.5 L183.0,66.1 L175.6,58.0 L149.9,66.7 L134.5,66.7 L107.1,61.1 L90.0,52.4 L78.6,47.4 L77.5,38.0 L67.2,19.3 L52.9,10.0 L50.1,25.6 L47.2,38.0 L52.9,47.4 L38.7,66.1 L27.3,67.3 L24.4,75.4 L33.0,87.9Z", "thailandia": "M83.3,10.0 L88.1,21.0 L97.6,27.1 L94.0,44.3 L106.0,40.6 L114.3,40.6 L122.6,34.5 L138.1,46.7 L139.3,59.0 L148.8,67.6 L142.8,84.7 L117.9,84.7 L109.5,93.3 L113.1,110.4 L102.4,105.5 L92.9,104.3 L92.9,94.5 L82.1,95.7 L81.0,109.2 L72.6,131.2 L72.6,147.1 L85.7,158.2 L86.9,170.4 L95.2,175.3 L102.4,186.3 L95.2,190.0 L85.7,181.4 L78.6,175.3 L65.5,163.1 L61.9,155.7 L65.5,137.3 L71.4,121.4 L77.4,106.7 L72.6,98.2 L70.2,85.9 L61.9,73.7 L65.5,61.4 L56.0,44.3 L51.2,33.3 L56.0,23.5 L64.3,17.3 L76.2,12.4Z", "vietnam": "M57.8,21.0 L74.2,17.3 L95.3,10.0 L111.7,16.1 L127.0,32.0 L111.7,41.8 L100.0,62.7 L110.5,81.0 L135.2,105.5 L142.2,126.3 L141.0,150.8 L124.6,160.6 L109.4,175.3 L91.8,190.0 L89.5,170.4 L103.5,160.6 L121.1,142.2 L122.3,117.8 L110.5,99.4 L95.3,72.4 L80.1,57.8 L90.6,45.5 L70.7,40.6 L59.0,33.3Z", "polonia": "M10.0,72.2 L13.6,43.0 L53.2,25.5 L89.2,16.7 L112.6,28.4 L166.6,28.4 L179.2,43.0 L186.4,78.1 L173.8,92.7 L190.0,133.6 L163.0,183.3 L134.2,174.5 L107.2,171.6 L94.6,171.6 L73.0,151.1 L53.2,139.4 L22.6,130.7 L19.0,104.4Z", "brasile": "M74.6,10.0 L110.9,10.0 L120.0,26.3 L129.1,37.9 L147.2,44.9 L169.9,51.9 L188.1,61.2 L188.1,75.1 L176.7,89.1 L169.9,112.3 L165.4,130.9 L151.8,140.2 L129.1,154.2 L126.8,165.8 L110.9,184.4 L104.1,190.0 L95.0,177.4 L85.5,173.7 L101.8,158.8 L99.1,152.3 L97.3,144.9 L83.7,126.3 L83.7,109.1 L74.6,103.0 L65.5,91.4 L50.5,83.5 L44.6,79.3 L26.9,84.4 L18.3,79.8 L11.9,67.2 L29.2,52.8 L31.0,38.8 L29.6,28.6 L42.8,24.9 L56.4,14.7 L61.9,14.7Z", "singapore": "M10.0,115.0 L27.1,85.0 L52.9,63.6 L112.9,55.0 L164.3,72.1 L190.0,102.1 L172.9,123.6 L130.0,136.4 L87.1,145.0 L44.3,140.7Z", "sudafrica": "M10.0,101.9 L19.9,128.0 L29.8,169.1 L48.4,179.0 L75.9,169.1 L108.8,169.1 L130.7,156.6 L158.2,131.7 L185.6,100.6 L190.0,79.5 L179.0,68.3 L172.4,24.7 L151.6,21.0 L135.1,27.2 L114.3,52.1 L103.3,67.0 L81.3,60.8 L57.2,57.1 L48.4,53.3 L48.4,99.4 L37.4,105.6 L24.3,98.1Z", "australia": "M10.0,85.7 L12.2,107.9 L16.7,125.1 L16.7,146.3 L29.8,150.3 L39.2,144.3 L55.3,144.3 L66.6,136.0 L89.9,132.5 L102.9,138.9 L110.5,148.8 L119.1,138.9 L119.1,152.7 L127.2,155.7 L131.6,164.5 L146.9,168.5 L157.2,170.0 L164.4,164.0 L173.8,162.1 L179.2,144.3 L187.3,130.1 L190.0,115.3 L187.3,102.0 L177.4,88.7 L170.7,81.3 L162.2,72.9 L157.2,70.4 L153.2,58.1 L152.7,50.7 L145.1,45.3 L140.2,30.0 L136.6,40.9 L135.7,53.7 L131.6,64.0 L124.9,63.1 L112.8,52.2 L110.5,43.3 L114.6,36.4 L95.7,34.0 L88.6,37.4 L81.8,50.7 L74.2,47.8 L64.8,48.8 L54.4,61.1 L47.7,68.5 L38.7,75.4 L27.5,79.3 L14.9,84.7Z"};
+
+const CC = {india:"#c27420",thailandia:"#334a8c",vietnam:"#a8301f",polonia:"#9a2236",brasile:"#23774a",singapore:"#b0303a",sudafrica:"#137059",australia:"#b5782c"};
+function tint(hex, a){
+  const c = hex.match(/\w\w/g).map(h => parseInt(h, 16)), base = [239, 231, 218];
+  return `rgb(${c.map((v, i) => Math.round(v * a + base[i] * (1 - a))).join(",")})`;
+}
+function shapeSvg(k, cls){ return SHAPES[k] ? `<svg viewBox="0 0 200 200"><path class="sh" d="${SHAPES[k]}"/></svg>` : ""; }
+function updateStage(){
+  const keys = Object.keys(DATA.countries);
+  if (!keys.includes(current)) {
+    $("snum").innerHTML = ""; $("stage").innerHTML = "";
+    $("hbg").style.setProperty("--cc", "#8a6332"); $("pagebg").style.setProperty("--pb", tint("#8a6332", .30));
+    $("nextc").innerHTML = ""; $("nextc").style.display = "none"; return;
+  }
+  $("nextc").style.display = "";
+  const g = DATA.countries[current];
+  $("hbg").style.setProperty("--cc", CC[current] || "#8a6332");
+  $("pagebg").style.setProperty("--pb", tint(CC[current] || "#8a6332", .30));
+  const st = $("stage"); st.classList.remove("in"); void st.offsetWidth; st.innerHTML = shapeSvg(current); st.classList.add("in");
+  const r = DATA.market.fx && DATA.market.fx.per_eur && DATA.market.fx.per_eur[g.currency_code];
+  const ch = DATA.companies.filter(x => x.country === current).map(x => mkt(x)).filter(m => m && m.change_1y != null).map(m => m.change_1y);
+  const avg = ch.length ? ch.reduce((a, b) => a + b, 0) / ch.length : null;
+  const sn = $("snum"); sn.classList.remove("in"); void sn.offsetWidth;
+  sn.innerHTML = `${r ? `<div class="big">1 € = ${nf(r, r > 1000 ? 0 : 2)} ${esc(g.currency_code)}</div><div class="lbl">Cambio di oggi</div>` : ""}
+    ${avg != null ? `<div class="chg2">${avg >= 0 ? "▲" : "▼"} ${pct(avg)} <span style="font-weight:400;opacity:.8">media società, 1 anno</span></div>` : ""}`;
+  sn.classList.add("in");
+  const nk = keys[(keys.indexOf(current) + 1) % keys.length];
+  $("nextc").innerHTML = `${shapeSvg(nk)}<span><small>Prossimo</small><b>${esc(DATA.countries[nk].name)}</b></span>`;
+  $("nextc").onclick = () => go(1);
+}
+function go(d){
+  const keys = Object.keys(DATA.countries);
+  let i = keys.indexOf(current); if (i < 0) i = 0;
+  current = keys[(i + d + keys.length) % keys.length]; $("q").value = ""; render();
+}
+
 const WATCH_KEY = "bdm_preferiti";
 let WATCH = new Set();
 try { WATCH = new Set(JSON.parse(localStorage.getItem(WATCH_KEY) || "[]")); } catch (e) { WATCH = new Set(); }
@@ -1034,9 +1105,11 @@ $("cq").onkeydown = e => {
   } else if (e.key === "Escape") { $("cq").value = ""; renderCountries(); }
 };
 $("reset").onclick = resetFilters;
+$("prevC").onclick = () => go(-1);
+$("nextC").onclick = () => go(1);
 
 function render(){
-  renderCountries(); renderGuide(); renderFilters(); renderList();
+  renderCountries(); renderGuide(); renderFilters(); renderList(); updateStage();
   const L = $("list"); L.classList.remove("enter"); void L.offsetWidth; L.classList.add("enter");
   clearTimeout(render.t); render.t = setTimeout(() => L.classList.remove("enter"), 1400);
 }

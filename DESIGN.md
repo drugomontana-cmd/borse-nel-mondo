@@ -3,7 +3,7 @@
 Istruzioni per chiunque modifichi il sito (persone o assistenti AI).
 Lo scopo è mantenere la grafica coerente, sobria ed elegante. In caso di dubbio: **meno effetti, più leggibilità**.
 
-Ultimo aggiornamento: 24 novembre 2026.
+Ultimo aggiornamento: 24 novembre 2026 (colori per paese).
 
 ---
 
@@ -19,15 +19,32 @@ Ultimo aggiornamento: 24 novembre 2026.
 
 ## 2. Colori
 
-### Sfondo della pagina
-- Caffellatte chiaro, sfumato: `#c9ad8f` al centro → `#b3967a` → `#9c7f65` ai bordi.
-- Sopra: **mappa del mondo** marrone medio `#6b5240` con alone crema (file `img/mappa-latte.svg`), ferma mentre si scorre.
+### Colore del paese
+Ogni paese ha un suo colore. Cambia il banner e lo sfondo della pagina quando si cambia paese.
 
-### Banner del titolo (in alto) e intestazione della scheda
-- Fondo scuro caldo: `#1c130a` → `#3a2714` → `#6b4a24` → `#8a6332`, con una luce dorata in alto a destra.
-- Grafico a candele dorato disegnato (`img/candele.svg`) sul lato destro, mai sotto il titolo.
-- A sinistra, dietro il titolo, il fondo resta molto scuro per garantire il contrasto del testo bianco.
-- Cornice: filo sottile semitrasparente (1 px bianco al 55%) + ombra morbida.
+| Paese | Colore |
+|---|---|
+| India | `#c27420` |
+| Thailandia | `#334a8c` |
+| Vietnam | `#a8301f` |
+| Polonia | `#9a2236` |
+| Brasile | `#23774a` |
+| Singapore | `#b0303a` |
+| Sudafrica | `#137059` |
+| Australia | `#b5782c` |
+| Preferiti / nessun paese | `#8a6332` (bronzo) |
+
+Un paese nuovo riceve un colore scuro e caldo, distinguibile dagli altri, in genere ispirato alla bandiera.
+
+### Sfondo della pagina
+- Pagina dei mercati: tinta **chiara** del colore del paese (30% colore + 70% avorio `#efe7da`), con una leggera luce in alto. Nessuna immagine.
+- Pagine Metodo e Chi siamo: avorio neutro `#e8dccb`.
+
+### Banner del titolo (in alto)
+- Fondo del colore del paese, coperto a sinistra da una sfumatura quasi nera per garantire il contrasto del testo bianco; leggere righe verticali "a vetro scanalato".
+- A destra: **sagoma del paese** scura con contorno e alone crema; il **cambio con l'euro** in grande; la **variazione media** delle società in un anno; la miniatura **"Prossimo"**.
+- Frecce ‹ › sopra il titolo per scorrere i paesi.
+- Intestazione della scheda società e pagine secondarie: fondo scuro dorato con grafico a candele (`img/candele.svg`).
 
 ### Card, pannelli, scheda
 - Fondo **bianco** `#ffffff`, bordo/ombra leggerissimi.
@@ -84,7 +101,7 @@ Verde lime, viola, blu acceso, gradienti multicolore, grigio freddo come sfondo 
 - **Card delle società:** al passaggio del mouse si alzano di 3 px e si ingrandiscono del 3,5% con un'ombra più ampia (0,28 s). Tornano normali quando il mouse si sposta.
 - **Paesi:** si ingrandiscono dell'8% al passaggio del mouse; il paese selezionato resta al 104%.
 - **Stella preferiti:** si ingrandisce al passaggio.
-- **Cambio di paese:** le card compaiono una dopo l'altra salendo di poco.
+- **Cambio di paese:** banner e sfondo sfumano nel nuovo colore (~0,8–0,9 s); la sagoma del paese entra da destra con leggera rotazione (0,7 s); i numeri compaiono con una breve dissolvenza; le card compaiono una dopo l'altra salendo di poco.
 - **Scheda della società:** si apre con una breve dissolvenza dal basso.
 - I movimenti sono **brevi e leggeri**: niente rimbalzi, rotazioni o effetti lunghi.
 - Rispettare sempre l'impostazione "riduci animazioni" del computer (`prefers-reduced-motion`).
@@ -94,7 +111,7 @@ Verde lime, viola, blu acceso, gradienti multicolore, grigio freddo come sfondo 
 ## 6. Immagini e grafiche
 
 - **Solo immagini originali o con licenza d'uso libera.** Non usare foto, fermi immagine di film, meme o grafiche trovate su Pinterest o in rete senza permesso: niente volti di persone reali, niente marchi di altri.
-- Le grafiche attuali (mappa, candele, logo a globo) sono disegnate appositamente in SVG: leggere, nitide, libere da diritti.
+- Le grafiche attuali (sagome dei paesi, candele, logo a globo) sono disegnate appositamente in SVG: leggere, nitide, libere da diritti. Le sagome sono semplificate; per renderle precise usare solo dati di confini a uso libero (es. Natural Earth).
 - Foto vere solo se proprie o da siti con licenza libera (es. Unsplash, Pexels), da verificare prima della pubblicazione. Immagini generate con AI: controllare che il servizio permetta l'uso commerciale.
 - Le immagini sullo sfondo devono restare **in secondo piano**: non devono competere con le card né ridurre la leggibilità.
 
@@ -104,7 +121,7 @@ Verde lime, viola, blu acceso, gradienti multicolore, grigio freddo come sfondo 
 
 | Componente | Regole |
 |---|---|
-| Banner | Logo + nome a sinistra; link in pillole trasparenti a destra; data, titolo, tre pillole (paesi, società, data dati); barra dei paesi con ricerca e Preferiti |
+| Banner | Logo + nome a sinistra; link in pillole trasparenti a destra; frecce ‹ ›, data, titolo, tre pillole (paesi, società, data dati); a destra sagoma del paese, cambio, variazione media, "Prossimo"; barra dei paesi con ricerca e Preferiti |
 | Barra dei paesi | Paese attivo in pillola bianca con testo scuro; ricerca paese a sinistra; Preferiti fissi a destra |
 | Card società | Nome, variazione 1 anno (pillola verde/rossa), ticker e indice, stella, capitalizzazione grande, minigrafico oro con "un anno fa … oggi", etichette settore/dimensione, rischio a pallini |
 | Scheda società | Intestazione scura dorata come il banner; sezioni separate da linee sottili con titoli in maiuscoletto |
