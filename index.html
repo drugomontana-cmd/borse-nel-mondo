@@ -419,6 +419,21 @@ footer{border-top-color:rgba(243,212,138,.18)!important}
 body{background:url("img/mappa-luce.svg") center 58% / 96vw auto no-repeat fixed,radial-gradient(75% 70% at 50% 55%,#4a4b4f,#2c2d30 65%,#1c1d1f) fixed!important;background-attachment:fixed!important}
 footer,footer *,.footer-in,.footer-in a{color:#fff!important;text-shadow:0 1px 3px rgba(0,0,0,.6)}
 .hero{box-shadow:0 0 0 2px #fff,0 0 0 3px rgba(0,0,0,.15),0 20px 50px rgba(0,0,0,.45)!important}
+
+/* ===== Versione sobria: accenti oro, verde/rosso solo per salite e discese, mappa attenuata ===== */
+:root{--gold:#b8892f;--gold-2:#d9b25e;--gold-soft:#f6ecd6;--gold-ink:#6b4c12;--up:#2f7a43;--down:#b3402b}
+body{background:url("img/mappa-tenue.svg") center 58% / 96vw auto no-repeat fixed,radial-gradient(75% 70% at 50% 55%,#3a3b3f,#26272a 65%,#1a1b1d) fixed!important}
+.pill:first-child{background:var(--gold-soft)!important;color:var(--gold-ink)!important}
+.chg.up{background:#e6f2e8!important;color:#24633a!important}
+.chg.down{background:#f8e5e1!important;color:#93361f!important}
+.spark polyline{stroke:var(--gold)!important;stroke-width:1.6}
+.hchip i{background:var(--gold-2)}
+.hero .watch-btn.active .wcount{background:var(--gold-soft);color:var(--gold-ink)}
+.eyebrow{color:var(--gold-ink)}
+.fin-bar{background:linear-gradient(90deg,var(--gold),var(--gold-2))!important}
+.mhead .star-lg.on{background:var(--gold-2)!important;color:#121410!important}
+.star.on{color:var(--gold)!important}
+.hero{box-shadow:0 0 0 1px rgba(255,255,255,.55),0 20px 50px rgba(0,0,0,.45)!important}
 </style>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%2716%27 fill=%27%2345604a%27/%3E%3Cg fill=%27none%27 stroke=%27%23fff%27 stroke-width=%272%27%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%279%27/%3E%3Cpath d=%27M7 16h18M16 7c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S13.5 9.6 16 7z%27/%3E%3C/g%3E%3C/svg%3E">
 </head>
@@ -742,14 +757,14 @@ function priceChart(container, hist, currency){
   });
   // area e linea
   const line = hist.map((p, i) => `${X(i).toFixed(1)},${Y(p[1]).toFixed(1)}`).join(" ");
-  el("polygon", { points: `${X(0)},${Y(y0)} ${line} ${X(hist.length - 1)},${Y(y0)}`, fill: "#45604a", "fill-opacity": 0.1 }, svg);
-  el("polyline", { points: line, fill: "none", stroke: "#45604a", "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round" }, svg);
+  el("polygon", { points: `${X(0)},${Y(y0)} ${line} ${X(hist.length - 1)},${Y(y0)}`, fill: "#b8892f", "fill-opacity": 0.1 }, svg);
+  el("polyline", { points: line, fill: "none", stroke: "#b8892f", "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round" }, svg);
   // punto finale con etichetta
   const li = hist.length - 1;
-  el("circle", { cx: X(li), cy: Y(ys[li]), r: 4, fill: "#45604a", stroke: "#fff", "stroke-width": 2 }, svg);
+  el("circle", { cx: X(li), cy: Y(ys[li]), r: 4, fill: "#b8892f", stroke: "#fff", "stroke-width": 2 }, svg);
   // livello hover
   const cross = el("line", { y1: m.t, y2: H - m.b, stroke: "#5d6670", "stroke-width": 1, opacity: 0 }, svg);
-  const dot = el("circle", { r: 4, fill: "#45604a", stroke: "#fff", "stroke-width": 2, opacity: 0 }, svg);
+  const dot = el("circle", { r: 4, fill: "#b8892f", stroke: "#fff", "stroke-width": 2, opacity: 0 }, svg);
   const hit = el("rect", { x: m.l, y: 0, width: W - m.l - m.r, height: H, fill: "transparent" }, svg);
   const tip = document.createElement("div"); tip.className = "chart-tip";
   const tv = document.createElement("b"), td = document.createElement("span"); tip.append(tv, td);
