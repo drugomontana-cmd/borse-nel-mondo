@@ -299,29 +299,101 @@ header.intro h1{font-size:38px;margin-bottom:10px}
 .panel{animation:fade .35s ease both}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 .co:focus{outline:none}.co:focus-visible{outline:2px solid #45604a;outline-offset:3px}
+
+/* ===== Stile "velluto verde" (riferimento: dashboard con banner verde) ===== */
+:root{--bg:#eef0eb;--card:#ffffff;--soft:#f4f5f1;--ink:#121410;--muted:#6c7066;--line:#e3e6de;--accent:#121410;--accent-soft:#eef3dc;
+  --lime:#a8c437;--lime-2:#c9df5a;--lime-soft:#ebf3cc;--lime-ink:#3b4a10;--violet:#7a6cf0;--up:#4a7a14;--down:#b0432e;--size-bg:#f1f3ee;--size-ink:#555a50}
+body{background:var(--bg)}
+.hero-wrap{max-width:1150px;margin:16px auto 0;padding:0 24px}
+.hero{position:relative;border-radius:22px;overflow:hidden;color:#fff;padding:20px 22px 16px;
+  background:linear-gradient(90deg,rgba(8,12,4,.55),rgba(8,12,4,.15) 55%,rgba(8,12,4,0)),repeating-linear-gradient(90deg,rgba(255,255,255,0) 0,rgba(255,255,255,.09) 4px,rgba(0,0,0,.10) 11px,rgba(255,255,255,0) 17px),repeating-linear-gradient(90deg,rgba(0,0,0,0) 0,rgba(0,0,0,.07) 29px,rgba(255,255,255,.05) 41px,rgba(0,0,0,0) 53px),
+    radial-gradient(55% 95% at 72% 35%,rgba(222,234,120,.95),rgba(190,210,70,.35) 45%,rgba(0,0,0,0) 75%),
+    radial-gradient(35% 80% at 92% 90%,rgba(170,198,52,.75),rgba(0,0,0,0) 70%),
+    radial-gradient(45% 70% at 38% 110%,rgba(120,150,30,.7),rgba(0,0,0,0) 70%),
+    linear-gradient(90deg,#141b0b 0%,#1f2a0f 30%,#33431a 60%,#52691f 100%)}
+.hero-top{display:flex;align-items:center;gap:14px}
+.hero .brand{color:#fff}
+.hero .logo{background:rgba(255,255,255,.16);backdrop-filter:blur(6px);box-shadow:inset 0 0 0 1px rgba(255,255,255,.25)}
+.hero .logo svg{stroke:#fff}
+.hero .brand-name{color:#fff}
+.hero .topnav{margin-left:auto;margin-right:0;gap:6px}
+.hero .topnav a{color:rgba(255,255,255,.78);font-size:12.5px;letter-spacing:.02em;text-transform:none;font-weight:500;padding:7px 13px;border-radius:99px;background:rgba(255,255,255,.08);box-shadow:inset 0 0 0 1px rgba(255,255,255,.14);transition:background .2s}
+.hero .topnav a:hover,.hero .topnav a.here{color:#fff;background:rgba(255,255,255,.2)}
+.hero .demo-badge{color:#fff!important;border-color:rgba(255,255,255,.35)!important}
+.hero-date{margin-top:30px;font-size:12.5px;color:rgba(255,255,255,.72);text-transform:capitalize}
+.hero h1{font-size:40px;line-height:1.08;font-weight:400;letter-spacing:-.02em;margin:6px 0 14px;color:#fff;text-align:left}
+.hero h1 em{font-weight:700;font-style:italic}
+.hero-chips{display:flex;gap:8px;flex-wrap:wrap}
+.hchip{display:inline-flex;align-items:center;gap:6px;font-size:12px;padding:5px 11px;border-radius:99px;background:rgba(10,14,6,.45);box-shadow:inset 0 0 0 1px rgba(255,255,255,.12);color:#fff}
+.hchip i{width:7px;height:7px;border-radius:50%;background:var(--lime-2)}
+.hchip b{font-weight:600}
+.hero .updated::before,.hero #updated::before{display:none}
+.hero .countries{gap:4px;background:rgba(10,14,6,.28);backdrop-filter:blur(8px);border:0;box-shadow:inset 0 0 0 1px rgba(255,255,255,.12);margin:26px 0 0;padding:5px}
+.hero .country-btn{color:rgba(255,255,255,.82)}
+.hero .country-btn:hover{background:rgba(255,255,255,.12);color:#fff}
+.hero .country-btn.active{background:#fff!important;color:#121410!important;border-color:#fff!important}
+.hero .csearch{flex-basis:132px}.hero .csearch input{background:#fff;border:0;color:#121410}
+.hero .country-btn{padding:8px 9px}
+.hero #watchTab{border-left-color:rgba(255,255,255,.18)}
+.hero .watch-btn .wcount{background:rgba(255,255,255,.2);color:#fff}
+.hero .watch-btn.active .wcount{background:var(--lime-soft);color:var(--lime-ink)}
+.hero .flg{box-shadow:0 0 0 1px rgba(255,255,255,.25)}
+main{padding-top:22px}
+/* card e pannelli */
+.panel,.filters,.co{background:#fff;border-color:transparent;box-shadow:0 1px 2px rgba(18,20,16,.04)}
+.co:hover,.co:focus-visible{border-color:transparent;box-shadow:0 16px 36px rgba(18,20,16,.12)}
+.co .capv b{font-size:24px;letter-spacing:-.03em}
+.dec{color:#a7aba0}
+.chg{padding:2px 8px!important;border-radius:99px;font-size:11.5px}
+.chg.up{background:var(--lime-soft)!important;color:var(--lime-ink)}
+.chg.down{background:#f7e4df!important;color:#93361f}
+.chg small{opacity:.75}
+.pill:first-child{background:var(--lime-soft)!important;color:var(--lime-ink)!important}
+.spark polyline{stroke:#5d7a14;stroke-width:1.5}
+.eyebrow{color:var(--lime-ink)}
+.btn-ghost.on,.star-lg.on,.presets button:hover{background:#121410!important;color:#fff!important;border-color:#121410!important}
+.star.on{color:#8aa61f}
+.fin-bar{background:linear-gradient(90deg,var(--lime),var(--lime-2));opacity:1}
+select,.search input{background:var(--soft);border-color:transparent}
+.panel h2{border-bottom-color:var(--line)}
+/* scheda */
+.modal{padding-top:0;overflow:hidden;background:#fff}
+.mhead{margin:0 -32px 6px;padding:34px 32px 22px;color:#fff;
+  background:linear-gradient(90deg,rgba(8,12,4,.6),rgba(8,12,4,.1) 60%,rgba(8,12,4,0)),repeating-linear-gradient(90deg,rgba(255,255,255,0) 0,rgba(255,255,255,.09) 4px,rgba(0,0,0,.10) 11px,rgba(255,255,255,0) 17px),repeating-linear-gradient(90deg,rgba(0,0,0,0) 0,rgba(0,0,0,.07) 29px,rgba(255,255,255,.05) 41px,rgba(0,0,0,0) 53px),
+    radial-gradient(55% 95% at 72% 35%,rgba(222,234,120,.95),rgba(190,210,70,.35) 45%,rgba(0,0,0,0) 75%),
+    radial-gradient(35% 80% at 92% 90%,rgba(170,198,52,.75),rgba(0,0,0,0) 70%),
+    radial-gradient(45% 70% at 38% 110%,rgba(120,150,30,.7),rgba(0,0,0,0) 70%),
+    linear-gradient(90deg,#141b0b 0%,#1f2a0f 30%,#33431a 60%,#52691f 100%)}
+.mhead h3{color:#fff;font-size:32px}
+.mhead .ticker{color:rgba(255,255,255,.75)!important}
+.mhead .pill{background:rgba(10,14,6,.45)!important;color:#fff!important;box-shadow:inset 0 0 0 1px rgba(255,255,255,.14)}
+.mhead .star-lg{background:#fff;color:#121410;border:0}
+.mhead .star-lg.on{background:var(--lime-2)!important;color:#121410!important}
+.mhead .flg{box-shadow:0 0 0 1px rgba(255,255,255,.3)}
+.close{background:rgba(255,255,255,.18)!important;color:#fff;backdrop-filter:blur(6px);z-index:2}
+.modal h4:first-of-type{border-top:0}
+.mkt div{background:var(--soft);border-color:transparent}
 </style>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%2716%27 fill=%27%2345604a%27/%3E%3Cg fill=%27none%27 stroke=%27%23fff%27 stroke-width=%272%27%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%279%27/%3E%3Cpath d=%27M7 16h18M16 7c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S13.5 9.6 16 7z%27/%3E%3C/g%3E%3C/svg%3E">
 </head>
 <body>
-<div class="topbar"><div class="topbar-in">
+<div class="hero-wrap"><section class="hero">
+  <div class="hero-top">
   <a class="brand" href="index.html"><span class="logo"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg></span><span class="brand-name">Borse del Mondo</span></a>
   <nav class="topnav"><a href="index.html" class="here">Mercati</a><a href="metodo.html">Metodo e fonti</a><a href="chi-siamo.html">Chi siamo</a></nav>
   <span class="demo-badge">Demo</span>
-</div></div>
-<header class="intro">
-  <div class="eyebrow">Mercati azionari internazionali</div>
-  <h1><span class="h-light">Le borse del mondo,</span><br>spiegate per chi investe dall'Italia</h1>
-  <p class="tag">Società quotate nei mercati meno conosciuti: cosa fanno, chi le guida, quanto rischiano e come comprarle.</p>
-  <div class="updated" id="updated"></div>
-</header>
-
-<main>
+  </div>
+  <div class="hero-date" id="today"></div>
+  <h1>Le borse del mondo,<br><em>spiegate per chi investe dall'Italia</em></h1>
+  <div class="hero-chips"><span class="hchip"><i></i><b id="nCountries">8</b> paesi</span><span class="hchip"><i></i><b id="nCompanies">160</b> società</span><span class="hchip" id="updated"></span></div>
   <div class="countries">
     <div class="csearch"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
       <input id="cq" type="search" placeholder="Cerca paese" title="Scrivi il nome e premi Invio" autocomplete="off" aria-label="Cerca un paese"></div>
     <div class="chips" id="countries"></div>
     <div id="watchTab"></div>
   </div>
+</section></div>
+<main>
   <div class="layout">
     <aside class="panel" id="guide"></aside>
     <section>
@@ -423,8 +495,11 @@ async function load(){
   DATA = { brokers, financials, countries: countries.countries, italyTax: countries.italy_tax, italyTaxRate: countries.italy_tax_rate,
            legalRefs: countries.legal_refs || [], contentChecked: countries.content_checked, companies, market };
   current = Object.keys(DATA.countries)[0];
+  $("nCountries").textContent = Object.keys(DATA.countries).length;
+  $("nCompanies").textContent = DATA.companies.length;
+  $("today").textContent = new Date().toLocaleDateString("it-IT", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
   $("updated").textContent = market.updated_at
-    ? `Dati di mercato aggiornati al ${dateIt(market.updated_at)}`
+    ? `Dati al ${dateIt(market.updated_at)}`
     : "Dati di mercato non ancora collegati: avvia lo script di aggiornamento.";
   render();
 }
@@ -814,10 +889,12 @@ function openCo(id){
   const x = DATA.companies.find(c => c.id === id), g = DATA.countries[x.country];
   $("modal").innerHTML = `
     <button class="close" aria-label="Chiudi" id="closeBtn">×</button>
+    <div class="mhead">
     <h3>${esc(x.name)}</h3>
     <div class="ticker" style="margin-top:4px">${esc(x.ticker)} · ${esc(g.exchange.split(" ")[0])} · ${flag(x.country)} ${esc(g.name)}</div>
     <div class="pills" style="align-items:center"><span class="pill">${esc(x.sector)}</span><span class="pill size">${esc(sizeOf(x))}</span><span class="pill">${esc(x.index)}</span>
       <button class="star-lg ${WATCH.has(x.id) ? "on" : ""}" id="watchBtn">${WATCH.has(x.id) ? "★ Nei preferiti" : "☆ Aggiungi ai preferiti"}</button></div>
+    </div>
 
     <h4>Cosa fa</h4><p>${esc(x.description)}</p>
 
