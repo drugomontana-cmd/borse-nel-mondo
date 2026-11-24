@@ -103,3 +103,7 @@ Calcolato a ogni aggiornamento in `scripts/update_data.py` (funzione `compute_ri
 | Paese e accesso | 20% | valore fisso per paese in `data/countries.json` |
 
 Gli eventi documentati in `data/companies.json` (campo `events`) aggiungono +0,25, +0,5 o +1 in base alla gravità (bassa, media, alta). L'indicatore confronta le società tra loro e non è un consiglio d'investimento.
+
+## Grafica
+
+Le regole di design del sito (colori, caratteri, movimenti, immagini) sono in [DESIGN.md](DESIGN.md). Vanno seguite per ogni modifica grafica.
