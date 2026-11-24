@@ -89,7 +89,8 @@ Verde lime, viola, blu acceso, gradienti multicolore, grigio freddo come sfondo 
 
 ## 4. Forme e spaziature
 
-- Angoli arrotondati: banner e card **16–22 px**, pannelli **16 px**, campi e pulsanti a **pillola** (99 px), etichette 99 px.
+- **Angoli vivi (0 px)** per: card delle società, pannello del paese, barra dei filtri (e i suoi campi), scheda della società e tutti i riquadri al suo interno, etichette dentro card/pannelli/scheda.
+- Restano **arrotondati** solo il banner in alto (22 px) e gli elementi al suo interno (pillole, barra dei paesi, frecce).
 - Card in griglia da 3 colonne, spazio tra card ~14 px.
 - Ombre morbide e poco marcate. Niente bordi spessi.
 - Bandiere: piccole bandiere disegnate (21×14 px, angoli 2,5 px), mai emoji (su Windows non si vedono).
@@ -123,7 +124,7 @@ Verde lime, viola, blu acceso, gradienti multicolore, grigio freddo come sfondo 
 |---|---|
 | Banner | Logo + nome a sinistra; link in pillole trasparenti a destra; frecce ‹ ›, data, titolo, tre pillole (paesi, società, data dati); a destra sagoma del paese, cambio, variazione media, "Prossimo"; barra dei paesi con ricerca e Preferiti |
 | Barra dei paesi | Paese attivo in pillola bianca con testo scuro; ricerca paese a sinistra; Preferiti fissi a destra |
-| Card società | Nome, variazione 1 anno (pillola verde/rossa), ticker e indice, stella, capitalizzazione grande, minigrafico oro con "un anno fa … oggi", etichette settore/dimensione, rischio a pallini |
+| Card società | Icona del settore (disegnata, quadrata su fondo oro chiaro) + nome (max 2 righe) + ticker e indice + stella; capitalizzazione grande con accanto la variazione 1 anno; minigrafico oro con sfumatura e puntino su "oggi"; fascia di tre numeri **Dividendo · P/E · Rischio** (rischio a barretta di 5 segmenti: verde 1–2, oro 3, rosso 4–5); etichette settore/dimensione in fondo. Tutte le card della stessa altezza |
 | Scheda società | Intestazione scura dorata come il banner; sezioni separate da linee sottili con titoli in maiuscoletto |
 | Pagine Metodo e Chi siamo | Stessa striscia dorata in alto; testo dentro un riquadro bianco centrato |
 

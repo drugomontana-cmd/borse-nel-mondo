@@ -474,6 +474,38 @@ body{background:transparent!important}
 footer,footer *,.footer-in,.footer-in a{color:#1d1812!important;text-shadow:none!important}
 footer{border-top-color:rgba(0,0,0,.12)!important}
 .panel,.filters,.co{box-shadow:0 1px 3px rgba(40,25,10,.08),0 0 0 1px rgba(40,25,10,.05)!important}
+
+/* ===== card delle società: angoli vivi, icona settore, numeri chiave ===== */
+.co{border-radius:0!important;display:flex;flex-direction:column}
+.co-top{align-items:flex-start;gap:9px}
+.secicon{flex:none;width:30px;height:30px;border-radius:0;background:#f6ecd6;color:#6b4c12;display:flex;align-items:center;justify-content:center;margin-top:1px}
+.secicon svg{width:17px;height:17px}
+.co .name{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.6em;flex:1}
+.nm{flex:1;min-width:0}.nm .ticker{margin-top:3px}
+.caprow{display:flex;justify-content:space-between;align-items:flex-end;gap:8px;margin-top:10px}.caprow .capv{margin-top:0}.caprow .chg{margin-bottom:4px}
+.sparkw{position:relative;margin-top:8px}
+.sparkw .spark{display:block}
+.sdot{position:absolute;right:-3px;width:7px;height:7px;margin-top:-3.5px;border-radius:50%;background:#b8892f;box-shadow:0 0 0 2px #fff}
+.kpis{display:grid;grid-template-columns:1fr 1fr 1.2fr;margin:12px 0 10px;border-top:1px solid #ece7dc;border-bottom:1px solid #ece7dc}
+.kpis div{padding:8px 0 7px;display:flex;flex-direction:column;gap:2px}
+.kpis div+div{padding-left:10px;border-left:1px solid #ece7dc}
+.kpis span{font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:#23251f}
+.kpis b{font-size:15.5px;font-weight:600;display:flex;align-items:center;gap:6px}
+.rbar{display:inline-flex;gap:2px}
+.rbar i{width:7px;height:10px;background:#e7e1d4;display:block}
+.rbar i.on{background:#b8892f}
+.rbar i.on.l4,.rbar i.on.l5{background:#b3402b}
+.rbar i.on.l1,.rbar i.on.l2{background:#2f7a43}
+.co .pills{margin-top:auto}
+.co .pill{border-radius:0!important}
+.chg{border-radius:0!important}
+.co:hover,.co:focus-visible{transform:translateY(-3px) scale(1.03)}
+
+/* angoli vivi anche per pannello, filtri e scheda */
+.panel,.filters,.modal,.mhead,.mkt div,.riskbox,.invest,.inv-table,.fin-table,.wtable,.warnbox,.calc,.event{border-radius:0!important}
+.filters select,.filters .search input,.btn-ghost,.presets button,.star-lg,.invest input{border-radius:0!important}
+.modal .pill,.panel .pill{border-radius:0!important}
+.close{border-radius:0!important}
 </style></head>
 <body>
 <div id="pagebg"></div>
@@ -771,11 +803,15 @@ function renderList(){
     const ch = m && pct(m.change_1y);
     return `
     <div class="co" role="button" tabindex="0" data-id="${esc(x.id)}" style="--i:${Math.min(idx, 18)}">
-      <div class="co-top"><div class="name">${esc(x.name)}</div>${ch ? `<span class="chg ${m.change_1y >= 0 ? "up" : "down"}" title="Variazione in 1 anno">${ch}<small> 1 anno</small></span>` : ""}</div>
-      <div class="co-sub"><div class="ticker">${mixed ? flag(x.country) + " " : ""}${esc(x.ticker)} · ${esc(x.index)}</div><button class="star ${WATCH.has(x.id) ? "on" : ""}" data-star="${esc(x.id)}" aria-pressed="${WATCH.has(x.id)}" title="${WATCH.has(x.id) ? "Togli dai preferiti" : "Aggiungi ai preferiti"}">${WATCH.has(x.id) ? "★" : "☆"}</button></div>
-      ${cap ? `<div class="capv">Capitalizzazione <b>${twoTone(cap)}</b></div>` : ""}
+      <div class="co-top">${secIcon(x.sector)}<div class="nm"><div class="name">${esc(x.name)}</div><div class="ticker">${mixed ? flag(x.country) + " " : ""}${esc(x.ticker)} · ${esc(x.index)}</div></div><button class="star ${WATCH.has(x.id) ? "on" : ""}" data-star="${esc(x.id)}" aria-pressed="${WATCH.has(x.id)}" title="${WATCH.has(x.id) ? "Togli dai preferiti" : "Aggiungi ai preferiti"}">${WATCH.has(x.id) ? "★" : "☆"}</button></div>
+      <div class="caprow">${cap ? `<div class="capv">Capitalizzazione <b>${twoTone(cap)}</b></div>` : "<div></div>"}${ch ? `<span class="chg ${m.change_1y >= 0 ? "up" : "down"}" title="Variazione in 1 anno">${ch}<small> 1 anno</small></span>` : ""}</div>
       ${m && m.history && !(m.hidden_fields || []).includes("price") ? sparkline(m.history) + `<div class="spark-axis"><span>un anno fa</span><span>oggi</span></div>` : ""}
-      <div class="pills"><span class="pill">${esc(x.sector)}</span><span class="pill size">${esc(sizeOf(x))}</span>${m && m.risk ? `<span class="pill risk" title="Livello di rischio ${m.risk.level} su 5: ${esc(m.risk.label)}">Rischio <span class="mini-dots">${dots(m.risk.level, true)}</span></span>` : ""}${m && m.warnings && m.warnings.length ? `<span class="pill warn">⚠ da verificare</span>` : ""}</div>
+      <div class="kpis">
+        <div><span>Dividendo</span><b>${m && m.dividend_yield != null && !(m.hidden_fields || []).includes("dividend_yield") ? nf(m.dividend_yield * 100, 1) + "%" : "—"}</b></div>
+        <div><span>P/E</span><b>${m && m.pe != null && m.pe > 0 && !(m.hidden_fields || []).includes("pe") ? nf(m.pe, 1) : "—"}</b></div>
+        <div><span>Rischio</span>${m && m.risk ? `<b title="${esc(m.risk.label)}">${riskBar(m.risk)}${m.risk.level}/5</b>` : "<b>—</b>"}</div>
+      </div>
+      <div class="pills"><span class="pill">${esc(x.sector)}</span><span class="pill size">${esc(sizeOf(x))}</span></div>
     </div>`;
   }).join("") : `<p class="empty">${current === "__watch" && !q && !WATCH.size ? "Non hai ancora preferiti: clicca la stella ☆ su una società." : "Nessuna società con questi filtri."}</p>`;
   document.querySelectorAll(".co").forEach(b => {
@@ -798,16 +834,26 @@ function niceTicks(min, max, n){
 const fmtPrice = v => nf(v, v >= 1000 ? 0 : 2);
 const monthIt = d => new Date(d).toLocaleDateString("it-IT", { month: "short" });
 
+const SECTOR_ICON = {"Finanza": "<path d=\"M3 10h18M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20h18M12 3l9 5H3z\"/>", "Tecnologia": "<rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"1\"/><path d=\"M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4\"/>", "Distribuzione": "<path d=\"M3 4h2l2.5 11h11L21 7H6.5\"/><circle cx=\"9\" cy=\"19\" r=\"1.5\"/><circle cx=\"17\" cy=\"19\" r=\"1.5\"/>", "Beni di consumo": "<path d=\"M5 8h14l-1 12H6z\"/><path d=\"M9 8V6a3 3 0 0 1 6 0v2\"/>", "Salute": "<path d=\"M9 3h6v6h6v6h-6v6H9v-6H3V9h6z\"/>", "Turismo e trasporti": "<path d=\"M2 16l20-8-3 9-6-1-3 4-1-5z\"/>", "Materiali": "<path d=\"M3 20l5-10 4 6 3-4 6 8z\"/><path d=\"M8 10l2-4\"/>", "Industria": "<path d=\"M3 21V11l6 3V11l6 3V6h4v15z\"/>", "Energia": "<path d=\"M13 2L5 14h6l-1 8 8-12h-6z\"/>", "Abbigliamento": "<path d=\"M8 3l4 3 4-3 5 4-3 3v11H6V10L3 7z\"/>", "Telecomunicazioni": "<path d=\"M12 20v-8\"/><path d=\"M8.5 8.5a5 5 0 0 1 7 0M5.5 5.5a9 9 0 0 1 13 0\"/><circle cx=\"12\" cy=\"12\" r=\"1.5\"/>", "Immobiliare": "<path d=\"M3 11l9-7 9 7v10H3z\"/><path d=\"M10 21v-6h4v6\"/>", "Conglomerato": "<rect x=\"3\" y=\"3\" width=\"8\" height=\"8\"/><rect x=\"13\" y=\"3\" width=\"8\" height=\"8\"/><rect x=\"3\" y=\"13\" width=\"8\" height=\"8\"/><rect x=\"13\" y=\"13\" width=\"8\" height=\"8\"/>"};
+function secIcon(sec){ const p = SECTOR_ICON[sec]; return p ? `<span class="secicon" title="${esc(sec)}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${p}</svg></span>` : ""; }
+function riskBar(r){ let h = ""; for (let i = 1; i <= 5; i++) h += `<i class="${i <= r.level ? "on l" + r.level : ""}"></i>`; return `<span class="rbar">${h}</span>`; }
 function twoTone(t){
   const m = String(t).match(/^([^,]*)(,.*)$/);
   return m ? `${m[1]}<span class="dec">${m[2]}</span>` : t;
 }
 function sparkline(hist){
   if (!hist || hist.length < 2) return "";
-  const w = 200, h = 28, ys = hist.map(p => p[1]), lo = Math.min(...ys), hi = Math.max(...ys), r = hi - lo || 1;
-  const pts = hist.map((p, i) => `${(i / (hist.length - 1) * w).toFixed(1)},${(h - 2 - (p[1] - lo) / r * (h - 4)).toFixed(1)}`).join(" ");
-  return `<svg class="spark" viewBox="0 0 ${w} ${h}" width="100%" height="${h}" preserveAspectRatio="none" aria-hidden="true"><polyline points="${pts}" fill="none" stroke="#2a2a2a" stroke-width="1.25" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg>`;
+  const w = 200, h = 34, ys = hist.map(p => p[1]), lo = Math.min(...ys), hi = Math.max(...ys), r = hi - lo || 1;
+  const P = hist.map((p, i) => [i / (hist.length - 1) * w, h - 3 - (p[1] - lo) / r * (h - 7)]);
+  const pts = P.map(p => p[0].toFixed(1) + "," + p[1].toFixed(1)).join(" ");
+  const last = P[P.length - 1], gid = "sg" + (++sparkline.n);
+  return `<div class="sparkw"><svg class="spark" viewBox="0 0 ${w} ${h}" width="100%" height="${h}" preserveAspectRatio="none" aria-hidden="true">
+    <defs><linearGradient id="${gid}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b8892f" stop-opacity=".28"/><stop offset="1" stop-color="#b8892f" stop-opacity="0"/></linearGradient></defs>
+    <polygon points="0,${h} ${pts} ${w},${h}" fill="url(#${gid})"/>
+    <polyline points="${pts}" fill="none" stroke="#b8892f" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg>
+    <span class="sdot" style="top:${(last[1] / h * 100).toFixed(1)}%"></span></div>`;
 }
+sparkline.n = 0;
 
 function priceChart(container, hist, currency){
   container.textContent = "";
