@@ -252,6 +252,19 @@ select{border-radius:99px;padding:0 14px;background:var(--soft)}
 .close{border-radius:99px}
 footer{background:transparent}
 a{color:var(--ink)}
+
+/* ===== Palette salvia ===== */
+:root{--bg:#efede6;--card:#fbfaf6;--soft:#f3f1ea;--ink:#1b1f1a;--muted:#6a6b63;--line:#e0ddd3;--accent:#45604a;--accent-soft:#e6eadf;--size-bg:#f0eee7;--size-ink:#5f6159;--mark:#45604a;--mark-ink:#ffffff}
+.country-btn.active,.demo-badge,.btn-ghost.on,.star-lg.on{background:#45604a;color:#fff;border-color:#45604a}
+.logo{background:#45604a}.logo svg{stroke:#fff}
+.h-light{color:#56634f}
+.dec{color:#8d9589}
+.spark polyline{stroke:#45604a}
+.pill:first-child{background:#e6eadf;color:#3c5340}
+.updated::before{background:#45604a}
+.eyebrow{color:#45604a}
+.star.on{color:#45604a}
+.fin-bar{background:#45604a}
 </style>
 </head>
 <body>
@@ -566,14 +579,14 @@ function priceChart(container, hist, currency){
   });
   // area e linea
   const line = hist.map((p, i) => `${X(i).toFixed(1)},${Y(p[1]).toFixed(1)}`).join(" ");
-  el("polygon", { points: `${X(0)},${Y(y0)} ${line} ${X(hist.length - 1)},${Y(y0)}`, fill: "#141414", "fill-opacity": 0.1 }, svg);
-  el("polyline", { points: line, fill: "none", stroke: "#141414", "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round" }, svg);
+  el("polygon", { points: `${X(0)},${Y(y0)} ${line} ${X(hist.length - 1)},${Y(y0)}`, fill: "#45604a", "fill-opacity": 0.1 }, svg);
+  el("polyline", { points: line, fill: "none", stroke: "#45604a", "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round" }, svg);
   // punto finale con etichetta
   const li = hist.length - 1;
-  el("circle", { cx: X(li), cy: Y(ys[li]), r: 4, fill: "#141414", stroke: "#fff", "stroke-width": 2 }, svg);
+  el("circle", { cx: X(li), cy: Y(ys[li]), r: 4, fill: "#45604a", stroke: "#fff", "stroke-width": 2 }, svg);
   // livello hover
   const cross = el("line", { y1: m.t, y2: H - m.b, stroke: "#5d6670", "stroke-width": 1, opacity: 0 }, svg);
-  const dot = el("circle", { r: 4, fill: "#141414", stroke: "#fff", "stroke-width": 2, opacity: 0 }, svg);
+  const dot = el("circle", { r: 4, fill: "#45604a", stroke: "#fff", "stroke-width": 2, opacity: 0 }, svg);
   const hit = el("rect", { x: m.l, y: 0, width: W - m.l - m.r, height: H, fill: "transparent" }, svg);
   const tip = document.createElement("div"); tip.className = "chart-tip";
   const tv = document.createElement("b"), td = document.createElement("span"); tip.append(tv, td);
