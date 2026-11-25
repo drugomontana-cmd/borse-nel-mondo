@@ -124,7 +124,7 @@ Verde lime, viola, blu acceso, gradienti multicolore, grigio freddo come sfondo 
 |---|---|
 | Banner | Logo + nome a sinistra; link in pillole trasparenti a destra; frecce ‹ ›, data, titolo, tre pillole (paesi, società, data dati); a destra sagoma del paese, cambio, variazione media, "Prossimo"; barra dei paesi con ricerca e Preferiti |
 | Barra dei paesi | Paese attivo in pillola bianca con testo scuro; ricerca paese a sinistra; Preferiti fissi a destra |
-| Card società | Icona del settore (disegnata, quadrata su fondo oro chiaro) + nome (max 2 righe) + ticker e indice + stella; capitalizzazione grande con accanto la variazione 1 anno; minigrafico oro con sfumatura e puntino su "oggi"; fascia di tre numeri **Dividendo · P/E · Rischio** (rischio a barretta di 5 segmenti: verde 1–2, oro 3, rosso 4–5); etichette settore/dimensione in fondo. Tutte le card della stessa altezza |
+| Card società | Compatta: filo in alto (3 px) nel colore del paese; icona del settore in quadratino oro chiaro + nome (max 2 righe); capitalizzazione grande; etichette settore e dimensione. Niente altro: variazioni, dividendo, rischio, preferiti e confronto stanno nella scheda. Niente loghi delle aziende |
 | Scheda società | Intestazione scura dorata come il banner; sezioni separate da linee sottili con titoli in maiuscoletto |
 | Scheda società | Fascia fissa con prezzo, 1 anno locale, 1 anno in euro, dividendo, capitalizzazione; sezioni a schede: Panoramica · Dividendi · Bilanci · Rischio · Società simili · Come comprarla |
 | Dividendi | Barre per anno: ordinario oro `#b8892f`, probabile straordinario viola `#7a4f9e`, anno in corso tratteggiato; avvisi con barra a sinistra (rosso riduzione/sospensione, verde aumento, ambra da verificare) |
