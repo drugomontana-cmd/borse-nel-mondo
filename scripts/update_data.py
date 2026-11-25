@@ -31,6 +31,7 @@ ROOT = Path(__file__).resolve().parent.parent
 COMPANIES_FILE = ROOT / "data" / "companies.json"
 MARKET_FILE = ROOT / "data" / "market.json"
 FINANCIALS_FILE = ROOT / "data" / "financials.json"
+EXTRAS_FILE = ROOT / "data" / "extras.json"
 
 ECB_URL = "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
 PAUSE_SECONDS = 1.0  # pausa tra una richiesta e l'altra, per non sovraccaricare le fonti
@@ -165,6 +166,12 @@ def fetch_yahoo(symbol):
     if market_cap is None and shares and price:
         market_cap = shares * price
 
+    extras = {}
+    try:
+        extras = extract_extras(t, info, currency)
+    except Exception as exc:
+        print(f"    dati aggiuntivi non disponibili per {symbol}: {exc}")
+
     financials = None
     try:
         financials = extract_financials(t, info)
@@ -173,6 +180,7 @@ def fetch_yahoo(symbol):
 
     return {
         "financials": financials,
+        "extras": extras,
         "history": weekly_history(closes),
         "source": "Yahoo Finance",
         "price": price,
@@ -184,6 +192,62 @@ def fetch_yahoo(symbol):
         "avg_volume": avg_volume,
         "last_trade_date": closes.index[-1].strftime("%Y-%m-%d"),
     }
+
+
+ISIN_RE = __import__("re").compile(r"^[A-Z]{2}[A-Z0-9]{9}[0-9]$")
+
+
+def isin_ok(code):
+    """Controlla formato e cifra di controllo di un ISIN."""
+    if not code or not ISIN_RE.match(code):
+        return False
+    digits = "".join(str(int(ch, 36)) for ch in code[:-1])
+    total = 0
+    for i, d in enumerate(reversed(digits)):
+        n = int(d)
+        if i % 2 == 0:
+            n *= 2
+            if n > 9:
+                n -= 9
+        total += n
+    return (10 - total % 10) % 10 == int(code[-1])
+
+
+def extract_extras(t, info, currency):
+    """Storico dividendi (circa 6 anni), payout ratio e ISIN."""
+    minor = (currency or info.get("currency")) in ("ZAc", "GBp", "GBX", "ILA")
+    out = {"payout_ratio": clean(info.get("payoutRatio")), "dividends": [], "isin": None}
+    try:
+        dv = t.dividends
+        if dv is not None and not dv.empty:
+            cutoff = dv.index[-1] - __import__("pandas").DateOffset(years=6)
+            for d, v in dv[dv.index >= cutoff].items():
+                v = clean(v)
+                if v:
+                    out["dividends"].append([d.strftime("%Y-%m-%d"), round(v / 100 if minor else v, 6)])
+    except Exception as exc:
+        print(f"    storico dividendi non disponibile: {exc}")
+    try:
+        code = t.isin
+        if isin_ok(code):
+            out["isin"] = code
+    except Exception:
+        pass
+    return out
+
+
+def fetch_fx_year_ago(codes):
+    """Cambio EUR/<valuta> di circa un anno fa (Yahoo), per il rendimento in euro."""
+    import yfinance as yf
+    out = {}
+    for code in codes:
+        try:
+            h = yf.Ticker(f"EUR{code}=X").history(period="1y")
+            if h is not None and not h.empty:
+                out[code] = clean(h["Close"].dropna().iloc[0])
+        except Exception as exc:
+            print(f"    cambio di un anno fa non disponibile per {code}: {exc}")
+    return out
 
 
 def extract_financials(t, info):
@@ -522,6 +586,13 @@ def run(fetch_yahoo=fetch_yahoo, fetch_vnstock=fetch_vnstock,
         except Exception:
             previous_fin = {}
     financials = {}
+    previous_ext = {}
+    if EXTRAS_FILE.exists():
+        try:
+            previous_ext = json.loads(EXTRAS_FILE.read_text(encoding="utf-8")).get("companies", {})
+        except Exception:
+            previous_ext = {}
+    extras = {}
 
     results, ok, failed = {}, 0, []
     for c in companies:
@@ -536,6 +607,17 @@ def run(fetch_yahoo=fetch_yahoo, fetch_vnstock=fetch_vnstock,
                 raw = fetch_vnstock(c["ticker"])
             except Exception as exc:
                 print(f"    vnstock errore: {exc}")
+
+        ext = raw.pop("extras", None) if raw else None
+        prev_e = previous_ext.get(c["id"], {})
+        if ext:
+            if not ext.get("isin") and prev_e.get("isin"):
+                ext["isin"] = prev_e["isin"]
+            if not ext.get("dividends") and prev_e.get("dividends"):
+                ext["dividends"] = prev_e["dividends"]
+            extras[c["id"]] = {**ext, "checked": date.today().isoformat()}
+        elif prev_e:
+            extras[c["id"]] = prev_e
 
         fin = raw.pop("financials", None) if raw else None
         if fin:
@@ -587,6 +669,14 @@ def run(fetch_yahoo=fetch_yahoo, fetch_vnstock=fetch_vnstock,
         "companies": financials,
     }, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Bilanci disponibili: {len(financials)} società")
+    fx_year = fetch_fx_year_ago(sorted(set(country_currency.values())))
+    EXTRAS_FILE.write_text(json.dumps({
+        "updated_at": output["updated_at"],
+        "source": "Yahoo Finance (dividendi pagati, payout ratio, ISIN)",
+        "fx_year_ago_per_eur": fx_year,
+        "companies": extras,
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"Dati aggiuntivi: {len(extras)} società, ISIN trovati {sum(1 for e in extras.values() if e.get('isin'))}")
     print(f"\nAggiornate {ok} società su {len(companies)}.")
     if failed:
         print("Senza dati nuovi:", ", ".join(failed))
