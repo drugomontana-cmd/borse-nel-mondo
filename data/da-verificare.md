@@ -6,5 +6,3 @@ indipendente e poi confermarlo, correggerlo o nasconderlo in `data/verifiche.jso
 | Società | Codice | Problema |
 |---|---|---|
 | Hana Microelectronics (`thailandia-hana`) | `variazione_estrema` | Variazione a un anno estrema |
-| Petrobras (`brasile-petr4`) | `dividendo_alto` | Rendimento del dividendo insolitamente alto |
-| Yangzijiang Shipbuilding (`singapore-bs6`) | `cap_mancante` | Capitalizzazione non disponibile |

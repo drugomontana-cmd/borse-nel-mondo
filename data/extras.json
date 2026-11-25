@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T02:07:04Z",
+  "updated_at": "2026-11-25T18:20:48Z",
   "source": "Yahoo Finance (dividendi pagati, payout ratio, ISIN)",
   "fx_year_ago_per_eur": {
     "AUD": 1.7814699411392212,
@@ -2292,7 +2292,7 @@
       "checked": "2026-11-25"
     },
     "brasile-mglu3": {
-      "payout_ratio": 0.2281,
+      "payout_ratio": 0.22950001,
       "dividends": [
         [
           "2020-07-31",
@@ -3192,10 +3192,6 @@
       "payout_ratio": 0.6996,
       "dividends": [
         [
-          "2020-10-22",
-          0.65
-        ],
-        [
           "2021-03-11",
           0.75
         ],
@@ -3238,6 +3234,10 @@
         [
           "2026-03-16",
           0.75
+        ],
+        [
+          "2026-11-26",
+          0.25
         ]
       ],
       "isin": null,
@@ -6925,7 +6925,7 @@
       "checked": "2026-11-25"
     },
     "sudafrica-mrp": {
-      "payout_ratio": 0.65129995,
+      "payout_ratio": 0.65,
       "dividends": [
         [
           "2020-12-15",
@@ -7737,7 +7737,7 @@
       "checked": "2026-11-25"
     },
     "australia-mqg": {
-      "payout_ratio": null,
+      "payout_ratio": 0.6699,
       "dividends": [
         [
           "2020-11-16",
