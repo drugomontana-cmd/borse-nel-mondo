@@ -608,7 +608,15 @@ footer{border-top-color:rgba(0,0,0,.12)!important}
 .co-mini{border-top:3px solid var(--cc)!important}
 .co-mini .secicon{display:flex;background:#f6ecd6;color:#6b4c12}
 .co-mini .capv b{font-size:22px!important}
-.co-mini:hover{border-top-color:var(--cc)!important}</style></head>
+.co-mini:hover{border-top-color:var(--cc)!important}
+/* card: andamento del prezzo come sfondo */
+.co-mini{position:relative;overflow:hidden}
+.co-mini .cbg{position:absolute;left:0;right:0;bottom:0;width:100%;height:46%;z-index:0;pointer-events:none;transition:opacity .3s}
+.co-mini > *:not(.cbg){position:relative;z-index:1}
+.co-mini .pills .pill{background:rgba(255,255,255,.85)!important;backdrop-filter:blur(2px)}
+.co-mini .pills .pill:first-child{background:#f6ecd6!important}
+.co-mini:hover .cbg{opacity:.85}
+</style></head>
 <body>
 <div id="pagebg"></div>
 <div class="hero-wrap"><section class="hero"><div class="hbg" id="hbg"></div><div class="stage" id="stage"></div><div class="snum" id="snum"></div><button class="nextc" id="nextc"></button>
@@ -919,6 +927,7 @@ function renderList(){
       <div class="mtop">${secIcon(x.sector)}<span class="mono2">${esc((x.name.match(/[A-Z0-9]/g) || [x.name[0]]).slice(0, 2).join(""))}</span><div class="name">${mixed ? flag(x.country) + " " : ""}${esc(x.name)}</div></div>
       ${cap ? `<div class="capv">Capitalizzazione <b>${twoTone(cap)}</b></div>` : `<div class="capv">Capitalizzazione <b>—</b></div>`}
       <div class="pills"><span class="pill">${esc(x.sector)}</span><span class="pill size">${esc(sizeOf(x))}</span></div>
+      ${m && m.history && !(m.hidden_fields || []).includes("price") ? bgChart(m.history, m.change_1y) : ""}
     </div>`;
   }).join("") : `<p class="empty">${current === "__watch" && !q && !WATCH.size ? "Non hai ancora preferiti: clicca la stella ☆ su una società." : "Nessuna società con questi filtri."}</p>`;
   document.querySelectorAll(".co").forEach(b => {
@@ -948,6 +957,17 @@ function riskBar(r){ let h = ""; for (let i = 1; i <= 5; i++) h += `<i class="${
 function twoTone(t){
   const m = String(t).match(/^([^,]*)(,.*)$/);
   return m ? `${m[1]}<span class="dec">${m[2]}</span>` : t;
+}
+function bgChart(hist, ch){
+  if (!hist || hist.length < 2) return "";
+  const w = 300, h = 100, ys = hist.map(p => p[1]), lo = Math.min(...ys), hi = Math.max(...ys), r = hi - lo || 1;
+  const P = hist.map((p, i) => [i / (hist.length - 1) * w, h - 6 - (p[1] - lo) / r * (h - 30)]);
+  const pts = P.map(p => p[0].toFixed(1) + "," + p[1].toFixed(1)).join(" ");
+  const col = ch == null ? "#b8892f" : ch >= 0 ? "#2f7a43" : "#b3402b", gid = "bg" + (++sparkline.n);
+  return `<svg class="cbg" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" aria-hidden="true">
+    <defs><linearGradient id="${gid}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${col}" stop-opacity=".16"/><stop offset="1" stop-color="${col}" stop-opacity=".02"/></linearGradient></defs>
+    <polygon points="0,${h} ${pts} ${w},${h}" fill="url(#${gid})"/>
+    <polyline points="${pts}" fill="none" stroke="${col}" stroke-opacity=".4" stroke-width="1.3" vector-effect="non-scaling-stroke"/></svg>`;
 }
 function sparkline(hist){
   if (!hist || hist.length < 2) return "";
