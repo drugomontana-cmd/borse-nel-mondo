@@ -616,6 +616,172 @@ footer{border-top-color:rgba(0,0,0,.12)!important}
 .co-mini .pills .pill{background:rgba(255,255,255,.85)!important;backdrop-filter:blur(2px)}
 .co-mini .pills .pill:first-child{background:#f6ecd6!important}
 .co-mini:hover .cbg{opacity:.85}
+
+/* ===== scheda società a riquadri (bento) ===== */
+.modal.bento{max-width:1060px}
+.bgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:22px 0 6px;perspective:1200px}
+.tile{all:unset;box-sizing:border-box;cursor:pointer;background:#fff;border:1px solid #e6e0d3;padding:14px 16px 14px;display:flex;flex-direction:column;min-height:168px;position:relative;overflow:hidden;
+  box-shadow:0 1px 2px rgba(40,25,10,.05);transition:transform .25s cubic-bezier(.2,.8,.2,1),box-shadow .25s,border-color .25s;
+  animation:tileIn .6s cubic-bezier(.2,.9,.25,1) both;animation-delay:calc(var(--d) * 55ms + 120ms)}
+.tile.w2{grid-column:span 2}
+.tile:hover,.tile:focus-visible{transform:translateY(-4px) scale(1.02);box-shadow:0 16px 34px rgba(40,25,10,.14);border-color:#d9b25e;z-index:2}
+.tile:focus-visible{outline:2px solid #b8892f;outline-offset:2px}
+@keyframes tileIn{0%{opacity:0;transform:translateY(46px) scale(.86) rotateX(18deg)}70%{opacity:1}100%{opacity:1;transform:none}}
+.bgrid.back .tile{animation:tileIn .45s cubic-bezier(.2,.9,.25,1) both;animation-delay:calc(var(--d) * 30ms)}
+.bgrid.off{display:none}
+.thead{display:flex;justify-content:space-between;align-items:center;font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;margin-bottom:10px}
+.tarr{font-size:15px;letter-spacing:0;color:#b8892f;transition:transform .25s}
+.tile:hover .tarr{transform:translate(2px,-2px)}
+.tbody{flex:1;display:flex;flex-direction:column}
+.tbig{font-size:28px;font-weight:600;letter-spacing:-.02em;line-height:1.1}
+.tbig small{font-size:15px;font-weight:500;margin-left:2px}
+.tsub{font-size:13px;margin-top:4px;color:#23251f}
+.tname{font-size:17px;font-weight:600}
+.tclamp{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;font-size:14px;line-height:1.5;margin:0}
+.tclamp.small{font-size:13px;margin-top:6px}
+.tchart{width:100%;height:70px;margin-top:auto;display:block}
+.mbars{display:flex;align-items:flex-end;gap:5px;height:46px;margin-top:auto;padding-top:10px}
+.mbars i{flex:1;display:block;background:#b8892f;opacity:.85}
+.mbars.ink i{background:#3b3d36;opacity:.75}
+.rbar.big{margin-top:auto;gap:4px}.rbar.big i{width:auto;flex:1;height:14px}
+.rbar.big{display:flex}
+.tflag{font-size:12px;font-weight:600;color:#93361f;margin-top:8px}
+.tsim{display:flex;flex-direction:column;gap:8px}
+.tsim div{display:flex;justify-content:space-between;gap:10px;font-size:13.5px;border-bottom:1px solid #f0ebe1;padding-bottom:6px}
+.tsim span{white-space:nowrap}
+.bdetail{display:none}
+.bdetail.on{display:block;animation:detIn .45s cubic-bezier(.2,.9,.25,1) both}
+@keyframes detIn{from{opacity:0;transform:translateY(24px) scale(.98)}to{opacity:1;transform:none}}
+.bback{all:unset;cursor:pointer;font-size:13.5px;font-weight:600;padding:8px 14px;border:1px solid #e3ddd0;background:#fff;margin:20px 0 6px;display:inline-block;transition:background .2s,transform .2s}
+.bback:hover{background:#fdf6e3;transform:translateX(-3px)}
+.bdtitle{font-size:24px;font-weight:600;letter-spacing:-.01em;margin:10px 0 4px}
+#bdbody > h4:first-child{border-top:0;padding-top:4px}
+.modal.bento .mkey,.modal.bento .mtabs{display:none}
+@media (prefers-reduced-motion:reduce){.tile,.bdetail.on{animation:none!important}}
+
+/* ===== scheda a riquadri: stile futuristico scuro ===== */
+.modal.bento{background:radial-gradient(70% 50% at 85% 0%,rgba(122,96,255,.22),transparent 70%),radial-gradient(60% 45% at 0% 100%,rgba(46,230,168,.10),transparent 70%),#0d0f1a!important;color:#e9ecf5;box-shadow:0 30px 80px rgba(0,0,0,.6),0 0 0 1px rgba(255,255,255,.06)}
+.modal.bento::before{content:"";position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:44px 44px;mask-image:linear-gradient(180deg,transparent 0,#000 30%,#000 70%,transparent)}
+.modal.bento > *{position:relative}
+.modal.bento .mhead{background:linear-gradient(90deg,rgba(13,15,26,.95),rgba(13,15,26,.55) 60%,rgba(13,15,26,.2)),url("img/candele.svg") right 230px center / 30% auto no-repeat,linear-gradient(120deg,#12152a,#1d1f45 55%,#3b2c6e)!important;border-bottom:1px solid rgba(255,255,255,.08)}
+.modal.bento .mhead .pill{background:rgba(255,255,255,.06)!important;color:#dfe3f0!important;box-shadow:inset 0 0 0 1px rgba(255,255,255,.12)}
+.modal.bento .mhead .pill:first-child{background:rgba(46,230,168,.12)!important;color:#5ff2c0!important;box-shadow:inset 0 0 0 1px rgba(46,230,168,.35)}
+.modal.bento .star-lg{background:rgba(255,255,255,.06)!important;color:#e9ecf5!important;border:1px solid rgba(255,255,255,.16)!important}
+.modal.bento .star-lg.on{background:#2ee6a8!important;color:#0d0f1a!important;border-color:#2ee6a8!important}
+.modal.bento .close{background:rgba(255,255,255,.08)!important;color:#fff}
+.modal.bento .tile{background:linear-gradient(160deg,rgba(255,255,255,.07),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.09);color:#e9ecf5;backdrop-filter:blur(6px);box-shadow:inset 0 1px 0 rgba(255,255,255,.06),0 10px 30px rgba(0,0,0,.25)}
+.modal.bento .tile::after{content:"";position:absolute;inset:-1px;pointer-events:none;background:radial-gradient(120% 80% at 100% 0%,rgba(122,96,255,.18),transparent 55%);opacity:.7;transition:opacity .3s}
+.modal.bento .tile:hover,.modal.bento .tile:focus-visible{border-color:rgba(46,230,168,.55);box-shadow:0 0 0 1px rgba(46,230,168,.25),0 18px 44px rgba(0,0,0,.45),0 0 32px rgba(46,230,168,.18)}
+.modal.bento .tile:hover::after{opacity:1}
+.modal.bento .thead{color:#9aa3c0}
+.modal.bento .tarr{color:#2ee6a8}
+.modal.bento .tsub,.modal.bento .tclamp,.modal.bento .tsim div{color:#c9cee0}
+.modal.bento .tsim div{border-bottom-color:rgba(255,255,255,.08)}
+.modal.bento .tsim b{color:#fff}
+.modal.bento .pos{color:#4ff0b0}.modal.bento .neg{color:#ff7a8a}
+.modal.bento .mbars i{background:linear-gradient(180deg,#8f7cff,#5a46d6);opacity:1}
+.modal.bento .mbars.ink i{background:linear-gradient(180deg,#5ff2c0,#1fa77a)}
+.modal.bento .rbar i{background:rgba(255,255,255,.1)}
+.modal.bento .rbar i.on{background:#8f7cff}.modal.bento .rbar i.on.l1,.modal.bento .rbar i.on.l2{background:#2ee6a8}.modal.bento .rbar i.on.l4,.modal.bento .rbar i.on.l5{background:#ff6b7d}
+.modal.bento .tflag{color:#ffb36b}
+.modal.bento .tname.mono{color:#5ff2c0}
+/* dettaglio */
+.modal.bento .bback{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.15);color:#e9ecf5}
+.modal.bento .bback:hover{background:rgba(46,230,168,.12);border-color:rgba(46,230,168,.5)}
+.modal.bento .bdtitle{color:#fff}
+.modal.bento #bdbody{color:#d9ddeb}
+.modal.bento #bdbody h4{color:#9aa3c0;border-top-color:rgba(255,255,255,.08)}
+.modal.bento #bdbody a{color:#5ff2c0}
+.modal.bento #bdbody .mkt div,.modal.bento #bdbody .riskbox,.modal.bento #bdbody .invest,.modal.bento #bdbody .dchart,.modal.bento #bdbody .calc{background:rgba(255,255,255,.04)!important;border-color:rgba(255,255,255,.09)!important;color:#e9ecf5}
+.modal.bento #bdbody table,.modal.bento #bdbody .fin-table,.modal.bento #bdbody .inv-table,.modal.bento #bdbody .ctab{background:transparent!important;border-color:rgba(255,255,255,.09)!important;color:#d9ddeb}
+.modal.bento #bdbody th,.modal.bento #bdbody td{border-color:rgba(255,255,255,.08)!important;color:#d9ddeb}
+.modal.bento #bdbody .ctab th{background:rgba(255,255,255,.04)!important;color:#9aa3c0}
+.modal.bento #bdbody .ctab td.hi{background:rgba(46,230,168,.08)!important}
+.modal.bento #bdbody .kpis,.modal.bento #bdbody .kpis div{border-color:rgba(255,255,255,.09)!important}
+.modal.bento #bdbody .kpis span,.modal.bento #bdbody .note,.modal.bento #bdbody .chart-sub,.modal.bento #bdbody .mkt span,.modal.bento #bdbody dt{color:#9aa3c0!important}
+.modal.bento #bdbody b,.modal.bento #bdbody strong,.modal.bento #bdbody dd,.modal.bento #bdbody .mkt b{color:#fff}
+.modal.bento #bdbody .dstack .do{background:linear-gradient(180deg,#8f7cff,#5a46d6)}
+.modal.bento #bdbody .dstack .ds{background:#ffb36b}
+.modal.bento #bdbody .dleg .lo{background:#8f7cff}.modal.bento #bdbody .dleg .ls{background:#ffb36b}
+.modal.bento #bdbody .dalert{background:rgba(255,255,255,.04)!important;color:#e9ecf5}
+.modal.bento #bdbody .fin-bar{background:linear-gradient(90deg,#5ff2c0,#1fa77a)!important}
+.modal.bento #bdbody .verified{background:rgba(46,230,168,.08);color:#bff8e3;border-color:rgba(46,230,168,.3)}
+.modal.bento #bdbody .warnbox{background:rgba(255,179,107,.08);color:#ffe1c2;border-color:rgba(255,179,107,.3)}
+.modal.bento #bdbody .sbadge{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.18);color:#c9cee0}
+.modal.bento #bdbody input,.modal.bento #bdbody .presets button{background:rgba(255,255,255,.06)!important;color:#fff!important;border-color:rgba(255,255,255,.18)!important}
+.modal.bento #bdbody .chart-wrap svg line{stroke:rgba(255,255,255,.08)}
+.modal.bento #bdbody .chart-wrap svg text{fill:#9aa3c0}
+.modal.bento #bdbody .chart-wrap{background:rgba(255,255,255,.03)}
+.modal.bento #bdbody .access{background:rgba(255,255,255,.04);border-color:rgba(255,255,255,.09)}
+.modal.bento #bdbody .norm th{color:#fff}
+
+/* leggibilità nel dettaglio scuro: tutti i testi chiari, poi i colori di stato */
+.modal.bento #bdbody,.modal.bento #bdbody *{color:#d9ddeb!important}
+.modal.bento #bdbody h4,.modal.bento #bdbody .note,.modal.bento #bdbody .chart-sub,.modal.bento #bdbody .kpis span,.modal.bento #bdbody .mkt span,.modal.bento #bdbody dt,.modal.bento #bdbody td small,.modal.bento #bdbody .ticker,.modal.bento #bdbody .inv-head span{color:#9aa3c0!important}
+.modal.bento #bdbody b,.modal.bento #bdbody strong,.modal.bento #bdbody .mkt b,.modal.bento #bdbody .inv-head b,.modal.bento #bdbody .kpis b,.modal.bento #bdbody .norm th,.modal.bento #bdbody .risklabel{color:#fff!important}
+.modal.bento #bdbody a,.modal.bento #bdbody a *{color:#5ff2c0!important}
+.modal.bento #bdbody .pos,.modal.bento #bdbody .up,.modal.bento #bdbody .st.si{color:#4ff0b0!important}
+.modal.bento #bdbody .neg,.modal.bento #bdbody .down{color:#ff8a98!important}
+.modal.bento #bdbody .st.no{color:#ff8a98!important}
+.modal.bento #bdbody .st.verificare,.modal.bento #bdbody .sbadge.check{color:#ffc489!important}
+.modal.bento #bdbody .sbadge.ok,.modal.bento #bdbody .verified{color:#9df5d3!important}
+.modal.bento #bdbody .sbadge.ours{color:#c7b9ff!important}
+.modal.bento #bdbody .sbadge.official{color:#9cc8ff!important}
+.modal.bento #bdbody .dots i,.modal.bento #bdbody .mini-dots i{background:rgba(255,255,255,.15)}
+.modal.bento #bdbody .dots i.on,.modal.bento #bdbody .mini-dots i.on{background:#8f7cff}
+.modal.bento #bdbody .chart-wrap svg path,.modal.bento #bdbody .chart-wrap svg polyline{stroke:#8f7cff}
+.modal.bento #bdbody .mono,.modal.bento #bdbody code{color:#5ff2c0!important}
+.modal.bento #bdbody .chk,.modal.bento #bdbody .calc table{color:#d9ddeb}
+/* ===== variante "Puzzle": stessi colori del riferimento, più luminosa e morbida ===== */
+.modal.bento{border-radius:22px;overflow:hidden;background:
+  radial-gradient(55% 45% at 0% 100%,rgba(236,110,240,.38),transparent 70%),
+  radial-gradient(50% 40% at 100% 0%,rgba(150,110,255,.35),transparent 70%),
+  radial-gradient(40% 35% at 60% 55%,rgba(92,200,245,.10),transparent 70%),
+  linear-gradient(165deg,#3a2f63 0%,#2c2450 45%,#241d42 100%)!important;
+  box-shadow:0 30px 80px rgba(40,20,70,.45),0 0 0 1px rgba(255,255,255,.10)}
+.modal.bento::before{display:none}
+.modal.bento .mhead{background:linear-gradient(90deg,rgba(46,36,84,.92),rgba(46,36,84,.45) 60%,rgba(46,36,84,.1)),url("img/candele.svg") right 230px center / 30% auto no-repeat,linear-gradient(120deg,#3b2f66,#4a3480 55%,#8a4fb8)!important;border-bottom:1px solid rgba(255,255,255,.10)}
+.modal.bento .mhead .pill{border-radius:999px!important;padding-left:11px;padding-right:11px}
+.modal.bento .mhead .pill:first-child{background:rgba(217,242,106,.14)!important;color:#e4f78a!important;box-shadow:inset 0 0 0 1px rgba(217,242,106,.45)}
+.modal.bento .star-lg,.modal.bento .close,.modal.bento .bback{border-radius:999px!important}
+.modal.bento .star-lg.on{background:#4be3a0!important;border-color:#4be3a0!important;color:#1e1838!important}
+.modal.bento .tile{border-radius:18px;background:linear-gradient(160deg,rgba(255,255,255,.13),rgba(255,255,255,.05));border:1px solid rgba(255,255,255,.16);box-shadow:inset 0 1px 0 rgba(255,255,255,.14),0 12px 30px rgba(25,12,50,.28);backdrop-filter:blur(10px)}
+.modal.bento .tile::after{border-radius:18px;background:radial-gradient(120% 80% at 100% 0%,rgba(236,110,240,.16),transparent 55%)}
+.modal.bento .tile:hover,.modal.bento .tile:focus-visible{border-color:rgba(92,200,245,.7);box-shadow:0 0 0 1px rgba(92,200,245,.3),0 18px 44px rgba(25,12,50,.4),0 0 34px rgba(236,110,240,.22)}
+.modal.bento .thead{color:#c9c2e6;letter-spacing:.06em}
+.modal.bento .tarr{color:#d9f26a}
+.modal.bento .tsub,.modal.bento .tclamp,.modal.bento .tsim div{color:#e2ddf3}
+.modal.bento .mbars i{background:linear-gradient(180deg,#7fd8ff,#3b9ae0);border-radius:6px 6px 2px 2px}
+.modal.bento .mbars.ink i{background:linear-gradient(180deg,#6ff0b5,#2fbf83)}
+.modal.bento .rbar i{border-radius:999px;background:rgba(255,255,255,.16)}
+.modal.bento .rbar i.on{background:#7fd8ff}.modal.bento .rbar i.on.l1,.modal.bento .rbar i.on.l2{background:#4be3a0}.modal.bento .rbar i.on.l4,.modal.bento .rbar i.on.l5{background:#ff7ab0}
+.modal.bento .pos{color:#6ff0b5}.modal.bento .neg{color:#ff8fb8}
+.modal.bento .tname.mono{font-family:inherit;color:#e4f78a;letter-spacing:.02em}
+.modal.bento .tflag{color:#ffc27a}
+/* dettaglio */
+.modal.bento #bdbody,.modal.bento #bdbody *{color:#ebe7f7!important}
+.modal.bento #bdbody h4,.modal.bento #bdbody .note,.modal.bento #bdbody .chart-sub,.modal.bento #bdbody .kpis span,.modal.bento #bdbody .mkt span,.modal.bento #bdbody dt,.modal.bento #bdbody td small,.modal.bento #bdbody .ticker,.modal.bento #bdbody .inv-head span{color:#c4bde0!important}
+.modal.bento #bdbody b,.modal.bento #bdbody strong,.modal.bento #bdbody .mkt b,.modal.bento #bdbody .inv-head b,.modal.bento #bdbody .kpis b,.modal.bento #bdbody .norm th,.modal.bento #bdbody .risklabel{color:#fff!important}
+.modal.bento #bdbody a,.modal.bento #bdbody a *{color:#d9f26a!important}
+.modal.bento #bdbody .pos,.modal.bento #bdbody .up,.modal.bento #bdbody .st.si,.modal.bento #bdbody .sbadge.ok,.modal.bento #bdbody .verified{color:#6ff0b5!important}
+.modal.bento #bdbody .neg,.modal.bento #bdbody .down,.modal.bento #bdbody .st.no{color:#ff8fb8!important}
+.modal.bento #bdbody .st.verificare,.modal.bento #bdbody .sbadge.check{color:#ffc27a!important}
+.modal.bento #bdbody .sbadge.official{color:#9fdcff!important}
+.modal.bento #bdbody .sbadge.ours{color:#f0b6ff!important}
+.modal.bento #bdbody .mono,.modal.bento #bdbody code{font-family:inherit;color:#e4f78a!important}
+.modal.bento #bdbody .mkt div,.modal.bento #bdbody .riskbox,.modal.bento #bdbody .invest,.modal.bento #bdbody .dchart,.modal.bento #bdbody .calc,.modal.bento #bdbody .access,.modal.bento #bdbody .chart-wrap,.modal.bento #bdbody .dalert{background:rgba(255,255,255,.08)!important;border-color:rgba(255,255,255,.14)!important;border-radius:14px}
+.modal.bento #bdbody th,.modal.bento #bdbody td{border-color:rgba(255,255,255,.12)!important}
+.modal.bento #bdbody .dots i.on,.modal.bento #bdbody .mini-dots i.on{background:#7fd8ff}
+.modal.bento #bdbody .dstack .do,.modal.bento #bdbody .dleg .lo{background:linear-gradient(180deg,#7fd8ff,#3b9ae0)}
+.modal.bento #bdbody .dstack .ds,.modal.bento #bdbody .dleg .ls{background:#f07ae8}
+.modal.bento #bdbody .fin-bar{background:linear-gradient(90deg,#6ff0b5,#2fbf83)!important}
+.modal.bento #bdbody .chart-wrap svg path,.modal.bento #bdbody .chart-wrap svg polyline{stroke:#7fd8ff}
+.modal.bento #bdbody .chart-wrap svg line{stroke:rgba(255,255,255,.12)}
+.modal.bento #bdbody .chart-wrap svg text{fill:#c4bde0}
+.modal.bento #bdbody .chart-wrap svg polygon{fill:#7fd8ff;fill-opacity:.16}
+.modal.bento #bdbody .chart-wrap svg circle{fill:#7fd8ff;stroke:#2c2450}
+.modal.bento #bdbody input,.modal.bento #bdbody .presets button{border-radius:999px!important;background:rgba(255,255,255,.10)!important}
+
 </style></head>
 <body>
 <div id="pagebg"></div>
@@ -1360,6 +1526,7 @@ function renderTray(){
 }
 function openCompare(){
   const list = [...COMPARE].map(id => DATA.companies.find(c => c.id === id));
+  $("modal").classList.remove("bento");
   $("modal").innerHTML = `<button class="close" aria-label="Chiudi" id="closeBtn">×</button>
     <div class="mhead"><h3>Confronto tra società</h3><div class="ticker" style="margin-top:4px">${list.length} società · dati degli ultimi 12 mesi</div></div>
     ${compareTable(list)}
@@ -1458,73 +1625,89 @@ function marketsView(){
   $("toolview").querySelectorAll("tr[data-go]").forEach(r => r.onclick = () => { current = r.dataset.go; location.hash = ""; render(); window.scrollTo({ top: 0, behavior: "smooth" }); });
 }
 
+function miniBars(vals, cls){
+  const v = vals.map(x => Math.max(0, x || 0)), mx = Math.max(...v, 1e-9);
+  return `<div class="mbars ${cls || ""}">${v.map(x => `<i style="height:${Math.max(4, x / mx * 100)}%"></i>`).join("")}</div>`;
+}
+function tileChart(hist, ch){
+  if (!hist || hist.length < 2) return `<p class="note">Storico non disponibile.</p>`;
+  const w = 300, h = 90, ys = hist.map(p => p[1]), lo = Math.min(...ys), hi = Math.max(...ys), r = hi - lo || 1;
+  const P = hist.map((p, i) => [i / (hist.length - 1) * w, h - 4 - (p[1] - lo) / r * (h - 10)]);
+  const pts = P.map(p => p[0].toFixed(1) + "," + p[1].toFixed(1)).join(" ");
+  const col = ch == null ? "#7fd8ff" : ch >= 0 ? "#6ff0b5" : "#ff8fb8", gid = "tc" + (++sparkline.n);
+  return `<svg class="tchart" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none"><defs><linearGradient id="${gid}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${col}" stop-opacity=".25"/><stop offset="1" stop-color="${col}" stop-opacity="0"/></linearGradient></defs>
+    <polygon points="0,${h} ${pts} ${w},${h}" fill="url(#${gid})"/><polyline points="${pts}" fill="none" stroke="${col}" stroke-width="1.8" vector-effect="non-scaling-stroke"/></svg>`;
+}
 function openCo(id){
-  const x = DATA.companies.find(c => c.id === id), g = DATA.countries[x.country], m = mkt(x);
-  const che = eurChange(x);
-  const T = [["pan", "Panoramica"], ["div", "Dividendi"], ["fin", "Bilanci"], ["risk", "Rischio"], ["sim", "Società simili"], ["buy", "Come comprarla"]];
+  const x = DATA.companies.find(c => c.id === id), g = DATA.countries[x.country], m = mkt(x), e = ext(x);
+  const che = eurChange(x), A = divAnalysis(x);
+  const F = DATA.financials && DATA.financials.companies && DATA.financials.companies[x.id];
+  const sim = similar(x).slice(0, 3);
+  const net100 = (() => { const t = taxRows(g); if (!t.length) return null; const w = t[t.length - 1][1]; return 100 * (1 - w) * (1 - (DATA.italyTaxRate || .26)); })();
+  const T = [
+    ["price", "Prezzo e andamento", "w2", `<div class="tbig">${m && m.price != null ? nf(m.price, m.price >= 1000 ? 0 : 2) + " <small>" + esc(m.currency) + "</small>" : "—"}</div>
+      <div class="tsub"><span class="${(m && m.change_1y) < 0 ? "neg" : "pos"}">${pctOrDash(m && m.change_1y)}</span> in un anno · <span class="${che < 0 ? "neg" : "pos"}">${pctOrDash(che)}</span> in euro</div>
+      ${tileChart(m && m.history, m && m.change_1y)}`],
+    ["div", "Dividendi", "", `<div class="tbig">${yld(divYield(x))}</div><div class="tsub">${A ? esc(A.freq) + (A.payout != null ? " · payout " + nf(A.payout * 100, 0) + "%" : "") : "nessun dividendo recente"}</div>
+      ${A ? miniBars(A.byYear.map(b => b.ord + b.spec), "gold") : ""}${A && A.alerts.some(a => a.k !== "up") ? `<div class="tflag">⚠ ${A.alerts.filter(a => a.k !== "up").length} avvis${A.alerts.filter(a => a.k !== "up").length > 1 ? "i" : "o"}</div>` : ""}`],
+    ["risk", "Rischio", "", m && m.risk ? `<div class="tbig">${m.risk.level}<small>/5</small></div><div class="tsub">${esc(m.risk.label)}</div><div class="rbar big">${[1,2,3,4,5].map(i => `<i class="${i <= m.risk.level ? "on l" + m.risk.level : ""}"></i>`).join("")}</div>` : `<p class="note">Non ancora calcolato.</p>`],
+    ["about", "Cosa fa", "w2", `<p class="tclamp">${esc(x.description)}</p><div class="tsub">${x.strengths.length} punti di forza · ${x.risks.length} rischi${(x.events || []).length ? " · " + x.events.length + " eventi" : ""}</div>`],
+    ["ceo", "Chi la guida", "", `<div class="tname">${esc(x.ceo && x.ceo.name || "—")}</div><p class="tclamp small">${esc(x.ceo && x.ceo.note || "")}</p>`],
+    ["fin", "Bilanci", "", F && F.years && F.years.length ? `<div class="tbig">${(() => { const r = DATA.financials.per_eur && DATA.financials.per_eur[F.currency], y = [...F.years].reverse().find(z => z.revenue); return y && r ? bigEur(y.revenue / r) : "—"; })()}</div><div class="tsub">ricavi ultimo esercizio</div>${miniBars(F.years.map(y => y.revenue), "ink")}` : `<p class="note">Non disponibili.</p>`],
+    ["sim", "Società simili", "w2", sim.length ? `<div class="tsim">${sim.map(c => `<div><b>${flag(c.country)} ${esc(c.name)}</b><span>${bigEur((mkt(c) || {}).market_cap_eur) || "—"} · div. ${yld(divYield(c))}</span></div>`).join("")}</div>` : `<p class="note">Nessuna nel nostro elenco.</p>`],
+    ["buy", "Come comprarla", "", `<div class="tname mono">${e && e.isin ? esc(e.isin) : "ISIN n.d."}</div><div class="tsub">${esc(x.ticker)} · ${esc(g.exchange.split(" ")[0])}${/^S[iì]/i.test(x.adr || "") ? " · ADR negli USA" : ""}</div>`],
+    ["tax", "Tasse", "", `<div class="tbig">${net100 != null ? nf(net100, 0) + " <small>€</small>" : "—"}</div><div class="tsub">netti su 100 € di dividendo lordo</div>`],
+  ];
+  const D = {
+    price: () => `<h4>Dati di mercato ${badge("auto", "Dati automatici")}</h4>${marketBlock(x)}
+      <h4>Andamento del prezzo nell'ultimo anno</h4><p class="chart-sub">Chiusure settimanali in valuta locale (${esc(g.currency_code)})${che != null ? ` · in euro, con l'effetto del cambio: <b>${pct(che)}</b>` : ""}</p><div class="chart-wrap" id="chart"></div>`,
+    div: () => dividendsTab(x),
+    risk: () => riskBlock(x),
+    about: () => `<h4>Cosa fa ${badge("ours", "Nostra sintesi")}</h4><p>${esc(x.description)}</p>
+      <h4>Punti di forza ${badge("ours", "Nostra sintesi, non un consiglio")}</h4><ul>${x.strengths.map(k => `<li>${esc(k)}</li>`).join("")}</ul>
+      <h4>Rischi da conoscere ${badge("ours", "Nostra sintesi")}</h4><ul>${x.risks.map(k => `<li>${esc(k)}</li>`).join("")}</ul>
+      <h4>Eventi rilevanti</h4>${eventsBlock(x)}
+      <h4>Scheda</h4><dl class="facts"><dt>Sede</dt><dd>${esc(x.hq)}</dd><dt>Valuta di quotazione</dt><dd>${esc(g.currency)}</dd><dt>ADR / GDR</dt><dd>${esc(x.adr)}</dd>
+      <dt>Documenti ufficiali</dt><dd>${x.ceo && x.ceo.source ? `<a href="${esc(x.ceo.source)}" target="_blank" rel="noopener">Fonte ufficiale citata ↗</a> · ` : ""}<a href="https://finance.yahoo.com/quote/${encodeURIComponent(x.yahoo)}/profile/" target="_blank" rel="noopener">Profilo e sito della società ↗</a></dd></dl>`,
+    ceo: () => `<h4>Chi la guida</h4>${ceoBlock(x)}`,
+    fin: () => `<h4>Bilanci degli ultimi anni</h4>${finBlock(x)}`,
+    sim: () => `<h4>Società simili</h4>${similarTab(x)}`,
+    buy: () => accessTab(x),
+    tax: () => `<h4>Scheda fiscale e normativa · ${flag(x.country)} ${esc(g.name)}</h4>${normBlock(x.country)}${divCalc(g)}`,
+  };
+  $("modal").classList.add("bento");
   $("modal").innerHTML = `
     <button class="close" aria-label="Chiudi" id="closeBtn">×</button>
     <div class="mhead">
     <h3>${esc(x.name)}</h3>
-    <div class="ticker" style="margin-top:4px">${esc(x.ticker)} · ${esc(g.exchange.split(" ")[0])} · ${flag(x.country)} ${esc(g.name)}${ext(x) && ext(x).isin ? ` · ISIN ${esc(ext(x).isin)}` : ""}</div>
+    <div class="ticker" style="margin-top:4px">${esc(x.ticker)} · ${esc(g.exchange.split(" ")[0])} · ${flag(x.country)} ${esc(g.name)}${e && e.isin ? ` · ISIN ${esc(e.isin)}` : ""}</div>
     <div class="pills" style="align-items:center"><span class="pill">${esc(x.sector)}</span><span class="pill size">${esc(sizeOf(x))}</span><span class="pill">${esc(x.index)}</span>
       <span style="margin-left:auto;display:flex;gap:8px"><button class="star-lg ${COMPARE.has(x.id) ? "on" : ""}" id="cmpBtn">${COMPARE.has(x.id) ? "⇄ Nel confronto" : "⇄ Confronta"}</button>
       <button class="star-lg ${WATCH.has(x.id) ? "on" : ""}" id="watchBtn">${WATCH.has(x.id) ? "★ Nei preferiti" : "☆ Aggiungi ai preferiti"}</button></span></div>
     </div>
-    <div class="mkey">
-      <div><span>Prezzo</span><b>${m && m.price != null ? nf(m.price, m.price >= 1000 ? 0 : 2) + " " + esc(m.currency) : "—"}</b></div>
-      <div><span>1 anno (locale)</span><b class="${(m && m.change_1y) < 0 ? "neg" : "pos"}">${pctOrDash(m && m.change_1y)}</b></div>
-      <div><span>1 anno in euro</span><b class="${che < 0 ? "neg" : "pos"}">${pctOrDash(che)}</b></div>
-      <div><span>Dividendo</span><b>${yld(divYield(x))}</b></div>
-      <div><span>Capitalizzazione</span><b>${(m && bigEur(m.market_cap_eur)) || "—"}</b></div>
-    </div>
-    <nav class="mtabs">${T.map(([k, l], i) => `<button data-tab="${k}" class="${i ? "" : "act"}">${l}</button>`).join("")}</nav>
-
-    <div class="tabp act" data-p="pan">
-    <h4>Cosa fa ${badge("ours", "Nostra sintesi")}</h4><p>${esc(x.description)}</p>
-    <h4>Chi la guida</h4>
-    ${ceoBlock(x)}
-    <h4>Dati di mercato ${badge("auto", "Dati automatici")}</h4>
-    ${marketBlock(x)}
-    <h4>Andamento del prezzo nell'ultimo anno</h4>
-    <p class="chart-sub">Chiusure settimanali in valuta locale (${esc(g.currency_code)})${che != null ? ` · in euro, con l'effetto del cambio: <b>${pct(che)}</b>` : ""}</p>
-    <div class="chart-wrap" id="chart"></div>
-    <h4>Eventi rilevanti</h4>
-    ${eventsBlock(x)}
-    <h4>Punti di forza ${badge("ours", "Nostra sintesi, non un consiglio")}</h4><ul>${x.strengths.map(k => `<li>${esc(k)}</li>`).join("")}</ul>
-    <h4>Rischi da conoscere ${badge("ours", "Nostra sintesi")}</h4><ul>${x.risks.map(k => `<li>${esc(k)}</li>`).join("")}</ul>
-    <h4>Scheda</h4>
-    <dl class="facts">
-      <dt>Sede</dt><dd>${esc(x.hq)}</dd>
-      <dt>Valuta di quotazione</dt><dd>${esc(g.currency)}</dd>
-      <dt>ADR / GDR</dt><dd>${esc(x.adr)}</dd>
-      <dt>Documenti ufficiali</dt><dd>${x.ceo && x.ceo.source ? `<a href="${esc(x.ceo.source)}" target="_blank" rel="noopener">Fonte ufficiale citata ↗</a> · ` : ""}<a href="https://finance.yahoo.com/quote/${encodeURIComponent(x.yahoo)}/profile/" target="_blank" rel="noopener">Profilo e sito della società ↗</a></dd>
-    </dl>
-    </div>
-    <div class="tabp" data-p="div">${dividendsTab(x)}</div>
-    <div class="tabp" data-p="fin">${finBlock(x)}</div>
-    <div class="tabp" data-p="risk">${riskBlock(x)}</div>
-    <div class="tabp" data-p="sim">${similarTab(x)}</div>
-    <div class="tabp" data-p="buy">${accessTab(x)}</div>`;
+    <div class="bgrid" id="bgrid">${T.map(([k, t, w, body], i) => `<button class="tile ${w}" data-tile="${k}" style="--d:${i}"><div class="thead"><span>${t}</span><span class="tarr">↗</span></div><div class="tbody">${body}</div></button>`).join("")}</div>
+    <div class="bdetail" id="bdetail"><button class="bback" id="bback">← Tutte le informazioni</button><div class="bdtitle" id="bdtitle"></div><div id="bdbody"></div></div>`;
   $("overlay").classList.add("open");
   $("overlay").scrollTop = 0;
   $("closeBtn").onclick = closeCo;
-  $("modal").querySelectorAll("[data-tab]").forEach(b => b.onclick = () => {
-    $("modal").querySelectorAll("[data-tab]").forEach(z => z.classList.toggle("act", z === b));
-    $("modal").querySelectorAll(".tabp").forEach(p => p.classList.toggle("act", p.dataset.p === b.dataset.tab));
-    const mt = $("modal").querySelector(".mtabs"); if (mt.getBoundingClientRect().top < 0) mt.scrollIntoView();
+  const showGrid = () => { $("bdetail").classList.remove("on"); $("bgrid").classList.remove("off"); $("bgrid").classList.add("back"); };
+  $("bback").onclick = () => { showGrid(); $("overlay").scrollTo({ top: 0, behavior: "smooth" }); };
+  $("modal").querySelectorAll("[data-tile]").forEach(t => t.onclick = () => {
+    const k = t.dataset.tile, label = T.find(z => z[0] === k)[1];
+    $("bdtitle").textContent = label; $("bdbody").innerHTML = D[k]();
+    $("bgrid").classList.add("off"); $("bdetail").classList.remove("on"); void $("bdetail").offsetWidth; $("bdetail").classList.add("on");
+    $("overlay").scrollTo({ top: 0, behavior: "smooth" });
+    $("bdbody").querySelectorAll("[data-open]").forEach(a => a.onclick = () => openCo(a.dataset.open));
+    if (k === "price") priceChart($("chart"), m && !(m.hidden_fields || []).includes("price") ? m.history : null, (m && m.currency) || g.currency_code);
+    if ($("amt")) {
+      const upd = () => { INVEST = Number($("amt").value.replace(/\./g, "").replace(",", ".")) || 0; renderInvest(x); };
+      $("amt").oninput = upd; $("amt").onblur = () => { if (INVEST > 0) $("amt").value = nf(INVEST, 0); };
+      document.querySelectorAll("[data-amt]").forEach(b => b.onclick = () => { INVEST = Number(b.dataset.amt); $("amt").value = nf(INVEST, 0); renderInvest(x); });
+      renderInvest(x);
+    }
   });
-  $("modal").querySelectorAll("[data-open]").forEach(a => a.onclick = () => openCo(a.dataset.open));
   $("watchBtn").onclick = () => { toggleWatch(x.id); const on = WATCH.has(x.id); $("watchBtn").classList.toggle("on", on); $("watchBtn").textContent = on ? "★ Nei preferiti" : "☆ Aggiungi ai preferiti"; };
   $("cmpBtn").onclick = () => toggleCompare(x.id);
-  if ($("amt")) {
-    const upd = () => { INVEST = Number($("amt").value.replace(/\./g, "").replace(",", ".")) || 0; renderInvest(x); };
-    $("amt").oninput = upd;
-    $("amt").onblur = () => { if (INVEST > 0) $("amt").value = nf(INVEST, 0); };
-    document.querySelectorAll("[data-amt]").forEach(b => b.onclick = () => { INVEST = Number(b.dataset.amt); $("amt").value = nf(INVEST, 0); renderInvest(x); });
-    renderInvest(x);
-  }
-  priceChart($("chart"), m && !(m.hidden_fields || []).includes("price") ? m.history : null, (m && m.currency) || g.currency_code);
 }
 function closeCo(){ $("overlay").classList.remove("open"); }
 $("overlay").addEventListener("click", e => { if (e.target.id === "overlay") closeCo(); });

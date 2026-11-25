@@ -89,7 +89,7 @@ Verde lime, viola, blu acceso, gradienti multicolore, grigio freddo come sfondo 
 
 ## 4. Forme e spaziature
 
-- **Angoli vivi (0 px)** per: card delle società, pannello del paese, barra dei filtri (e i suoi campi), scheda della società e tutti i riquadri al suo interno, etichette dentro card/pannelli/scheda.
+- **Angoli vivi (0 px)** per: card delle società, pannello del paese, barra dei filtri (e i suoi campi), etichette dentro card e pannelli. (La scheda della società è l'eccezione: riquadri arrotondati, vedi sotto.)
 - Restano **arrotondati** solo il banner in alto (22 px) e gli elementi al suo interno (pillole, barra dei paesi, frecce).
 - Card in griglia da 3 colonne, spazio tra card ~14 px.
 - Ombre morbide e poco marcate. Niente bordi spessi.
@@ -125,8 +125,9 @@ Verde lime, viola, blu acceso, gradienti multicolore, grigio freddo come sfondo 
 | Banner | Logo + nome a sinistra; link in pillole trasparenti a destra; frecce ‹ ›, data, titolo, tre pillole (paesi, società, data dati); a destra sagoma del paese, cambio, variazione media, "Prossimo"; barra dei paesi con ricerca e Preferiti |
 | Barra dei paesi | Paese attivo in pillola bianca con testo scuro; ricerca paese a sinistra; Preferiti fissi a destra |
 | Card società | Compatta: filo in alto (3 px) nel colore del paese; icona del settore in quadratino oro chiaro + nome (max 2 righe); capitalizzazione grande; etichette settore e dimensione; sullo sfondo, nella metà bassa, l'andamento del prezzo dell'ultimo anno come area sfumata leggera (verde se in salita, rosso se in discesa), mai sopra il nome o i numeri. Niente altro: variazioni, dividendo, rischio, preferiti e confronto stanno nella scheda. Niente loghi delle aziende |
-| Scheda società | Intestazione scura dorata come il banner; sezioni separate da linee sottili con titoli in maiuscoletto |
-| Scheda società | Fascia fissa con prezzo, 1 anno locale, 1 anno in euro, dividendo, capitalizzazione; sezioni a schede: Panoramica · Dividendi · Bilanci · Rischio · Società simili · Come comprarla |
+| Scheda società | Stile ispirato a "Puzzle Fintech": fondo viola-blu (#3a2f63 → #241d42) con bagliore rosa-magenta in basso a sinistra e viola in alto a destra; niente griglia di sfondo, niente caratteri "da codice". Testi chiari (#ebe7f7, secondari #c4bde0, grassetti bianchi) |
+| Scheda società | Griglia di 9 riquadri in vetro (angoli arrotondati 18 px, pulsanti ed etichette a pillola): Prezzo, Dividendi, Rischio, Cosa fa, Chi la guida, Bilanci, Società simili, Come comprarla, Tasse. Clic su un riquadro → pagina di dettaglio con "← Tutte le informazioni". Hover: bordo azzurro con alone rosa |
+| Scheda società | Colori: azzurro #7fd8ff (dividendi, rischio, grafico prezzo), verde menta #6ff0b5 (bilanci, valori positivi), rosa #ff8fb8 (negativi), giallo-lime #d9f26a/#e4f78a (link, frecce, settore, ISIN), arancio #ffc27a (da verificare). Eccezione agli angoli vivi: vale solo per la scheda |
 | Dividendi | Barre per anno: ordinario oro `#b8892f`, probabile straordinario viola `#7a4f9e`, anno in corso tratteggiato; avvisi con barra a sinistra (rosso riduzione/sospensione, verde aumento, ambra da verificare) |
 | Barra del confronto | Fissa in basso, nera, fino a 4 società, pulsante oro "Confronta" |
 | Screener e Paesi a confronto | Pannello filtri a sinistra, tabella bianca a destra ordinabile cliccando le intestazioni |
