@@ -506,13 +506,100 @@ footer{border-top-color:rgba(0,0,0,.12)!important}
 .filters select,.filters .search input,.btn-ghost,.presets button,.star-lg,.invest input{border-radius:0!important}
 .modal .pill,.panel .pill{border-radius:0!important}
 .close{border-radius:0!important}
+
+/* ===== aggiunte: etichette di stato, schede, dividendi, confronti, screener ===== */
+.sbadge{display:inline-flex;align-items:center;gap:3px;font-size:10.5px;font-weight:600;letter-spacing:.02em;text-transform:none;padding:2px 7px;vertical-align:2px;margin-left:6px;border:1px solid}
+.sbadge.ok{color:#24633a;border-color:#b9dcc2;background:#eef7f0}
+.sbadge.auto{color:#3d4652;border-color:#d4d9e0;background:#f4f6f8}
+.sbadge.check{color:#8a5a00;border-color:#efd59a;background:#fdf6e3}
+.sbadge.ours{color:#5b3f8a;border-color:#d8cdea;background:#f6f2fb}
+.sbadge.official{color:#1d4f86;border-color:#bcd2ea;background:#eef4fb}
+.modal h4 .sbadge{text-transform:none;letter-spacing:.02em}
+.mkey{display:grid;grid-template-columns:repeat(5,1fr);margin:0 -32px;background:#fbf8f2;border-bottom:1px solid #ece7dc}
+.mkey div{padding:11px 16px;display:flex;flex-direction:column;gap:2px}
+.mkey div+div{border-left:1px solid #ece7dc}
+.mkey span{font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:#23251f}
+.mkey b{font-size:17px;font-weight:600}
+.pos{color:#24633a}.neg{color:#93361f}
+.mtabs{position:sticky;top:-1px;z-index:3;display:flex;gap:0;margin:0 -32px 4px;padding:0 20px;background:#fff;border-bottom:1px solid #e3ddd0}
+.mtabs button{border:0;background:none;font:inherit;font-size:14px;font-weight:500;color:#23251f;padding:13px 14px 11px;cursor:pointer;border-bottom:2px solid transparent;transition:color .2s,border-color .2s}
+.mtabs button:hover{color:#000}
+.mtabs button.act{color:#121410;font-weight:600;border-bottom-color:#b8892f}
+.tabp{display:none;padding-top:6px}.tabp.act{display:block;animation:fade .25s ease both}
+.tabp > h4:first-child{border-top:0;padding-top:0}
+.kpis4{grid-template-columns:repeat(4,1fr)!important;margin-top:14px}
+.dalert{padding:9px 12px;margin:8px 0;font-size:14px;border-left:3px solid}
+.dalert.down{background:#fbefec;border-color:#b3402b}
+.dalert.up{background:#eef7f0;border-color:#2f7a43}
+.dalert.check{background:#fdf6e3;border-color:#d9b25e}
+.dchart{margin:14px 0 12px;padding:14px 16px 10px;background:#fbf8f2;border:1px solid #ece7dc}
+.dbars{display:flex;align-items:flex-end;gap:18px;justify-content:space-around}
+.dbar{display:flex;flex-direction:column;align-items:center;flex:1}
+.dstack{display:flex;flex-direction:column;justify-content:flex-end;width:100%;max-width:54px}
+.dstack .do{background:#b8892f;display:block}.dstack .do.part{background:repeating-linear-gradient(45deg,#b8892f 0 4px,#d9b25e 4px 8px)}
+.dstack .ds{background:#7a4f9e;display:block}
+.dy{font-size:12px;margin-top:5px;font-weight:600}
+.dleg{display:flex;gap:16px;flex-wrap:wrap;font-size:12px;margin-top:10px}
+.dleg i{display:inline-block;width:10px;height:10px;margin-right:5px;vertical-align:-1px}.dleg .lo{background:#b8892f}.dleg .ls{background:#7a4f9e}
+.ctab-wrap,.stable-wrap{overflow-x:auto}
+.ctab{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:10px}
+.ctab th{text-align:left;font-size:11px;letter-spacing:.06em;text-transform:uppercase;font-weight:600;padding:8px 10px;border-bottom:1px solid #ece7dc;white-space:nowrap;background:#fbf8f2}
+.ctab td{padding:8px 10px;border-bottom:1px solid #ece7dc;vertical-align:top}
+.ctab td.hi{background:#fdf6e3}
+.ctab a{font-weight:600;cursor:pointer;color:#121410}.ctab a:hover{text-decoration:underline}
+.mono{font-family:ui-monospace,Menlo,Consolas,monospace;letter-spacing:.04em}
+.norm{width:100%;border-collapse:collapse;font-size:14px;margin:6px 0 8px}
+.norm th{text-align:left;width:32%;font-weight:600;padding:10px 12px 10px 0;border-bottom:1px solid #ece7dc;vertical-align:top}
+.norm td{padding:10px 0;border-bottom:1px solid #ece7dc}
+.norm td div{margin-top:5px}.norm .sbadge{margin-left:0}
+.stab{width:100%;border-collapse:collapse;font-size:13px;margin-top:6px}
+.stab th{text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.05em;padding:5px 4px;border-bottom:1px solid #ece7dc}
+.stab td{padding:6px 4px;border-bottom:1px solid #ece7dc}
+.stab td:nth-child(n+2),.stab th:nth-child(n+2){text-align:right}
+.cmpb{border:1px solid #ddd6c8;background:#fff;color:#4a4c45;font-size:13px;line-height:1;width:26px;height:26px;cursor:pointer;margin-right:6px;transition:all .18s}
+.cmpb:hover{border-color:#b8892f;color:#121410}
+.cmpb.on{background:#121410;color:#fff;border-color:#121410}
+.co-top .cmpb{flex:none}
+.tray{position:fixed;left:50%;bottom:-90px;transform:translateX(-50%);z-index:40;transition:bottom .35s cubic-bezier(.2,.8,.2,1)}
+.tray.open{bottom:18px}
+.tray-in{display:flex;align-items:center;gap:8px;background:#121410;color:#fff;padding:10px 12px 10px 16px;box-shadow:0 14px 36px rgba(0,0,0,.35)}
+.tchip{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.1);padding:5px 6px 5px 10px;font-size:13px}
+.tchip button{border:0;background:none;color:#fff;cursor:pointer;font-size:15px;opacity:.7}
+.tgo{border:0;background:#d9b25e;color:#121410;font:inherit;font-weight:600;padding:8px 14px;cursor:pointer}
+.tgo:disabled{opacity:.45;cursor:default}
+.tclear{border:0;background:none;color:#fff;opacity:.75;font:inherit;font-size:13px;cursor:pointer}
+#trayMsg{color:#f3d48a}
+.layout.tool .filters,.layout.tool #list{display:none}
+#toolview{display:none}.layout.tool #toolview{display:block}
+.tbar{background:#fff;padding:12px 16px;margin-bottom:12px;font-size:14px;box-shadow:0 1px 3px rgba(40,25,10,.08),0 0 0 1px rgba(40,25,10,.05)}
+.stable{width:100%;border-collapse:collapse;background:#fff;font-size:13.5px;box-shadow:0 1px 3px rgba(40,25,10,.08),0 0 0 1px rgba(40,25,10,.05)}
+.stable th{text-align:left;font-size:11px;letter-spacing:.06em;text-transform:uppercase;font-weight:600;padding:10px;border-bottom:1px solid #e3ddd0;background:#fbf8f2;white-space:nowrap;cursor:pointer;user-select:none}
+.stable th.act{color:#000;box-shadow:inset 0 -2px 0 #b8892f}
+.stable td{padding:9px 10px;border-bottom:1px solid #f0ebe1;vertical-align:middle}
+.stable tr[data-open],.stable tr[data-go]{cursor:pointer;transition:background .15s}
+.stable tr[data-open]:hover,.stable tr[data-go]:hover{background:#fdf8ec}
+.stable tr.dim td{color:#6a6560;font-size:12.5px}
+.tcard{background:#fff;padding:18px 20px;margin-bottom:16px;box-shadow:0 1px 3px rgba(40,25,10,.08),0 0 0 1px rgba(40,25,10,.05)}
+.tcard h3{margin:0 0 10px;font-size:18px}
+.tcard .stable{box-shadow:none}
+.sf{margin:12px 0}.sf > label{display:block;font-size:12px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;margin-bottom:6px}
+.sf select{width:100%}
+.sf input[type=range]{width:100%;accent-color:#b8892f}
+.sfc{display:grid;grid-template-columns:1fr 1fr;gap:4px 8px}
+.chk{display:flex;align-items:center;gap:6px;font-size:13.5px;cursor:pointer}
+.chk input{accent-color:#b8892f}
+.hero .topnav{gap:5px!important}
+.hero .topnav a{padding:7px 11px!important}
+.stable td:first-child,.stable td:nth-child(2) b,.stable td b{white-space:nowrap}.stable td,.stable th{font-size:13px}.stable th{font-size:10.5px;padding:10px 8px}.stable td{padding:9px 8px}
+.sf select{border-radius:0!important}
+.ctab td{white-space:nowrap}.ctab td:first-child,.ctab tr:first-child td{white-space:normal}
 </style></head>
 <body>
 <div id="pagebg"></div>
 <div class="hero-wrap"><section class="hero"><div class="hbg" id="hbg"></div><div class="stage" id="stage"></div><div class="snum" id="snum"></div><button class="nextc" id="nextc"></button>
   <div class="hero-top">
   <a class="brand" href="index.html"><span class="logo"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg></span><span class="brand-name">Borse del Mondo</span></a>
-  <nav class="topnav"><a href="index.html" class="here">Mercati</a><a href="metodo.html">Metodo e fonti</a><a href="chi-siamo.html">Chi siamo</a></nav>
+  <nav class="topnav"><a href="#" data-view="__mercati" class="here">Mercati</a><a href="#screener" data-view="__screener">Screener</a><a href="#mercati" data-view="__markets">Paesi a confronto</a><a href="guide.html">Guide</a><a href="metodo.html">Metodo e fonti</a><a href="chi-siamo.html">Chi siamo</a></nav>
   <span class="demo-badge">Demo</span>
   </div>
   <div class="arrows"><button id="prevC" aria-label="Paese precedente">‹</button><button id="nextC" aria-label="Paese successivo">›</button></div>
@@ -555,10 +642,12 @@ footer{border-top-color:rgba(0,0,0,.12)!important}
         </div>
       </div>
       <div class="grid" id="list"></div>
+      <div id="toolview"></div>
     </section>
   </div>
 </main>
 
+<div class="tray" id="tray"></div>
 <div class="overlay" id="overlay" role="dialog" aria-modal="true">
   <div class="modal" id="modal"></div>
 </div>
@@ -653,6 +742,7 @@ async function load(){
   };
   const brokersP = get("data/brokers.json", null);
   const finP = get("data/financials.json", null);
+  const extP = get("data/extras.json", null);
   const [countries, companies, market] = await Promise.all([
     get("data/countries.json", null), get("data/companies.json", null),
     get("data/market.json", { companies: {}, fx: { per_eur: {} } })
@@ -662,9 +752,16 @@ async function load(){
     return;
   }
   const brokers = await brokersP, financials = await finP;
-  DATA = { brokers, financials, countries: countries.countries, italyTax: countries.italy_tax, italyTaxRate: countries.italy_tax_rate,
+  const extras = await extP;
+  DATA = { brokers, financials, extras, countries: countries.countries, italyTax: countries.italy_tax, italyTaxRate: countries.italy_tax_rate,
            legalRefs: countries.legal_refs || [], contentChecked: countries.content_checked, companies, market };
   current = Object.keys(DATA.countries)[0];
+  const fromHash = () => { const h = location.hash; if (h === "#screener") current = "__screener"; else if (h === "#mercati") current = "__markets"; else if (current.startsWith("__s") || current === "__markets") current = Object.keys(DATA.countries)[0]; };
+  fromHash();
+  window.addEventListener("hashchange", () => { fromHash(); render(); });
+  document.querySelectorAll(".topnav a[data-view]").forEach(a => a.addEventListener("click", e => {
+    if (a.dataset.view === "__mercati") { e.preventDefault(); history.replaceState(null, "", location.pathname); current = Object.keys(DATA.countries)[0]; render(); }
+  }));
   $("nCountries").textContent = Object.keys(DATA.countries).length;
   $("nCompanies").textContent = DATA.companies.length;
   $("today").textContent = new Date().toLocaleDateString("it-IT", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
@@ -756,6 +853,7 @@ function renderGuide(){
     <details><summary>Tasse nel paese</summary><p>${esc(g.tax)}</p></details>
     <details><summary>Tasse in Italia</summary><p>${esc(DATA.italyTax)}</p>
       ${DATA.legalRefs.length ? `<p class="note">Riferimenti: ${DATA.legalRefs.map(esc).join("; ")}.</p>` : ""}</details>
+    <details><summary>Settori a confronto</summary>${sectorsBlock(current)}</details>
     <details><summary>Liquidità del mercato</summary><p>${esc(g.liquidity)}</p></details>
     <details><summary>Rischio di cambio</summary><p>${esc(g.fx)}</p></details>
     ${DATA.contentChecked ? `<p class="note" style="margin-top:10px">Informazioni verificate il ${esc(dateIt(DATA.contentChecked))}.</p>` : ""}`;
@@ -803,7 +901,7 @@ function renderList(){
     const ch = m && pct(m.change_1y);
     return `
     <div class="co" role="button" tabindex="0" data-id="${esc(x.id)}" style="--i:${Math.min(idx, 18)}">
-      <div class="co-top">${secIcon(x.sector)}<div class="nm"><div class="name">${esc(x.name)}</div><div class="ticker">${mixed ? flag(x.country) + " " : ""}${esc(x.ticker)} · ${esc(x.index)}</div></div><button class="star ${WATCH.has(x.id) ? "on" : ""}" data-star="${esc(x.id)}" aria-pressed="${WATCH.has(x.id)}" title="${WATCH.has(x.id) ? "Togli dai preferiti" : "Aggiungi ai preferiti"}">${WATCH.has(x.id) ? "★" : "☆"}</button></div>
+      <div class="co-top">${secIcon(x.sector)}<div class="nm"><div class="name">${esc(x.name)}</div><div class="ticker">${mixed ? flag(x.country) + " " : ""}${esc(x.ticker)} · ${esc(x.index)}</div></div><button class="cmpb ${COMPARE.has(x.id) ? "on" : ""}" data-cmp="${esc(x.id)}" aria-pressed="${COMPARE.has(x.id)}" title="Aggiungi al confronto">⇄</button><button class="star ${WATCH.has(x.id) ? "on" : ""}" data-star="${esc(x.id)}" aria-pressed="${WATCH.has(x.id)}" title="${WATCH.has(x.id) ? "Togli dai preferiti" : "Aggiungi ai preferiti"}">${WATCH.has(x.id) ? "★" : "☆"}</button></div>
       <div class="caprow">${cap ? `<div class="capv">Capitalizzazione <b>${twoTone(cap)}</b></div>` : "<div></div>"}${ch ? `<span class="chg ${m.change_1y >= 0 ? "up" : "down"}" title="Variazione in 1 anno">${ch}<small> 1 anno</small></span>` : ""}</div>
       ${m && m.history && !(m.hidden_fields || []).includes("price") ? sparkline(m.history) + `<div class="spark-axis"><span>un anno fa</span><span>oggi</span></div>` : ""}
       <div class="kpis">
@@ -819,6 +917,7 @@ function renderList(){
     b.onkeydown = e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openCo(b.dataset.id); } };
   });
   document.querySelectorAll("[data-star]").forEach(b => b.onclick = e => { e.stopPropagation(); toggleWatch(b.dataset.star); });
+  document.querySelectorAll("#list [data-cmp]").forEach(b => b.onclick = e => { e.stopPropagation(); toggleCompare(b.dataset.cmp); });
 }
 
 // ---------------------------------------------------------------- grafici
@@ -1069,65 +1168,326 @@ function finBlock(x){
     <p style="margin-top:8px"><a href="${yl}" target="_blank" rel="noopener">Vedi il bilancio completo su Yahoo Finance ↗</a> <span class="note">(conto economico, stato patrimoniale e flussi di cassa)</span></p>`;
 }
 
+// ======================================================================= AGGIUNTE: dividendi, confronti, screener, mercati
+const COMPARE = new Set();
+const median = a => { const v = a.filter(x => x != null && isFinite(x)).sort((p, q) => p - q); if (!v.length) return null; const h = v.length >> 1; return v.length % 2 ? v[h] : (v[h - 1] + v[h]) / 2; };
+const ext = x => (DATA.extras && DATA.extras.companies && DATA.extras.companies[x.id]) || null;
+function badge(kind, text){
+  const ic = { ok: "✓", auto: "⟳", check: "?", ours: "✎", official: "§" }[kind] || "";
+  return `<span class="sbadge ${kind}">${ic} ${esc(text)}</span>`;
+}
+function eurChange(x){
+  const m = mkt(x); if (!m || m.change_1y == null) return null;
+  const g = DATA.countries[x.country], code = g.currency_code;
+  const now = DATA.market.fx.per_eur[code], then = DATA.extras && DATA.extras.fx_year_ago_per_eur && DATA.extras.fx_year_ago_per_eur[code];
+  if (!now || !then) return null;
+  return (1 + m.change_1y) * then / now - 1;
+}
+function divYield(x){ const m = mkt(x); return m && m.dividend_yield != null && !(m.hidden_fields || []).includes("dividend_yield") ? m.dividend_yield : null; }
+function peOf(x){ const m = mkt(x); return m && m.pe != null && m.pe > 0 && !(m.hidden_fields || []).includes("pe") ? m.pe : null; }
+function riskOf(x){ const m = mkt(x); return m && m.risk ? m.risk.level : null; }
+const pctOrDash = v => v == null ? "—" : pct(v);
+const yld = v => v == null ? "—" : nf(v * 100, 1) + "%";
+
+// ---------------------------------------------------------------- analisi dividendi
+function divAnalysis(x){
+  const e = ext(x); if (!e || !e.dividends || !e.dividends.length) return null;
+  const pays = e.dividends.map(([d, v]) => ({ d, v, y: +d.slice(0, 4) }));
+  const vals = pays.map(p => p.v);
+  pays.forEach((p, i) => {
+    const others = vals.filter((_, j) => j !== i), med = median(others);
+    p.special = pays.length >= 3 && med && p.v > 2.5 * med;
+  });
+  const thisYear = new Date().getFullYear();
+  const years = []; for (let y = thisYear - 5; y <= thisYear; y++) years.push(y);
+  const byYear = years.map(y => {
+    const ps = pays.filter(p => p.y === y);
+    return { y, ord: ps.filter(p => !p.special).reduce((a, p) => a + p.v, 0), spec: ps.filter(p => p.special).reduce((a, p) => a + p.v, 0), n: ps.length, partial: y === thisYear };
+  });
+  const full = byYear.filter(b => !b.partial);
+  const recent = full.slice(-2), cnt = recent.length ? recent.reduce((a, b) => a + b.n, 0) / recent.length : 0;
+  const freq = cnt >= 10 ? "Mensile" : cnt >= 3.5 ? "Trimestrale" : cnt >= 2.5 ? "Tre volte l'anno" : cnt >= 1.5 ? "Semestrale" : cnt >= 0.75 ? "Annuale" : "Irregolare";
+  const last = pays[pays.length - 1];
+  const monthsSince = (Date.now() - new Date(last.d)) / (30.4 * 864e5);
+  const alerts = [];
+  if (monthsSince > 15) alerts.push({ k: "down", t: `Nessun dividendo dal ${dateIt(last.d)}: pagamenti sospesi o in pausa.` });
+  const a = full[full.length - 1], b = full[full.length - 2];
+  const clean2 = a && b && !a.spec && !b.spec;
+  if (clean2 && b.ord > 0 && a.ord < b.ord * 0.75 && monthsSince <= 15) alerts.push({ k: "down", t: `Dividendo ordinario ridotto del ${nf((1 - a.ord / b.ord) * 100, 0)}% nel ${a.y} rispetto al ${b.y} (in valuta locale).` });
+  if (clean2 && b.ord > 0 && a.ord > b.ord * 1.15) alerts.push({ k: "up", t: `Dividendo ordinario aumentato del ${nf((a.ord / b.ord - 1) * 100, 0)}% nel ${a.y} rispetto al ${b.y} (in valuta locale).` });
+  const sp = pays.filter(p => p.special);
+  if (sp.length) alerts.push({ k: "check", t: `Probabile dividendo straordinario: ${sp.map(p => `${nf(p.v, p.v >= 100 ? 0 : 2)} il ${dateIt(p.d)}`).join("; ")}. Individuato in automatico perché molto più alto degli altri pagamenti: da verificare.` });
+  const pr = e.payout_ratio;
+  if (pr != null && pr > 1) alerts.push({ k: "down", t: `Payout ratio del ${nf(pr * 100, 0)}%: la società distribuisce più di quanto guadagna. Difficile da sostenere a lungo.` });
+  return { pays, byYear, freq, last, payout: pr, alerts };
+}
+function dividendsTab(x){
+  const g = DATA.countries[x.country], code = g.currency_code, rate = DATA.market.fx.per_eur[code];
+  const A = divAnalysis(x), e = ext(x);
+  if (!A) return `<p>${e ? "Nessun dividendo pagato negli ultimi anni secondo la nostra fonte." : "Storico dei dividendi non ancora disponibile."}</p>`;
+  const max = Math.max(...A.byYear.map(b => b.ord + b.spec), 1e-9), H = 120;
+  const bars = A.byYear.map(b => {
+    const ho = b.ord / max * H, hs = b.spec / max * H;
+    return `<div class="dbar"><div class="dstack" style="height:${H}px"><span class="ds" style="height:${hs}px"></span><span class="do${b.partial ? " part" : ""}" style="height:${ho}px"></span></div><div class="dy">${b.y}${b.partial ? "*" : ""}</div></div>`;
+  }).join("");
+  const dg = v => nf(v, v >= 100 ? 0 : v >= 1 ? 2 : 4);
+  const rows = A.byYear.slice().reverse().map(b => `<tr><td>${b.y}${b.partial ? " (in corso)" : ""}</td><td>${b.n}</td><td>${b.ord ? dg(b.ord) : "—"}</td><td>${b.spec ? dg(b.spec) : "—"}</td><td>${rate && (b.ord + b.spec) ? nf((b.ord + b.spec) / rate, 2) + " €" : "—"}</td></tr>`).join("");
+  return `
+    <div class="kpis kpis4">
+      <div><span>Rendimento 12 mesi</span><b>${yld(divYield(x))}</b></div>
+      <div><span>Frequenza</span><b>${esc(A.freq)}</b></div>
+      <div><span>Payout ratio</span><b>${A.payout != null ? nf(A.payout * 100, 0) + "%" : "—"}</b></div>
+      <div><span>Ultimo pagamento</span><b>${esc(dateIt(A.last.d))}</b></div>
+    </div>
+    ${A.alerts.map(a => `<div class="dalert ${a.k}">${a.k === "up" ? "▲" : a.k === "down" ? "▼" : "?"} ${esc(a.t)}</div>`).join("")}
+    <div class="dchart"><div class="dbars">${bars}</div>
+      <div class="dleg"><span><i class="lo"></i>Ordinario</span><span><i class="ls"></i>Probabile straordinario</span><span>* anno in corso</span><span>Valori per azione in ${esc(code)}</span></div></div>
+    <table class="fin-table"><tr><th>Anno</th><th>Pagamenti</th><th>Ordinario (${esc(code)})</th><th>Straordinario (${esc(code)})</th><th>Totale in euro*</th></tr>${rows}</table>
+    <p class="note" style="margin-top:6px">Dividendi lordi per azione, in valuta locale, come pagati (date di stacco). *In euro al cambio di oggi. Il payout ratio è la parte degli utili distribuita come dividendo. ${badge("auto", "Dati automatici · Yahoo Finance")} ${badge("check", "Ordinario/straordinario: stima automatica")}</p>
+    ${(mkt(x) && mkt(x).verified_notes || []).map(n => `<div class="verified">✓ Verificato: ${esc(n)}</div>`).join("")}
+    <h4>Quanto potresti ricevere</h4>
+    ${investBlock(x)}`;
+}
+
+// ---------------------------------------------------------------- società simili
+function similar(x){
+  const same = DATA.companies.filter(c => c.id !== x.id && c.sector === x.sector);
+  const local = same.filter(c => c.country === x.country), other = same.filter(c => c.country !== x.country);
+  const bySize = (a, b) => ((mkt(b) || {}).market_cap_eur || 0) - ((mkt(a) || {}).market_cap_eur || 0);
+  return [...local.sort(bySize).slice(0, 4), ...other.sort(bySize).slice(0, 6 - Math.min(local.length, 4))];
+}
+function compareTable(list, hi){
+  const cell = (c, f) => `<td class="${c.id === hi ? "hi" : ""}">${f(c)}</td>`;
+  const row = (label, f) => `<tr><th>${label}</th>${list.map(c => cell(c, f)).join("")}</tr>`;
+  return `<div class="ctab-wrap"><table class="ctab">
+    <tr><th></th>${list.map(c => `<td class="${c.id === hi ? "hi" : ""}"><a data-open="${esc(c.id)}">${esc(c.name)}</a><div class="ticker">${flag(c.country)} ${esc(c.ticker)}</div></td>`).join("")}</tr>
+    ${row("Settore", c => esc(c.sector))}
+    ${row("Capitalizzazione", c => bigEur((mkt(c) || {}).market_cap_eur) || "—")}
+    ${row("Variazione 1 anno (locale)", c => pctOrDash((mkt(c) || {}).change_1y))}
+    ${row("Variazione 1 anno in euro", c => pctOrDash(eurChange(c)))}
+    ${row("Dividendo 12 mesi", c => yld(divYield(c)))}
+    ${row("Payout ratio", c => { const e = ext(c); return e && e.payout_ratio != null ? nf(e.payout_ratio * 100, 0) + "%" : "—"; })}
+    ${row("P/E", c => peOf(c) != null ? nf(peOf(c), 1) : "—")}
+    ${row("Rischio", c => riskOf(c) != null ? `${riskBar(mkt(c).risk)} ${riskOf(c)}/5` : "—")}
+    ${row("Liquidità", c => esc((mkt(c) || {}).liquidity || "—"))}
+  </table></div>`;
+}
+function similarTab(x){
+  const list = similar(x);
+  if (!list.length) return `<p>Nel nostro elenco non ci sono altre società del settore ${esc(x.sector)}.</p>`;
+  return `<p>Le società del settore <b>${esc(x.sector)}</b> nel nostro elenco: prima quelle ${esc(DATA.countries[x.country].name === "Singapore" ? "di Singapore" : "dello stesso paese")}, poi le più grandi degli altri paesi.</p>
+    ${compareTable([x, ...list].slice(0, 6), x.id)}
+    <p class="note" style="margin-top:6px">Confronto tra dati, non una classifica: i risultati passati non indicano quelli futuri. Clicca un nome per aprire la scheda.</p>`;
+}
+
+// ---------------------------------------------------------------- come comprarla: ISIN e scheda normativa
+function accessTab(x){
+  const g = DATA.countries[x.country], e = ext(x);
+  const adr = /^S[iì]/i.test(x.adr || "");
+  return `
+    <dl class="facts">
+      <dt>ISIN</dt><dd>${e && e.isin ? `<b class="mono">${esc(e.isin)}</b> ${badge("check", "Automatico, da verificare nel broker")}` : `n.d. ${badge("check", "Da cercare")}`}</dd>
+      <dt>Ticker</dt><dd>${esc(x.ticker)} (${esc(g.exchange.split(" ")[0])}) · Yahoo: ${esc(x.yahoo)}</dd>
+      <dt>ADR / GDR</dt><dd>${esc(x.adr)}</dd>
+      <dt>Valuta</dt><dd>${esc(g.currency)}</dd>
+    </dl>
+    <p class="note">L'ISIN è il codice internazionale del titolo: è il modo più sicuro per trovarlo nel tuo broker.${adr ? " L'ADR quotato negli USA ha un ISIN diverso da quello dell'azione locale." : ""}</p>
+    <h4>Con quali broker</h4>
+    ${adr ? `<p>Questa società ha un <b>ADR</b> (${esc(x.adr)}): è il modo più semplice per comprarla da un broker italiano.</p>${brokerBlock(x.country, { adrOnly: true, noSummary: true })}` : brokerBlock(x.country) || `<p>${esc(g.access)}</p>`}
+    <h4>Scheda fiscale e normativa · ${flag(x.country)} ${esc(g.name)}</h4>
+    ${normBlock(x.country)}
+    ${divCalc(g)}`;
+}
+function normBlock(k){
+  const g = DATA.countries[k];
+  const chk = DATA.contentChecked ? `Raccolto il ${dateIt(DATA.contentChecked)}` : "";
+  const r = (t, v, b) => `<tr><th>${t}</th><td>${v}<div>${b}</div></td></tr>`;
+  const wh = g.dividend_withholding != null ? `${nf(g.dividend_withholding * 100, 0)}%${g.dividend_withholding_treaty != null ? ` (con trattato Italia: ${nf(g.dividend_withholding_treaty * 100, 0)}%)` : ""}` : (Array.isArray(g.dividend_rows) ? g.dividend_rows.map(d => `${esc(d.label)}: ${nf(d.withholding * 100, 0)}%`).join("; ") : "—");
+  return `<table class="norm">
+    ${r("Ritenuta sui dividendi", wh, badge("check", "Da verificare con un professionista"))}
+    ${r("Tasse nel paese (dividendi e plusvalenze)", esc(g.tax), badge("check", chk || "Da verificare"))}
+    ${r("Limiti per stranieri", esc(g.foreign), badge("check", chk || "Da verificare"))}
+    ${r("Accesso dall'Italia", esc(g.access), badge("check", chk || "Da verificare"))}
+    ${r("Tasse in Italia", esc(DATA.italyTax), badge("official", "Fonti: " + DATA.legalRefs.join("; ")))}
+  </table>
+  <p class="note">Le informazioni fiscali sono indicative e possono cambiare: prima di investire verifica con un commercialista o con il tuo broker.</p>`;
+}
+
+// ---------------------------------------------------------------- confronto società (barra in basso)
+function toggleCompare(id){
+  if (COMPARE.has(id)) COMPARE.delete(id);
+  else { if (COMPARE.size >= 4) { flashTray("Puoi confrontare al massimo 4 società."); return; } COMPARE.add(id); }
+  renderTray(); document.querySelectorAll(`[data-cmp="${id}"]`).forEach(b => { b.classList.toggle("on", COMPARE.has(id)); b.setAttribute("aria-pressed", COMPARE.has(id)); });
+  if ($("cmpBtn")) { $("cmpBtn").classList.toggle("on", COMPARE.has(id)); $("cmpBtn").textContent = COMPARE.has(id) ? "⇄ Nel confronto" : "⇄ Confronta"; }
+}
+function flashTray(t){ const n = $("trayMsg"); if (n) { n.textContent = t; setTimeout(() => n.textContent = "", 2200); } }
+function renderTray(){
+  const t = $("tray"); const ids = [...COMPARE];
+  t.classList.toggle("open", ids.length > 0);
+  t.innerHTML = `<div class="tray-in"><b>Confronto</b>${ids.map(id => { const c = DATA.companies.find(z => z.id === id); return `<span class="tchip">${flag(c.country)} ${esc(c.name)}<button data-untray="${id}" aria-label="Togli">×</button></span>`; }).join("")}
+    <span id="trayMsg" class="note"></span><button class="tgo" id="trayGo" ${ids.length < 2 ? "disabled" : ""}>Confronta ${ids.length}</button><button class="tclear" id="trayClear">Svuota</button></div>`;
+  t.querySelectorAll("[data-untray]").forEach(b => b.onclick = () => toggleCompare(b.dataset.untray));
+  $("trayGo").onclick = openCompare; $("trayClear").onclick = () => { [...COMPARE].forEach(toggleCompare); };
+}
+function openCompare(){
+  const list = [...COMPARE].map(id => DATA.companies.find(c => c.id === id));
+  $("modal").innerHTML = `<button class="close" aria-label="Chiudi" id="closeBtn">×</button>
+    <div class="mhead"><h3>Confronto tra società</h3><div class="ticker" style="margin-top:4px">${list.length} società · dati degli ultimi 12 mesi</div></div>
+    ${compareTable(list)}
+    <p class="note" style="margin-top:8px">Confronto tra dati, non una classifica né un consiglio d'investimento. La variazione in euro include l'effetto del cambio.</p>`;
+  $("overlay").classList.add("open"); $("closeBtn").onclick = closeCo;
+  $("modal").querySelectorAll("[data-open]").forEach(a => a.onclick = () => openCo(a.dataset.open));
+}
+
+// ---------------------------------------------------------------- settori nel paese
+function sectorStats(list){
+  const by = {};
+  list.forEach(c => (by[c.sector] = by[c.sector] || []).push(c));
+  return Object.entries(by).map(([s, cs]) => ({ s, n: cs.length,
+    ch: median(cs.map(c => (mkt(c) || {}).change_1y)), che: median(cs.map(eurChange)), dy: median(cs.map(divYield)), pe: median(cs.map(peOf)) }))
+    .sort((a, b) => b.n - a.n || a.s.localeCompare(b.s, "it"));
+}
+function sectorsBlock(k){
+  const st = sectorStats(DATA.companies.filter(c => c.country === k));
+  const ok = st.filter(r => r.n >= 3), few = st.filter(r => r.n < 3);
+  if (!ok.length) return `<p class="note">Nessun settore con almeno 3 società nel nostro elenco.</p>`;
+  return `<table class="stab"><tr><th>Settore</th><th>N.</th><th>1 anno</th><th>Div.</th></tr>
+    ${ok.sort((a, b) => (b.ch ?? -9) - (a.ch ?? -9)).map(r => `<tr><td>${esc(r.s)}</td><td>${r.n}</td><td class="${r.ch < 0 ? "neg" : "pos"}">${pctOrDash(r.ch)}</td><td>${yld(r.dy)}</td></tr>`).join("")}</table>
+    <p class="note" style="margin-top:6px">Mediane delle società del nostro elenco (non dell'intero mercato), solo settori con almeno 3 società. ${few.length ? `Esclusi per pochi dati: ${few.map(r => esc(r.s)).join(", ")}.` : ""}</p>`;
+}
+
+// ---------------------------------------------------------------- viste: screener e mercati a confronto
+const SCR = { countries: new Set(), sector: "", size: "", dmin: 0, pemax: 0, rmax: 5, sort: "cap", dir: -1 };
+function screenerView(){
+  const keys = Object.keys(DATA.countries);
+  if (!SCR.countries.size) keys.forEach(k => SCR.countries.add(k));
+  const sectors = [...new Set(DATA.companies.map(c => c.sector))].sort((a, b) => a.localeCompare(b, "it"));
+  $("guide").innerHTML = `<h2>Screener</h2>
+    <p>Filtra le ${DATA.companies.length} società di tutti i paesi in base ai numeri che ti interessano.</p>
+    <div class="sf"><label>Paesi</label><div class="sfc">${keys.map(k => `<label class="chk"><input type="checkbox" data-sc="${k}" ${SCR.countries.has(k) ? "checked" : ""}> ${flag(k)} ${esc(DATA.countries[k].name)}</label>`).join("")}</div></div>
+    <div class="sf"><label>Settore</label><select id="scSec"><option value="">Tutti</option>${sectors.map(s => `<option ${s === SCR.sector ? "selected" : ""}>${esc(s)}</option>`).join("")}</select></div>
+    <div class="sf"><label>Dimensione</label><select id="scSize"><option value="">Tutte</option>${SIZES.map(s => `<option ${s === SCR.size ? "selected" : ""}>${s}</option>`).join("")}</select></div>
+    <div class="sf"><label>Dividendo minimo: <b id="scDv">${SCR.dmin}%</b></label><input type="range" id="scD" min="0" max="10" step="0.5" value="${SCR.dmin}"></div>
+    <div class="sf"><label>P/E massimo: <b id="scPv">${SCR.pemax ? SCR.pemax : "nessun limite"}</b></label><input type="range" id="scP" min="0" max="50" step="1" value="${SCR.pemax}"></div>
+    <div class="sf"><label>Rischio massimo: <b id="scRv">${SCR.rmax}/5</b></label><input type="range" id="scR" min="1" max="5" step="1" value="${SCR.rmax}"></div>
+    <button class="btn-ghost" id="scReset" style="width:100%;margin-top:6px">Azzera</button>
+    <p class="note" style="margin-top:10px">I filtri mostrano dati, non suggerimenti: nessuna combinazione indica un investimento adatto a te.</p>`;
+  const upd = () => { renderScreenerTable(); };
+  $("guide").querySelectorAll("[data-sc]").forEach(i => i.onchange = () => { i.checked ? SCR.countries.add(i.dataset.sc) : SCR.countries.delete(i.dataset.sc); upd(); });
+  $("scSec").onchange = e => { SCR.sector = e.target.value; upd(); };
+  $("scSize").onchange = e => { SCR.size = e.target.value; upd(); };
+  $("scD").oninput = e => { SCR.dmin = +e.target.value; $("scDv").textContent = nf(SCR.dmin, 1) + "%"; upd(); };
+  $("scP").oninput = e => { SCR.pemax = +e.target.value; $("scPv").textContent = SCR.pemax ? SCR.pemax : "nessun limite"; upd(); };
+  $("scR").oninput = e => { SCR.rmax = +e.target.value; $("scRv").textContent = SCR.rmax + "/5"; upd(); };
+  $("scReset").onclick = () => { SCR.countries.clear(); SCR.sector = ""; SCR.size = ""; SCR.dmin = 0; SCR.pemax = 0; SCR.rmax = 5; screenerView(); };
+  renderScreenerTable();
+}
+function renderScreenerTable(){
+  let list = DATA.companies.filter(c => SCR.countries.has(c.country) && (!SCR.sector || c.sector === SCR.sector) && (!SCR.size || sizeOf(c) === SCR.size)
+    && (!SCR.dmin || (divYield(c) ?? -1) * 100 >= SCR.dmin) && (!SCR.pemax || (peOf(c) != null && peOf(c) <= SCR.pemax)) && (SCR.rmax >= 5 || (riskOf(c) != null && riskOf(c) <= SCR.rmax)));
+  const cols = [["name", "Società"], ["cap", "Capitaliz."], ["ch", "1 anno"], ["che", "1 anno €"], ["dy", "Dividendo"], ["pe", "P/E"], ["risk", "Rischio"]];
+  const v = (c, k) => k === "name" ? c.name : k === "cap" ? (mkt(c) || {}).market_cap_eur : k === "ch" ? (mkt(c) || {}).change_1y : k === "che" ? eurChange(c) : k === "dy" ? divYield(c) : k === "pe" ? peOf(c) : riskOf(c);
+  list.sort((a, b) => { const p = v(a, SCR.sort), q = v(b, SCR.sort); if (SCR.sort === "name") return SCR.dir * -String(p).localeCompare(String(q), "it"); return SCR.dir * (((p ?? -1e18) > (q ?? -1e18)) - ((p ?? -1e18) < (q ?? -1e18))); });
+  $("toolview").innerHTML = `<div class="tbar"><b>${list.length}</b> società su ${DATA.companies.length} · clicca le intestazioni per ordinare</div>
+    <div class="stable-wrap"><table class="stable"><tr><th></th>${cols.map(([k, l]) => `<th data-sort="${k}" class="${SCR.sort === k ? "act" : ""}">${l}${SCR.sort === k ? (SCR.dir < 0 ? " ▾" : " ▴") : ""}</th>`).join("")}<th></th></tr>
+    ${list.map(c => `<tr data-open="${esc(c.id)}"><td>${flag(c.country)}</td><td><b>${esc(c.name)}</b><div class="ticker">${esc(c.ticker)} · ${esc(c.sector)}</div></td>
+      <td>${bigEur((mkt(c) || {}).market_cap_eur) || "—"}</td><td class="${((mkt(c) || {}).change_1y ?? 0) < 0 ? "neg" : "pos"}">${pctOrDash((mkt(c) || {}).change_1y)}</td>
+      <td class="${(eurChange(c) ?? 0) < 0 ? "neg" : "pos"}">${pctOrDash(eurChange(c))}</td><td>${yld(divYield(c))}</td><td>${peOf(c) != null ? nf(peOf(c), 1) : "—"}</td>
+      <td>${riskOf(c) != null ? riskBar(mkt(c).risk) : "—"}</td><td><button class="cmpb ${COMPARE.has(c.id) ? "on" : ""}" data-cmp="${esc(c.id)}" title="Aggiungi al confronto">⇄</button></td></tr>`).join("")}
+    </table></div>`;
+  $("toolview").querySelectorAll("[data-sort]").forEach(h => h.onclick = () => { const k = h.dataset.sort; SCR.dir = SCR.sort === k ? -SCR.dir : (k === "name" || k === "pe" || k === "risk" ? 1 : -1); SCR.sort = k; renderScreenerTable(); });
+  $("toolview").querySelectorAll("tr[data-open]").forEach(r => r.onclick = e => { if (e.target.closest("[data-cmp]")) return; openCo(r.dataset.open); });
+  $("toolview").querySelectorAll("[data-cmp]").forEach(b => b.onclick = e => { e.stopPropagation(); toggleCompare(b.dataset.cmp); });
+}
+let MKSECTOR = "";
+function marketsView(){
+  const keys = Object.keys(DATA.countries);
+  const sectors = [...new Set(DATA.companies.map(c => c.sector))].sort((a, b) => a.localeCompare(b, "it"));
+  if (!MKSECTOR) MKSECTOR = "Finanza";
+  $("guide").innerHTML = `<h2>Paesi a confronto</h2>
+    <p>Gli ${keys.length} paesi affiancati: tasse, accesso, cambio e andamento delle società del nostro elenco.</p>
+    <p class="note" style="margin-top:10px">Le mediane sono calcolate sulle 20 società di ogni paese presenti nel sito, non sull'intero mercato. Confronto tra dati, non una classifica: i risultati passati non indicano quelli futuri.</p>`;
+  const rows = keys.map(k => { const g = DATA.countries[k], cs = DATA.companies.filter(c => c.country === k);
+    return { k, g, ch: median(cs.map(c => (mkt(c) || {}).change_1y)), che: median(cs.map(eurChange)), dy: median(cs.map(divYield)), pe: median(cs.map(peOf)) }; });
+  const p0 = v => nf(v * 100, Math.round(v * 1000) % 10 ? 1 : 0) + "%";
+  const wh = g => g.dividend_withholding != null ? p0(g.dividend_withholding) + (g.dividend_withholding_treaty != null ? ` (${p0(g.dividend_withholding_treaty)})` : "") : Array.isArray(g.dividend_rows) ? g.dividend_rows.map(d => p0(d.withholding)).join(" / ") : "—";
+  const sec = keys.map(k => { const cs = DATA.companies.filter(c => c.country === k && c.sector === MKSECTOR);
+    return { k, n: cs.length, ch: median(cs.map(c => (mkt(c) || {}).change_1y)), che: median(cs.map(eurChange)), dy: median(cs.map(divYield)), pe: median(cs.map(peOf)) }; });
+  $("toolview").innerHTML = `
+    <div class="tcard"><h3>I paesi</h3>
+    <div class="stable-wrap"><table class="stable"><tr><th>Paese</th><th>Valuta</th><th>Ritenuta div. (trattato)</th><th>Rischio paese</th><th>1 anno (mediana)</th><th>1 anno in €</th><th>Dividendo (mediana)</th><th>P/E (mediana)</th></tr>
+    ${rows.map(r => `<tr data-go="${r.k}"><td><b>${flag(r.k)} ${esc(r.g.name)}</b></td><td>${esc(r.g.currency_code)}</td><td>${wh(r.g)}</td><td>${r.g.country_risk != null ? r.g.country_risk + "/5" : "—"}</td>
+      <td class="${(r.ch ?? 0) < 0 ? "neg" : "pos"}">${pctOrDash(r.ch)}</td><td class="${(r.che ?? 0) < 0 ? "neg" : "pos"}">${pctOrDash(r.che)}</td><td>${yld(r.dy)}</td><td>${r.pe != null ? nf(r.pe, 1) : "—"}</td></tr>`).join("")}
+    </table></div><p class="note" style="margin-top:6px">"1 anno in €" include l'effetto del cambio: è quanto avrebbe ottenuto un investitore italiano. Clicca un paese per aprirlo.</p></div>
+    <div class="tcard"><h3>Un settore nei vari paesi</h3>
+    <div class="sf" style="max-width:320px"><select id="mkSec">${sectors.map(s => `<option ${s === MKSECTOR ? "selected" : ""}>${esc(s)}</option>`).join("")}</select></div>
+    <div class="stable-wrap"><table class="stable"><tr><th>Paese</th><th>Società</th><th>1 anno (mediana)</th><th>1 anno in €</th><th>Dividendo</th><th>P/E</th></tr>
+    ${sec.map(r => r.n >= 3 ? `<tr><td><b>${flag(r.k)} ${esc(DATA.countries[r.k].name)}</b></td><td>${r.n}</td><td class="${(r.ch ?? 0) < 0 ? "neg" : "pos"}">${pctOrDash(r.ch)}</td><td class="${(r.che ?? 0) < 0 ? "neg" : "pos"}">${pctOrDash(r.che)}</td><td>${yld(r.dy)}</td><td>${r.pe != null ? nf(r.pe, 1) : "—"}</td></tr>`
+      : `<tr class="dim"><td>${flag(r.k)} ${esc(DATA.countries[r.k].name)}</td><td>${r.n}</td><td colspan="4">${r.n ? "Meno di 3 società: dati insufficienti per un confronto" : "Nessuna società del settore nel nostro elenco"}</td></tr>`).join("")}
+    </table></div><p class="note" style="margin-top:6px">Mostriamo solo i paesi con almeno 3 società del settore nel nostro elenco.</p></div>`;
+  $("mkSec").onchange = e => { MKSECTOR = e.target.value; marketsView(); };
+  $("toolview").querySelectorAll("tr[data-go]").forEach(r => r.onclick = () => { current = r.dataset.go; location.hash = ""; render(); window.scrollTo({ top: 0, behavior: "smooth" }); });
+}
+
 function openCo(id){
-  const x = DATA.companies.find(c => c.id === id), g = DATA.countries[x.country];
+  const x = DATA.companies.find(c => c.id === id), g = DATA.countries[x.country], m = mkt(x);
+  const che = eurChange(x);
+  const T = [["pan", "Panoramica"], ["div", "Dividendi"], ["fin", "Bilanci"], ["risk", "Rischio"], ["sim", "Società simili"], ["buy", "Come comprarla"]];
   $("modal").innerHTML = `
     <button class="close" aria-label="Chiudi" id="closeBtn">×</button>
     <div class="mhead">
     <h3>${esc(x.name)}</h3>
-    <div class="ticker" style="margin-top:4px">${esc(x.ticker)} · ${esc(g.exchange.split(" ")[0])} · ${flag(x.country)} ${esc(g.name)}</div>
+    <div class="ticker" style="margin-top:4px">${esc(x.ticker)} · ${esc(g.exchange.split(" ")[0])} · ${flag(x.country)} ${esc(g.name)}${ext(x) && ext(x).isin ? ` · ISIN ${esc(ext(x).isin)}` : ""}</div>
     <div class="pills" style="align-items:center"><span class="pill">${esc(x.sector)}</span><span class="pill size">${esc(sizeOf(x))}</span><span class="pill">${esc(x.index)}</span>
-      <button class="star-lg ${WATCH.has(x.id) ? "on" : ""}" id="watchBtn">${WATCH.has(x.id) ? "★ Nei preferiti" : "☆ Aggiungi ai preferiti"}</button></div>
+      <span style="margin-left:auto;display:flex;gap:8px"><button class="star-lg ${COMPARE.has(x.id) ? "on" : ""}" id="cmpBtn">${COMPARE.has(x.id) ? "⇄ Nel confronto" : "⇄ Confronta"}</button>
+      <button class="star-lg ${WATCH.has(x.id) ? "on" : ""}" id="watchBtn">${WATCH.has(x.id) ? "★ Nei preferiti" : "☆ Aggiungi ai preferiti"}</button></span></div>
     </div>
+    <div class="mkey">
+      <div><span>Prezzo</span><b>${m && m.price != null ? nf(m.price, m.price >= 1000 ? 0 : 2) + " " + esc(m.currency) : "—"}</b></div>
+      <div><span>1 anno (locale)</span><b class="${(m && m.change_1y) < 0 ? "neg" : "pos"}">${pctOrDash(m && m.change_1y)}</b></div>
+      <div><span>1 anno in euro</span><b class="${che < 0 ? "neg" : "pos"}">${pctOrDash(che)}</b></div>
+      <div><span>Dividendo</span><b>${yld(divYield(x))}</b></div>
+      <div><span>Capitalizzazione</span><b>${(m && bigEur(m.market_cap_eur)) || "—"}</b></div>
+    </div>
+    <nav class="mtabs">${T.map(([k, l], i) => `<button data-tab="${k}" class="${i ? "" : "act"}">${l}</button>`).join("")}</nav>
 
-    <h4>Cosa fa</h4><p>${esc(x.description)}</p>
-
+    <div class="tabp act" data-p="pan">
+    <h4>Cosa fa ${badge("ours", "Nostra sintesi")}</h4><p>${esc(x.description)}</p>
     <h4>Chi la guida</h4>
     ${ceoBlock(x)}
-
-    <h4>Livello di rischio</h4>
-    ${riskBlock(x)}
-
-    <h4>Dati di mercato</h4>
+    <h4>Dati di mercato ${badge("auto", "Dati automatici")}</h4>
     ${marketBlock(x)}
-
-    <h4>Quanto potresti ricevere di dividendi</h4>
-    ${investBlock(x)}
-
-    <h4>Bilanci degli ultimi anni</h4>
-    ${finBlock(x)}
-
     <h4>Andamento del prezzo nell'ultimo anno</h4>
-    <p class="chart-sub">Chiusure settimanali in valuta locale (${esc(g.currency_code)})</p>
+    <p class="chart-sub">Chiusure settimanali in valuta locale (${esc(g.currency_code)})${che != null ? ` · in euro, con l'effetto del cambio: <b>${pct(che)}</b>` : ""}</p>
     <div class="chart-wrap" id="chart"></div>
-
+    <h4>Eventi rilevanti</h4>
+    ${eventsBlock(x)}
+    <h4>Punti di forza ${badge("ours", "Nostra sintesi, non un consiglio")}</h4><ul>${x.strengths.map(k => `<li>${esc(k)}</li>`).join("")}</ul>
+    <h4>Rischi da conoscere ${badge("ours", "Nostra sintesi")}</h4><ul>${x.risks.map(k => `<li>${esc(k)}</li>`).join("")}</ul>
     <h4>Scheda</h4>
     <dl class="facts">
       <dt>Sede</dt><dd>${esc(x.hq)}</dd>
       <dt>Valuta di quotazione</dt><dd>${esc(g.currency)}</dd>
-      <dt>Quotata anche negli USA (ADR)</dt><dd>${esc(x.adr)}</dd>
+      <dt>ADR / GDR</dt><dd>${esc(x.adr)}</dd>
+      <dt>Documenti ufficiali</dt><dd>${x.ceo && x.ceo.source ? `<a href="${esc(x.ceo.source)}" target="_blank" rel="noopener">Fonte ufficiale citata ↗</a> · ` : ""}<a href="https://finance.yahoo.com/quote/${encodeURIComponent(x.yahoo)}/profile/" target="_blank" rel="noopener">Profilo e sito della società ↗</a></dd>
     </dl>
-
-    <h4>Eventi rilevanti</h4>
-    ${eventsBlock(x)}
-
-    <h4>Punti di forza</h4><ul>${x.strengths.map(k => `<li>${esc(k)}</li>`).join("")}</ul>
-    <h4>Rischi da conoscere</h4><ul>${x.risks.map(k => `<li>${esc(k)}</li>`).join("")}</ul>
-
-    <h4>Come comprarla dall'Italia</h4>
-    ${/^S[iì]/i.test(x.adr || "") ? `<p>Questa società ha un <b>ADR</b> quotato a New York (${esc(x.adr)}): è il modo più semplice per comprarla da un broker italiano.</p>${brokerBlock(x.country, {adrOnly: true, noSummary: true})}` : brokerBlock(x.country, {directOnly: true})}
-
-    <h4>Prima di investire dall'Italia</h4>
-    <div class="access">
-      <p><b>Accesso:</b> ${esc(g.access)}</p>
-      <p style="margin-top:8px"><b>Limiti stranieri:</b> ${esc(g.foreign)}</p>
-      <p style="margin-top:8px"><b>Tasse nel paese:</b> ${esc(g.tax)}</p>
-      <p style="margin-top:8px"><b>Tasse in Italia:</b> ${esc(DATA.italyTax)}</p>
     </div>
-    ${divCalc(g)}`;
+    <div class="tabp" data-p="div">${dividendsTab(x)}</div>
+    <div class="tabp" data-p="fin">${finBlock(x)}</div>
+    <div class="tabp" data-p="risk">${riskBlock(x)}</div>
+    <div class="tabp" data-p="sim">${similarTab(x)}</div>
+    <div class="tabp" data-p="buy">${accessTab(x)}</div>`;
   $("overlay").classList.add("open");
+  $("overlay").scrollTop = 0;
   $("closeBtn").onclick = closeCo;
+  $("modal").querySelectorAll("[data-tab]").forEach(b => b.onclick = () => {
+    $("modal").querySelectorAll("[data-tab]").forEach(z => z.classList.toggle("act", z === b));
+    $("modal").querySelectorAll(".tabp").forEach(p => p.classList.toggle("act", p.dataset.p === b.dataset.tab));
+    const mt = $("modal").querySelector(".mtabs"); if (mt.getBoundingClientRect().top < 0) mt.scrollIntoView();
+  });
+  $("modal").querySelectorAll("[data-open]").forEach(a => a.onclick = () => openCo(a.dataset.open));
   $("watchBtn").onclick = () => { toggleWatch(x.id); const on = WATCH.has(x.id); $("watchBtn").classList.toggle("on", on); $("watchBtn").textContent = on ? "★ Nei preferiti" : "☆ Aggiungi ai preferiti"; };
+  $("cmpBtn").onclick = () => toggleCompare(x.id);
   if ($("amt")) {
     const upd = () => { INVEST = Number($("amt").value.replace(/\./g, "").replace(",", ".")) || 0; renderInvest(x); };
     $("amt").oninput = upd;
@@ -1135,8 +1495,7 @@ function openCo(id){
     document.querySelectorAll("[data-amt]").forEach(b => b.onclick = () => { INVEST = Number(b.dataset.amt); $("amt").value = nf(INVEST, 0); renderInvest(x); });
     renderInvest(x);
   }
-  const mm = mkt(x);
-  priceChart($("chart"), mm && !(mm.hidden_fields || []).includes("price") ? mm.history : null, (mm && mm.currency) || g.currency_code);
+  priceChart($("chart"), m && !(m.hidden_fields || []).includes("price") ? m.history : null, (m && m.currency) || g.currency_code);
 }
 function closeCo(){ $("overlay").classList.remove("open"); }
 $("overlay").addEventListener("click", e => { if (e.target.id === "overlay") closeCo(); });
@@ -1155,7 +1514,12 @@ $("prevC").onclick = () => go(-1);
 $("nextC").onclick = () => go(1);
 
 function render(){
-  renderCountries(); renderGuide(); renderFilters(); renderList(); updateStage();
+  const tool = current === "__screener" || current === "__markets";
+  document.querySelector(".layout").classList.toggle("tool", tool);
+  document.querySelectorAll(".topnav a[data-view]").forEach(a => a.classList.toggle("here", a.dataset.view === (tool ? current : "__mercati")));
+  renderCountries(); updateStage();
+  if (tool) { current === "__screener" ? screenerView() : marketsView(); return; }
+  renderGuide(); renderFilters(); renderList();
   const L = $("list"); L.classList.remove("enter"); void L.offsetWidth; L.classList.add("enter");
   clearTimeout(render.t); render.t = setTimeout(() => L.classList.remove("enter"), 1400);
 }

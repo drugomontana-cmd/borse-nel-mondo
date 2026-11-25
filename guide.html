@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guide — Borse del Mondo</title>
+<meta name="description" content="Da dove vengono i dati di Borse del Mondo, come li calcoliamo e come li verifichiamo.">
+<style>
+@font-face{font-family:"Source Sans 3";src:url("fonts/source-sans-3.woff") format("woff");font-weight:200 900;font-style:normal;font-display:swap}
+@font-face{font-family:"Fraunces";src:url("fonts/fraunces-latin-600-normal.woff2") format("woff2");font-weight:600;font-style:normal;font-display:swap}
+  :root{--bg:#f2f4f7;--card:#fff;--ink:#111c2d;--muted:#5b6673;--line:#dfe3ea;--accent:#1b4a80;--accent-soft:#e7eef8}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:780px;margin:0 auto;padding:28px 24px 56px}
+  nav{display:flex;gap:18px;font-size:14px;margin-bottom:22px;flex-wrap:wrap}
+  nav a{color:var(--accent);text-decoration:none;font-weight:500}
+  nav a[aria-current]{color:var(--ink)}
+  h1{font-size:30px;font-weight:600;letter-spacing:-.01em;margin:0 0 8px}
+  h2{font-size:19px;margin:34px 0 8px}
+  p,li{font-size:15.5px}
+  .lead{color:var(--muted);font-size:17px}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px;background:var(--card);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+  th,td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+  th{font-size:13px;color:var(--muted);font-weight:600}
+  .box{background:var(--accent-soft);border-radius:12px;padding:14px 16px;margin:16px 0}
+  a{color:var(--accent)}
+  footer{font-size:12.5px;color:var(--muted);margin-top:40px;border-top:1px solid var(--line);padding-top:14px}
+  .topbar{background:#0f1f38}
+  .topbar-in{max-width:1150px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;gap:14px}
+  .brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:#fff}
+  .logo{width:30px;height:30px;border-radius:7px;background:#5fa8e8;display:flex;align-items:center;justify-content:center}
+  .brand-name{font-family:Fraunces,Georgia,serif;font-size:20px;font-weight:600}
+  .demo-badge{background:#fbf0e3;color:#8a4b0f;font-size:10.5px;font-weight:700;letter-spacing:.06em;padding:2px 7px;border-radius:4px}
+  .topnav{display:flex;gap:22px;font-size:13.5px;margin:0 0 0 auto}
+  .topnav a{color:#a3b3c9;font-weight:500;text-decoration:none}
+  .topnav a[aria-current],.topnav a:hover{color:#fff}
+
+:root{--bg:#efede6;--card:#fbfaf6;--ink:#1b1f1a;--muted:#6a6b63;--line:#e0ddd3;--accent:#45604a;--accent-soft:#e6eadf}
+body{font-family:"Source Sans 3",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:16px}
+.topbar{background:transparent}
+.topbar-in{padding:22px 24px}
+.brand{color:#141414}
+.logo{border-radius:50%;width:28px;height:28px;background:#45604a}
+.logo svg{stroke:#fff}
+.brand-name{font-family:"Source Sans 3",sans-serif;font-weight:700;font-size:19px;text-transform:lowercase;letter-spacing:-.01em}
+.topnav{margin:0 auto!important;gap:30px}
+.topnav a{color:#75716a!important;font-size:12px;font-weight:600;letter-spacing:.09em;text-transform:uppercase}
+.topnav a[aria-current],.topnav a:hover{color:#141414!important}
+.demo-badge{background:#45604a!important;color:#fff!important;border-radius:99px;padding:7px 16px;font-size:12.5px;font-weight:600;letter-spacing:0}
+h1{font-family:"Source Sans 3",sans-serif!important;font-weight:600!important;letter-spacing:-.025em}
+a{color:#141414}
+.demo-badge{background:transparent!important;color:#45604a!important;border:1px solid #b8c4b5;padding:4px 11px!important;font-size:11px!important;letter-spacing:.1em!important;text-transform:uppercase}
+
+/* banner verde come la pagina principale */
+body{background:#4a3122}
+.topbar{max-width:1102px;margin:16px auto 0;border-radius:22px;overflow:hidden;background:linear-gradient(90deg,rgba(8,12,4,.55),rgba(8,12,4,.15) 55%,rgba(8,12,4,0)),repeating-linear-gradient(90deg,rgba(255,255,255,0) 0,rgba(255,255,255,.09) 4px,rgba(0,0,0,.10) 11px,rgba(255,255,255,0) 17px),repeating-linear-gradient(90deg,rgba(0,0,0,0) 0,rgba(0,0,0,.07) 29px,rgba(255,255,255,.05) 41px,rgba(0,0,0,0) 53px),
+    radial-gradient(55% 95% at 72% 35%,rgba(222,234,120,.95),rgba(190,210,70,.35) 45%,rgba(0,0,0,0) 75%),
+    radial-gradient(35% 80% at 92% 90%,rgba(170,198,52,.75),rgba(0,0,0,0) 70%),
+    radial-gradient(45% 70% at 38% 110%,rgba(120,150,30,.7),rgba(0,0,0,0) 70%),
+    linear-gradient(90deg,#141b0b 0%,#1f2a0f 30%,#33431a 60%,#52691f 100%)}
+.topbar-in{padding:22px 24px 70px}
+.brand,.brand-name{color:#fff!important}
+.logo{background:rgba(255,255,255,.16)!important;box-shadow:inset 0 0 0 1px rgba(255,255,255,.25)}
+.logo svg{stroke:#fff!important}
+.topnav{margin:0 0 0 auto!important;gap:6px!important}
+.topnav a{color:rgba(255,255,255,.8)!important;font-size:12.5px!important;letter-spacing:.02em!important;text-transform:none!important;font-weight:500!important;padding:7px 13px;border-radius:99px;background:rgba(255,255,255,.08);box-shadow:inset 0 0 0 1px rgba(255,255,255,.14)}
+.topnav a[aria-current],.topnav a:hover{color:#fff!important;background:rgba(255,255,255,.2)}
+.demo-badge{color:#fff!important;border-color:rgba(255,255,255,.35)!important}
+:root{--accent:#121410;--accent-soft:#ebf3cc}
+:root{--muted:#23251f}
+.lead,p,td,th,li,.note{color:#121410}
+.wrap{background:#fff;border-radius:22px;margin:18px auto 0;padding:36px 44px 44px;max-width:780px}
+footer{color:#fff!important;max-width:780px;margin:0 auto;padding:22px 24px 40px;font-size:12.5px}
+/* sfondo: cielo al tramonto e skyline disegnati */
+body{background:url("img/skyline.svg") center bottom / 100% auto no-repeat fixed,linear-gradient(180deg,#7f93a6 0%,#a9b1b4 35%,#d8b48a 68%,#e48a4c 88%,#c8643a 100%) fixed!important}
+footer,footer *,.footer-in,.footer-in a{color:#fff!important;text-shadow:0 1px 3px rgba(0,0,0,.5)}
+.topbar{background:linear-gradient(90deg,rgba(14,9,4,.92) 0%,rgba(14,9,4,.6) 50%,rgba(14,9,4,.2) 100%),url("img/candele.svg") right 380px center / 24% auto no-repeat,radial-gradient(60% 90% at 75% 20%,rgba(255,214,140,.55),rgba(0,0,0,0) 70%),linear-gradient(120deg,#1c130a,#3a2714 45%,#6b4a24 80%,#8a6332)!important}
+/* sfondo pagina dorato, coordinato con il banner */
+body{background:
+  radial-gradient(55% 45% at 85% 12%,rgba(255,214,140,.38),rgba(0,0,0,0) 70%),
+  radial-gradient(45% 40% at 10% 85%,rgba(200,140,60,.30),rgba(0,0,0,0) 70%),
+  url("img/candele-sfondo.svg") right -40px bottom 40px / 52% auto no-repeat,
+  repeating-linear-gradient(0deg,rgba(243,212,138,.045) 0 1px,rgba(0,0,0,0) 1px 64px),
+  linear-gradient(160deg,#120c06 0%,#24180c 35%,#3d2a15 70%,#5e4222 100%) fixed!important;
+  background-attachment:fixed!important}
+.topbar{box-shadow:0 0 0 1px rgba(243,212,138,.22),0 18px 40px rgba(0,0,0,.35)}
+/* sfondo: parete scura con mappa del mondo retroilluminata (disegnata) */
+footer,footer *,.footer-in,.footer-in a{color:#fff!important;text-shadow:0 1px 3px rgba(0,0,0,.6)}
+/* versione sobria: mappa attenuata */
+.topbar{box-shadow:0 0 0 1px rgba(255,255,255,.4),0 18px 40px rgba(0,0,0,.35)!important}
+/* sfondo chiaro con mappa in filigrana */
+footer,footer *{color:#2a2218!important;text-shadow:none!important}
+.wrap{box-shadow:0 1px 3px rgba(60,40,10,.08),0 0 0 1px rgba(60,40,10,.06)}
+.topbar{box-shadow:0 18px 40px rgba(60,40,10,.25)!important}
+/* sfondo caffellatte chiaro con mappa illuminata */
+footer,footer *,.footer-in,.footer-in a{color:#fff!important;text-shadow:0 1px 2px rgba(60,40,20,.5)!important}
+footer{border-top-color:rgba(255,255,255,.3)!important}
+/* sfondo neutro chiaro, senza mappa (le pagine dei mercati cambiano colore per paese) */
+body{background:radial-gradient(70% 60% at 50% 0%,rgba(255,255,255,.45),transparent 70%),#e8dccb!important}
+footer,footer *{color:#1d1812!important;text-shadow:none!important}
+.toc{font-size:14px;line-height:1.9}.toc a{white-space:nowrap}.formula{background:#fbf8f2;border-left:3px solid #b8892f;padding:10px 14px;font-weight:600}
+h2[id]{scroll-margin-top:16px}
+</style>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%2716%27 fill=%27%2345604a%27/%3E%3Cg fill=%27none%27 stroke=%27%23fff%27 stroke-width=%272%27%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%279%27/%3E%3Cpath d=%27M7 16h18M16 7c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S13.5 9.6 16 7z%27/%3E%3C/g%3E%3C/svg%3E">
+</head>
+<body>
+<div class="topbar"><div class="topbar-in">
+  <a class="brand" href="index.html"><span class="logo"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg></span><span class="brand-name">Borse del Mondo</span></a>
+  <nav class="topnav"><a href="index.html">Mercati</a><a href="index.html#screener">Screener</a><a href="index.html#mercati">Paesi a confronto</a><a href="guide.html" aria-current="page">Guide</a><a href="metodo.html">Metodo e fonti</a><a href="chi-siamo.html">Chi siamo</a></nav>
+  <span class="demo-badge">Demo</span>
+</div></div>
+<div class="wrap">
+
+<h1>Guide</h1>
+<p class="lead">Spiegazioni brevi sui concetti che servono per investire dall'Italia nei mercati esteri. Sono informazioni generali: per il tuo caso specifico rivolgiti a un commercialista o a un consulente abilitato.</p>
+<p class="toc"><a href="#trovare">Come trovare un titolo nel broker</a> · <a href="#adr">Azioni, ADR e GDR</a> · <a href="#doppia">La doppia tassazione dei dividendi</a> · <a href="#regime">Regime amministrato o dichiarativo</a> · <a href="#cambio">Il rischio di cambio</a> · <a href="#limiti">I limiti per gli investitori stranieri</a> · <a href="#numeri">Come leggere i numeri del sito</a></p>
+
+<h2 id="trovare">1. Come trovare un titolo nel broker</h2>
+<p>La stessa società può essere quotata su più borse, con ticker diversi. Il modo più sicuro per trovare il titolo giusto è l'<b>ISIN</b>: un codice di 12 caratteri che identifica in modo univoco ogni titolo (per esempio le azioni locali di una società indiana iniziano con "IN", quelle thailandesi con "TH").</p>
+<ul>
+<li>Nella scheda di ogni società, alla voce <i>Come comprarla</i>, trovi ISIN, ticker e borsa di quotazione.</li>
+<li>Controlla sempre nel broker che <b>borsa</b> e <b>valuta</b> siano quelle che ti aspetti: lo stesso ISIN può essere scambiato anche su borse secondarie (per esempio in Germania), con meno scambi e prezzi meno precisi.</li>
+<li>Un ADR quotato negli Stati Uniti ha un ISIN diverso (inizia con "US") da quello dell'azione locale.</li>
+</ul>
+
+<h2 id="adr">2. Azioni, ADR e GDR</h2>
+<p>Molte società dei mercati emergenti si possono comprare in due modi:</p>
+<ul>
+<li><b>Azioni ordinarie sulla borsa locale</b> (per esempio a Bangkok o a San Paolo): è lo strumento originale, ma serve un broker che offra quella borsa, e prezzi e dividendi sono in valuta locale.</li>
+<li><b>ADR</b> (American Depositary Receipt): un certificato emesso da una banca americana che rappresenta un certo numero di azioni della società estera ed è quotato in dollari a New York. Si compra come un'azione americana, quindi è disponibile in molti broker italiani.</li>
+<li><b>GDR</b> (Global Depositary Receipt): simile all'ADR, ma quotato di solito a Londra o in Lussemburgo e spesso pensato per investitori istituzionali, quindi poco accessibile ai privati.</li>
+</ul>
+<p>Cose da sapere sugli ADR: il prezzo segue quello dell'azione locale convertito in dollari, quindi il rischio di cambio resta; sui dividendi si applica comunque la ritenuta del paese della società; la banca depositaria può trattenere piccole commissioni annuali per azione.</p>
+
+<h2 id="doppia">3. La doppia tassazione dei dividendi</h2>
+<p>Un dividendo pagato da una società estera viene di solito tassato due volte:</p>
+<ol>
+<li><b>Nel paese della società</b>, con una ritenuta alla fonte (per esempio il 10% in Thailandia, il 15% in Brasile sugli interessi sul capitale proprio).</li>
+<li><b>In Italia</b>, con l'imposta del 26%.</li>
+</ol>
+<p>Con un broker italiano in regime amministrato, il 26% si applica sul dividendo già ridotto dalla ritenuta estera, e la parte pagata all'estero di norma non si recupera come credito. Le convenzioni contro le doppie imposizioni possono ridurre la ritenuta estera, ma spesso solo presentando un certificato di residenza fiscale o chiedendo un rimborso al fisco estero: chiedi al tuo broker se offre questo servizio.</p>
+<p>Nella scheda di ogni paese trovi il calcolo di quanto ti resta su 100 € di dividendo lordo, e nella scheda di ogni società il calcolo sull'importo che vuoi investire.</p>
+
+<h2 id="regime">4. Regime amministrato o dichiarativo</h2>
+<ul>
+<li><b>Amministrato</b> (tipico dei broker italiani): il broker calcola e paga le tasse al posto tuo su dividendi e plusvalenze, e applica l'imposta di bollo dello 0,2% annuo. Non devi indicare nulla in dichiarazione dei redditi per questi investimenti.</li>
+<li><b>Dichiarativo</b> (tipico dei broker esteri): il broker non trattiene le tasse italiane. Devi indicare tu dividendi, plusvalenze e minusvalenze nella dichiarazione dei redditi, compilare il quadro RW (monitoraggio delle attività all'estero) e pagare l'IVAFE dello 0,2% annuo.</li>
+</ul>
+<p>In entrambi i casi l'aliquota è la stessa (26%). Cambia chi fa i calcoli e quanto lavoro resta a te. Le minusvalenze si possono compensare con plusvalenze future entro quattro anni, ma non con i dividendi.</p>
+
+<h2 id="cambio">5. Il rischio di cambio</h2>
+<p>Quando compri un'azione estera, il tuo guadagno in euro dipende sia dal prezzo dell'azione sia dalla valuta. La formula è semplice:</p>
+<p class="formula">rendimento in euro ≈ (1 + rendimento in valuta locale) × (1 + variazione della valuta contro l'euro) − 1</p>
+<p>Esempio: se un'azione brasiliana sale del 20% in real, ma il real perde il 15% contro l'euro, in euro hai guadagnato circa il 2% (1,20 × 0,85 − 1). Nei mercati emergenti le valute possono muoversi molto, in un senso e nell'altro.</p>
+<p>Per questo sul sito trovi sia la variazione a un anno <b>in valuta locale</b> sia quella <b>in euro</b>, che include l'effetto del cambio.</p>
+
+<h2 id="limiti">6. I limiti per gli investitori stranieri</h2>
+<p>Alcuni paesi limitano la quota di una società che può essere posseduta da stranieri, soprattutto in settori come banche, telecomunicazioni, media e difesa.</p>
+<ul>
+<li><b>Thailandia:</b> quando il tetto per gli stranieri è raggiunto, si comprano gli NVDR, che danno diritto a dividendi e variazioni di prezzo ma non al voto.</li>
+<li><b>Vietnam:</b> il tetto è spesso del 49% (30% per le banche). Quando è pieno, gli stranieri possono comprare solo da altri stranieri, a volte pagando un prezzo più alto.</li>
+<li><b>India:</b> i privati non residenti di norma non possono comprare direttamente sulla borsa locale: le strade pratiche sono ADR ed ETF.</li>
+</ul>
+<p>Nella scheda di ogni paese, alla voce <i>Limiti per investitori stranieri</i>, trovi le regole principali.</p>
+
+<h2 id="numeri">7. Come leggere i numeri del sito</h2>
+<table>
+<tr><th>Dato</th><th>Cosa significa</th></tr>
+<tr><td>Capitalizzazione</td><td>Il valore di tutte le azioni della società in borsa, convertito in euro. Divide le società in large, mid e small cap.</td></tr>
+<tr><td>P/E</td><td>Prezzo diviso utili per azione degli ultimi 12 mesi: quanti anni di utili attuali "paghi" comprando l'azione. Non ha senso se la società è in perdita.</td></tr>
+<tr><td>Rendimento del dividendo</td><td>Dividendi lordi degli ultimi 12 mesi diviso il prezzo di oggi. Può essere gonfiato da dividendi straordinari o da un forte calo del prezzo.</td></tr>
+<tr><td>Payout ratio</td><td>La parte degli utili distribuita come dividendo. Sopra il 100% la società paga più di quanto guadagna: difficile da sostenere a lungo.</td></tr>
+<tr><td>Margine netto</td><td>Utile netto diviso ricavi: quanto resta alla società su ogni 100 di vendite.</td></tr>
+<tr><td>Liquidità</td><td>Quanto si scambia in media ogni giorno. Con poca liquidità comprare e vendere può costare di più.</td></tr>
+<tr><td>Rischio da 1 a 5</td><td>Un nostro indicatore che combina volatilità, calo massimo, liquidità, dimensione e rischio del paese. La pagina <a href="metodo.html">Metodo e fonti</a> spiega come lo calcoliamo.</td></tr>
+</table>
+
+</div>
+<footer>Contenuti a solo scopo informativo: non sono una raccomandazione d'investimento né una consulenza finanziaria. Ultimo aggiornamento di questa pagina: 25 novembre 2026.</footer>
+</div>
+</body>
+</html>

@@ -3,7 +3,7 @@
 Istruzioni per chiunque modifichi il sito (persone o assistenti AI).
 Lo scopo è mantenere la grafica coerente, sobria ed elegante. In caso di dubbio: **meno effetti, più leggibilità**.
 
-Ultimo aggiornamento: 24 novembre 2026 (colori per paese).
+Ultimo aggiornamento: 25 novembre 2026 (schede, dividendi, confronti, screener, guide).
 
 ---
 
@@ -126,9 +126,29 @@ Verde lime, viola, blu acceso, gradienti multicolore, grigio freddo come sfondo 
 | Barra dei paesi | Paese attivo in pillola bianca con testo scuro; ricerca paese a sinistra; Preferiti fissi a destra |
 | Card società | Icona del settore (disegnata, quadrata su fondo oro chiaro) + nome (max 2 righe) + ticker e indice + stella; capitalizzazione grande con accanto la variazione 1 anno; minigrafico oro con sfumatura e puntino su "oggi"; fascia di tre numeri **Dividendo · P/E · Rischio** (rischio a barretta di 5 segmenti: verde 1–2, oro 3, rosso 4–5); etichette settore/dimensione in fondo. Tutte le card della stessa altezza |
 | Scheda società | Intestazione scura dorata come il banner; sezioni separate da linee sottili con titoli in maiuscoletto |
-| Pagine Metodo e Chi siamo | Stessa striscia dorata in alto; testo dentro un riquadro bianco centrato |
+| Scheda società | Fascia fissa con prezzo, 1 anno locale, 1 anno in euro, dividendo, capitalizzazione; sezioni a schede: Panoramica · Dividendi · Bilanci · Rischio · Società simili · Come comprarla |
+| Dividendi | Barre per anno: ordinario oro `#b8892f`, probabile straordinario viola `#7a4f9e`, anno in corso tratteggiato; avvisi con barra a sinistra (rosso riduzione/sospensione, verde aumento, ambra da verificare) |
+| Barra del confronto | Fissa in basso, nera, fino a 4 società, pulsante oro "Confronta" |
+| Screener e Paesi a confronto | Pannello filtri a sinistra, tabella bianca a destra ordinabile cliccando le intestazioni |
+| Pagine Metodo, Guide e Chi siamo | Stessa striscia dorata in alto; testo dentro un riquadro bianco centrato |
 
 ---
+
+### Etichette di stato
+Ogni informazione mostra la sua natura con una piccola etichetta quadrata:
+
+| Etichetta | Uso | Colori |
+|---|---|---|
+| ✓ Verificato | Dato controllato a mano con fonte e data | verde `#24633a` su `#eef7f0` |
+| ⟳ Dati automatici | Numeri scaricati in automatico | grigio `#3d4652` su `#f4f6f8` |
+| ? Da verificare | Stime automatiche, dati fiscali non ancora controllati da un professionista | ambra `#8a5a00` su `#fdf6e3` |
+| ✎ Nostra sintesi | Descrizioni, punti di forza e rischi scritti da noi | viola `#5b3f8a` su `#f6f2fb` |
+| § Fonte ufficiale | Riferimenti di legge | blu `#1d4f86` su `#eef4fb` |
+
+### Confronti e classifiche
+- Mostrare numeri ordinati, mai giudizi ("il migliore", "il più interessante").
+- Medie per settore o paese: usare la **mediana**, mostrare sempre **quante società** ci sono dietro, nascondere i gruppi con meno di 3 società.
+- Ogni confronto riporta: "Confronto tra dati, non una classifica: i risultati passati non indicano quelli futuri".
 
 ## 8. Prima di pubblicare una modifica grafica
 
