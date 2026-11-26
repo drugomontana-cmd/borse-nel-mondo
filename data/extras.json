@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-25T18:20:48Z",
+  "updated_at": "2026-11-26T18:24:15Z",
   "source": "Yahoo Finance (dividendi pagati, payout ratio, ISIN)",
   "fx_year_ago_per_eur": {
-    "AUD": 1.7814699411392212,
-    "BRL": 6.199627876281738,
-    "INR": 102.61699676513672,
-    "PLN": 4.233089923858643,
-    "SGD": 1.5030200481414795,
-    "THB": 37.24599838256836,
-    "VND": 30221.0,
-    "ZAR": 19.917579650878906
+    "AUD": 1.7872200012207031,
+    "BRL": 6.21504020690918,
+    "INR": 103.02300262451172,
+    "PLN": 4.220749855041504,
+    "SGD": 1.5055099725723267,
+    "THB": 37.303001403808594,
+    "VND": 30170.0,
+    "ZAR": 19.89929962158203
   },
   "companies": {
     "india-reliance": {
@@ -45,7 +45,7 @@
         ]
       ],
       "isin": "INE002A01018",
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-hdfcbank": {
       "payout_ratio": 0.24040002,
@@ -80,7 +80,7 @@
         ]
       ],
       "isin": "INE040A01034",
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-infy": {
       "payout_ratio": 0.6778,
@@ -135,7 +135,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-tcs": {
       "payout_ratio": 0.4557,
@@ -242,7 +242,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-hindunilvr": {
       "payout_ratio": 0.9103,
@@ -297,7 +297,7 @@
         ]
       ],
       "isin": "INE030A01027",
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-bhartiartl": {
       "payout_ratio": 0.4725,
@@ -328,7 +328,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-drreddy": {
       "payout_ratio": 0.2382,
@@ -363,7 +363,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-irctc": {
       "payout_ratio": 0.5478,
@@ -426,7 +426,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-ptt": {
       "payout_ratio": 0.5129,
@@ -481,7 +481,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-cpall": {
       "payout_ratio": 0.4979,
@@ -512,7 +512,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-aot": {
       "payout_ratio": 0.6,
@@ -539,7 +539,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-advanc": {
       "payout_ratio": 0.92480004,
@@ -598,7 +598,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-bdms": {
       "payout_ratio": 0.76339996,
@@ -653,7 +653,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-kbank": {
       "payout_ratio": 0.5552,
@@ -712,7 +712,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-delta": {
       "payout_ratio": 0.24790001,
@@ -747,7 +747,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-bh": {
       "payout_ratio": 0.7964,
@@ -802,7 +802,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-vnm": {
       "payout_ratio": 0.9575,
@@ -869,15 +869,11 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-fpt": {
       "payout_ratio": 0.3489,
       "dividends": [
-        [
-          "2020-08-17",
-          433.1464
-        ],
         [
           "2021-06-01",
           433.1464
@@ -921,10 +917,14 @@
         [
           "2026-05-28",
           909.0909
+        ],
+        [
+          "2026-11-27",
+          1000.0
         ]
       ],
       "isin": "AU000000FZR3",
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-vcb": {
       "payout_ratio": 0.097200006,
@@ -947,7 +947,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-hpg": {
       "payout_ratio": 0.14140001,
@@ -970,7 +970,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-mwg": {
       "payout_ratio": 0.13159999,
@@ -1009,7 +1009,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-msn": {
       "payout_ratio": 0.0,
@@ -1036,7 +1036,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-vic": {
       "payout_ratio": 0.0,
@@ -1047,7 +1047,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-pnj": {
       "payout_ratio": 0.4013,
@@ -1114,7 +1114,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-pko": {
       "payout_ratio": 0.70089996,
@@ -1141,7 +1141,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-pkn": {
       "payout_ratio": 0.5751,
@@ -1176,13 +1176,13 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-dnp": {
       "payout_ratio": 0.0,
       "dividends": [],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-cdr": {
       "payout_ratio": 0.0,
@@ -1209,7 +1209,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-lpp": {
       "payout_ratio": 0.699,
@@ -1252,13 +1252,13 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-ale": {
       "payout_ratio": 0.0,
       "dividends": [],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-kgh": {
       "payout_ratio": 0.0294,
@@ -1285,7 +1285,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-txt": {
       "payout_ratio": 1.2458,
@@ -1364,7 +1364,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-petr4": {
       "payout_ratio": 0.3339,
@@ -1467,7 +1467,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-vale3": {
       "payout_ratio": 5.0819,
@@ -1542,7 +1542,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-itub4": {
       "payout_ratio": 0.7225,
@@ -1945,7 +1945,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-wege3": {
       "payout_ratio": 1.1123,
@@ -2096,7 +2096,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-abev3": {
       "payout_ratio": 0.72410005,
@@ -2147,7 +2147,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-embj3": {
       "payout_ratio": 0.41599998,
@@ -2178,7 +2178,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-rent3": {
       "payout_ratio": 0.5422,
@@ -2289,7 +2289,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-mglu3": {
       "payout_ratio": 0.22950001,
@@ -2316,7 +2316,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-icicibank": {
       "payout_ratio": 0.14739999,
@@ -2347,7 +2347,7 @@
         ]
       ],
       "isin": "INE090A01021",
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-lt": {
       "payout_ratio": 0.2927,
@@ -2386,7 +2386,7 @@
         ]
       ],
       "isin": "INE214T01019",
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-sunpharma": {
       "payout_ratio": 0.35009998,
@@ -2445,7 +2445,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-dixon": {
       "payout_ratio": 0.0396,
@@ -2476,7 +2476,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-pageind": {
       "payout_ratio": 0.8764,
@@ -2579,7 +2579,7 @@
         ]
       ],
       "isin": "INE761H01022",
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-jublfood": {
       "payout_ratio": 0.2124,
@@ -2610,7 +2610,7 @@
         ]
       ],
       "isin": "INE797F01020",
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-lalpathlab": {
       "payout_ratio": 0.45880002,
@@ -2693,7 +2693,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-kpittech": {
       "payout_ratio": 0.38439998,
@@ -2744,13 +2744,13 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-affle": {
       "payout_ratio": 0.0,
       "dividends": [],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-cdsl": {
       "payout_ratio": 0.528,
@@ -2785,13 +2785,13 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-kaynes": {
       "payout_ratio": 0.0,
       "dividends": [],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-relaxo": {
       "payout_ratio": 0.4685,
@@ -2822,7 +2822,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-gulf": {
       "payout_ratio": 0.0,
@@ -2833,7 +2833,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-scb": {
       "payout_ratio": 0.90169996,
@@ -2876,7 +2876,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-scc": {
       "payout_ratio": 0.4376,
@@ -2935,7 +2935,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-mint": {
       "payout_ratio": 0.4978,
@@ -2974,7 +2974,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-hmpro": {
       "payout_ratio": 0.84440005,
@@ -3033,7 +3033,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-tu": {
       "payout_ratio": 0.6098,
@@ -3092,7 +3092,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-bch": {
       "payout_ratio": 0.8301,
@@ -3151,7 +3151,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-com7": {
       "payout_ratio": 0.5116,
@@ -3186,7 +3186,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-hana": {
       "payout_ratio": 0.6996,
@@ -3241,7 +3241,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-cbg": {
       "payout_ratio": 0.7339,
@@ -3296,7 +3296,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-mtc": {
       "payout_ratio": 0.082600005,
@@ -3327,7 +3327,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-bem": {
       "payout_ratio": 0.6,
@@ -3362,7 +3362,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-bid": {
       "payout_ratio": 0.20809999,
@@ -3385,7 +3385,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-tcb": {
       "payout_ratio": 0.1734,
@@ -3404,7 +3404,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-vhm": {
       "payout_ratio": 0.45119998,
@@ -3423,7 +3423,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-vjc": {
       "payout_ratio": 0.0,
@@ -3454,7 +3454,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-sab": {
       "payout_ratio": 1.4325,
@@ -3513,7 +3513,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-gmd": {
       "payout_ratio": 0.3719,
@@ -3548,7 +3548,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-ree": {
       "payout_ratio": 0.1966,
@@ -3579,7 +3579,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-vhc": {
       "payout_ratio": 0.0,
@@ -3610,7 +3610,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-frt": {
       "payout_ratio": 0.0,
@@ -3633,7 +3633,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-dgw": {
       "payout_ratio": 0.4682,
@@ -3668,7 +3668,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-imp": {
       "payout_ratio": 0.2882,
@@ -3703,7 +3703,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-nlg": {
       "payout_ratio": 0.6667,
@@ -3746,7 +3746,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-pzu": {
       "payout_ratio": 0.6987,
@@ -3777,7 +3777,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-peo": {
       "payout_ratio": 0.85220003,
@@ -3808,7 +3808,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-ebp": {
       "payout_ratio": 0.9707,
@@ -3839,7 +3839,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-bft": {
       "payout_ratio": 0.3691,
@@ -3858,7 +3858,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-bdx": {
       "payout_ratio": 1.1199,
@@ -3897,7 +3897,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-acp": {
       "payout_ratio": 1.2972,
@@ -3932,7 +3932,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-kru": {
       "payout_ratio": 0.4302,
@@ -3963,7 +3963,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-xtb": {
       "payout_ratio": 0.3366,
@@ -3994,7 +3994,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-car": {
       "payout_ratio": 0.0199,
@@ -4025,7 +4025,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-apr": {
       "payout_ratio": 0.0664,
@@ -4056,13 +4056,13 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-11b": {
       "payout_ratio": 0.0,
       "dividends": [],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-gpp": {
       "payout_ratio": 0.8219,
@@ -4089,7 +4089,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-bbas3": {
       "payout_ratio": 0.1089,
@@ -4260,7 +4260,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-bpac11": {
       "payout_ratio": null,
@@ -4335,7 +4335,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-b3sa3": {
       "payout_ratio": 0.6937,
@@ -4458,7 +4458,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-suzb3": {
       "payout_ratio": 0.1666,
@@ -4493,7 +4493,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-tots3": {
       "payout_ratio": 0.45069999,
@@ -4568,7 +4568,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-radl3": {
       "payout_ratio": 0.4078,
@@ -4687,7 +4687,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-lren3": {
       "payout_ratio": 0.6202,
@@ -4798,7 +4798,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-viva3": {
       "payout_ratio": 0.3172,
@@ -4841,7 +4841,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-slce3": {
       "payout_ratio": 1.0311,
@@ -4888,7 +4888,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-flry3": {
       "payout_ratio": 0.9089,
@@ -4955,7 +4955,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-intb3": {
       "payout_ratio": 0.6294,
@@ -5030,7 +5030,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-grnd3": {
       "payout_ratio": 2.3856,
@@ -5145,7 +5145,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-d05": {
       "payout_ratio": 0.8175,
@@ -5248,7 +5248,7 @@
         ]
       ],
       "isin": "FR001400LO86",
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-o39": {
       "payout_ratio": 0.5072,
@@ -5307,7 +5307,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-u11": {
       "payout_ratio": 0.2776,
@@ -5366,7 +5366,7 @@
         ]
       ],
       "isin": "SG1J21887414",
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-z74": {
       "payout_ratio": 0.59290004,
@@ -5421,7 +5421,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-s63": {
       "payout_ratio": 0.9882,
@@ -5516,7 +5516,7 @@
         ]
       ],
       "isin": "CNE100000F46",
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-s68": {
       "payout_ratio": 0.6703,
@@ -5619,7 +5619,7 @@
         ]
       ],
       "isin": "SGXE20364795",
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-c6l": {
       "payout_ratio": 0.7895,
@@ -5662,7 +5662,7 @@
         ]
       ],
       "isin": "LV0000101806",
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-bn4": {
       "payout_ratio": 0.77629995,
@@ -5717,7 +5717,7 @@
         ]
       ],
       "isin": "IT0005667032",
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-f34": {
       "payout_ratio": 0.4766,
@@ -5772,7 +5772,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-c38u": {
       "payout_ratio": 0.96349996,
@@ -5843,7 +5843,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-u96": {
       "payout_ratio": 0.7503,
@@ -5898,7 +5898,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-g13": {
       "payout_ratio": 1.5503999,
@@ -5949,7 +5949,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-v03": {
       "payout_ratio": 0.9271,
@@ -6008,7 +6008,7 @@
         ]
       ],
       "isin": "FR0014006PT9",
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-c52": {
       "payout_ratio": 0.879,
@@ -6063,7 +6063,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-s58": {
       "payout_ratio": 0.36270002,
@@ -6094,7 +6094,7 @@
         ]
       ],
       "isin": "NO0010863285",
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-c09": {
       "payout_ratio": 0.2756,
@@ -6145,7 +6145,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-bs6": {
       "payout_ratio": 0.4405,
@@ -6180,7 +6180,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-ov8": {
       "payout_ratio": 0.715,
@@ -6239,7 +6239,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-aiy": {
       "payout_ratio": 0.2592,
@@ -6342,7 +6342,7 @@
         ]
       ],
       "isin": "SE0007525738",
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-bsl": {
       "payout_ratio": 0.8219,
@@ -6381,10 +6381,10 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-npn": {
-      "payout_ratio": 0.0461,
+      "payout_ratio": 0.051999997,
       "dividends": [
         [
           "2020-11-25",
@@ -6412,7 +6412,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-fsr": {
       "payout_ratio": 0.7359,
@@ -6467,7 +6467,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-sbk": {
       "payout_ratio": 0.5392,
@@ -6522,7 +6522,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-cpi": {
       "payout_ratio": 0.5036,
@@ -6577,7 +6577,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-gfi": {
       "payout_ratio": 0.3034,
@@ -6636,7 +6636,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-mtn": {
       "payout_ratio": 0.51919997,
@@ -6663,7 +6663,7 @@
         ]
       ],
       "isin": "AU000000NOR1",
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-shp": {
       "payout_ratio": 0.5375,
@@ -6722,7 +6722,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-slm": {
       "payout_ratio": 0.5424,
@@ -6757,7 +6757,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-val": {
       "payout_ratio": 0.18110001,
@@ -6816,7 +6816,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-bid": {
       "payout_ratio": 0.45720002,
@@ -6867,7 +6867,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-cls": {
       "payout_ratio": 0.6381,
@@ -6922,7 +6922,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-mrp": {
       "payout_ratio": 0.65,
@@ -6977,7 +6977,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-dsy": {
       "payout_ratio": 0.162,
@@ -7012,7 +7012,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-sol": {
       "payout_ratio": 0.0,
@@ -7047,7 +7047,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-bvt": {
       "payout_ratio": 0.5244,
@@ -7102,7 +7102,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-apn": {
       "payout_ratio": 0.4334,
@@ -7133,7 +7133,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-tbs": {
       "payout_ratio": 0.7751,
@@ -7188,7 +7188,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-pik": {
       "payout_ratio": 6.2061,
@@ -7243,7 +7243,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-whl": {
       "payout_ratio": 0.7651,
@@ -7294,10 +7294,10 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-pph": {
-      "payout_ratio": 0.32849997,
+      "payout_ratio": 0.33240002,
       "dividends": [
         [
           "2020-01-22",
@@ -7325,7 +7325,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-bhp": {
       "payout_ratio": 0.6704,
@@ -7384,7 +7384,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-cba": {
       "payout_ratio": 0.7596,
@@ -7443,7 +7443,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-csl": {
       "payout_ratio": 0.45119998,
@@ -7502,7 +7502,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-wbc": {
       "payout_ratio": 0.7743,
@@ -7561,7 +7561,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-nab": {
       "payout_ratio": 0.8582,
@@ -7620,7 +7620,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-anz": {
       "payout_ratio": 0.6937,
@@ -7675,7 +7675,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-wes": {
       "payout_ratio": 0.84059995,
@@ -7734,10 +7734,10 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-mqg": {
-      "payout_ratio": 0.6699,
+      "payout_ratio": null,
       "dividends": [
         [
           "2020-11-16",
@@ -7793,7 +7793,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-wow": {
       "payout_ratio": 0.97300005,
@@ -7852,7 +7852,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-fmg": {
       "payout_ratio": 0.86620003,
@@ -7907,7 +7907,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-jbh": {
       "payout_ratio": 0.70519996,
@@ -7966,7 +7966,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-brg": {
       "payout_ratio": 0.4043,
@@ -8025,13 +8025,13 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-lyc": {
       "payout_ratio": 0.0,
       "dividends": [],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-qan": {
       "payout_ratio": 0.4296,
@@ -8054,7 +8054,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-twe": {
       "payout_ratio": 0.72440004,
@@ -8113,7 +8113,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-dmp": {
       "payout_ratio": 1.2126,
@@ -8168,7 +8168,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-sek": {
       "payout_ratio": 0.60150003,
@@ -8223,7 +8223,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-rhc": {
       "payout_ratio": 0.6075,
@@ -8278,7 +8278,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-pls": {
       "payout_ratio": 0.0,
@@ -8297,7 +8297,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-flt": {
       "payout_ratio": 0.5899,
@@ -8332,7 +8332,7 @@
         ]
       ],
       "isin": null,
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     }
   }
 }

@@ -1,38 +1,38 @@
 {
-  "updated_at": "2026-11-25T18:20:48Z",
+  "updated_at": "2026-11-26T18:24:15Z",
   "source": "Yahoo Finance (conto economico annuale)",
   "per_eur": {
-    "USD": 1.0935,
-    "JPY": 174.22,
-    "CZK": 24.435,
-    "DKK": 7.4743,
-    "GBP": 0.8373,
-    "HUF": 373.44,
-    "PLN": 4.48,
-    "RON": 5.343,
-    "SEK": 11.2385,
-    "CHF": 0.9085,
-    "ISK": 137.2,
-    "NOK": 10.7778,
-    "TRY": 55.4163,
-    "AUD": 1.6644,
-    "BRL": 6.4531,
-    "CAD": 1.5591,
-    "CNY": 7.2999,
-    "HKD": 8.5709,
-    "IDR": 20055.72,
-    "ILS": 3.6948,
-    "INR": 100.859,
-    "KRW": 1471.19,
-    "MXN": 21.5422,
-    "MYR": 4.5047,
-    "NZD": 2.0046,
-    "PHP": 69.558,
-    "SGD": 1.4129,
-    "THB": 37.321,
-    "ZAR": 19.3514,
+    "USD": 1.0975,
+    "JPY": 174.79,
+    "CZK": 24.453,
+    "DKK": 7.4737,
+    "GBP": 0.83755,
+    "HUF": 372.23,
+    "PLN": 4.4838,
+    "RON": 5.344,
+    "SEK": 11.2025,
+    "CHF": 0.9153,
+    "ISK": 137.0,
+    "NOK": 10.718,
+    "TRY": 55.6177,
+    "AUD": 1.654,
+    "BRL": 6.3272,
+    "CAD": 1.5617,
+    "CNY": 7.3096,
+    "HKD": 8.6015,
+    "IDR": 20187.03,
+    "ILS": 3.6517,
+    "INR": 101.464,
+    "KRW": 1475.75,
+    "MXN": 21.5893,
+    "MYR": 4.519,
+    "NZD": 2.0033,
+    "PHP": 69.935,
+    "SGD": 1.4163,
+    "THB": 37.386,
+    "ZAR": 19.2646,
     "EUR": 1.0,
-    "VND": 28238.0
+    "VND": 28323.0
   },
   "companies": {
     "india-reliance": {
@@ -67,7 +67,7 @@
           "net_income": 807750000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-hdfcbank": {
       "currency": "INR",
@@ -101,7 +101,7 @@
           "net_income": 704793400000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-infy": {
       "currency": "USD",
@@ -135,7 +135,7 @@
           "net_income": 3313000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-tcs": {
       "currency": "INR",
@@ -169,7 +169,7 @@
           "net_income": 492100000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-hindunilvr": {
       "currency": "INR",
@@ -203,7 +203,7 @@
           "net_income": 150400000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-bhartiartl": {
       "currency": "INR",
@@ -237,7 +237,7 @@
           "net_income": 266952000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-drreddy": {
       "currency": "INR",
@@ -271,7 +271,7 @@
           "net_income": 42850000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-irctc": {
       "currency": "INR",
@@ -305,7 +305,7 @@
           "net_income": 13934547000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-ptt": {
       "currency": "THB",
@@ -339,7 +339,7 @@
           "net_income": 89355520582.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-cpall": {
       "currency": "THB",
@@ -373,7 +373,7 @@
           "net_income": 27746000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-aot": {
       "currency": "THB",
@@ -407,7 +407,7 @@
           "net_income": 18125205627.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-advanc": {
       "currency": "THB",
@@ -441,7 +441,7 @@
           "net_income": 47885901716.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-bdms": {
       "currency": "THB",
@@ -475,7 +475,7 @@
           "net_income": 15848215386.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-kbank": {
       "currency": "THB",
@@ -509,7 +509,7 @@
           "net_income": 49564772000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-delta": {
       "currency": "THB",
@@ -543,7 +543,7 @@
           "net_income": 24814323593.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-bh": {
       "currency": "THB",
@@ -577,7 +577,7 @@
           "net_income": 7511763437.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-vnm": {
       "currency": "VND",
@@ -611,7 +611,7 @@
           "net_income": 8417384067829.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-fpt": {
       "currency": "VND",
@@ -645,7 +645,7 @@
           "net_income": 8865959921832.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-vcb": {
       "currency": "VND",
@@ -679,7 +679,7 @@
           "net_income": 32201852000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-hpg": {
       "currency": "VND",
@@ -713,7 +713,7 @@
           "net_income": 15144110526099.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-mwg": {
       "currency": "VND",
@@ -747,7 +747,7 @@
           "net_income": 7033730770169.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-msn": {
       "currency": "VND",
@@ -781,7 +781,7 @@
           "net_income": 4108306000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-vic": {
       "currency": "VND",
@@ -815,7 +815,7 @@
           "net_income": 10685191000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-pnj": {
       "currency": "VND",
@@ -849,7 +849,7 @@
           "net_income": 2591816462890.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-pko": {
       "currency": "PLN",
@@ -883,7 +883,7 @@
           "net_income": 10682000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-pkn": {
       "currency": "PLN",
@@ -917,7 +917,7 @@
           "net_income": 2531000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-dnp": {
       "currency": "PLN",
@@ -951,7 +951,7 @@
           "net_income": 1558360000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-cdr": {
       "currency": "PLN",
@@ -985,7 +985,7 @@
           "net_income": 594708000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-lpp": {
       "currency": "PLN",
@@ -1019,7 +1019,7 @@
           "net_income": 1500000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-ale": {
       "currency": "PLN",
@@ -1053,7 +1053,7 @@
           "net_income": 1517100000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-kgh": {
       "currency": "PLN",
@@ -1087,7 +1087,7 @@
           "net_income": 3687000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-txt": {
       "currency": "PLN",
@@ -1121,7 +1121,7 @@
           "net_income": 116608000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-petr4": {
       "currency": "USD",
@@ -1155,7 +1155,7 @@
           "net_income": 19634000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-vale3": {
       "currency": "BRL",
@@ -1189,7 +1189,7 @@
           "net_income": 2352000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-itub4": {
       "currency": "BRL",
@@ -1223,7 +1223,7 @@
           "net_income": 44857000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-wege3": {
       "currency": "BRL",
@@ -1257,7 +1257,7 @@
           "net_income": 6376219000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-abev3": {
       "currency": "BRL",
@@ -1291,7 +1291,7 @@
           "net_income": 15503400000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-embj3": {
       "currency": "USD",
@@ -1325,7 +1325,7 @@
           "net_income": 351900000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-rent3": {
       "currency": "BRL",
@@ -1359,7 +1359,7 @@
           "net_income": 1875473000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-mglu3": {
       "currency": "BRL",
@@ -1393,7 +1393,7 @@
           "net_income": 204603000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-icicibank": {
       "currency": "INR",
@@ -1427,7 +1427,7 @@
           "net_income": 542077028000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-lt": {
       "currency": "INR",
@@ -1461,7 +1461,7 @@
           "net_income": 160839900000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-sunpharma": {
       "currency": "INR",
@@ -1495,7 +1495,7 @@
           "net_income": 114794200000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-dixon": {
       "currency": "INR",
@@ -1529,7 +1529,7 @@
           "net_income": 14386400000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-pageind": {
       "currency": "INR",
@@ -1563,7 +1563,7 @@
           "net_income": 7638230000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-jublfood": {
       "currency": "INR",
@@ -1597,7 +1597,7 @@
           "net_income": 4284810000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-lalpathlab": {
       "currency": "INR",
@@ -1631,7 +1631,7 @@
           "net_income": 5047790000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-kpittech": {
       "currency": "INR",
@@ -1665,7 +1665,7 @@
           "net_income": 6373390000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-affle": {
       "currency": "INR",
@@ -1699,7 +1699,7 @@
           "net_income": 4548510000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-cdsl": {
       "currency": "INR",
@@ -1733,7 +1733,7 @@
           "net_income": 4561318000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-kaynes": {
       "currency": "INR",
@@ -1767,7 +1767,7 @@
           "net_income": 3638900000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "india-relaxo": {
       "currency": "INR",
@@ -1801,7 +1801,7 @@
           "net_income": 1792700000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-gulf": {
       "currency": "THB",
@@ -1835,7 +1835,7 @@
           "net_income": 18170334000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-scb": {
       "currency": "THB",
@@ -1869,7 +1869,7 @@
           "net_income": 47487980000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-scc": {
       "currency": "THB",
@@ -1903,7 +1903,7 @@
           "net_income": 14075020000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-mint": {
       "currency": "THB",
@@ -1937,7 +1937,7 @@
           "net_income": 7304000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-hmpro": {
       "currency": "THB",
@@ -1971,7 +1971,7 @@
           "net_income": 6011390871.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-tu": {
       "currency": "THB",
@@ -2005,7 +2005,7 @@
           "net_income": 4609416000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-bch": {
       "currency": "THB",
@@ -2039,7 +2039,7 @@
           "net_income": 1316360014.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-com7": {
       "currency": "THB",
@@ -2073,7 +2073,7 @@
           "net_income": 4063531000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-hana": {
       "currency": "THB",
@@ -2107,7 +2107,7 @@
           "net_income": 670398931.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-cbg": {
       "currency": "THB",
@@ -2141,7 +2141,7 @@
           "net_income": 2319564016.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-mtc": {
       "currency": "THB",
@@ -2175,7 +2175,7 @@
           "net_income": 6723275308.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "thailandia-bem": {
       "currency": "THB",
@@ -2209,7 +2209,7 @@
           "net_income": 3780809937.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-bid": {
       "currency": "VND",
@@ -2243,7 +2243,7 @@
           "net_income": 26457802000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-tcb": {
       "currency": "VND",
@@ -2277,7 +2277,7 @@
           "net_income": 25254851000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-vhm": {
       "currency": "VND",
@@ -2311,7 +2311,7 @@
           "net_income": 41895255000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-vjc": {
       "currency": "VND",
@@ -2345,7 +2345,7 @@
           "net_income": 2122533969007.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-sab": {
       "currency": "VND",
@@ -2379,7 +2379,7 @@
           "net_income": 4423539822535.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-gmd": {
       "currency": "VND",
@@ -2413,7 +2413,7 @@
           "net_income": 1615179439272.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-ree": {
       "currency": "VND",
@@ -2447,7 +2447,7 @@
           "net_income": 2529125816261.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-vhc": {
       "currency": "VND",
@@ -2481,7 +2481,7 @@
           "net_income": 1418266289706.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-frt": {
       "currency": "VND",
@@ -2515,7 +2515,7 @@
           "net_income": 792420646891.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-dgw": {
       "currency": "VND",
@@ -2549,7 +2549,7 @@
           "net_income": 547331236542.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-imp": {
       "currency": "VND",
@@ -2583,7 +2583,7 @@
           "net_income": 304389283536.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "vietnam-nlg": {
       "currency": "VND",
@@ -2617,7 +2617,7 @@
           "net_income": 661303041282.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-pzu": {
       "currency": "PLN",
@@ -2651,7 +2651,7 @@
           "net_income": 6699000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-peo": {
       "currency": "PLN",
@@ -2685,7 +2685,7 @@
           "net_income": 7015000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-ebp": {
       "currency": "PLN",
@@ -2719,7 +2719,7 @@
           "net_income": 6478814000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-bft": {
       "currency": "PLN",
@@ -2753,7 +2753,7 @@
           "net_income": 570850000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-bdx": {
       "currency": "PLN",
@@ -2787,7 +2787,7 @@
           "net_income": 748014000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-acp": {
       "currency": "PLN",
@@ -2821,7 +2821,7 @@
           "net_income": 1138700000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-kru": {
       "currency": "PLN",
@@ -2855,7 +2855,7 @@
           "net_income": 1085008000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-xtb": {
       "currency": "PLN",
@@ -2889,7 +2889,7 @@
           "net_income": 644194000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-car": {
       "currency": "PLN",
@@ -2923,7 +2923,7 @@
           "net_income": 806420000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-apr": {
       "currency": "PLN",
@@ -2957,7 +2957,7 @@
           "net_income": 198932000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-11b": {
       "currency": "PLN",
@@ -2991,7 +2991,7 @@
           "net_income": 6942666.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "polonia-gpp": {
       "currency": "PLN",
@@ -3025,7 +3025,7 @@
           "net_income": 238654000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-bbas3": {
       "currency": "BRL",
@@ -3059,7 +3059,7 @@
           "net_income": 13698124000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-bpac11": {
       "currency": "BRL",
@@ -3093,7 +3093,7 @@
           "net_income": 15947050000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-b3sa3": {
       "currency": "BRL",
@@ -3127,7 +3127,7 @@
           "net_income": 4585619000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-suzb3": {
       "currency": "BRL",
@@ -3161,7 +3161,7 @@
           "net_income": 13408189000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-tots3": {
       "currency": "BRL",
@@ -3195,7 +3195,7 @@
           "net_income": 891741000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-radl3": {
       "currency": "BRL",
@@ -3229,7 +3229,7 @@
           "net_income": 1296861000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-lren3": {
       "currency": "BRL",
@@ -3263,7 +3263,7 @@
           "net_income": 1457566000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-viva3": {
       "currency": "BRL",
@@ -3297,7 +3297,7 @@
           "net_income": 619502000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-slce3": {
       "currency": "BRL",
@@ -3331,7 +3331,7 @@
           "net_income": 555573000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-flry3": {
       "currency": "BRL",
@@ -3365,7 +3365,7 @@
           "net_income": 612831000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-intb3": {
       "currency": "BRL",
@@ -3399,7 +3399,7 @@
           "net_income": 482772000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "brasile-grnd3": {
       "currency": "BRL",
@@ -3433,7 +3433,7 @@
           "net_income": 644808000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-d05": {
       "currency": "SGD",
@@ -3467,7 +3467,7 @@
           "net_income": 10898000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-o39": {
       "currency": "SGD",
@@ -3501,7 +3501,7 @@
           "net_income": 7337000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-u11": {
       "currency": "SGD",
@@ -3535,7 +3535,7 @@
           "net_income": 4589000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-z74": {
       "currency": "SGD",
@@ -3569,7 +3569,7 @@
           "net_income": 5606100000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-s63": {
       "currency": "SGD",
@@ -3603,7 +3603,7 @@
           "net_income": 462770000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-s68": {
       "currency": "SGD",
@@ -3637,7 +3637,7 @@
           "net_income": 698411000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-c6l": {
       "currency": "SGD",
@@ -3671,7 +3671,7 @@
           "net_income": 1184000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-bn4": {
       "currency": "SGD",
@@ -3705,7 +3705,7 @@
           "net_income": 788508000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-f34": {
       "currency": "USD",
@@ -3739,7 +3739,7 @@
           "net_income": 1410872000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-c38u": {
       "currency": "SGD",
@@ -3773,7 +3773,7 @@
           "net_income": 937287000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-u96": {
       "currency": "SGD",
@@ -3807,7 +3807,7 @@
           "net_income": 984000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-g13": {
       "currency": "SGD",
@@ -3841,7 +3841,7 @@
           "net_income": 390346000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-v03": {
       "currency": "SGD",
@@ -3875,7 +3875,7 @@
           "net_income": 226958000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-c52": {
       "currency": "SGD",
@@ -3909,7 +3909,7 @@
           "net_income": 230300000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-s58": {
       "currency": "SGD",
@@ -3943,7 +3943,7 @@
           "net_income": 285200000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-c09": {
       "currency": "SGD",
@@ -3977,7 +3977,7 @@
           "net_income": 620276000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-bs6": {
       "currency": "CNY",
@@ -4011,7 +4011,7 @@
           "net_income": 8637076000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-ov8": {
       "currency": "SGD",
@@ -4045,7 +4045,7 @@
           "net_income": 149455000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-aiy": {
       "currency": "SGD",
@@ -4079,7 +4079,7 @@
           "net_income": 100012571.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "singapore-bsl": {
       "currency": "SGD",
@@ -4113,7 +4113,7 @@
           "net_income": 70570000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-npn": {
       "currency": "USD",
@@ -4147,7 +4147,7 @@
           "net_income": 4972000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-fsr": {
       "currency": "ZAR",
@@ -4181,7 +4181,7 @@
           "net_income": 35749000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-sbk": {
       "currency": "ZAR",
@@ -4215,7 +4215,7 @@
           "net_income": 49100000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-cpi": {
       "currency": "ZAR",
@@ -4249,7 +4249,7 @@
           "net_income": 16829275000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-gfi": {
       "currency": "USD",
@@ -4283,7 +4283,7 @@
           "net_income": 3567400000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-mtn": {
       "currency": "ZAR",
@@ -4317,7 +4317,7 @@
           "net_income": 20262000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-shp": {
       "currency": "ZAR",
@@ -4351,7 +4351,7 @@
           "net_income": 7945000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-slm": {
       "currency": "ZAR",
@@ -4385,7 +4385,7 @@
           "net_income": 15941000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-val": {
       "currency": "ZAR",
@@ -4419,7 +4419,7 @@
           "net_income": 15420000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-bid": {
       "currency": "ZAR",
@@ -4453,7 +4453,7 @@
           "net_income": 8948608000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-cls": {
       "currency": "ZAR",
@@ -4487,7 +4487,7 @@
           "net_income": 3318643000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-mrp": {
       "currency": "ZAR",
@@ -4521,7 +4521,7 @@
           "net_income": 3732000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-dsy": {
       "currency": "ZAR",
@@ -4555,7 +4555,7 @@
           "net_income": 13132000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-sol": {
       "currency": "ZAR",
@@ -4589,7 +4589,7 @@
           "net_income": 12149000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-bvt": {
       "currency": "ZAR",
@@ -4623,7 +4623,7 @@
           "net_income": 6145829000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-apn": {
       "currency": "ZAR",
@@ -4657,7 +4657,7 @@
           "net_income": 2647000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-tbs": {
       "currency": "ZAR",
@@ -4691,7 +4691,7 @@
           "net_income": 3817000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-pik": {
       "currency": "ZAR",
@@ -4725,7 +4725,7 @@
           "net_income": -728000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-whl": {
       "currency": "ZAR",
@@ -4759,7 +4759,7 @@
           "net_income": 2319000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "sudafrica-pph": {
       "currency": "ZAR",
@@ -4793,7 +4793,7 @@
           "net_income": 5638000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-bhp": {
       "currency": "USD",
@@ -4827,7 +4827,7 @@
           "net_income": 9833000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-cba": {
       "currency": "AUD",
@@ -4861,7 +4861,7 @@
           "net_income": 10866000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-csl": {
       "currency": "USD",
@@ -4895,7 +4895,7 @@
           "net_income": -2579000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-wbc": {
       "currency": "AUD",
@@ -4929,7 +4929,7 @@
           "net_income": 6806000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-nab": {
       "currency": "AUD",
@@ -4963,7 +4963,7 @@
           "net_income": 6143000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-anz": {
       "currency": "AUD",
@@ -4997,7 +4997,7 @@
           "net_income": 7270000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-wes": {
       "currency": "AUD",
@@ -5031,7 +5031,7 @@
           "net_income": 2874000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-mqg": {
       "currency": "AUD",
@@ -5065,7 +5065,7 @@
           "net_income": 4847000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-wow": {
       "currency": "AUD",
@@ -5099,7 +5099,7 @@
           "net_income": 1138000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-fmg": {
       "currency": "USD",
@@ -5133,7 +5133,7 @@
           "net_income": 2870000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-jbh": {
       "currency": "AUD",
@@ -5167,7 +5167,7 @@
           "net_income": 489900000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-brg": {
       "currency": "AUD",
@@ -5201,7 +5201,7 @@
           "net_income": 138127000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-lyc": {
       "currency": "AUD",
@@ -5235,7 +5235,7 @@
           "net_income": 222352000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-qan": {
       "currency": "AUD",
@@ -5269,7 +5269,7 @@
           "net_income": 1289000000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-twe": {
       "currency": "AUD",
@@ -5303,7 +5303,7 @@
           "net_income": -1077800000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-dmp": {
       "currency": "AUD",
@@ -5337,7 +5337,7 @@
           "net_income": -134159000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-sek": {
       "currency": "AUD",
@@ -5371,7 +5371,7 @@
           "net_income": -371300000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-rhc": {
       "currency": "AUD",
@@ -5405,7 +5405,7 @@
           "net_income": 329200000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-pls": {
       "currency": "AUD",
@@ -5439,7 +5439,7 @@
           "net_income": 525761000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     },
     "australia-flt": {
       "currency": "AUD",
@@ -5473,7 +5473,7 @@
           "net_income": 149174000.0
         }
       ],
-      "checked": "2026-11-25"
+      "checked": "2026-11-26"
     }
   }
 }
